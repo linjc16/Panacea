@@ -1,0 +1,17 @@
+1_crawl_trials/chictr/data/raw*
+1_crawl_trials/euctr/data/raw*
+1_crawl_trials/chictr/data/xml_item
+1_crawl_trials/iran/data/raw*
+3_crawl_paper/data
+1_crawl_trials/chictr/xml
+1_crawl_trials/chictr/data/xml_item
+3_crawl_paper/embase/data/abstract
+temp.py
+temp2.py
+
+__pycache__/
+temp/
+raw*/
+openai_key.py
+
+.DS_Store
