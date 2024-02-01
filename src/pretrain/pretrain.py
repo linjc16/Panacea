@@ -1,14 +1,19 @@
 import argparse
 import os
 import transformers
+import logging
+import glob
+import pickle
 from typing import Dict, Optional, Sequence
 from dataclasses import dataclass, field
 
 import torch
+import random
 from accelerate import Accelerator
-from datasets import Dataset
-from peft import LoraConfig
+from torch.utils.data import Dataset
+from peft import LoraConfig, get_peft_model
 from tqdm import tqdm
+import copy
 tqdm.pandas()
 
 import sys
@@ -28,6 +33,8 @@ DEFAULT_PAD_TOKEN = "[PAD]"
 DEFAULT_EOS_TOKEN = "</s>"
 DEFAULT_BOS_TOKEN = "<s>"
 DEFAULT_UNK_TOKEN = "<unk>"
+
+random.seed(42)
 
 trial_filename_sets = {
     'ctgov': '/data/linjc/trialfm/ctgov_fixed_md/merged',
@@ -50,35 +57,6 @@ paper_filename_sets = {
     'embase': '/data/linjc/ctr_crawl/0_final_data/papers/embase',
     'pubmed': '/data/linjc/trialfm/final_data/papers/pubmed'
 }
-
-def load_dataset():
-    data_list = []
-    # Load the trial data
-    print('Loading the trial data...')
-    # data_list += load_ctgov(trial_filename_sets['ctgov'], 'train')
-    # data_list += load_aus_zealand(trial_filename_sets['aus_zealand'])
-    # data_list += load_brazil(trial_filename_sets['brazil'])
-    # data_list += load_chictr(trial_filename_sets['chictr'])
-    # data_list += load_dutch(trial_filename_sets['dutch'])
-    # data_list += load_euctr(trial_filename_sets['euctr'])
-    # data_list += load_german(trial_filename_sets['german'])
-    # data_list += load_iran(trial_filename_sets['iran'])
-    # data_list += load_isrctn(trial_filename_sets['isrctn'])
-    # data_list += load_japan(trial_filename_sets['japan'])
-    # data_list += load_korea(trial_filename_sets['korea'])
-    # data_list += load_pan_african(trial_filename_sets['pan_african'])
-    # data_list += load_sri_lanka(trial_filename_sets['sri_lanka'])
-    data_list += load_thai(trial_filename_sets['thai'])
-    
-    # Load the paper data
-    print('Loading the paper data...')
-    # data_list += load_embase(paper_filename_sets['embase'])
-    # data_list += load_pubmed(paper_filename_sets['pubmed'])
-
-    data = {'text': data_list}
-    dataset = Dataset.from_dict(data)
-
-    return dataset
 
 def smart_tokenizer_and_embedding_resize(
     special_tokens_dict: Dict,
@@ -103,9 +81,69 @@ def smart_tokenizer_and_embedding_resize(
         input_embeddings[-num_new_tokens:] = input_embeddings_avg
         output_embeddings[-num_new_tokens:] = output_embeddings_avg
 
+
+def _tokenize_fn(strings: Sequence[str], tokenizer: transformers.PreTrainedTokenizer) -> Dict:
+    """Tokenize a list of strings."""
+    tokenized_list = [
+        tokenizer(
+            text,
+            return_tensors="pt",
+            padding="longest",
+            max_length=tokenizer.model_max_length,
+            truncation=True,
+        )
+        for text in strings
+    ]
+
+    input_ids = [tokenized.input_ids[0] for tokenized in tokenized_list]
+    labels = copy.deepcopy(input_ids)
+    input_ids_lens = [
+        tokenized.input_ids.ne(tokenizer.pad_token_id).sum().item() for tokenized in tokenized_list
+    ]
+    labels_lens = copy.deepcopy(input_ids_lens)
+
+    return dict(
+        input_ids=input_ids,
+        labels=labels,
+        input_ids_lens=input_ids_lens,
+        labels_lens=labels_lens,
+    )
+
+
+class PretrainingDataset(Dataset):
+    """Dataset for supervised fine-tuning."""
+
+    def __init__(self, tokenizer: transformers.PreTrainedTokenizer):
+        super(PretrainingDataset, self).__init__()
+
+        print("Loading tokenized inputs... ")
+        filepaths = glob.glob('/data/linjc/trialfm/tokenized_data/pretrain/*.pkl')
+        
+        # Load the tokenized inputs
+        data_dict = {
+            'input_ids': [],
+            'labels': [],
+            'input_ids_lens': [],
+            'labels_lens': []
+        }
+
+        for filepath in tqdm(filepaths, desc="Loading PKL files"):
+            with open(filepath, 'rb') as f:
+                data_chunk = pickle.load(f)
+                for key in data_dict.keys():
+                    data_dict[key].extend(data_chunk[key])
+        
+        self.input_ids = data_dict["input_ids"]
+        self.labels = data_dict["labels"]
+
+    def __len__(self):
+        return len(self.input_ids)
+
+    def __getitem__(self, i) -> Dict[str, torch.Tensor]:
+        return dict(input_ids=self.input_ids[i], labels=self.labels[i])
+
 @dataclass
-class DataCollatorForSupervisedDataset(object):
-    """Collate examples for supervised fine-tuning."""
+class DataCollatorForDataset(object):
 
     tokenizer: transformers.PreTrainedTokenizer
     
@@ -120,7 +158,7 @@ class DataCollatorForSupervisedDataset(object):
             labels=labels,
             attention_mask=input_ids.ne(self.tokenizer.pad_token_id),
         )
-
+    
 
 def main():
     parser = argparse.ArgumentParser()
@@ -134,19 +172,13 @@ def main():
     parser.add_argument("--logging_steps", type=int, default=1)
     parser.add_argument("--num_train_epochs", type=int, default=3)
     parser.add_argument("--max_steps", type=int, default=-1)
-    parser.add_argument("--report_to", type=str, default='none')
+    parser.add_argument("--report_to", type=str, default='tensorboard')
     parser.add_argument("--save_steps", type=int, default=20)
     parser.add_argument("--save_total_limit", type=int, default=10)
-    parser.add_argument("--gradient_checkpointing", type=bool, default=False)
+    parser.add_argument("--gradient_checkpointing", type=bool, default=True)
     parser.add_argument("--warmup_ratio", type=float, default=0.1)
     parser.add_argument("--weight_decay", type=float, default=0.01)
     parser.add_argument("--max_length", type=int, default=4096)
-
-    parser.add_argument("--peft_lora_r", type=float, default=64)
-    parser.add_argument("--peft_lora_alpha", type=float, default=16)
-    parser.add_argument("--target_modules", nargs="+", default=None)
-    parser.add_argument("--dataset_text_field", type=str, default="text")
-
     parser.add_argument("--bf16", type=bool, default=True)
     parser.add_argument("--bf16_full_eval", type=bool, default=True)
 
@@ -154,10 +186,8 @@ def main():
 
     os.makedirs(args.output_dir, exist_ok=True)
 
-    # Step 1: Load the dataset
-    dataset = load_dataset().shuffle(seed=42)
 
-    # Step 2: Load the model and tokenizer
+    # Step 1: Load the model and tokenizer
     tokenizer = AutoTokenizer.from_pretrained(
         args.model_name, 
         cache_dir=args.cache_dir,
@@ -191,22 +221,9 @@ def main():
         model=model,
     )
     
-    def tokenize_function(sample):
-        return tokenizer(
-            sample["text"], 
-            return_tensors="pt", 
-            padding="longest", 
-            max_length=tokenizer.model_max_length,
-            truncation=True
-        )
-    
-    dataset = dataset.map(
-        tokenize_function,
-        batched=True,
-        remove_columns=[args.dataset_text_field]
-    )
-
-    # pdb.set_trace()
+    # Step 2: Load the dataset
+    train_dataset = PretrainingDataset(tokenizer=tokenizer)
+    data_collator = DataCollatorForDataset(tokenizer=tokenizer)    
 
     # Step 3: Define the training arguments
     training_args = TrainingArguments(
@@ -229,17 +246,17 @@ def main():
     )
 
     # Step 4: Define the trainer
-    data_collator = DataCollatorForSupervisedDataset(tokenizer=tokenizer)
+    # data_collator = DataCollatorForDataset(tokenizer=tokenizer)
 
     trainer = Trainer(
         model=model,
         args=training_args,
         tokenizer=tokenizer,
-        train_dataset=dataset,
+        train_dataset=train_dataset,
         eval_dataset=None,
         data_collator=data_collator,
     )
-
+    
     trainer.train()
     trainer.save_state()
     trainer.save_model(output_dir=training_args.output_dir)
