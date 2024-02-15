@@ -11,3 +11,6 @@ CUDA_VISIBLE_DEVICES=6,7 accelerate launch --config_file=accelerate_configs/deep
     --warmup_ratio 0.01 \
     --save_steps 200 \
     --weight_decay 0.05 \
+
+# /data/linjc/trialfm/models-new/pretrain-v1/runs
+# tensorboard --logdir=./Feb01_01-53-05_sunlab-serv-04.cs.illinois.edu --port 8909

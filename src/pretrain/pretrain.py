@@ -115,7 +115,7 @@ class PretrainingDataset(Dataset):
 
     def __init__(self, tokenizer: transformers.PreTrainedTokenizer):
         super(PretrainingDataset, self).__init__()
-
+        
         print("Loading tokenized inputs... ")
         filepaths = glob.glob('/data/linjc/trialfm/tokenized_data/pretrain/*.pkl')
         
@@ -246,7 +246,6 @@ def main():
     )
 
     # Step 4: Define the trainer
-    # data_collator = DataCollatorForDataset(tokenizer=tokenizer)
 
     trainer = Trainer(
         model=model,
@@ -256,7 +255,7 @@ def main():
         eval_dataset=None,
         data_collator=data_collator,
     )
-    
+
     trainer.train()
     trainer.save_state()
     trainer.save_model(output_dir=training_args.output_dir)

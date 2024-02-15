@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1,2,3,5 ACCELERATE_LOG_LEVEL=info accelerate launch --config_file recipes/accelerate_configs/multi_gpu.yaml --num_processes=4 src/pretrain/run_pretrain.py recipes/panacea/pretrain/config_qlora.yaml --load_in_4bit=true
