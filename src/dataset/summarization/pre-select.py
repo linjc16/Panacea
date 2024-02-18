@@ -42,7 +42,7 @@ def pre_select():
     df = load_data()
 
     save_file = 'data/downstream/summazization/pre-select.txt'
-
+    
     for i in tqdm(range(len(df))):
         protocol = df['input_text'][i]
         summary = df['summary_text'][i]

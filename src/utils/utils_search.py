@@ -1,7 +1,12 @@
 from typing import List, Optional, Dict, Any, Literal
 from pydantic import BaseModel, Field, validator
 from enum import Enum
+from pytrials.client import ClinicalTrials
+import pandas as pd
 import pdb
+
+
+ct = ClinicalTrials()
 
 json_schema = {
     "type": "object",
@@ -12,6 +17,7 @@ json_schema = {
             "description": "The disease, disorder, syndrome, illness, or injury that is being studied. On ClinicalTrials.gov, conditions may also include other health-related issues, such as lifespan, quality of life, and health risks.",
         },
         "interventions": {
+            "enum": ["", "Drug", "Biological", "Device", "Procedure", "Behavioral", "Dietary Supplement", "Other"],
             "type": "array",
             "items": {"type": "string"},
             "description": "A process or action that is the focus of a clinical study. Interventions include drugs, medical devices, procedures, vaccines, and other products that are either investigational or already available. Interventions can also include noninvasive approaches, such as education or modifying diet and exercise.",
@@ -125,3 +131,15 @@ def build_search_expression(fields: Dict[str, Any]) -> str:
     
     search_expression = " AND ".join(expressions)
     return search_expression
+
+def fetch_trials(search_expression: str) -> pd.DataFrame:
+    trials = ct.get_study_fields(
+        search_expr=search_expression,
+        fields=["NCTId"],
+        max_studies=500,
+        fmt='csv'
+    )
+    
+    df = pd.DataFrame.from_records(trials[1:], columns=trials[0])
+
+    return df
