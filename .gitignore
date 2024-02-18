@@ -13,6 +13,5 @@ __pycache__/
 temp/
 raw*/
 openai_key.py
-data
 
 .DS_Store

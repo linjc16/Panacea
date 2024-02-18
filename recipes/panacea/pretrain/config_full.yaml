@@ -21,7 +21,7 @@ gradient_checkpointing: true
 gradient_checkpointing_kwargs:
   use_reentrant: False
 hub_strategy: every_save
-learning_rate: 2.0e-05
+learning_rate: 2.0e-06
 log_level: info
 logging_steps: 5  
 logging_strategy: steps
@@ -29,7 +29,7 @@ lr_scheduler_type: cosine
 max_seq_length: 5000
 max_steps: -1
 num_train_epochs: 1
-output_dir: /data/linjc/trialfm/models-mistral/pretrain-v1
+output_dir: /data/linjc/trialfm/models-mistral/pretrain-v2
 overwrite_output_dir: true
 per_device_eval_batch_size: 2
 per_device_train_batch_size: 2

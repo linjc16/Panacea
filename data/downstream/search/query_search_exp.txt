@@ -1,0 +1,80 @@
+(AREA[Condition]"diabetes" OR AREA[Condition]"hypertension") AND AREA[Phase]Phase 2 AND AREA[OverallStatus]RECRUITING
+(AREA[Condition]"breast cancer" OR AREA[Condition]"lung cancer") AND AREA[InterventionType]Drug AND AREA[StartDate]after 2015
+(AREA[Condition]"Alzheimer's disease") AND AREA[StudyType]INTERVENTIONAL AND AREA[LocationCountry]"United States"
+(AREA[Condition]"asthma" OR AREA[Condition]"COPD") AND AREA[OverallStatus]COMPLETED AND AREA[CompletionDate]before 2020
+(AREA[Condition]"HIV" OR AREA[Condition]"AIDS") AND AREA[InterventionType]Vaccine AND AREA[LeadSponsorName]"Moderna"
+(AREA[Condition]"migraine") AND AREA[Phase]Phase 3 AND AREA[OverallStatus]RECRUITING AND AREA[StartDate]after 2018
+(AREA[Condition]"obesity") AND AREA[StudyType]OBSERVATIONAL AND AREA[LocationCountry]"Canada" AND AREA[EndDate]on 2022
+(AREA[Condition]"leukemia" OR AREA[Condition]"lymphoma") AND AREA[InterventionType]Chemotherapy AND AREA[Phase]Phase 4
+(AREA[Condition]"psoriasis") AND AREA[StudyType]INTERVENTIONAL AND AREA[OverallStatus]ENROLLING_BY_INVITATION
+(AREA[Condition]"arthritis") AND AREA[InterventionType]Biologic AND AREA[StartDate]before 2019 AND AREA[EndDate]after 2021
+(AREA[Condition]"depression" OR AREA[Condition]"anxiety") AND AREA[Phase]EARLY_PHASE1 AND AREA[ResponsiblePartyInvestigatorFullName]"Dr. Smith"
+(AREA[Condition]"Parkinson's disease") AND AREA[StudyType]OBSERVATIONAL AND AREA[LeadSponsorName]"Pfizer" AND AREA[CompletionDate]before 2023
+(AREA[Condition]"multiple sclerosis") AND AREA[InterventionType]Drug AND AREA[Phase]Phase 2 AND AREA[OverallStatus]APPROVED_FOR_MARKETING
+(AREA[Condition]"stroke") AND AREA[StudyType]INTERVENTIONAL AND AREA[LocationCountry]"Germany" AND AREA[StartDate]after 2017
+(AREA[Condition]"schizophrenia") AND AREA[InterventionType]Antipsychotic AND AREA[Phase]Phase 3 AND AREA[OverallStatus]COMPLETED
+(AREA[Condition]"heart disease" OR AREA[Condition]"coronary artery disease") AND AREA[StudyType]INTERVENTIONAL AND AREA[EndDate]on 2024
+(AREA[Condition]"chronic kidney disease") AND AREA[InterventionType]Dialysis AND AREA[StartDate]before 2018 AND AREA[OverallStatus]TERMINATED
+(AREA[Condition]"melanoma") AND AREA[StudyType]OBSERVATIONAL AND AREA[LeadSponsorName]"Novartis" AND AREA[CompletionDate]after 2022
+(AREA[Condition]"hepatitis C") AND AREA[InterventionType]Antiviral AND AREA[Phase]PHASE1 AND AREA[ResponsiblePartyInvestigatorFullName]"Dr. Johnson"
+(AREA[Condition]"glioblastoma") AND AREA[StudyType]INTERVENTIONAL AND AREA[LocationCountry]"Italy" AND AREA[OverallStatus]RECRUITING AND AREA[StartDate]after 2016
+(AREA[Condition]"pancreatitis") AND AREA[OverallStatus]RECRUITING AND AREA[Phase]PHASE1
+(AREA[Condition]"fibromyalgia") AND AREA[InterventionType]Physical Therapy AND AREA[StartDate]after 2019
+(AREA[Condition]"tuberculosis") AND AREA[StudyType]INTERVENTIONAL AND AREA[EndDate]before 2025
+(AREA[Condition]"osteoporosis") AND AREA[InterventionType]Calcium Supplement AND AREA[LeadSponsorName]"Merck"
+(AREA[Condition]"lyme disease") AND AREA[OverallStatus]COMPLETED AND AREA[Phase]PHASE2
+(AREA[Condition]"epilepsy") AND AREA[StudyType]OBSERVATIONAL AND AREA[LocationCountry]"France" AND AREA[StartDate]before 2020
+(AREA[Condition]"lung fibrosis") AND AREA[InterventionType]Antifibrotic AND AREA[CompletionDate]on 2023
+(AREA[Condition]"melanoma") AND AREA[Phase]PHASE3 AND AREA[ResponsiblePartyInvestigatorFullName]"Dr. Lee"
+(AREA[Condition]"chronic lymphocytic leukemia") AND AREA[InterventionType]Immunotherapy AND AREA[StartDate]after 2018
+(AREA[Condition]"gastric cancer") AND AREA[StudyType]INTERVENTIONAL AND AREA[OverallStatus]ENROLLING_BY_INVITATION
+(AREA[Condition]"HIV" OR AREA[Condition]"AIDS") AND AREA[Phase]PHASE4 AND AREA[LocationCountry]"South Africa"
+(AREA[Condition]"prostate cancer") AND AREA[InterventionType]Surgery AND AREA[EndDate]before 2024
+(AREA[Condition]"multiple sclerosis") AND AREA[OverallStatus]TERMINATED AND AREA[LeadSponsorName]"Biogen"
+(AREA[Condition]"acute myocardial infarction") AND AREA[StudyType]OBSERVATIONAL AND AREA[CompletionDate]after 2021
+(AREA[Condition]"thyroid cancer") AND AREA[InterventionType]Radioactive Iodine AND AREA[StartDate]on 2017
+(AREA[Condition]"psoriatic arthritis") AND AREA[Phase]EARLY_PHASE1 AND AREA[OverallStatus]COMPLETED
+(AREA[Condition]"hepatitis B") AND AREA[StudyType]INTERVENTIONAL AND AREA[LocationCountry]"Japan" AND AREA[StartDate]before 2019
+(AREA[Condition]"chronic pain") AND AREA[InterventionType]NSAIDs AND AREA[EndDate]on 2022
+(AREA[Condition]"glioblastoma") AND AREA[Phase]PHASE2 AND AREA[ResponsiblePartyInvestigatorFullName]"Dr. Martinez"
+(AREA[Condition]"sickle cell disease") AND AREA[StudyType]OBSERVATIONAL AND AREA[OverallStatus]RECRUITING
+(AREA[Condition]"cervical cancer") AND AREA[InterventionType]Vaccine AND AREA[CompletionDate]after 2023
+(AREA[Condition]"atrial fibrillation") AND AREA[Phase]PHASE3 AND AREA[LeadSponsorName]"AstraZeneca"
+(AREA[Condition]"Crohn's disease") AND AREA[StudyType]INTERVENTIONAL AND AREA[OverallStatus]APPROVED_FOR_MARKETING
+(AREA[Condition]"osteoporosis") AND AREA[InterventionType]Bisphosphonates AND AREA[StartDate]before 2018
+(AREA[Condition]"brain tumor") AND AREA[Phase]PHASE1 AND AREA[LocationCountry]"Germany" AND AREA[EndDate]on 2024
+(AREA[Condition]"Alzheimer's disease") AND AREA[OverallStatus]ENROLLING_BY_INVITATION AND AREA[LeadSponsorName]"Roche"
+(AREA[Condition]"diabetes type 2") AND AREA[StudyType]OBSERVATIONAL AND AREA[CompletionDate]before 2022
+(AREA[Condition]"hemophilia") AND AREA[InterventionType]Gene Therapy AND AREA[StartDate]after 2019
+(AREA[Condition]"skin cancer") AND AREA[Phase]PHASE4 AND AREA[ResponsiblePartyInvestigatorFullName]"Dr. Nguyen"
+(AREA[Condition]"lung cancer") AND AREA[StudyType]INTERVENTIONAL AND AREA[OverallStatus]TERMINATED
+(AREA[Condition]"Parkinson's disease" OR AREA[Condition]"Alzheimer's disease") AND AREA[OverallStatus]RECRUITING AND AREA[StudyType]INTERVENTIONAL
+(AREA[Condition]"breast cancer") AND AREA[InterventionType]Radiation AND AREA[Phase]PHASE3 AND AREA[CompletionDate]after 2022
+(AREA[Condition]"HIV" OR AREA[Condition]"AIDS") AND AREA[InterventionType]Antiretroviral AND AREA[StartDate]before 2020
+(AREA[Condition]"chronic hepatitis C") AND AREA[OverallStatus]COMPLETED AND AREA[StudyType]OBSERVATIONAL
+(AREA[Condition]"acute leukemia") AND AREA[InterventionType]Chemotherapy AND AREA[Phase]PHASE1 AND AREA[LeadSponsorName]"Johns Hopkins University"
+(AREA[Condition]"migraine") AND AREA[StudyType]INTERVENTIONAL AND AREA[OverallStatus]ENROLLING_BY_INVITATION AND AREA[StartDate]after 2019
+(AREA[Condition]"type 2 diabetes") AND AREA[InterventionType]Diet AND AREA[EndDate]before 2023
+(AREA[Condition]"prostate cancer") AND AREA[Phase]PHASE4 AND AREA[LocationCountry]"United Kingdom"
+(AREA[Condition]"rheumatoid arthritis") AND AREA[InterventionType]Biologic AND AREA[OverallStatus]RECRUITING
+(AREA[Condition]"ovarian cancer") AND AREA[StudyType]INTERVENTIONAL AND AREA[Phase]EARLY_PHASE1 AND AREA[CompletionDate]on 2024
+(AREA[Condition]"asthma" OR AREA[Condition]"COPD") AND AREA[InterventionType]Inhaler AND AREA[StartDate]after 2018
+(AREA[Condition]"bipolar disorder") AND AREA[StudyType]OBSERVATIONAL AND AREA[LeadSponsorName]"Pfizer" AND AREA[EndDate]before 2025
+(AREA[Condition]"lung fibrosis") AND AREA[InterventionType]Antifibrotic AND AREA[Phase]PHASE2 AND AREA[OverallStatus]COMPLETED
+(AREA[Condition]"skin cancer") AND AREA[InterventionType]Immunotherapy AND AREA[StartDate]before 2019
+(AREA[Condition]"heart failure") AND AREA[OverallStatus]ENROLLING_BY_INVITATION AND AREA[Phase]PHASE3
+(AREA[Condition]"multiple sclerosis") AND AREA[StudyType]INTERVENTIONAL AND AREA[LocationCountry]"Canada" AND AREA[EndDate]on 2023
+(AREA[Condition]"lymphoma") AND AREA[InterventionType]Chemotherapy AND AREA[Phase]PHASE1 AND AREA[LeadSponsorName]"National Cancer Institute (NCI)"
+(AREA[Condition]"pancreatic cancer") AND AREA[OverallStatus]TERMINATED AND AREA[StudyType]OBSERVATIONAL
+(AREA[Condition]"thyroid cancer") AND AREA[InterventionType]Surgery AND AREA[StartDate]after 2017
+(AREA[Condition]"cervical cancer") AND AREA[StudyType]INTERVENTIONAL AND AREA[Phase]PHASE4 AND AREA[CompletionDate]before 2024
+(AREA[Condition]"hepatitis B" OR AREA[Condition]"hepatitis C") AND AREA[InterventionType]Antiviral AND AREA[OverallStatus]RECRUITING
+(AREA[Condition]"chronic pain") AND AREA[InterventionType]Physical Therapy AND AREA[StartDate]before 2021
+(AREA[Condition]"glioblastoma") AND AREA[Phase]EARLY_PHASE1 AND AREA[LeadSponsorName]"Dana-Farber Cancer Institute"
+(AREA[Condition]"stroke") AND AREA[StudyType]OBSERVATIONAL AND AREA[OverallStatus]COMPLETED AND AREA[EndDate]after 2022
+(AREA[Condition]"Crohn's disease") AND AREA[InterventionType]Dietary Supplement AND AREA[Phase]PHASE2
+(AREA[Condition]"kidney disease") AND AREA[StudyType]INTERVENTIONAL AND AREA[LocationCountry]"Germany" AND AREA[StartDate]on 2018
+(AREA[Condition]"melanoma") AND AREA[InterventionType]Vaccine AND AREA[OverallStatus]APPROVED_FOR_MARKETING
+(AREA[Condition]"HIV/AIDS") AND AREA[Phase]PHASE4 AND AREA[EndDate]before 2022 AND AREA[StudyType]INTERVENTIONAL
+(AREA[Condition]"autoimmune diseases") AND AREA[InterventionType]Immunosuppressants AND AREA[Phase]PHASE3 AND AREA[OverallStatus]RECRUITING
+(AREA[Condition]"leukemia" OR AREA[Condition]"myeloma") AND AREA[StudyType]OBSERVATIONAL AND AREA[LeadSponsorName]"Mayo Clinic" AND AREA[StartDate]after 2015
