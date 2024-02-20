@@ -141,5 +141,5 @@ def fetch_trials(search_expression: str) -> pd.DataFrame:
     )
     
     df = pd.DataFrame.from_records(trials[1:], columns=trials[0])
-
+    
     return df

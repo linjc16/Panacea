@@ -2,7 +2,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import pdb
 import torch
 
-model_path = '/data/linjc/trialfm/models-new/pretrain-v1/checkpoint-4600'
+model_path = '/data/linjc/trialfm/models-mistral/pretrain-v2'
 tokenizer = AutoTokenizer.from_pretrained(model_path, use_fast=False, use_auth_token=True)
 
 model = AutoModelForCausalLM.from_pretrained(
@@ -12,7 +12,7 @@ model = AutoModelForCausalLM.from_pretrained(
     attn_implementation="flash_attention_2"
 )
 
-input_text = "Write a study plan for a clinical trial.\n"
+input_text = "The Interaction Between Metformin and Microbiota - the MEMO Study. Study Overview:"
 input_ids = tokenizer.encode(input_text, return_tensors='pt').cuda()
 
 output = model.generate(input_ids, max_length=512, do_sample=False)

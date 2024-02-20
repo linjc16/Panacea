@@ -1,0 +1,8 @@
+{
+    "1": {
+        "text_query": "I require a list of currently recruiting observational studies focused on the condition of endometriosis. Could you assist?",
+        "search_expression": "(AREA[Condition]\"endometriosis\") AND AREA[OverallStatus]RECRUITING AND AREA[StudyType]OBSERVATIONAL",
+        "json_response": {}
+        
+    }
+}
