@@ -13,5 +13,6 @@ __pycache__/
 temp/
 raw*/
 openai_key.py
+openai_api_azure.key
 
 .DS_Store

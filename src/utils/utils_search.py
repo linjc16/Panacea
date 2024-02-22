@@ -17,7 +17,7 @@ json_schema = {
             "description": "The disease, disorder, syndrome, illness, or injury that is being studied. On ClinicalTrials.gov, conditions may also include other health-related issues, such as lifespan, quality of life, and health risks.",
         },
         "interventions": {
-            "enum": ["", "Drug", "Biological", "Device", "Procedure", "Behavioral", "Dietary Supplement", "Other"],
+            "enum": ["Drug", "Biological", "Device", "Procedure", "Behavioral", "Dietary Supplement", "Other"],
             "type": "array",
             "items": {"type": "string"},
             "description": "A process or action that is the focus of a clinical study. Interventions include drugs, medical devices, procedures, vaccines, and other products that are either investigational or already available. Interventions can also include noninvasive approaches, such as education or modifying diet and exercise.",
@@ -28,22 +28,26 @@ json_schema = {
             "description": "Sponsor name"
         },
         "status": {
-            "enum": ["", "RECRUITING", "TERMINATED", "APPROVED_FOR_MARKETING", "COMPLETED", "ENROLLING_BY_INVITATION"],
-            "type": "string",
+            "enum": ["RECRUITING", "TERMINATED", "APPROVED_FOR_MARKETING", "COMPLETED", "ENROLLING_BY_INVITATION"],
+            "type": "array",
+            "items": {"type": "string"},
             "description": "Overall status of the study"
         },
         "phase": {
-            "enum": ["", "EARLY_PHASE1", "PHASE1", "PHASE2", "PHASE3", "PHASE4"],
-            "type": "string",
+            "enum": ["EARLY_PHASE1", "PHASE1", "PHASE2", "PHASE3", "PHASE4"],
+            "type": "array",
+            "items": {"type": "string"},
             "description": "Phase of the study"
         },
         "study_type": {
-            "enum": ["", "INTERVENTIONAL", "OBSERVATIONAL"],
-            "type": "string",
+            "enum": ["INTERVENTIONAL", "OBSERVATIONAL"],
+            "type": "array",
+            "items": {"type": "string"},
             "description": "Type of the study"
         },
         "person_name": {
-            "type": "string",
+            "type": "array",
+            "items": {"type": "string"},
             "description": "Name of the investigator"
         },
         "nctid": {
@@ -143,3 +147,4 @@ def fetch_trials(search_expression: str) -> pd.DataFrame:
     df = pd.DataFrame.from_records(trials[1:], columns=trials[0])
     
     return df
+    

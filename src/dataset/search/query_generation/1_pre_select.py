@@ -32,5 +32,14 @@ def pre_select():
         for _ in tqdm(pool.imap_unordered(process_search_expression, search_expression), total=len(search_expression)):
             pass  # tqdm will automatically update the progress
 
+def deduplicate():
+    with open('data/downstream/search/query_generation/query_search_exp.txt', 'r') as f:
+        search_expression = f.readlines()
+    
+    search_expression = list(set(search_expression))
+    with open('data/downstream/search/query_generation/query_search_exp.txt', 'w') as f:
+        f.writelines(search_expression)
+
 if __name__ == '__main__':
-    pre_select()
+    # pre_select()
+    deduplicate()
