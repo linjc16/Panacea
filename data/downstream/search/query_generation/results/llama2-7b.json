@@ -1,0 +1,76 @@
+{
+    "2556": {
+        "diseases": [
+            "diabetes",
+            "other health-related issues",
+            "lifespan",
+            "quality of life",
+            "health risks",
+            "other",
+            "other",
+            "other",
+            "other",
+            "other"
+        ],
+        "interventions": [
+            "drug",
+            "medical device",
+            "procedure",
+            "vaccine",
+            "other",
+            "other",
+            "other",
+            "other",
+            "other",
+            "other"
+        ],
+        "sponsor": [
+            "",
+            "Sponsor 1",
+            "Sponsor 2",
+            "Sponsor 3",
+            "Sponsor 4",
+            "Sponsor 5",
+            "Sponsor 6",
+            "Sponsor 7",
+            "Sponsor 8",
+            "Sponsor 9"
+        ],
+        "status": "not yet recruiting",
+        "phase": "4",
+        "study_type": "interventional",
+        "person_name": "Investigator 1",
+        "nctid": [
+            "NCT00000000",
+            "NCT00000001",
+            "NCT00000002",
+            "NCT00000003",
+            "NCT00000004",
+            "NCT00000005",
+            "NCT00000006",
+            "NCT00000007",
+            "NCT00000008",
+            "NCT00000009"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "Mexico",
+            "United Kingdom",
+            "Germany",
+            "France",
+            "Italy",
+            "Japan",
+            "Australia",
+            "New Zealand"
+        ],
+        "start_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2030.0,
+            "OPERATOR": "on"
+        }
+    }
+}
