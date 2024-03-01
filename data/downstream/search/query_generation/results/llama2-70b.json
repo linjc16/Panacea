@@ -28548,5 +28548,7097 @@
             "YEAR": 2022.0,
             "OPERATOR": "before"
         }
+    },
+    "3022": {
+        "diseases": [
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes"
+        ],
+        "interventions": [
+            "devices",
+            "devices",
+            "devices",
+            "devices",
+            "devices",
+            "devices",
+            "devices",
+            "devices",
+            "devices",
+            "devices"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "2652": {
+        "diseases": [
+            "Hypothyroidism",
+            "Hypothyroidism",
+            "Hypothyroidism",
+            "Hypothyroidism",
+            "Hypothyroidism",
+            "Hypothyroidism",
+            "Hypothyroidism",
+            "Hypothyroidism",
+            "Hypothyroidism",
+            "Hypothyroidism"
+        ],
+        "interventions": [
+            "Other than the standard treatment",
+            "Other than the standard treatment",
+            "Other than the standard treatment",
+            "Other than the standard treatment",
+            "Other than the standard treatment",
+            "Other than the standard treatment",
+            "Other than the standard treatment",
+            "Other than the standard treatment",
+            "Other than the standard treatment",
+            "Other than the standard treatment"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03214255",
+            "NCT03214255",
+            "NCT03214255",
+            "NCT03214255",
+            "NCT03214255",
+            "NCT03214255",
+            "NCT03214255",
+            "NCT03214255",
+            "NCT03214255",
+            "NCT03214255"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1843": {
+        "diseases": [
+            "diabetes",
+            "hypertension",
+            "obesity",
+            "high cholesterol",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03212267",
+            "NCT03212267",
+            "NCT03212267",
+            "NCT03212267",
+            "NCT03212267",
+            "NCT03212267",
+            "NCT03212267",
+            "NCT03212267",
+            "NCT03212267",
+            "NCT03212267"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1485": {
+        "diseases": [
+            "diabetes",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "device",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "NOT_RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "625": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2023.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "425": {
+        "diseases": [
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma"
+        ],
+        "interventions": [
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "650": {
+        "diseases": [
+            "diabetes",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "device",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "475": {
+        "diseases": [
+            "cancer",
+            "behavioral interventions",
+            "phase 2",
+            "interventional studies",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "447": {
+        "diseases": [
+            "diabetes",
+            "diabetes mellitus",
+            "type 2 diabetes",
+            "type 1 diabetes",
+            "gestational diabetes",
+            "prediabetes",
+            "diabetic nephropathy",
+            "diabetic retinopathy",
+            "diabetic neuropathy",
+            "diabetic foot"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "lifestyle interventions",
+            "dietary interventions",
+            "exercise interventions",
+            "cognitive behavioral therapy",
+            "motivational interviewing",
+            "health coaching",
+            "patient education"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Institute of Diabetes and Digestive"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1718": {
+        "diseases": [
+            "Parkinson's Disease",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Biological",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "106": {
+        "diseases": [
+            "diabetes",
+            "diabetes mellitus",
+            "type 2 diabetes",
+            "type 1 diabetes",
+            "gestational diabetes",
+            "prediabetes",
+            "diabetic nephropathy",
+            "diabetic retinopathy",
+            "diabetic neuropathy",
+            "diabetic foot"
+        ],
+        "interventions": [
+            "dietary supplements",
+            "nutritional intervention",
+            "lifestyle intervention",
+            "behavioral intervention",
+            "medication",
+            "insulin",
+            "glucagon",
+            "glucose",
+            "carbohydrate",
+            "fat"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Institute of Diabetes and Digestive"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Mexico",
+            "Brazil"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1862": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "49": {
+        "diseases": [
+            "Diabetes",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Device",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "Terminated",
+        "phase": "Phase 1",
+        "study_type": "Interventional",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "630": {
+        "diseases": [
+            "dental pain",
+            "device-related complications",
+            "pain management",
+            "oral health",
+            "dental health",
+            "tooth decay",
+            "periodontal disease",
+            "oral cancer",
+            "dry mouth",
+            "temporomandibular joint disorder"
+        ],
+        "interventions": [
+            "devices",
+            "dental procedures",
+            "pain relief medication",
+            "oral hygiene products",
+            "dental materials",
+            "orthodontic appliances",
+            "prosthetic devices",
+            "implants",
+            "laser therapy",
+            "physical therapy"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "Industry",
+            "Academic",
+            "Government",
+            "Non-profit",
+            "Private Practice",
+            "Research Institute",
+            "Hospital",
+            "University",
+            "Pharmaceutical Company"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1633": {
+        "diseases": [
+            "chronic myeloid leukemia",
+            "CML",
+            "leukemia",
+            "cancer",
+            "blood cancer",
+            "bone marrow cancer",
+            "hematologic cancer",
+            "hematology",
+            "oncology",
+            "malignancy"
+        ],
+        "interventions": [
+            "imatinib",
+            "Gleevec",
+            "tyrosine kinase inhibitor",
+            "TKI",
+            "targeted therapy",
+            "cancer drug",
+            "chemotherapy",
+            "radiation therapy",
+            "immunotherapy",
+            "biologic therapy"
+        ],
+        "sponsor": [
+            "National Cancer Institute",
+            "NCI",
+            "National Institutes of Health",
+            "NIH",
+            "Howard Hughes Medical Institute",
+            "HHMI",
+            "Bill & Melinda Gates Foundation",
+            "Gates Foundation",
+            "Wellcome Trust",
+            "WT"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Brian J. Druker",
+        "nctid": [
+            "NCT00003162",
+            "NCT00003177",
+            "NCT00003181",
+            "NCT00003187",
+            "NCT00003192",
+            "NCT00003202",
+            "NCT00003207",
+            "NCT00003212",
+            "NCT00003217",
+            "NCT00003222"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Australia",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2015.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2758": {
+        "diseases": [
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19"
+        ],
+        "interventions": [
+            "",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug"
+        ],
+        "sponsor": [
+            "",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Name",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "Country",
+            "City",
+            "Country",
+            "City",
+            "Country",
+            "City",
+            "Country",
+            "City",
+            "Country",
+            "City"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "903": {
+        "diseases": [
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension"
+        ],
+        "interventions": [
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03215167",
+            "NCT03215167",
+            "NCT03215167",
+            "NCT03215167",
+            "NCT03215167",
+            "NCT03215167",
+            "NCT03215167",
+            "NCT03215167",
+            "NCT03215167",
+            "NCT03215167"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1626": {
+        "diseases": [
+            "psoriasis",
+            "psoriasis",
+            "psoriasis",
+            "psoriasis",
+            "psoriasis",
+            "psoriasis",
+            "psoriasis",
+            "psoriasis",
+            "psoriasis",
+            "psoriasis"
+        ],
+        "interventions": [
+            "",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug"
+        ],
+        "sponsor": [
+            "",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Name of the investigator",
+        "nctid": [
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295"
+        ],
+        "locations": [
+            "Australia",
+            "Australia",
+            "Australia"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "136": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "dietary supplements",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1380": {
+        "diseases": [
+            "cancer",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2023.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2227": {
+        "diseases": [
+            "Obesity",
+            "Other",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Other",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "Terminated",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "2932": {
+        "diseases": [
+            "neurological disorders",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "device",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "77": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Biological",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "WITHDRAWN",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "after"
+        }
+    },
+    "948": {
+        "diseases": [
+            "arthritis",
+            "behavioral interventions",
+            "treatment",
+            "recruiting",
+            "participants",
+            "clinical trials",
+            "health-related issues",
+            "lifespan",
+            "quality of life",
+            "health risks"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "treatment",
+            "clinical trials",
+            "health-related issues",
+            "lifespan",
+            "quality of life",
+            "health risks",
+            "noninvasive approaches",
+            "education",
+            "modifying diet and exercise"
+        ],
+        "sponsor": [
+            "N/A",
+            "National Institutes of Health",
+            "National Cancer Institute",
+            "National Institute of Mental Health",
+            "National Institute of Neurological Disorders and",
+            "Stroke"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03215915",
+            "NCT03215915",
+            "NCT03215915",
+            "NCT03215915",
+            "NCT03215915",
+            "NCT03215915",
+            "NCT03215915",
+            "NCT03215915",
+            "NCT03215915",
+            "NCT03215915"
+        ],
+        "locations": [
+            "United States",
+            "China",
+            "Canada",
+            "United Kingdom",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Australia",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2948": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "1508": {
+        "diseases": [
+            "cancer",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2023.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2672": {
+        "diseases": [
+            "obesity",
+            "other",
+            "health-related issues",
+            "lifespan",
+            "quality of life",
+            "health risks",
+            "other health-related issues",
+            "other health-related issues",
+            "other health-related issues",
+            "other health-related issues"
+        ],
+        "interventions": [
+            "other",
+            "other",
+            "other",
+            "other",
+            "other",
+            "other",
+            "other",
+            "other",
+            "other",
+            "other"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "900": {
+        "diseases": [
+            "hypertension",
+            "high blood pressure",
+            "cardiovascular disease",
+            "heart disease",
+            "stroke",
+            "vascular disease",
+            "renal disease",
+            "kidney disease",
+            "metabolic syndrome",
+            "obesity"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "lifestyle interventions",
+            "non-pharmacological interventions",
+            "psychological interventions",
+            "educational interventions",
+            "cognitive-behavioral therapy",
+            "mindfulness-based interventions",
+            "relaxation techniques",
+            "stress management",
+            "health coaching"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Heart, Lung, and Blood Institute",
+            "National Institute of Mental Health",
+            "National Cancer Institute",
+            "National Institute on Aging",
+            "National Institute of Diabetes and Digestive",
+            "Kidney Diseases",
+            "National Institute of Neurological Disorders and",
+            "Stroke",
+            "Food and Drug Administration"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "721": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Biological intervention",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "EARLY_PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2023.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1162": {
+        "diseases": [
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19"
+        ],
+        "interventions": [
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1876": {
+        "diseases": [
+            "asthma",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "drug",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "1660": {
+        "diseases": [
+            "Endometriosis",
+            "Behavioral interventions",
+            "Terminated",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "2789": {
+        "diseases": [
+            "Hypertension",
+            "High Blood Pressure",
+            "Hypertensive Disease",
+            "Hypertensive Heart Disease",
+            "Hypertensive Renal Disease",
+            "Hypertensive Retinopathy",
+            "Hypertensive Nephropathy",
+            "Hypertensive Encephalopathy",
+            "Hypertensive Crisis",
+            "Hypertensive Emergency"
+        ],
+        "interventions": [
+            "Drug Therapy",
+            "Behavioral Therapy",
+            "Lifestyle Modification",
+            "Medication Use",
+            "Counseling",
+            "Education",
+            "Exercise",
+            "Dietary Modification",
+            "Stress Management",
+            "Relaxation Therapy"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "Industry",
+            "Academic",
+            "Government",
+            "Non-Profit",
+            "Private",
+            "Investigator-Initiated",
+            "Collaborative",
+            "Multinational",
+            "Health System"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Mexico",
+            "Brazil"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2015.0,
+            "OPERATOR": "before"
+        }
+    },
+    "300": {
+        "diseases": [
+            "kidney stones",
+            "behavioral interventions",
+            "recruiting",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2023.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "117": {
+        "diseases": [
+            "asthma",
+            "other types",
+            "Phase 2",
+            "interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "other types",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "after"
+        }
+    },
+    "2244": {
+        "diseases": [
+            "hypertension",
+            "high blood pressure",
+            "hypertensive disease",
+            "hypertensive disorder",
+            "hypertensive syndrome",
+            "hypertensive illness",
+            "hypertensive injury",
+            "blood pressure disorder",
+            "blood pressure disease",
+            "blood pressure disorders"
+        ],
+        "interventions": [
+            "dietary supplements",
+            "dietary intervention",
+            "nutritional intervention",
+            "dietary supplement intervention",
+            "nutritional supplement intervention",
+            "dietary interventions",
+            "nutritional interventions",
+            "dietary supplements intervention",
+            "dietary supplements interventions",
+            "nutritional supplements intervention"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Heart, Lung, and Blood Institute",
+            "National Center for Complementary and Integrative Health",
+            "Office of Dietary Supplements"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1277": {
+        "diseases": [
+            "spinal cord injury",
+            "spinal cord injury",
+            "spinal cord injury",
+            "spinal cord injury",
+            "spinal cord injury",
+            "spinal cord injury",
+            "spinal cord injury",
+            "spinal cord injury",
+            "spinal cord injury",
+            "spinal cord injury"
+        ],
+        "interventions": [
+            "procedures",
+            "procedures",
+            "procedures",
+            "procedures",
+            "procedures",
+            "procedures",
+            "procedures",
+            "procedures",
+            "procedures",
+            "procedures"
+        ],
+        "sponsor": [
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03211883",
+            "NCT03211883",
+            "NCT03211883",
+            "NCT03211883",
+            "NCT03211883",
+            "NCT03211883",
+            "NCT03211883",
+            "NCT03211883",
+            "NCT03211883",
+            "NCT03211883"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1307": {
+        "diseases": [
+            "Cancer",
+            "Dietary supplements",
+            "Phase 4",
+            "Recruiting",
+            "Interventional",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Dietary supplements",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2831": {
+        "diseases": [
+            "hypertension",
+            "high blood pressure",
+            "cardiovascular disease",
+            "heart disease",
+            "stroke",
+            "vascular disease",
+            "renal disease",
+            "kidney disease",
+            "metabolic syndrome",
+            "obesity"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "lifestyle interventions",
+            "non-pharmacological interventions",
+            "psychological interventions",
+            "educational interventions",
+            "cognitive-behavioral therapy",
+            "relaxation therapy",
+            "mindfulness-based interventions",
+            "meditation",
+            "exercise"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Heart, Lung, and Blood Institute",
+            "National Institute of Mental Health",
+            "National Cancer Institute",
+            "National Institute of Diabetes and Digestive",
+            "Kidney Diseases",
+            "National Institute on Aging",
+            "National Institute of Neurological Disorders and",
+            "Stroke",
+            "Food and Drug Administration"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1958": {
+        "diseases": [
+            "hypertension",
+            "high blood pressure",
+            "hypertensive disease",
+            "hypertensive disorder",
+            "hypertensive syndrome",
+            "hypertensive illness",
+            "hypertensive injury",
+            "blood pressure disorder",
+            "blood pressure disease",
+            "blood pressure disorders"
+        ],
+        "interventions": [
+            "drug interventions",
+            "pharmaceutical interventions",
+            "medication interventions",
+            "drug therapy interventions",
+            "pharmaceutical therapy interventions",
+            "medication therapy interventions",
+            "drug treatment interventions",
+            "pharmaceutical treatment interventions",
+            "medication treatment interventions",
+            "drug-based interventions"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Heart, Lung, and Blood Institute",
+            "NHLBI",
+            "National Institute of Mental Health",
+            "NIMH",
+            "National Cancer Institute",
+            "NCI"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "923": {
+        "diseases": [
+            "hypertension",
+            "high blood pressure",
+            "hypertensive disease",
+            "hypertensive disorder",
+            "hypertensive syndrome",
+            "hypertensive illness",
+            "hypertensive injury",
+            "blood pressure disorder",
+            "blood pressure disease",
+            "blood pressure disorders"
+        ],
+        "interventions": [
+            "drug therapy",
+            "lifestyle modification",
+            "behavioral intervention",
+            "medical device",
+            "procedure",
+            "vaccine",
+            "other",
+            "investigational drugs",
+            "investigational devices",
+            "investigational procedures"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "Food and Drug Administration",
+            "National Heart, Lung, and Blood Institute",
+            "National Institute of Mental Health",
+            "National Cancer Institute"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2964": {
+        "diseases": [
+            "diabetes",
+            "diabetes mellitus",
+            "type 2 diabetes",
+            "type 1 diabetes",
+            "gestational diabetes",
+            "prediabetes",
+            "diabetic nephropathy",
+            "diabetic retinopathy",
+            "diabetic neuropathy",
+            "diabetic foot"
+        ],
+        "interventions": [
+            "drugs",
+            "drug therapy",
+            "pharmacological intervention",
+            "medication",
+            "pharmaceuticals"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Cancer Institute"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Sweden",
+            "Norway"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2091": {
+        "diseases": [
+            "skin diseases",
+            "skin conditions",
+            "dermatological disorders",
+            "skin health",
+            "skin care",
+            "skin cancer",
+            "skin infections",
+            "skin allergies",
+            "skin autoimmune disorders",
+            "skin genetic disorders"
+        ],
+        "interventions": [
+            "dietary supplements",
+            "nutritional interventions",
+            "vitamins",
+            "minerals",
+            "natural products",
+            "botanicals",
+            "dietary modifications",
+            "lifestyle modifications",
+            "behavioral interventions",
+            "mind-body therapies"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Cancer Institute",
+            "NCI",
+            "National Institute of Arthritis and Muscul"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2357": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "WITHDRAWN",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "2632": {
+        "diseases": [
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension"
+        ],
+        "interventions": [
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other",
+            "Other"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2015.0,
+            "OPERATOR": "on"
+        }
+    },
+    "857": {
+        "diseases": [
+            "cardiovascular diseases",
+            "cardiovascular",
+            "heart disease",
+            "cardiac disease",
+            "cardiovascular disorder",
+            "cardiovascular syndrome",
+            "cardiac disorder",
+            "cardiac syndrome",
+            "heart disorder",
+            "heart syndrome"
+        ],
+        "interventions": [
+            "devices",
+            "device",
+            "medical device",
+            "medical devices",
+            "device therapy",
+            "device-based therapy",
+            "device-assisted therapy",
+            "device-supported therapy",
+            "device-enhanced therapy",
+            "device-facilitated therapy"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Heart, Lung, and Blood Institute"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. John Smith",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2381": {
+        "diseases": [
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma"
+        ],
+        "interventions": [
+            "",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug"
+        ],
+        "sponsor": [
+            "",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor",
+            "Sponsor"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Name of the investigator",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "Country",
+            "City",
+            "Country",
+            "City",
+            "Country",
+            "City",
+            "Country",
+            "City",
+            "Country",
+            "City"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2015.0,
+            "OPERATOR": "after"
+        }
+    },
+    "2414": {
+        "diseases": [
+            "hypertension",
+            "high blood pressure",
+            "cardiovascular disease",
+            "heart disease",
+            "stroke",
+            "metabolic syndrome",
+            "obesity",
+            "diabetes",
+            "kidney disease",
+            "atherosclerosis"
+        ],
+        "interventions": [
+            "dietary supplements",
+            "nutritional interventions",
+            "lifestyle modifications",
+            "behavioral interventions",
+            "exercise programs",
+            "meditation",
+            "mindfulness",
+            "stress management"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Heart, Lung, and Blood Institute",
+            "National Center for Complementary and Integrative Health",
+            "Food and Drug Administration",
+            "Academy of Nutrition and Dietet",
+            "American Heart Association",
+            "American Diabetes Association",
+            "American Cancer Society",
+            "World Health Organization",
+            "Bill and Melinda Gates Foundation"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT03215234",
+            "NCT03215242",
+            "NCT03215250",
+            "NCT03215258",
+            "NCT03215266",
+            "NCT03215274",
+            "NCT03215282",
+            "NCT03215290",
+            "NCT03215298",
+            "NCT03215306"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Mexico",
+            "Brazil"
+        ],
+        "start_year": {
+            "YEAR": 2018.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1713": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "dietary supplements",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "after"
+        }
+    },
+    "2842": {
+        "diseases": [
+            "pancreatitis",
+            "pancreatic cancer",
+            "pancreatic disease",
+            "pancreatic disorder",
+            "pancreatic syndrome",
+            "pancreatic illness",
+            "pancreatic injury",
+            "pancreatic health risks",
+            "pancreatic lifespan",
+            "pancreatic quality of life"
+        ],
+        "interventions": [
+            "drug interventions",
+            "pharmaceutical interventions",
+            "medication interventions",
+            "therapeutic interventions",
+            "treatment interventions",
+            "intervention drugs",
+            "intervention medications"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Cancer Institute",
+            "NCI",
+            "National Institute of Diabetes and Digestive"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1765": {
+        "diseases": [
+            "cardiovascular diseases",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "devices",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1461": {
+        "diseases": [
+            "chronic bronchitis",
+            "emphysema",
+            "asthma",
+            "pulmonary fibrosis",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1724": {
+        "diseases": [
+            "uterine fibroids",
+            "uterine leiomyoma",
+            "fibromyoma",
+            "myoma",
+            "fibroid tumors",
+            "uterine tumors",
+            "gynecological tumors",
+            "women's health",
+            "reproductive health",
+            "female health"
+        ],
+        "interventions": [
+            "procedures",
+            "surgical procedures",
+            "minimally invasive procedures",
+            "laparoscopic procedures",
+            "robotic procedures",
+            "hysterectomy",
+            "myomectomy",
+            "endometrial ablation",
+            "uterine artery embolization",
+            "focused ultrasound"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Cancer Institute",
+            "NCI",
+            "Howard University",
+            "Georgetown University",
+            "MedStar Health",
+            "Johns Hopkins University",
+            "University of Maryland",
+            "University of Pennsylvania"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. James J. Urbanic",
+        "nctid": [
+            "NCT03470711",
+            "NCT03470712",
+            "NCT03470713",
+            "NCT03470714",
+            "NCT03470715",
+            "NCT03470716",
+            "NCT03470717",
+            "NCT03470718",
+            "NCT03470719",
+            "NCT03470720"
+        ],
+        "locations": [
+            "United States",
+            "Maryland",
+            "Washington",
+            "Baltimore",
+            "Washington DC",
+            "Philadelphia",
+            "Pennsylvania",
+            "New York",
+            "New York City",
+            "Boston"
+        ],
+        "start_year": {
+            "YEAR": 2018.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1011": {
+        "diseases": [
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma",
+            "asthma"
+        ],
+        "interventions": [
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1137": {
+        "diseases": [
+            "COVID-19",
+            "Interventional study type",
+            "Phase 4",
+            "Completed",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "on"
+        }
+    },
+    "524": {
+        "diseases": [
+            "gastrointestinal diseases",
+            "gastrointestinal disorders",
+            "gastrointestinal syndromes",
+            "gastrointestinal illnesses",
+            "gastrointestinal injuries",
+            "gastrointestinal health risks",
+            "gastrointestinal lifespan",
+            "gastrointestinal quality of life",
+            "gastrointestinal other health-related issues",
+            "gastrointestinal conditions"
+        ],
+        "interventions": [
+            "biological interventions",
+            "biological products",
+            "biological therapies",
+            "biological treatments",
+            "biological drugs",
+            "biological devices",
+            "biological procedures",
+            "biological vaccines",
+            "biological education",
+            "biological diet"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Cancer Institute",
+            "National Institute of Diabetes and Digestive",
+            "King's College London",
+            "University of Oxford",
+            "University of Cambridge",
+            "Harvard University",
+            "Stanford University",
+            "University of California",
+            "University of Pennsylvania"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. John Smith",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "United Kingdom",
+            "Canada",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Australia",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1146": {
+        "diseases": [
+            "rheumatoid arthritis",
+            "osteoarthritis",
+            "psoriatic arthritis",
+            "ankylosing spondylitis",
+            "biologic interventions",
+            "start date from January 1, 20"
+        ],
+        "interventions": [
+            "biologic interventions",
+            "start date from January 1, 20",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2018.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "2546": {
+        "diseases": [
+            "COVID-19",
+            "Biological intervention",
+            "Phase 3",
+            "Recruiting",
+            "Interventional",
+            "N/A"
+        ],
+        "interventions": [
+            "Biological intervention",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "on"
+        }
+    },
+    "2417": {
+        "diseases": [
+            "Sarcoidosis",
+            "Dietary supplements",
+            "Health risks",
+            "Quality of life",
+            "Lifespan",
+            "Illness",
+            "Injury",
+            "Disorder",
+            "Syndrome",
+            "Health-related issues"
+        ],
+        "interventions": [
+            "Dietary supplements",
+            "Other products that are either investigational or already available",
+            "Noninvasive approaches",
+            "Education",
+            "Modifying diet and exercise",
+            "Drugs",
+            "Medical devices",
+            "Procedures",
+            "Vaccines",
+            "Other health-related issues"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "Industry",
+            "Academic",
+            "Government",
+            "Non-profit",
+            "Private",
+            "Other",
+            "Multiple",
+            "Unknown",
+            "Not reported"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Australia",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1253": {
+        "diseases": [
+            "gastrointestinal diseases",
+            "interventions",
+            "other types",
+            "withdrawn",
+            "not applicable",
+            "phase",
+            "interventional",
+            "study_type",
+            "person_name",
+            "nctid"
+        ],
+        "interventions": [
+            "other types",
+            "withdrawn",
+            "not applicable",
+            "phase",
+            "interventional",
+            "study_type",
+            "person_name",
+            "nctid",
+            "locations",
+            "start_year"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "after"
+        }
+    },
+    "849": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1257": {
+        "diseases": [
+            "hyperthyroidism",
+            "thyroiditis",
+            "goiter",
+            "thyroid nodules",
+            "thyroid cancer",
+            "other thyroid disorders",
+            "other health-related issues",
+            "lifespan",
+            "quality of life",
+            "health risks"
+        ],
+        "interventions": [
+            "drug interventions",
+            "pharmacological interventions",
+            "therapeutic interventions",
+            "treatment interventions",
+            "medical interventions",
+            "health-related interventions",
+            "lifestyle interventions",
+            "behavioral interventions",
+            "environmental interventions",
+            "other interventions"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Cancer Institute",
+            "NCI",
+            "National Institute of Mental Health",
+            "NIMH",
+            "National Institute of Neurological Disorders and",
+            "NINDS",
+            "National Institute of Child Health and Human Development",
+            "NICHD"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "646": {
+        "diseases": [
+            "neuropathy",
+            "neuropathy",
+            "neuropathy",
+            "neuropathy",
+            "neuropathy",
+            "neuropathy",
+            "neuropathy",
+            "neuropathy",
+            "neuropathy",
+            "neuropathy"
+        ],
+        "interventions": [
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug",
+            "drug"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295",
+            "NCT03249295"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1192": {
+        "diseases": [
+            "Diabetes",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Dietary supplements",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "2500": {
+        "diseases": [
+            "hypertension",
+            "high blood pressure",
+            "hypertensive disease",
+            "hypertensive disorder",
+            "hypertensive syndrome",
+            "hypertensive illness",
+            "hypertensive injury",
+            "blood pressure disorder",
+            "blood pressure disease",
+            "blood pressure disorders"
+        ],
+        "interventions": [
+            "devices",
+            "device",
+            "medical device",
+            "medical devices",
+            "device therapy",
+            "device intervention",
+            "interventional device",
+            "interventional devices",
+            "device-based intervention",
+            "device-based interventions"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Heart, Lung, and Blood Institute",
+            "NHLBI",
+            "National Institute of Mental Health",
+            "NIMH",
+            "National Cancer Institute",
+            "NCI",
+            "National Institute of Neurological Disorders and",
+            "NINDS"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1904": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Behavioral",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "Not yet recruiting",
+        "phase": "N/A",
+        "study_type": "Observational",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "after"
+        }
+    },
+    "779": {
+        "diseases": [
+            "infectious diseases",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "other interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2023.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1061": {
+        "diseases": [
+            "Asthma",
+            "Asthma",
+            "Asthma",
+            "Asthma",
+            "Asthma",
+            "Asthma",
+            "Asthma",
+            "Asthma",
+            "Asthma",
+            "Asthma"
+        ],
+        "interventions": [
+            "Dietary supplements",
+            "Dietary supplements",
+            "Dietary supplements",
+            "Dietary supplements",
+            "Dietary supplements",
+            "Dietary supplements",
+            "Dietary supplements",
+            "Dietary supplements",
+            "Dietary supplements",
+            "Dietary supplements"
+        ],
+        "sponsor": [
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "Not Yet Recruiting",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1389": {
+        "diseases": [
+            "infectious diseases",
+            "infectious diseases",
+            "infectious diseases",
+            "infectious diseases",
+            "infectious diseases",
+            "infectious diseases",
+            "infectious diseases",
+            "infectious diseases",
+            "infectious diseases",
+            "infectious diseases"
+        ],
+        "interventions": [
+            "interventional",
+            "interventional",
+            "interventional",
+            "interventional",
+            "interventional",
+            "interventional",
+            "interventional",
+            "interventional",
+            "interventional",
+            "interventional"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "1791": {
+        "diseases": [
+            "anxiety disorder",
+            "anxiety",
+            "behavioral disorder",
+            "mental health disorder",
+            "psychiatric disorder",
+            "neurological disorder",
+            "stress disorder",
+            "fear disorder",
+            "phobia",
+            "obsessive compulsive disorder"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "cognitive behavioral therapy",
+            "psychotherapy",
+            "exposure therapy",
+            "mindfulness based interventions",
+            "relaxation therapy",
+            "meditation",
+            "yoga",
+            "tai chi",
+            "qigong"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Institute of Mental Health",
+            "National Cancer Institute",
+            "National Institute of Neurological Disorders and",
+            "National Institute on Drug Abuse",
+            "National Institute on Alcohol Abuse and Al",
+            "National Institute of Child Health and Human Development",
+            "National Institute on Aging",
+            "National Institute of Biomedical Imaging and Bio",
+            "National Heart, Lung, and Blood Institute"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT03214550",
+            "NCT03214551",
+            "NCT03214552",
+            "NCT03214553",
+            "NCT03214554",
+            "NCT03214555",
+            "NCT03214556",
+            "NCT03214557",
+            "NCT03214558",
+            "NCT03214559"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1501": {
+        "diseases": [
+            "behavioral interventions",
+            "phase 2",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2023.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2015": {
+        "diseases": [
+            "Diabetes Type 2",
+            "Procedure",
+            "Recruiting",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Procedure",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2000": {
+        "diseases": [
+            "osteoporosis",
+            "behavioral interventions",
+            "terminated",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "1850": {
+        "diseases": [
+            "diabetes",
+            "diabetes mellitus",
+            "type 2 diabetes",
+            "type 1 diabetes",
+            "gestational diabetes",
+            "prediabetes",
+            "diabetic nephropathy",
+            "diabetic retinopathy",
+            "diabetic neuropathy",
+            "diabetic foot"
+        ],
+        "interventions": [
+            "drug",
+            "device",
+            "procedure",
+            "vaccine",
+            "behavioral",
+            "educational",
+            "nutritional",
+            "exercise",
+            "lifestyle",
+            "surgical"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "Industry",
+            "Academic",
+            "Government",
+            "Non-profit"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "781": {
+        "diseases": [
+            "COVID-19",
+            "SARS-CoV-2",
+            "Coronavirus disease 2019",
+            "COVID-19, SARS-",
+            "CoV-2",
+            "2019-nCoV",
+            "novel coronavirus 2019",
+            "2019 coronavirus",
+            "coronavirus disease 2019",
+            "COVID-19 virus"
+        ],
+        "interventions": [
+            "Other than the standard treatments",
+            "Non-standard treatments",
+            "Investigational interventions",
+            "Experimental interventions",
+            "Alternative interventions",
+            "Innovative interventions",
+            "New interventions",
+            "Emerging interventions",
+            "Advanced interventions",
+            "Cutting-edge interventions"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Institute of Allergy and Infectious"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Anthony S. Fauci",
+        "nctid": [
+            "NCT04444650",
+            "NCT04444648",
+            "NCT04444647",
+            "NCT04444646",
+            "NCT04444645",
+            "NCT04444644",
+            "NCT04444643",
+            "NCT04444642",
+            "NCT04444641",
+            "NCT04444640"
+        ],
+        "locations": [
+            "United States",
+            "Maryland",
+            "Bethesda",
+            "Maryland",
+            "Baltimore",
+            "Maryland",
+            "Washington",
+            "D.C.",
+            "Washington",
+            "D.C."
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1647": {
+        "diseases": [
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19"
+        ],
+        "interventions": [
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device",
+            "Device"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076",
+            "NCT04445076"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2426": {
+        "diseases": [
+            "asthma",
+            "biological",
+            "interventions",
+            "phase 1",
+            "interventional",
+            "recruiting",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "biological",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2023.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "906": {
+        "diseases": [
+            "cancer",
+            "behavioral interventions",
+            "terminated",
+            "phase 4",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "after"
+        }
+    },
+    "1242": {
+        "diseases": [
+            "Cancer",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Drug",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "1978": {
+        "diseases": [
+            "headache",
+            "behavioral interventions",
+            "terminated",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "3003": {
+        "diseases": [
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19",
+            "COVID-19"
+        ],
+        "interventions": [
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug",
+            "Drug"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT04761846",
+            "NCT04761846",
+            "NCT04761846",
+            "NCT04761846",
+            "NCT04761846",
+            "NCT04761846",
+            "NCT04761846",
+            "NCT04761846",
+            "NCT04761846",
+            "NCT04761846"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "833": {
+        "diseases": [
+            "cancer",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "biological",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2015.0,
+            "OPERATOR": "after"
+        }
+    },
+    "1650": {
+        "diseases": [
+            "Diabetes",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Biological",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "521": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "748": {
+        "diseases": [
+            "Cardiovascular Diseases",
+            "Cardiovascular",
+            "Heart Diseases",
+            "Vascular Diseases",
+            "Cardiovascular Disorders",
+            "Heart Disorders",
+            "Vascular Disorders",
+            "Cardiovascular Syndromes",
+            "Heart Syndromes",
+            "Vascular Syndromes"
+        ],
+        "interventions": [
+            "Drugs",
+            "Drug Therapy",
+            "Pharmacological Therapy",
+            "Medication",
+            "Pharmaceuticals",
+            "Chemical Compounds",
+            "Organic Compounds",
+            "Inorganic Compounds"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Heart, Lung, and Blood Institute",
+            "Food and Drug Administration",
+            "Pharmaceutical Companies",
+            "Biotechnology Companies",
+            "Medical Device Companies",
+            "Healthcare Organizations",
+            "Research Institutes",
+            "Academic Institutions",
+            "Government Agencies"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "OBSERVATIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Australia",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2295": {
+        "diseases": [
+            "Diabetes",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Device",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "Terminated",
+        "phase": "Phase 1",
+        "study_type": "Interventional",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "819": {
+        "diseases": [
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes",
+            "diabetes"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03211491",
+            "NCT03211491",
+            "NCT03211491",
+            "NCT03211491",
+            "NCT03211491",
+            "NCT03211491",
+            "NCT03211491",
+            "NCT03211491",
+            "NCT03211491",
+            "NCT03211491"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "613": {
+        "diseases": [
+            "pulmonary hypertension",
+            "behavioral interventions",
+            "recruiting",
+            "pulmonary hypertension",
+            "behavioral interventions",
+            "recruiting",
+            "pulmonary hypertension",
+            "behavioral interventions",
+            "recruiting",
+            "pulmonary hypertension"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions",
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "on"
+        }
+    },
+    "3037": {
+        "diseases": [
+            "Leukemia",
+            "Other types",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "Other types",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "TERMINATED",
+        "phase": "N/A",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "2927": {
+        "diseases": [
+            "mental health conditions",
+            "interventions"
+        ],
+        "interventions": [
+            "drug interventions",
+            "interventions",
+            "sponsor",
+            "status",
+            "phase",
+            "study_type",
+            "person_name",
+            "nctid",
+            "locations",
+            "start_year"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "NOT_RECRUITING",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "after"
+        }
+    },
+    "1226": {
+        "diseases": [
+            "hypertension",
+            "high blood pressure",
+            "hypertensive disease",
+            "hypertensive disorder",
+            "hypertensive syndrome",
+            "hypertensive illness",
+            "hypertensive injury",
+            "blood pressure disorder",
+            "blood pressure disease",
+            "blood pressure disorders"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "noninvasive interventions",
+            "educational interventions",
+            "dietary interventions",
+            "exercise interventions",
+            "lifestyle interventions",
+            "health behavior interventions",
+            "health education interventions",
+            "health promotion interventions",
+            "disease management interventions"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "National Heart, Lung, and Blood Institute",
+            "National Institute of Mental Health",
+            "National Cancer Institute",
+            "National Institute of Diabetes and Digestive",
+            "Kidney Diseases",
+            "National Institute of Neurological Disorders and",
+            "Stroke",
+            "National Institute of Aging",
+            "National Institute of Child Health and Human Development"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "256": {
+        "diseases": [
+            "uterine fibroids",
+            "fibroids",
+            "leiomyoma",
+            "leiomyomata",
+            "uterine leiomyoma",
+            "uterine leiomyomata",
+            "fibromyoma",
+            "fibromyomata",
+            "uterine fibromyoma",
+            "uterine fibromyomata"
+        ],
+        "interventions": [
+            "drug interventions",
+            "drug therapy",
+            "pharmacological interventions",
+            "pharmacological therapy",
+            "medication interventions",
+            "medication therapy",
+            "chemical interventions",
+            "chemical therapy",
+            "biological interventions",
+            "biological therapy"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Cancer Institute"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. Jane Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1707": {
+        "diseases": [
+            "erectile dysfunction",
+            "impotence",
+            "ED",
+            "male sexual dysfunction",
+            "erectile disorder",
+            "sexual dysfunction",
+            "male impotence",
+            "erectile insufficiency",
+            "erectile failure",
+            "male erectile dysfunction"
+        ],
+        "interventions": [
+            "biological interventions",
+            "biological therapy",
+            "biological treatment",
+            "biologic therapy",
+            "biologic treatment",
+            "biological products",
+            "biological agents",
+            "biological drugs",
+            "biological medications"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "NIH",
+            "National Cancer Institute",
+            "NCI",
+            "National Institute of Mental Health",
+            "NIMH",
+            "National Institute of Neurological Disorders and",
+            "NINDS",
+            "National Institute of Allergy and Infectious",
+            "NIAID"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Sweden",
+            "Netherlands"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2886": {
+        "diseases": [
+            "skin diseases",
+            "skin conditions",
+            "dermatological disorders",
+            "skin illnesses",
+            "skin health risks",
+            "skin syndromes",
+            "skin infections",
+            "skin allergies",
+            "skin cancers",
+            "skin autoimmune disorders"
+        ],
+        "interventions": [
+            "other than typical methods",
+            "non-standard interventions",
+            "novel treatments",
+            "innovative therapies",
+            "cutting-edge treatments",
+            "advanced therapies",
+            "experimental treatments",
+            "unconventional treatments"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "Howard Hughes Medical Institute",
+            "Bill and Melinda Gates Foundation",
+            "Wellcome Trust",
+            "European Union",
+            "National Cancer Institute",
+            "National Institute of Mental Health",
+            "National Institute of Allergy and Infectious",
+            "National Institute of Child Health and Human Development",
+            "National Heart, Lung, and Blood Institute"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. John Smith",
+        "nctid": [
+            "NCT000001",
+            "NCT000002",
+            "NCT000003",
+            "NCT000004",
+            "NCT000005",
+            "NCT000006",
+            "NCT000007",
+            "NCT000008",
+            "NCT000009",
+            "NCT000010"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "Australia",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2015.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2024": {
+        "diseases": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "1928": {
+        "diseases": [
+            "kidney stones",
+            "urinary tract infection",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "after"
+        }
+    },
+    "3009": {
+        "diseases": [
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension",
+            "hypertension"
+        ],
+        "interventions": [
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device",
+            "device"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03219291",
+            "NCT03219291",
+            "NCT03219291",
+            "NCT03219291",
+            "NCT03219291",
+            "NCT03219291",
+            "NCT03219291",
+            "NCT03219291",
+            "NCT03219291",
+            "NCT03219291"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2017.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2022.0,
+            "OPERATOR": "on"
+        }
+    },
+    "1616": {
+        "diseases": [
+            "Cystic Fibrosis",
+            "Cystic Fibrosis",
+            "Cystic Fibrosis",
+            "Cystic Fibrosis",
+            "Cystic Fibrosis",
+            "Cystic Fibrosis",
+            "Cystic Fibrosis",
+            "Cystic Fibrosis",
+            "Cystic Fibrosis",
+            "Cystic Fibrosis"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT03885475",
+            "NCT03885475",
+            "NCT03885475",
+            "NCT03885475",
+            "NCT03885475",
+            "NCT03885475",
+            "NCT03885475",
+            "NCT03885475",
+            "NCT03885475",
+            "NCT03885475"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2018.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2018.0,
+            "OPERATOR": "on"
+        }
+    },
+    "2747": {
+        "diseases": [
+            "COVID-19",
+            "COVID-19-related health issues",
+            "Dietary supplements",
+            "Nutrition",
+            "Health risks",
+            "Lifespan",
+            "Quality of life",
+            "Health-related issues",
+            "Illness",
+            "Injury"
+        ],
+        "interventions": [
+            "Dietary supplements",
+            "Nutritional interventions",
+            "Supplementation",
+            "Dietary modifications",
+            "Nutrition therapy",
+            "Lifestyle interventions",
+            "Behavioral interventions",
+            "Environmental interventions",
+            "Pharmacological interventions",
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "National Institutes of Health",
+            "Food and Drug Administration",
+            "Academy of Nutrition and Dietet",
+            "American Society for Nutrition",
+            "Institute of Medicine",
+            "World Health Organization",
+            "Centers for Disease Control and Prevention",
+            "National Center for Complementary and Integrative Health",
+            "Office of Dietary Supplements"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "John Doe",
+        "nctid": [
+            "NCT04533475",
+            "NCT04533476",
+            "NCT04533477",
+            "NCT04533478",
+            "NCT04533479",
+            "NCT04533480",
+            "NCT04533481",
+            "NCT04533482",
+            "NCT04533483",
+            "NCT04533484"
+        ],
+        "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Italy",
+            "Spain",
+            "China",
+            "Japan"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2025.0,
+            "OPERATOR": "before"
+        }
+    },
+    "2252": {
+        "diseases": [
+            "cancer",
+            "behavioral interventions",
+            "suspended",
+            "not applicable",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "suspended",
+        "phase": "not applicable",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "before"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "after"
+        }
     }
 }

@@ -65,9 +65,9 @@ if __name__ == '__main__':
     batch_size = 1
     # transform the df into batches, each batch has ids and input_text
     df = df.groupby(df.index // batch_size).agg({'id': lambda x: list(x), 'input_text': lambda x: list(x)})
-
     
-    for i in tqdm(range(len(df))):
+    
+    for i in tqdm(range(745, len(df))):
         row = df.iloc[i]
         ids = row['id']
         input_texts = row['input_text']
