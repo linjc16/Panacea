@@ -1,0 +1,76 @@
+{
+    "2556": {
+        "diseases": [
+            "diabetes",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "interventions": [
+            "other types",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "not yet recruiting",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "before"
+        }
+    }
+}

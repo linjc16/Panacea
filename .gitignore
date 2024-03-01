@@ -12,7 +12,11 @@ temp2.py
 __pycache__/
 temp/
 raw*/
+
 openai_key.py
 openai_api_azure.key
 
+data/downstream/matching/patient2trial/cohort/criteria.csv
+
 .DS_Store
+
