@@ -11,10 +11,10 @@ import pdb
 if __name__ == '__main__':
     json_query = """
     {
-    "phase": "Phase1",
-    "study_type": "Interventional",
-    "diseases": ["Diabetes", "Hypertension"],
-    "start_year": {"YEAR": "2022", "OPERATOR": "on"}
+        "phase": "Phase1",
+        "study_type": "Interventional",
+        "diseases": ["Diabetes", "Hypertension"],
+        "start_year": {"YEAR": "2022", "OPERATOR": "on"}
     }
     """
     import json

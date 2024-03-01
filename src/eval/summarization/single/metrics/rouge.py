@@ -53,8 +53,7 @@ if __name__ == "__main__":
 
     assert len(preds) == len(groundtruth)
     
-
     scores, _ = calculate_rouge_scores(preds['summary'].tolist(), groundtruth['summary'].tolist())
-    
+
     print(f'Model: {args.model_name}, ROUGE-? F1 Score: {scores}')
     
