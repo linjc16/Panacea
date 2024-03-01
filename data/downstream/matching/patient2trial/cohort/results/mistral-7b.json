@@ -2,5 +2,2005 @@
     "0": {
         "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
         "label": 0
+    },
+    "1": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "2": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "3": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "4": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "5": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "6": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "7": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "8": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "9": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "10": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "11": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "12": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "13": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "14": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "15": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "16": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "17": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "18": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "19": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "20": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "21": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "22": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "23": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "24": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "25": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "26": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "27": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "28": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "29": {
+        "output": "Sure, I can help you with that. Here's the trial-level eligibility for the given patient note and clinical trial:\n\nPatient note:\n\n* Age: 58 years old\n* Gender: Female\n* Medical history: Hypertension, obesity\n* Current medications: None\n* Physical examination: Normal\n* EKG: Nonspecific changes\n\nClinical trial:\n\n* Title: Characteristics of Prader-Willi Syndrome and Early-onset Morbid Obesity\n* Target diseases: Prader-Willi syndrome, Early-onset Morbid Obesity\n* Interventions: Clinical tests\n* Summary: Prader-Willi syndrome (PWS) is a rare genetic disorder that affects about 1 in 14,000 people in the United States. As the most commonly identified genetic cause of obesity, PWS is often confused with Early-onset Morbid Obesity (EMO). Individuals with EMO show some signs of PWS, but clinically do not have PWS. The purpose of this study is to evaluate the clinical features and genetic basis of PWS and",
+        "label": 0
+    },
+    "30": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "31": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "32": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "33": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "34": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "35": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "36": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "37": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "38": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "39": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "40": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "41": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "42": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "43": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "44": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "45": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "46": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "47": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "48": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "49": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "50": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "51": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "52": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "53": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "54": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "55": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "56": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "57": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "58": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "59": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "60": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "61": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "62": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "63": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "64": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "65": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "66": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "67": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "68": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "69": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "70": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "71": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "72": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "73": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "74": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "75": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "76": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "77": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "78": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "79": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "80": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "81": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "82": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "83": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "84": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "85": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "86": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "87": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "88": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "89": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "90": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "91": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "92": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "93": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "94": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "95": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "96": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "97": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "98": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 58-year-old African-American woman with hypertension and obesity, who presents with episodic pressing/burning anterior chest pain that started two days earlier for the first time in her life. The patient is not known to have any other medical conditions such as smoking, diabetes, hypercholesterolemia, or a family history of heart disease. The patient is not currently taking any medications. The physical examination is normal and the EKG shows nonspecific changes.\n\nThe clinical trial is titled \"IOP Fluctuations in Primary Open Angle Glaucoma Patients Before and After Deep Sclerectomy With Collagen Implant\". The target diseases for this trial are primary open angle glaucoma (POAG) and IOP fluctuations. The interventions for this trial are clinical tests. The summary of the trial states that primary open angle glaucoma (POAG) is associated with inadequate drainage of the aqueous",
+        "label": 0
+    },
+    "99": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "100": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "101": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "102": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "103": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "104": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "105": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "106": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "107": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "108": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "109": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "110": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "111": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "112": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "113": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "114": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "115": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "116": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "117": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "118": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "119": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "120": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "121": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "122": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "123": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "124": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "125": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "126": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "127": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "128": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "129": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "130": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "131": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "132": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "133": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "134": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "135": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "136": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "137": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "138": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "139": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "140": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "141": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "142": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "143": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. She has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient's age is outside the age range specified in the inclusion criteria of the clinical trial, which is for infants under six months. Additionally, the patient's condition is not related to thrombosis, which is the primary condition being studied in the clinical trial. Therefore, the patient would not be eligible for this clinical trial.</s>",
+        "label": 0
+    },
+    "144": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "145": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "146": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.\n\nThe patient has a history of cardiac catheterization via the right femoral artery, which is not a relevant factor for the clinical trial. Additionally, the patient's current symptoms of a cool right foot and a pulsatile mass in her right groin with loss of distal pulses are not related to hypertension, which is the primary focus of the clinical trial. Therefore, the patient would not be eligible for this clinical trial.</s>",
+        "label": 0
+    },
+    "147": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "148": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "149": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "150": {
+        "output": "Here is the trial-level eligibility for the given patient note:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. Upon examination, she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient meets the inclusion criteria for the clinical trial as she is over 18 years old, has critical limb ischemia (Fontaine stage III or IV or Rutherford category 4-6), has a stenotic or occluded infrapopliteal artery with a lesion length \u2264 60 mm, and has a patent common iliac, external iliac, superficial femoral, and popliteal artery on the ipsilateral side prior to randomization.</s>",
+        "label": 0
+    },
+    "151": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "152": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "153": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "154": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "155": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "156": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "157": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "158": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "159": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. Upon examination, she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient's symptoms and examination findings are consistent with a complication of the procedure, such as arteriovenous malformation or pseudoaneurysm.\n\nThe clinical trial is titled \"Characteristics Predictive of Success and Complications in the Use of Suture-Mediated Closure of Femoral Venous Access.\" The target diseases for this trial are femoral venous access site complications and predictive factors for success and complications in suture-mediated closure of femoral venous access. The interventions for this trial are clinical tests. The summary of",
+        "label": 0
+    },
+    "160": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "161": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "162": {
+        "output": "Sure, I can help you with that. Please provide me with the patient note and the clinical trial information you would like me to compare.</s>",
+        "label": 0
+    },
+    "163": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "164": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "165": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "166": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. Upon examination, she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient is eligible for the clinical trial as she is scheduled for cardiac catheterization through the femoral artery and/or vein under general anesthetic, and she is able to speak and understand English with no apparent cognitive impairments.</s>",
+        "label": 1
+    },
+    "167": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "168": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "169": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "170": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "171": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. Upon examination, she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient meets the inclusion criteria for the clinical trial \"Effects of Acute Systemic Inflammation on Arterial Stiffness and Microcirculation\" as she has severe sepsis defined by the presence of a systemic inflammatory response syndrome, evidence of an infection, and signs of tissue hypoperfusion. The patient's body mass index is within the normal range of 18-27 kg/m\u00b2. Written informed consent has been obtained from the patient or her relatives.</s>",
+        "label": 0
+    },
+    "172": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "173": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "174": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "175": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "176": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. Upon examination, she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient is at high risk of major complications around the time of surgery such as heart attacks, strokes, and death due to generalized blood vessel disease. Remote ischemic preconditioning (RIPC) may be a simple and cost-effective method to reduce the risks of major vascular surgery. The patient is undergoing elective carotid endarterectomy, which is one of the inclusion criteria for the clinical trial. Therefore, the patient is highly likely to be eligible for the clinical trial.</s>",
+        "label": 2
+    },
+    "177": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "178": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "179": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "180": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "181": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "182": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "183": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "184": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "185": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "186": {
+        "output": "Here is the trial-level eligibility for the given patient note:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. She has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient is at high risk of major complications around the time of surgery such as heart attacks, strokes, and death due to generalized blood vessel disease. Remote ischaemic preconditioning (RIPC) may be a simple and cost-effective method to reduce the risks of major vascular surgery. The patient is undergoing elective carotid endarterectomy, which is one of the inclusion criteria for the trial. Therefore, the patient is highly likely to be eligible for the clinical trial.</s>",
+        "label": 2
+    },
+    "187": {
+        "output": "Here is the trial-level eligibility for the patient note:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. Upon examination, she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient is eligible for the clinical trial as she is an orthotopic heart transplant patient who requires periodic cardiac catheterization for early detection of allograft vascular disease. The trans radial approach is preferred for coronary angiography in orthotopic heart transplant patients due to the technical difficulties related to the presence of the aortotomy with anomalous implantation of the coronary ostia and the orthotopic position of the allograft. The trans right radial approach is generally preferred in routine clinical practice, but the trans left radial approach has an important anatomical advantage due to the",
+        "label": 0
+    },
+    "188": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "189": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "190": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "191": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "192": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. She has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient does not meet the inclusion criteria for the clinical trial as she has undergone central vena catheterization.</s>",
+        "label": 1
+    },
+    "193": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "194": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "195": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "196": {
+        "output": "Here is the trial-level eligibility for the patient note:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. This suggests a possible complication of the cardiac catheterization procedure, such as an arteriovenous malformation or aneurysm. The patient's age and the presence of a complication from a previous medical procedure make her a high-risk candidate for the clinical trial, which aims to evaluate the use of intracardiac echocardiography (ICE) during atrial flutter ablation.</s>",
+        "label": 0
+    },
+    "197": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "198": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 67-year-old woman who underwent cardiac catheterization via the right femoral artery earlier in the morning and is now complaining of a cool right foot. Upon examination, she has a pulsatile mass in her right groin with loss of distal pulses, and auscultation reveals a bruit over the point at which the right femoral artery was entered. The patient's age, medical history, and current condition suggest that she may be at risk for complications related to the vascular access used for hemodialysis. The clinical trial being considered is a comparison of mNT-BBAVF and BCAVF in hemodialysis patients, which may be relevant to the patient's situation. The inclusion criteria for the trial include age from 18 to 75 years, radial artery diameter <2.0 mm or cephalic vein diameter in the forearm <2.5 mm, and brachial artery",
+        "label": 0
+    },
+    "199": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "200": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "201": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "202": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "203": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "204": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "205": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "206": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "207": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "208": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "209": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "210": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "211": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "212": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "213": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "214": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "215": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "216": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "217": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "218": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "219": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "220": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "221": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "222": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "223": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "224": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "225": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "226": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "227": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "228": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "229": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "230": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "231": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "232": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "233": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "234": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "235": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "236": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "237": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "238": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "239": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "240": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "241": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "242": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "243": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "244": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "245": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "246": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "247": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "248": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "249": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "250": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "251": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "252": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "253": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "254": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nPatient note:\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.\n\nClinical trial:\nTitle: Supplemental Thyroxine Treatment for Preterm Infants With Hypothyroxinemia\nTarget diseases: Hypothyroxinemia, Preterm Infants\nInterventions: Thyroxine supplementation\nSummary: In order to determine the efficacy and safety of thyroxine replacement, a randomized clinical trial of thyroxine supplementation for VLBW infant with hypothyroxinemia during the first month of age is conducted.\nInclusion criteria:\nBirth weight: less than 1500g\nGestation: 22 weeks 0 day \u2264\nSerum free thyroxine level lower than 0.8 ng/dl\nSerum thyrotropin lower than 10 \u03bcU/ml\nAge of between 2 and 4 weeks after birth\nInformed consent\n\nTrial-level eligibility",
+        "label": 0
+    },
+    "255": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "256": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "257": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "258": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "259": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "260": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "261": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "262": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "263": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "264": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "265": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "266": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "267": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "268": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "269": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "270": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nPatient note: 0) Would not refer this patient for this clinical trial.\n\nClinical trial: 1) Would consider referring this patient to this clinical trial upon further investigation.\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "271": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "272": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "273": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "274": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "275": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "276": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "277": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "278": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "279": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "280": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "281": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "282": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "283": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "284": {
+        "output": "Sure, I can help you with that. Here's the trial-level eligibility for the given patient note and clinical trial:\n\nPatient note:\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.\n\nClinical trial:\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "285": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "286": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "287": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "288": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "289": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "290": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "291": {
+        "output": "Sure, I can help you with that. Here's the trial-level eligibility for the given patient note and clinical trial:\n\nPatient note:\n\n* Age: 45 years\n* Gender: Male\n* Medical conditions: Anaplastic astrocytoma of the spine, high-dose steroids, hypertension, chronic pain, urinary retention s/p Foley catheter\n* Severity of urinary disorders: Severe lower extremity weakness and urinary retention\n\nClinical trial:\n\n* Title: Is the Severity of Urinary Disorders Related to Falls in People With Multiple Sclerosis\n* Target diseases: Fall, Multiple Sclerosis, Lower Urinary Tract Symptoms\n* Interventions: Clinical tests\n* Summary: Falls are a common problem in people with multiple sclerosis (PwMS) and can lead to severe consequences (trauma, fear of falling, reduction of social activities). Prevention of falls is one of the priority targets of rehabilitation for PwMS and walking difficulties, which can result of different factors (motor impairment, ataxia",
+        "label": 0
+    },
+    "292": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "293": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "294": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 25-year-old woman with a history of prolonged fatigue, hair loss, a change in her voice, weight gain, and cold intolerance. She has a prominent, soft, uniform anterior cervical mass at the midline. The patient's symptoms are consistent with subclinical hypothyroidism, which is a common complication of head and neck surgery. The patient's age, gender, and medical history are within the inclusion criteria of the clinical trial. Therefore, the patient is highly likely to be eligible for the clinical trial.</s>",
+        "label": 0
+    },
+    "295": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "296": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "297": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "298": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "299": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "300": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "301": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "302": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "303": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "304": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "305": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "306": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "307": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "308": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 30-year-old woman who recently gave birth to a healthy child and presents with shortness of breath. She has no significant medical history other than two natural abortions. The patient's chest x-ray and CBC are normal. The clinical trial is investigating the relationship between X-ray computed tomography examination and the blood reactive oxygen species level. The inclusion criteria for the study are participants of health check programs at the hospital who will receive a scheduled X-ray computed tomography examination for either lung or heart. Since the patient is a participant of a health check program and will undergo a scheduled X-ray computed tomography examination, she is highly likely to be eligible for the clinical trial.</s>",
+        "label": 0
+    },
+    "309": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "310": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "311": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "312": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "313": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "314": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "315": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "316": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "317": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "318": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 30-year-old woman who recently gave birth to a healthy child via Cesarean section. She presents with shortness of breath that started 2 hours before admission. She has no significant medical history other than two natural abortions and a recent delivery. On examination, she is apprehensive, tachypneic and tachycardic, with a blood pressure of 110/70 and an oxygen saturation of 92%. Her chest x-ray and CBC are normal.\n\nThe clinical trial is investigating the use of carbetocin at elective Cesarean delivery to prevent postpartum hemorrhage (PPH). The inclusion criteria for this trial are all patients planned for elective cesarean delivery under spinal anesthesia and all patients who gave written informed consent to participate in the study.\n\nGiven the patient's recent delivery and the fact that she is presenting with shortness of breath, it is",
+        "label": 0
+    },
+    "319": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "320": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "321": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 30-year-old woman who recently gave birth to a healthy child via Cesarean section. She presents with shortness of breath that started 2 hours before admission, and her chest x-ray and CBC are normal. The patient is generally healthy, with no history of health problems besides 2 natural abortions. The inclusion criteria for the clinical trial are all patients planned for elective cesarean delivery under spinal anesthesia, and all patients who give written informed consent to participate in the study. Since the patient meets these criteria, she is highly likely to be eligible for the clinical trial.</s>",
+        "label": 0
+    },
+    "322": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "323": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "324": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "325": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "326": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "327": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "328": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "329": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "330": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "331": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "332": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "333": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "334": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "335": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "336": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "337": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "338": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "339": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 30-year-old woman who presented with shortness of breath 2 hours before admission. She has no significant medical history other than two natural abortions and giving birth to a healthy child 3 weeks before. On examination, she is apprehensive, tachypneic and tachycardic, with a blood pressure of 110/70 and an oxygen saturation of 92%. Her chest x-ray and CBC are normal. Based on these findings, the patient appears to be a good candidate for the clinical trial, as she meets the inclusion criteria of being generally healthy and having recently given birth.</s>",
+        "label": 0
+    },
+    "340": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "341": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "342": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "343": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "344": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "345": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "346": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "347": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "348": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "349": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "350": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "351": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "352": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "353": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "354": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "355": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "356": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "357": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "358": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "359": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "360": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "361": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "362": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "363": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "364": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "365": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "366": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "367": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "368": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "369": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "370": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "371": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "372": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "373": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "374": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "375": {
+        "output": "Here is the trial-level eligibility for the patient note:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is an 85-year-old man who has experienced a gradual decrease in his level of consciousness and stopped walking and eating by himself. He has no fever, cough, rash, or diarrhea, and his daughter recalls that he was involved in a car accident 3 weeks prior to his admission. The patient's Expanded Disability Status Scale score is not provided, but it is known that he has been on vitamin K antagonists (VKA) for an unknown duration. The patient has not been diagnosed with lower urinary tract symptoms or multiple sclerosis.\n\nThe clinical trial is investigating the normalization of the International Normalized Ratio (INR) in patients with vitamin K antagonist-associated intracerebral hemorrhage (VKA-ICH). The inclusion criteria for the trial are spontaneous intraparenchymal intracerebral hemorrhage (ICH) or subdural hematoma",
+        "label": 0
+    },
+    "376": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "377": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "378": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "379": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "380": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "381": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "382": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "383": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "384": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "385": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "386": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "387": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "388": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "389": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "390": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "391": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "392": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "393": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "394": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "395": {
+        "output": "Here is the trial-level eligibility for the patient note:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is an 85-year-old man who has experienced a traumatic event and has been brought to the ER within hours of the event. He meets the inclusion criteria for the clinical trial, which require that the patient is between the ages of 18 and 50, has experienced a traumatic event fitting criterion A1 (stressor), A2 (reaction), and at least one out of criterion B in the ASD criteria in the DSM-IV-TR, and has signed an informed consent. Therefore, the patient is highly likely to be eligible for the clinical trial.</s>",
+        "label": 0
+    },
+    "396": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "397": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "398": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "399": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "400": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "401": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "402": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "403": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "404": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.\n\nThe patient is an 85-year-old man with a history of a car accident 3 weeks prior to admission, which resulted in a gradual decrease in his level of consciousness, stopping walking and eating by himself. He has no fever, cough, rash, or diarrhea. The patient's daughter reports that he had a normal head CT at the time of the accident. The patient's current condition does not meet the inclusion criteria of the clinical trial, which requires significant cough symptoms as determined by a score greater than 20/70 on the Hull Airways Reflux Questionnaire. Additionally, the patient must be a current non-smoker, on stable medication for at least one month, able to attend the trials unit on at least 3 occasions, have normal lung function, and be able to give informed consent.</s>",
+        "label": 0
+    },
+    "405": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "406": {
+        "output": "Here is the trial-level eligibility for the patient note:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "407": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "408": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "409": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "410": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "411": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "412": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "413": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "414": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "415": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "416": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "417": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "418": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "419": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "420": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "421": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "422": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "423": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "424": {
+        "output": "Here is the trial-level eligibility for the patient note:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is an 85-year-old man with a history of a car accident 3 weeks prior to admission, and a normal head CT at that time. He has had a gradual decrease in his level of consciousness, stopped walking and eating by himself, and has no fever, cough, rash, or diarrhea. The patient's daughter reports that he has been anticoagulated after a cardioembolic stroke, and the study is looking for patients with a clinical diagnosis of non-valvular AF (verified by ECG) with intention to treat with best practice oral anticoagulants (e.g. warfarin). The patient must be able to have GRE MRI before (or within 1 week) of starting best practice oral anticoagulant. The patient's age, history of a cardioembolic stroke, and the presence of cerebral microbleeds on MRI make him highly likely to be eligible for this clinical trial.</s>",
+        "label": 0
+    },
+    "425": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "426": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "427": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "428": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "429": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "430": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "431": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "432": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "433": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "434": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "435": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "436": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "437": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "438": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "439": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "440": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 2
+    },
+    "441": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "442": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "443": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "444": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "445": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "446": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "447": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 2
+    },
+    "448": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "449": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "450": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient has a diagnosis of hemiparetic cerebral palsy, which is consistent with the inclusion criteria for the clinical trial. The patient is recommended for participation in pediatric rehabilitation and/or early intervention, which is also an inclusion criterion. The patient lives within 50 miles of the Civitan Center at University of Alabama at Birmingham, which is an inclusion criterion. Therefore, the patient is highly likely to be eligible for the clinical trial.</s>",
+        "label": 0
+    },
+    "451": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "452": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "453": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "454": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "455": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "456": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "457": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "458": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "459": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.\n\nThe patient is a 28-year-old female with neck and shoulder pain and left hand and arm paresthesias three weeks after returning from a trip to California where she attended a stray animal recovery campaign. She was prescribed NSAIDS and a topical muscle relaxant. She was brought in to the ER three days later with spastic arm movements, sweating, increasing agitation and anxiety, malaise, difficultly swallowing and marked hydrophobia, and was immediately hospitalized. The patient's symptoms are consistent with rabies, which is a disease that can be prevented through vaccination. The patient is within the age range of 12-18 months old toddlers, which is the target population for the clinical trial. The patient is in good health at the time of entry into the study as determined by medical history, physical examination, and clinical judgment of the investigator. The patient is available for all the visits scheduled in the study. The patient has been granted a written informed",
+        "label": 0
+    },
+    "460": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "461": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "462": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "463": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "464": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 1
+    },
+    "465": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "466": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "467": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "468": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "469": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "470": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "471": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "472": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "473": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "474": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "475": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "476": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "477": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "478": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "479": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "480": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "481": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "482": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "483": {
+        "output": "Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "484": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "485": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "486": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "487": {
+        "output": "Here is the trial-level eligibility for the given patient note and clinical trial:\n\nTrial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "488": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "489": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "490": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "491": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "492": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "493": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "494": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "495": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "496": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 1
+    },
+    "497": {
+        "output": "Trial-level eligibility: 1) Would consider referring this patient to this clinical trial upon further investigation.</s>",
+        "label": 0
+    },
+    "498": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "499": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    },
+    "500": {
+        "output": "Trial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
     }
 }

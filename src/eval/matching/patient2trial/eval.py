@@ -94,7 +94,7 @@ if __name__ == '__main__':
         
         generated_ids = model.generate(model_inputs, max_new_tokens=256, do_sample=False, pad_token_id=tokenizer.eos_token_id)
         decoded = tokenizer.batch_decode(generated_ids)[0]
-
+        
         # split by [/INST]
         if args.model_name.startswith('openchat'):
             decoded = decoded.split('<|end_of_turn|>')[1].strip()
