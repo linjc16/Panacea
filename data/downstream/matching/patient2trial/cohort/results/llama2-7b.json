@@ -1,0 +1,6 @@
+{
+    "0": {
+        "output": "Based on the patient note and the clinical trial, I would assess the patient's eligibility as follows:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.\n\nThe patient does not meet the inclusion criteria for the clinical trial. The patient is not aged 18 or older, does not live in the United States, and does not have access to a computer with email and expect to have this access for at least 3 years. Additionally, the patient has not seen a doctor for back pain at least once in the past year, which is a requirement for participation in the trial. Therefore, the patient is not eligible to participate in the clinical trial.</s>",
+        "label": 0
+    }
+}

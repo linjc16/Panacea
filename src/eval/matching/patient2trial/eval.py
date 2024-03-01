@@ -96,18 +96,21 @@ if __name__ == '__main__':
         decoded = tokenizer.batch_decode(generated_ids)[0]
 
         # split by [/INST]
-        decoded = decoded.split('[/INST]')[-1].strip()
-
+        if args.model_name.startswith('openchat'):
+            decoded = decoded.split('<|end_of_turn|>')[1].strip()
+        else:
+            decoded = decoded.split('[/INST]')[-1].strip()
+        
         output_dict[key] = {
             'output': decoded,
             'label': value['label']
         }
 
         if i % 100 == 0:
-            with open(os.path.join(args.save_dir, 'output.json'), 'w') as f:
+            with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'w') as f:
                 json.dump(output_dict, f, indent=4)
     
         i += 1
     
-    with open(os.path.join(args.save_dir, 'output.json'), 'w') as f:
+    with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'w') as f:
         json.dump(output_dict, f, indent=4)
