@@ -37,3 +37,11 @@ max_input_text_num_words_test = test_data['input_text_num_words'].max()
 max_summary_text_num_words_test = test_data['summary_text_num_words'].max()
 
 print(f"Test data: mean_input_text_num_words: {mean_input_text_num_words_test}, mean_summary_text_num_words: {mean_summary_text_num_words_test}, min_input_text_num_words: {min_input_text_num_words_test}, min_summary_text_num_words: {min_summary_text_num_words_test}, max_input_text_num_words: {max_input_text_num_words_test}, max_summary_text_num_words: {max_summary_text_num_words_test}")
+
+
+# plot the distribution of input_text_num_words and summary_text_num_words for the test data
+import matplotlib.pyplot as plt
+
+plt.hist(test_data['input_text_num_words'], bins=30)
+plt.title('Test data input_text_num_words')
+plt.savefig('data/downstream/summazization/test_input_text_num_words.png')
