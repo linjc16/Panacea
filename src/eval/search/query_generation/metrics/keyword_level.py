@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import pdb
 
 
 def cal_scores(preds, groundtruth):
@@ -11,11 +12,35 @@ def cal_scores(preds, groundtruth):
     for key, item in groundtruth.items():
         try:
             parsed_dict = json.loads(item['parsed_dict'])
-            gt_keywords = set([v.lower() for k, v_list in parsed_dict.items() if isinstance(v_list, list) for v in v_list if v != "N/A"])
-            
-            if key in preds and 'diseases' in preds[key] and 'interventions' in preds[key]:
-                pred_keywords = set([v.lower() for v in preds[key]['diseases'] if v != "N/A"])
-                pred_keywords.update([v.lower() for v in preds[key]['interventions'] if v != "N/A"])
+
+            gt_keywords = set()
+            for k, v in parsed_dict.items():
+                if k not in ['start_year', 'end_year']:
+                    if isinstance(v, list):
+                        gt_keywords.update([v.lower() for v in v if v.lower() != "n/a"])
+                    else:
+                        if v.lower() != "n/a":
+                            gt_keywords.add(v.lower())
+                else:
+                    if v['YEAR'] != 0:
+                        gt_keywords.add(str(int(v['YEAR'])))
+                        gt_keywords.add(str(v['OPERATOR']))
+
+            if key in preds:
+                pred_dict = preds[key]
+                pred_keywords = set()
+
+                for k, v in pred_dict.items():
+                    if k not in ['start_year', 'end_year']:
+                        if isinstance(v, list):
+                            pred_keywords.update([v.lower() for v in v if v.lower() != "n/a"])
+                        else:
+                            if v.lower() != "n/a":
+                                pred_keywords.add(v.lower())
+                    else:
+                        if v['YEAR'] != 0:
+                            pred_keywords.add(str(int(v['YEAR'])))
+                            pred_keywords.add(str(v['OPERATOR']))
                 
                 true_positives = gt_keywords & pred_keywords
                 precision = len(true_positives) / len(pred_keywords) if pred_keywords else 0
