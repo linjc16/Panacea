@@ -11,7 +11,7 @@
     },
     "1115": {
         "search_exp": "AREA[Condition]\"Parkinson's Disease\" AND AREA[InterventionType]\"Drug\" AND AREA[OverallStatus]\"RECRUITING\"",
-        "parsed_dict": "{\"diseases\": [\"Parkinson\"s Disease\"], \"interventions\": [\"Drug\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Parkinson's Disease\"], \"interventions\": [\"Drug\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "I'm looking for clinical trials that are currently recruiting participants and focus on Parkinson's Disease. Specifically, I'm interested in trials that involve drug interventions. Can you help me find this information?"
     },
     "2882": {
@@ -136,7 +136,7 @@
     },
     "3059": {
         "search_exp": "AREA[Condition]\"Parkinson's Disease\" AND AREA[InterventionType]\"Drug\" AND AREA[OverallStatus]\"COMPLETED\"",
-        "parsed_dict": "{\"diseases\": [\"Parkinson\"s Disease\"], \"interventions\": [\"Drug\"], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Parkinson's Disease\"], \"interventions\": [\"Drug\"], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find clinical trials for Parkinson's Disease that involve the use of drugs and have been completed."
     },
     "141": {
@@ -356,7 +356,7 @@
     },
     "2057": {
         "search_exp": "AREA[Condition]\"Parkinson's Disease\" AND AREA[InterventionType]\"Device\" AND AREA[OverallStatus]\"RECRUITING\"",
-        "parsed_dict": "{\"diseases\": [\"Parkinson\"s Disease\"], \"interventions\": [\"Device\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Parkinson's Disease\"], \"interventions\": [\"Device\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "I'm looking for clinical trials that focus on Parkinson's Disease and involve the use of a device. I'm specifically interested in trials that are currently recruiting participants."
     },
     "2781": {
@@ -576,7 +576,7 @@
     },
     "1268": {
         "search_exp": "AREA[Condition]\"Alzheimer's Disease\" AND AREA[InterventionType]\"Dietary Supplement\" AND AREA[OverallStatus]\"COMPLETED\"",
-        "parsed_dict": "{\"diseases\": [\"Alzheimer\"s Disease\"], \"interventions\": [\"Dietary Supplement\"], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Alzheimer's Disease\"], \"interventions\": [\"Dietary Supplement\"], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Show me clinical trials that were conducted on patients with Alzheimer's Disease and involved the use of dietary supplements. I am specifically interested in trials that have been completed."
     },
     "2581": {
@@ -1546,7 +1546,7 @@
     },
     "3080": {
         "search_exp": "AREA[Condition]\"Parkinson's Disease\" AND AREA[InterventionType]\"Biological\" AND AREA[OverallStatus]\"RECRUITING\"",
-        "parsed_dict": "{\"diseases\": [\"Parkinson\"s Disease\"], \"interventions\": [\"Biological\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Parkinson's Disease\"], \"interventions\": [\"Biological\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Show me all clinical trials for Parkinson's Disease that involve Biological interventions and are currently recruiting participants."
     },
     "2934": {
@@ -1636,7 +1636,7 @@
     },
     "1777": {
         "search_exp": "AREA[Condition]\"ulcerative colitis\" OR AREA[Condition]\"Crohn's disease\" OR AREA[Condition]\"irritable bowel syndrome\" AND AREA[StudyType]OBSERVATIONAL AND AREA[OverallStatus]ENROLLING_BY_INVITATION",
-        "parsed_dict": "{\"diseases\": [\"ulcerative colitis\", \"Crohn\"s disease\", \"irritable bowel syndrome\"], \"interventions\": [], \"sponsor\": [], \"status\": [\"ENROLLING_BY_INVITATION\"], \"phase\": [], \"study_type\": [\"OBSERVATIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"ulcerative colitis\", \"Crohn's disease\", \"irritable bowel syndrome\"], \"interventions\": [], \"sponsor\": [], \"status\": [\"ENROLLING_BY_INVITATION\"], \"phase\": [], \"study_type\": [\"OBSERVATIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Show me clinical trials for ulcerative colitis, Crohn's disease, and irritable bowel syndrome that are currently enrolling participants by invitation. These trials should be of observational study type."
     },
     "345": {
@@ -1726,7 +1726,7 @@
     },
     "1171": {
         "search_exp": "AREA[Condition]\"multiple sclerosis\" OR AREA[Condition]\"Parkinson's disease\" OR AREA[Condition]\"Alzheimer's disease\" AND AREA[StudyType]OBSERVATIONAL AND AREA[OverallStatus]COMPLETED AND RANGE[StartDate][01/01/2016, MAX]",
-        "parsed_dict": "{\"diseases\": [\"multiple sclerosis\", \"Parkinson\"s disease\", \"Alzheimer\"s disease\"], \"interventions\": [], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [\"OBSERVATIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 2016, \"OPERATOR\": \"after\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"multiple sclerosis\", \"Parkinson's disease\", \"Alzheimer's disease\"], \"interventions\": [], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [\"OBSERVATIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 2016, \"OPERATOR\": \"after\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find completed observational studies on multiple sclerosis, Parkinson's disease, and Alzheimer's disease that started on or after January 1, 2016."
     },
     "2379": {
@@ -1743,11 +1743,6 @@
         "search_exp": "AREA[Condition]\"Osteoporosis\" AND AREA[InterventionType]\"Procedure\" AND AREA[OverallStatus]\"COMPLETED\"",
         "parsed_dict": "{\"diseases\": [\"Osteoporosis\"], \"interventions\": [\"Procedure\"], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "I am looking for clinical trials that focus on the condition of Osteoporosis. The interventions involved in these trials should be procedures. I am specifically interested in trials that have been completed."
-    },
-    "2302": {
-        "search_exp": "AREA[Condition]\"Asthma\" AND AREA[OverallStatus]\"RECRUITING\" AND AREA[StudyType]\"INTERVENTIONAL\"AREA[Condition]\"Hypertension\" AND AREA[InterventionType]\"Biological\" AND AREA[OverallStatus]\"TERMINATED\" AND AREA[Phase]\"PHASE2\"",
-        "parsed_dict": "{\"diseases\": [\"Asthma\"], \"interventions\": [\"Biological\"], \"sponsor\": [], \"status\": [\"RECRUITING\", \"TERMINATED\"], \"phase\": [\"PHASE2\"], \"study_type\": [\"INTERVENTIONAL\"AREA[Condition]\"Hypertension\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
-        "query": "Show me clinical trials for Asthma that are currently recruiting and are of interventional study type. Also, show me clinical trials for Hypertension that have been terminated and are in phase 2, involving biological interventions."
     },
     "705": {
         "search_exp": "AREA[Condition]\"Hypertension\" AND AREA[InterventionType]\"Biological\" AND AREA[OverallStatus]\"COMPLETED\" AND AREA[StudyType]\"OBSERVATIONAL\"",
@@ -2051,7 +2046,7 @@
     },
     "1718": {
         "search_exp": "AREA[Condition]\"Parkinson's Disease\" AND AREA[InterventionType]\"Biological\" AND AREA[OverallStatus]\"TERMINATED\"",
-        "parsed_dict": "{\"diseases\": [\"Parkinson\"s Disease\"], \"interventions\": [\"Biological\"], \"sponsor\": [], \"status\": [\"TERMINATED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Parkinson's Disease\"], \"interventions\": [\"Biological\"], \"sponsor\": [], \"status\": [\"TERMINATED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "I am looking for clinical trials related to Parkinson's Disease that involve Biological interventions and have been terminated."
     },
     "106": {
@@ -2881,7 +2876,7 @@
     },
     "255": {
         "search_exp": "AREA[Condition]\"Alzheimer's disease\" AND AREA[InterventionType]Behavioral AND AREA[OverallStatus]RECRUITING",
-        "parsed_dict": "{\"diseases\": [\"Alzheimer\"s disease\"], \"interventions\": [\"Behavioral\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Alzheimer's disease\"], \"interventions\": [\"Behavioral\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Show me clinical trials for Alzheimer's disease that involve behavioral interventions and are currently recruiting participants."
     },
     "2863": {
@@ -2926,7 +2921,7 @@
     },
     "232": {
         "search_exp": "AREA[Condition]\"epilepsy\" OR AREA[Condition]\"seizures\" OR AREA[Condition]\"Parkinson's disease\" OR AREA[Condition]\"Alzheimer's disease\" AND AREA[InterventionType]Drug AND RANGE[StartDate][01/01/2017, MAX]",
-        "parsed_dict": "{\"diseases\": [\"epilepsy\", \"seizures\", \"Parkinson\"s disease\", \"Alzheimer\"s disease\"], \"interventions\": [\"Drug\"], \"sponsor\": [], \"status\": [], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 2017, \"OPERATOR\": \"after\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"epilepsy\", \"seizures\", \"Parkinson\"s disease\", \"Alzheimer's disease\"], \"interventions\": [\"Drug\"], \"sponsor\": [], \"status\": [], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 2017, \"OPERATOR\": \"after\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find clinical trials that are studying epilepsy, seizures, Parkinson's disease, or Alzheimer's disease. The trials should involve drug interventions and have a start date on or after January 1, 2017."
     },
     "1932": {
@@ -3076,7 +3071,7 @@
     },
     "2045": {
         "search_exp": "AREA[Condition]\"Parkinson's Disease\" AND AREA[InterventionType]\"Dietary Supplement\" AND AREA[OverallStatus]\"RECRUITING\"",
-        "parsed_dict": "{\"diseases\": [\"Parkinson\"s Disease\"], \"interventions\": [\"Dietary Supplement\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Parkinson's Disease\"], \"interventions\": [\"Dietary Supplement\"], \"sponsor\": [], \"status\": [\"RECRUITING\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "I am looking for clinical trials that focus on Parkinson's Disease and involve the use of Dietary Supplements. I am specifically interested in trials that are currently recruiting participants."
     },
     "2726": {
@@ -3421,7 +3416,7 @@
     },
     "2536": {
         "search_exp": "AREA[Condition]\"Alzheimer's Disease\" AND AREA[InterventionType]\"Behavioral\" AND AREA[OverallStatus]\"COMPLETED\"",
-        "parsed_dict": "{\"diseases\": [\"Alzheimer\"s Disease\"], \"interventions\": [\"Behavioral\"], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Alzheimer's Disease\"], \"interventions\": [\"Behavioral\"], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find all completed clinical trials for Alzheimer's Disease that involve Behavioral interventions."
     },
     "191": {
@@ -3696,7 +3691,7 @@
     },
     "702": {
         "search_exp": "AREA[Condition]\"Parkinson's Disease\" AND AREA[InterventionType]\"Behavioral\" AND AREA[OverallStatus]\"TERMINATED\"",
-        "parsed_dict": "{\"diseases\": [\"Parkinson\"s Disease\"], \"interventions\": [\"Behavioral\"], \"sponsor\": [], \"status\": [\"TERMINATED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Parkinson's Disease\"], \"interventions\": [\"Behavioral\"], \"sponsor\": [], \"status\": [\"TERMINATED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find clinical trials for Parkinson's Disease that involve Behavioral interventions and have been terminated."
     },
     "627": {
@@ -3716,7 +3711,7 @@
     },
     "770": {
         "search_exp": "AREA[Condition]\"ulcerative colitis\" OR AREA[Condition]\"Crohn's disease\" AND AREA[StudyType]OBSERVATIONAL AND RANGE[StartDate][01/01/2020, MAX]",
-        "parsed_dict": "{\"diseases\": [\"ulcerative colitis\", \"Crohn\"s disease\"], \"interventions\": [], \"sponsor\": [], \"status\": [], \"phase\": [], \"study_type\": [\"OBSERVATIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 2020, \"OPERATOR\": \"after\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"ulcerative colitis\", \"Crohn's disease\"], \"interventions\": [], \"sponsor\": [], \"status\": [], \"phase\": [], \"study_type\": [\"OBSERVATIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 2020, \"OPERATOR\": \"after\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find clinical trials that are observing patients with ulcerative colitis or Crohn's disease, starting from January 1, 2020 onwards."
     },
     "2676": {
@@ -3806,7 +3801,7 @@
     },
     "155": {
         "search_exp": "AREA[Condition]\"Parkinson's disease\" AND AREA[StudyType]INTERVENTIONAL AND AREA[OverallStatus]COMPLETED",
-        "parsed_dict": "{\"diseases\": [\"Parkinson\"s disease\"], \"interventions\": [], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [\"INTERVENTIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Parkinson's disease\"], \"interventions\": [], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [\"INTERVENTIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find completed interventional clinical trials for Parkinson's disease."
     },
     "328": {
@@ -4391,7 +4386,7 @@
     },
     "2761": {
         "search_exp": "AREA[Condition]\"ulcerative colitis\" OR AREA[Condition]\"Crohn's disease\" OR AREA[Condition]\"celiac disease\" OR AREA[Condition]\"irritable bowel syndrome\" AND AREA[StudyType]OBSERVATIONAL AND AREA[OverallStatus]COMPLETED",
-        "parsed_dict": "{\"diseases\": [\"ulcerative colitis\", \"Crohn\"s disease\", \"celiac disease\", \"irritable bowel syndrome\"], \"interventions\": [], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [\"OBSERVATIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"ulcerative colitis\", \"Crohn's disease\", \"celiac disease\", \"irritable bowel syndrome\"], \"interventions\": [], \"sponsor\": [], \"status\": [\"COMPLETED\"], \"phase\": [], \"study_type\": [\"OBSERVATIONAL\"], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Show me completed observational studies on ulcerative colitis, Crohn's disease, celiac disease, and irritable bowel syndrome."
     },
     "160": {
@@ -4526,7 +4521,7 @@
     },
     "1764": {
         "search_exp": "AREA[Condition]\"Alzheimer's Disease\" AND AREA[InterventionType]\"Biological\" AND AREA[OverallStatus]\"TERMINATED\"",
-        "parsed_dict": "{\"diseases\": [\"Alzheimer\"s Disease\"], \"interventions\": [\"Biological\"], \"sponsor\": [], \"status\": [\"TERMINATED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"Alzheimer's Disease\"], \"interventions\": [\"Biological\"], \"sponsor\": [], \"status\": [\"TERMINATED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Show me clinical trials for Alzheimer's Disease that involve Biological interventions and have been terminated."
     },
     "2925": {
@@ -4621,7 +4616,7 @@
     },
     "2764": {
         "search_exp": "AREA[Condition]\"ulcerative colitis\" OR AREA[Condition]\"Crohn's disease\" AND AREA[InterventionType]Drug OR AREA[InterventionType]Biological AND AREA[OverallStatus]ENROLLING_BY_INVITATION",
-        "parsed_dict": "{\"diseases\": [\"ulcerative colitis\", \"Crohn\"s disease\"], \"interventions\": [\"Drug\", \"Biological\"], \"sponsor\": [], \"status\": [\"ENROLLING_BY_INVITATION\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
+        "parsed_dict": "{\"diseases\": [\"ulcerative colitis\", \"Crohn's disease\"], \"interventions\": [\"Drug\", \"Biological\"], \"sponsor\": [], \"status\": [\"ENROLLING_BY_INVITATION\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find clinical trials for the treatment of ulcerative colitis or Crohn's disease using drugs or biological interventions that are currently enrolling participants by invitation."
     },
     "2654": {
