@@ -7,7 +7,7 @@ def cal_scores(preds, groundtruth):
     precision_list = []
     recall_list = []
     f_score_list = []
-
+    
     for key, item in groundtruth.items():
         try:
             parsed_dict = json.loads(item['parsed_dict'])
@@ -52,4 +52,4 @@ if __name__ == '__main__':
     
     avg_precision, avg_recall, avg_f_score = cal_scores(preds, groundtruth)
 
-    print(f'Model: {args.model_name}, Precision: {avg_precision}, Recall: {avg_recall}, F1 Score: {avg_f_score}')
+    print(f'Model: {args.model_name}, Precision: {avg_precision:.4f}, Recall: {avg_recall:.4f}, F1 Score: {avg_f_score:.4f}')
