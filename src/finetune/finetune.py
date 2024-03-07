@@ -99,7 +99,6 @@ def main():
         instruction_prompt = "Your task is to create a clear, concise, and accurate summary of the provided clinical trial document. The summary should capture the key aspects of the trial."
         instruction_prompt += "\nThe output should only be the summarization of the given trial. Do not explain how you summarize it."
         instruction_prompt += "\nInput Text: {Text}"
-        instruction_prompt += "\nSummary:"
         data_list = []
         for i in range(len(input_text)):
             source = {"content": instruction_prompt.format(Text=input_text[i]), 'role': 'user'}
@@ -123,7 +122,7 @@ def main():
     # Load tokenizer
     ################
     tokenizer = get_tokenizer(model_args, data_args)
-
+    
     #####################
     # Apply chat template
     #####################
@@ -220,8 +219,6 @@ def main():
     # Save everything else on main process
     kwargs = {
         "finetuned_from": model_args.model_name_or_path,
-        "dataset": list(data_args.dataset_mixer.keys()),
-        "dataset_tags": list(data_args.dataset_mixer.keys()),
         "tags": ["alignment-handbook"],
     }
     if trainer.accelerator.is_main_process:

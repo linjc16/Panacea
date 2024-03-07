@@ -1,9 +1,11 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
+import json
 import pandas as pd
 import os
 import argparse
 from tqdm import tqdm
+from collections import defaultdict
 import pdb
 
 tqdm.pandas()
@@ -26,7 +28,24 @@ def load_model(model_path, cache_dir):
     
 
 def load_dataset(file_dir, split='test'):
-    df = pd.read_csv(os.path.join(file_dir, split + '.csv'))
+    # load data/downstream/summazization/multi-trial/{split}.json
+    with open(os.path.join(file_dir, f'{split}.json'), 'r') as f:
+        data = json.load(f)
+    
+    output_data = defaultdict(list)
+    for key, value in tqdm(data.items()):
+        output_data['id'].append(key)
+        # merge title and abstract list within the same paper (index), then add prefix "Study #x:"
+        study_text = ""
+        for i in range(len(value['title'])):
+            study_text += f"Study #{i+1}: {value['title'][i]}. {value['abstract'][i]}.\n\n"
+        # remove the last \n\n
+        study_text = study_text[:-2]
+        output_data['study_text'].append(study_text)
+        output_data['background'].append(value["background"])
+        output_data['target'].append(value["target"])
+    
+    df = pd.DataFrame(output_data)
     return df
 
 
@@ -36,8 +55,8 @@ if __name__ == '__main__':
     parser.add_argument('--cache_dir', type=str, default='/data/linjc/hub')
     parser.add_argument('--lora_dir', type=str, default='/data/linjc/trialfm')
     parser.add_argument('--model_name', type=str, default='llama2')
-    parser.add_argument('--file_dir', type=str, default='data/downstream/summazization/single-trial')
-    parser.add_argument('--save_dir', type=str, default='data/downstream/summazization/single-trial/results')
+    parser.add_argument('--file_dir', type=str, default='data/downstream/summazization/multi-trial')
+    parser.add_argument('--save_dir', type=str, default='data/downstream/summazization/multi-trial/results')
     parser.add_argument('--split', type=str, default='test')
     args = parser.parse_args()
     
@@ -46,36 +65,37 @@ if __name__ == '__main__':
     model_path = args.model_path
     cache_dir = args.cache_dir
 
-    tokenizer, model = load_model(model_path, cache_dir)
     df = load_dataset(args.file_dir, args.split)
 
-    instruction_prompt = "Your task is to create a clear, concise, and accurate summary of the provided clinical trial document. The summary should capture the key aspects of the trial."
-    instruction_prompt += "\nThe output should only be the summarization of the given trial. Do not explain how you summarize it."
-    instruction_prompt += "\nInput Text: {Text}"
-    instruction_prompt += "\nSummary: "
+    tokenizer, model = load_model(model_path, cache_dir)
+
+    instruction_prompt = "Your task is to synthesize the key findings from a collection of study abstracts related to a specific clinical trial related research question. In some cases, you will also be provided with a review background detailing the research question of the given studies."
+    instruction_prompt += "\nCombine the insights from the provided abstracts into a cohesive summary. Your summary should integrate the findings rather than listing them separately. It's crucial to maintain the scientific integrity of the original studies while ensuring the summary is accessible and informative."
+    instruction_prompt += "\nThe output should only be the summary. Do not explain how you summarize it."
+    instruction_prompt += "\n\nReview Background: {Background}"
+    instruction_prompt += "\n\nStudy Abstracts: {Text}"
+    instruction_prompt += "\n\nSummary:"
     
     
     if not os.path.exists(os.path.join(args.save_dir, f'{args.model_name}.csv')):
         with open(os.path.join(args.save_dir, f'{args.model_name}.csv'), 'w') as f:
             f.write('id,summary\n')
 
-
-    # for each data, add a column of id
-    df['id'] = df.index
-
+    
     batch_size = 1
-    # transform the df into batches, each batch has ids and input_text
-    df = df.groupby(df.index // batch_size).agg({'id': lambda x: list(x), 'input_text': lambda x: list(x)})
+    # transform the df into batches, each batch has ids and study_text
+    df = df.groupby(df.index // batch_size).agg({'id': lambda x: list(x), 'study_text': lambda x: list(x), 'background': lambda x: list(x)}) 
     
     
     for i in tqdm(range(len(df))):
         row = df.iloc[i]
         ids = row['id']
-        input_texts = row['input_text']
+        study_text = row['study_text']
+        background = row['background']
 
         merged_input_text = []
-        for input_text in input_texts:
-            merged_input_text.append(instruction_prompt.format(Text=input_text))
+        for input_text, bg_text in zip(study_text, background):
+            merged_input_text.append(instruction_prompt.format(Text=input_text, Background=bg_text))
 
         # tokenize the input_text
         inputs = tokenizer(merged_input_text, padding=True, return_tensors="pt")
@@ -92,8 +112,7 @@ if __name__ == '__main__':
         for summary in summaries:
             # for the generated text, remove the input_text, find its index, and get the text after it
             try:
-                #summary = summary[summary.find('Summary:') + len('Summary:'):]
-                summary = summary
+                summary = summary[summary.find('Summary:') + len('Summary:'):]
             except:
                 pdb.set_trace()
                 summary = ""
