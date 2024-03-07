@@ -92,7 +92,7 @@ if __name__ == '__main__':
         ids = row['id']
         study_text = row['study_text']
         background = row['background']
-
+        
         merged_input_text = []
         for input_text, bg_text in zip(study_text, background):
             merged_input_text.append(instruction_prompt.format(Text=input_text, Background=bg_text))
