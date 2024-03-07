@@ -204,6 +204,15 @@ class DataArguments:
     truncation_side: Optional[str] = field(
         default=None, metadata={"help": "Truncation side to use for the tokenizer."}
     )
+    training_data_path: Optional[str] = field(
+        default=None,
+        metadata={"help": ("The path to the training data.")},
+    )
+    task_type: Optional[str] = field(
+        default=None,
+        metadata={"help": ("The type of task to train on.")},
+    )
+
 
 
 @dataclass

@@ -52,11 +52,6 @@ def cal_scores(preds, groundtruth):
                 f_score_list.append(f_score)
         except json.JSONDecodeError:
             print('Error in parsing the groundtruth JSON. Skipping the current instance.')
-            # remove the current instance from the groundtruth
-            # del groundtruth[key]
-            # with open('data/downstream/search/query_generation/test_.json', 'w') as f:
-            #     json.dump(groundtruth, f, indent=4)
-            pdb.set_trace()
             continue
 
     # Averaging the Precision, Recall, and F-scores

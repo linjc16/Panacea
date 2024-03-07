@@ -38,13 +38,13 @@ def calculate_rouge_scores(predicted_caption_list, ground_truth_caption_list):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--res_dir', type=str, default='data/downstream/summazization/results')
+    parser.add_argument('--res_dir', type=str, default='data/downstream/summazization/single-trial/results')
     parser.add_argument('--model_name', type=str, default='llama2')
     args = parser.parse_args()
     
     preds = pd.read_csv(os.path.join(args.res_dir, f'{args.model_name}.csv'))
 
-    groundtruth = pd.read_csv("data/downstream/summazization/test.csv")
+    groundtruth = pd.read_csv("data/downstream/summazization/single-trial/test.csv")
     
     preds['summary'] = preds['summary'].apply(lambda x: str(x))
     preds['summary'] = preds['summary'].apply(lambda x: x.strip())

@@ -9,6 +9,8 @@
 temp.py
 temp2.py
 
+data/downstream/summazization/multi-trial/train.json
+
 __pycache__/
 temp/
 raw*/

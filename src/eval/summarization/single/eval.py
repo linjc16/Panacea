@@ -35,8 +35,8 @@ if __name__ == '__main__':
     parser.add_argument('--cache_dir', type=str, default='/data/linjc/hub')
     parser.add_argument('--lora_dir', type=str, default='/data/linjc/trialfm')
     parser.add_argument('--model_name', type=str, default='llama2')
-    parser.add_argument('--file_dir', type=str, default='data/downstream/summazization')
-    parser.add_argument('--save_dir', type=str, default='/data/linjc/trialfm/downstream/summarization/results')
+    parser.add_argument('--file_dir', type=str, default='data/downstream/summazization/single-trial')
+    parser.add_argument('--save_dir', type=str, default='data/downstream/summazization/single-trial/results')
     parser.add_argument('--split', type=str, default='test')
     args = parser.parse_args()
     
