@@ -39,6 +39,7 @@ from alignment import (
     get_checkpoint,
     get_kbit_device_map,
     get_peft_config,
+    apply_chat_template,
     get_quantization_config,
     get_tokenizer,
 )
@@ -98,10 +99,15 @@ def main():
         instruction_prompt = "Your task is to create a clear, concise, and accurate summary of the provided clinical trial document. The summary should capture the key aspects of the trial."
         instruction_prompt += "\nThe output should only be the summarization of the given trial. Do not explain how you summarize it."
         instruction_prompt += "\nInput Text: {Text}"
-        instruction_prompt += "\nSummary: {summary}"
-        data_list = [instruction_prompt.format(Text=input_text[i], summary=summary_text[i]) for i in range(len(input_text))]
+        instruction_prompt += "\nSummary:"
+        data_list = []
+        for i in range(len(input_text)):
+            source = {"content": instruction_prompt.format(Text=input_text[i]), 'role': 'user'}
+            target = {"content": f"{summary_text[i]}", 'role': 'assistant'}
+            data_list.append([source, target])
     
-    data_dict = {'text': data_list}
+    
+    data_dict = {'messages': data_list}
     
     from datasets import Dataset
     raw_datasets = Dataset.from_dict(data_dict, split='train')
@@ -111,10 +117,23 @@ def main():
         f"Training on the following datasets and their proportions: {[split + ' : ' + str(dset.num_rows) for split, dset in raw_datasets.items()]}"
     )
 
+    column_names = list(raw_datasets["train"].features)
+
     ################
     # Load tokenizer
     ################
     tokenizer = get_tokenizer(model_args, data_args)
+
+    #####################
+    # Apply chat template
+    #####################
+    raw_datasets = raw_datasets.map(
+        apply_chat_template,
+        fn_kwargs={"tokenizer": tokenizer, "task": "sft"},
+        num_proc=data_args.preprocessing_num_workers,
+        remove_columns=column_names,
+        desc="Applying chat template",
+    )
 
     train_dataset = raw_datasets["train"]
     eval_dataset = raw_datasets["test"]
