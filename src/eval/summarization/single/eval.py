@@ -42,7 +42,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     os.makedirs(args.save_dir, exist_ok=True)
-
+    
     model_path = args.model_path
     cache_dir = args.cache_dir
 

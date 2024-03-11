@@ -16,21 +16,31 @@ from langchain.schema import HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-from typing import List
 
-def gpt_chat(prompt, query_dict):
+def gpt_chat_35(prompt, query_dict):
     prompt = ChatPromptTemplate.from_template(prompt)
-
+    
     model = AzureChatOpenAI(
         deployment_name="gpt-35", # "gpt-35"
-        model_name='gpt-35-turbo',
+        model_name='gpt-35-turbo'
     )
     chain = prompt | model | StrOutputParser()
     
     return chain.invoke(query_dict)
 
 
+def gpt_chat_4(prompt, query_dict):
+    prompt = ChatPromptTemplate.from_template(prompt)
+    
+    model = AzureChatOpenAI(
+        deployment_name="gpt-4", # "gpt-35"
+        model_name='gpt-4'
+    )
+    chain = prompt | model | StrOutputParser()
+    
+    return chain.invoke(query_dict)
+
 
 if __name__ == "__main__":
-    temp = gpt_chat("Translate this sentence from English to French. {query}", "I love programming.")
+    temp = gpt_chat_35("Translate this sentence from English to French. {query}", {"query": "I love programming."})
     print(temp)

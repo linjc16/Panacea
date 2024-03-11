@@ -13,7 +13,7 @@ tqdm.pandas()
 def load_model(model_path, cache_dir):
     tokenizer = AutoTokenizer.from_pretrained(model_path, cache_dir=cache_dir, padding_side='left')
     tokenizer.pad_token = tokenizer.eos_token
-    # tokenizer.model_max_length = 1000000000000000019884624838656
+    tokenizer.model_max_length = 1000000000000000019884624838656
     
     model = AutoModelForCausalLM.from_pretrained(
         model_path, cache_dir=cache_dir,
@@ -86,7 +86,7 @@ if __name__ == '__main__':
         id = row['id']
         input_text = row['study_text']
         bg_text = row['background']
-        
+
         merged_input_text = instruction_prompt.format(Text=input_text, Background=bg_text)
 
         messages = [

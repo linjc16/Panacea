@@ -43,7 +43,7 @@ from alignment import (
 )
 from trl import SFTTrainer
 
-from src.pretrain.tokenization import load_dataset
+from src.pretrain.utils import load_dataset
 
 
 logger = logging.getLogger(__name__)
