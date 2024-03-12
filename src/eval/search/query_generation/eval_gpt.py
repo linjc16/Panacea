@@ -117,24 +117,15 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     os.makedirs(args.save_dir, exist_ok=True)
-
+    
     
     PROMPT_TEMPLATE = 'Given a query used for searching clinical trials in a database, conduct exact extracttion of related entities from the query and then generate a JSON object that can be used to query the database. If a field is not provided, leave it empty fiiled with "N/A".\n\nQuery: "{query}\nOutput result in the following JSON schema format:\n{schema}\nResult:"'
-    
-
-    
-
-    #     prompt = template.format(
-    #     prompt=self.prompt,
-    #     schema=json.dumps(self.json_schema),
-    #     progress=progress,
-    # )
     
     
     data = load_dataset(args.file_dir, args.split)
 
     outputs = {}
-    
+
     i = 0
     for key, value in tqdm(data.items()):
         query=value['query']
