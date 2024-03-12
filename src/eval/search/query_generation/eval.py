@@ -127,8 +127,8 @@ if __name__ == '__main__':
     parser.add_argument('--cache_dir', type=str, default='/data/linjc/hub')
     parser.add_argument('--lora_dir', type=str, default='/data/linjc/trialfm')
     parser.add_argument('--model_name', type=str, default='llama2')
-    parser.add_argument('--file_dir', type=str, default='data/downstream/summazization')
-    parser.add_argument('--save_dir', type=str, default='/data/linjc/trialfm/downstream/summarization/results')
+    parser.add_argument('--file_dir', type=str, default='data/downstream/search/query_generation')
+    parser.add_argument('--save_dir', type=str, default='data/downstream/search/query_generation/results')
     parser.add_argument('--split', type=str, default='test')
     args = parser.parse_args()
     
@@ -155,7 +155,7 @@ if __name__ == '__main__':
         if i % 100 == 0:
             with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'w') as f:
                 json.dump(outputs, f, indent=4)
-
+        
         i += 1
     
     with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'w') as f:

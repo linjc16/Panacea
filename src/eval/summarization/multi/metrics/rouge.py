@@ -39,7 +39,7 @@ def calculate_rouge_scores(predicted_caption_list, ground_truth_caption_list):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--res_dir', type=str, default='data/downstream/summazization/single-trial/results')
+    parser.add_argument('--res_dir', type=str, default='data/downstream/summazization/multi-trial/results')
     parser.add_argument('--model_name', type=str, default='llama2')
     args = parser.parse_args()
     
@@ -54,7 +54,7 @@ if __name__ == "__main__":
         groundtruth['id'].append(key)
         groundtruth['summary'].append(value['target'])
     groundtruth = pd.DataFrame(groundtruth)
-
+    
     
     preds['summary'] = preds['summary'].apply(lambda x: str(x))
     preds['summary'] = preds['summary'].apply(lambda x: x.strip())

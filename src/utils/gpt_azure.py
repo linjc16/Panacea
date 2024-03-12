@@ -16,6 +16,9 @@ from langchain.schema import HumanMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
+from langchain_core.output_parsers import JsonOutputParser
+
+
 
 def gpt_chat_35(prompt, query_dict):
     prompt = ChatPromptTemplate.from_template(prompt)
@@ -39,6 +42,7 @@ def gpt_chat_4(prompt, query_dict):
     chain = prompt | model | StrOutputParser()
     
     return chain.invoke(query_dict)
+
 
 
 if __name__ == "__main__":

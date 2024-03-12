@@ -38,7 +38,7 @@ def cal_scores(preds, groundtruth):
                             if v.lower() != "n/a":
                                 pred_keywords.add(v.lower())
                     else:
-                        if v['YEAR'] != 0:
+                        if v['YEAR'] != 0 or v['YEAR'].lower() != 'n/a':
                             pred_keywords.add(str(int(v['YEAR'])))
                             pred_keywords.add(str(v['OPERATOR']))
                 
