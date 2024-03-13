@@ -14,5 +14,3537 @@
             "Presbyopia",
             "Visual Acuity"
         ]
+    },
+    "NCT05670028": {
+        "expanded_MeSH_terms": [
+            "Cerebral Ischemia",
+            "Myocardial Ischemia",
+            "Reperfusion Injury",
+            "Thrombosis",
+            "Embolism",
+            "Arteriosclerosis",
+            "Hypoxia",
+            "Stroke",
+            "Blood Vessel Diseases",
+            "Arterial Occlusive Diseases",
+            "Vein Disorders",
+            "Lymphatic Diseases",
+            "Cerebrovascular Disorders",
+            "Meningeal Diseases",
+            "Spinal Cord Diseases",
+            "Encephalitis",
+            "Brain Neoplasms",
+            "Migraine Disorders"
+        ]
+    },
+    "NCT05670041": {
+        "expanded_MeSH_terms": [
+            "Cardiomyopathies",
+            "Endocarditis",
+            "Heart Septal Defects",
+            "Myocardial Ischemia",
+            "Pericardial Diseases",
+            "Rheumatic Heart Disease",
+            "Vascular Diseases",
+            "Coronary Disease",
+            "Heart Defects, Congenital",
+            "Heart Failure",
+            "Hypertension"
+        ]
+    },
+    "NCT05670457": {
+        "expanded_MeSH_terms": [
+            "Gastrointestinal Diseases",
+            "Gastrointestinal Ulcer",
+            "Stomach Diseases",
+            "Gastroenteritis",
+            "Gastritis",
+            "Helicobacter Infections",
+            "Gastrointestinal Hemorrhage",
+            "Zollinger-Ellison Syndrome"
+        ]
+    },
+    "NCT05670535": {
+        "expanded_MeSH_terms": [
+            "Gynecologic Diseases",
+            "Pregnancy Complications",
+            "Rheumatic Diseases",
+            "Collagen Diseases",
+            "Vulvar Diseases",
+            "Urinary Tract Infections",
+            "Kidney Diseases",
+            "Oral Health",
+            "Dental Diseases",
+            "Salivary Gland Diseases"
+        ]
+    },
+    "NCT05670548": {
+        "expanded_MeSH_terms": [
+            "Gynecological Diseases",
+            "Obstetric Labor Complications",
+            "Pregnancy Complications, Cardiovascular",
+            "Pregnancy Complications, Infectious",
+            "Diabetes Mellitus, Type 1",
+            "Diabetes Mellitus, Type 2",
+            "Gestational Diabetes",
+            "Hypoglycemia",
+            "Diabetic Angiopathies",
+            "Diabetic Neuropathies",
+            "Diabetic Nephropathies",
+            "Diabetic Retinopathy",
+            "Urinary Tract Infections",
+            "Genital Diseases, Female",
+            "Genital Diseases, Male",
+            "Thyroid Diseases",
+            "Adrenal Gland Diseases",
+            "Pituitary Diseases"
+        ]
+    },
+    "NCT05670561": {
+        "expanded_MeSH_terms": [
+            "Malignant Tumors",
+            "Hepatic Tumors",
+            "Gastrointestinal Neoplasms",
+            "Hepatocellular Carcinoma",
+            "Cholangiocarcinoma",
+            "Metastatic Neoplasms",
+            "Biliary Tract Diseases",
+            "Hepatitis"
+        ]
+    },
+    "NCT05670574": {
+        "expanded_MeSH_terms": [
+            "Neoplasms by Histologic Type",
+            "Nervous System Neoplasms",
+            "Primitive Neuroectodermal Tumors (PNETs)",
+            "Medulloblastoma",
+            "Disease Attributes",
+            "Pathophysiology",
+            "Inflammation",
+            "Fibrosis",
+            "Carcinoma",
+            "Adenoma",
+            "Adenocarcinoma",
+            "Epithelioma",
+            "Teratoma",
+            "Seminoma",
+            "Dysgerminoma",
+            "Yolk Sac Tumor",
+            "Neoplastic Processes",
+            "Tumor Invasion",
+            "Metastatic Neoplasm",
+            "Carcinoma, Invasive"
+        ]
+    },
+    "NCT05670873": {
+        "expanded_MeSH_terms": [
+            "Cognitive Dysfunction",
+            "Memory Disorders",
+            "Delirium, Dementia, Amnestic, Cognitive Disorders",
+            "Stroke",
+            "Cerebrovascular Disorders",
+            "Cerebral Hemorrhage",
+            "Brain Ischemia",
+            "Encephalitis",
+            "Brain Neoplasms",
+            "Brain Edema",
+            "Meningitis"
+        ]
+    },
+    "NCT05670886": {
+        "expanded_MeSH_terms": [
+            "Pregnancy Complications, Cardiovascular",
+            "Obstetric Labor, Premature",
+            "Fetal Distress",
+            "Birth Injuries",
+            "Vaginal Hemorrhage",
+            "Postpartum Hemorrhage",
+            "Obstetric Hemorrhage",
+            "Uterine Hemorrhage",
+            "Coagulopathy",
+            "Thrombosis",
+            "Embolism",
+            "Puerperal Infection",
+            "Mastitis",
+            "Postpartum Thyroiditis",
+            "Postpartum Depression"
+        ]
+    },
+    "NCT05670912": {
+        "expanded_MeSH_terms": [
+            "Cognitive Dysfunction",
+            "Alzheimer Disease",
+            "Frontotemporal Dementia",
+            "Lewy Body Disease",
+            "Vascular Dementia",
+            "Nervous System Malformations",
+            "Encephalitis",
+            "Meningitis",
+            "Brain Neoplasms",
+            "Cerebral Hemorrhage",
+            "Cerebral Infarction",
+            "Parkinson Disease"
+        ]
+    },
+    "NCT05670925": {
+        "expanded_MeSH_terms": [
+            "Head and Neck Neoplasms",
+            "Thoracic Neoplasms",
+            "Abdominal Neoplasms",
+            "Pelvic Neoplasms",
+            "Bone Neoplasms",
+            "Inflammatory Breast Neoplasms",
+            "Metaplastic Breast Neoplasms",
+            "Breast Neoplasms, Male",
+            "Dermatitis",
+            "Psoriasis",
+            "Skin Neoplasms",
+            "Acne Vulgaris",
+            "Eczema",
+            "Carcinoma",
+            "Sarcoma",
+            "Lymphoma",
+            "Leukemia",
+            "Invasive Ductal Breast Carcinoma",
+            "Invasive Lobular Carcinoma",
+            "Ductal Carcinoma in Situ",
+            "Lobular Carcinoma in Situ"
+        ]
+    },
+    "NCT05670938": {
+        "expanded_MeSH_terms": [
+            "Orchitis",
+            "Testicular Neoplasms",
+            "Testicular Hydrocele",
+            "Varicocele",
+            "Spermatic Cord Torsion",
+            "Brain Neoplasms",
+            "Bone Neoplasms",
+            "Breast Neoplasms",
+            "Urinary Tract Infections",
+            "Erectile Dysfunction",
+            "Kidney Diseases",
+            "Urethral Diseases",
+            "Penile Neoplasms",
+            "Prostatic Neoplasms",
+            "Carcinoma",
+            "Sarcoma",
+            "Lymphoma",
+            "Leukemia",
+            "Teratoma",
+            "Dysgerminoma",
+            "Yolk Sac Tumor",
+            "Choriocarcinoma"
+        ]
+    },
+    "NCT05670990": {
+        "expanded_MeSH_terms": [
+            "Eating Disorders",
+            "Malnutrition",
+            "Body Weight",
+            "Schizophrenia",
+            "Delusional Disorders",
+            "Bipolar Disorder",
+            "Intellectual Disability",
+            "Autism Spectrum Disorder",
+            "Attention Deficit and Disruptive Behavior Disorders",
+            "Bulimia",
+            "Pica (Disorder)",
+            "Binge-Eating Disorder",
+            "Hallucinations",
+            "Schizoaffective Disorder",
+            "Paranoia"
+        ]
+    },
+    "NCT05671211": {
+        "expanded_MeSH_terms": [
+            "Arterial Occlusive Diseases",
+            "Vascular Malformations",
+            "Venous Thrombosis",
+            "Aneurysm",
+            "Encephalitis",
+            "Meningitis",
+            "Brain Ischemia",
+            "Spinal Cord Diseases",
+            "Cerebral Hemorrhage",
+            "Encephalomalacia",
+            "Hydrocephalus",
+            "Brain Neoplasms",
+            "Peripheral Nervous System Diseases",
+            "Neuromuscular Diseases",
+            "Autonomic Nervous System Diseases",
+            "Heart Diseases",
+            "Hypertension",
+            "Vascular Heart Disease",
+            "Cardiomyopathies"
+        ]
+    },
+    "NCT05671250": {
+        "expanded_MeSH_terms": [
+            "Peptic Ulcer",
+            "Stomach Ulcer",
+            "Duodenal Ulcer",
+            "Pressure Ulcer",
+            "Skin Ulcer",
+            "Disease Attributes",
+            "Inflammation",
+            "Necrosis",
+            "Fibrosis",
+            "Pathogenesis",
+            "Neoplasms",
+            "Arteriosclerosis",
+            "Venous Insufficiency",
+            "Thrombosis",
+            "Hypertension",
+            "Aneurysm",
+            "Dermatitis",
+            "Psoriasis",
+            "Skin Neoplasms",
+            "Acne Vulgaris",
+            "Eczema",
+            "Type 1 Diabetes Mellitus",
+            "Type 2 Diabetes Mellitus",
+            "Diabetic Nephropathy",
+            "Diabetic Neuropathies",
+            "Diabetic Retinopathy"
+        ]
+    },
+    "NCT05671276": {
+        "expanded_MeSH_terms": [
+            "Blood Coagulation Disorders",
+            "Thromboembolism",
+            "Venous Thrombosis",
+            "Myocardial Infarction",
+            "Stroke",
+            "Heart Diseases",
+            "Ischemia",
+            "Myocardial Ischemia",
+            "Cerebral Infarction",
+            "Peripheral Arterial Disease",
+            "Cardiomyopathies",
+            "Heart Valve Diseases",
+            "Heart Failure",
+            "Cardiac Arrhythmias",
+            "Heart Aneurysm",
+            "Heart Septal Defects"
+        ]
+    },
+    "NCT05671289": {
+        "expanded_MeSH_terms": [
+            "Bladder Cancer",
+            "Urinary Bladder Cancer",
+            "Urothelial Carcinoma",
+            "Gynecological Diseases",
+            "Vaginal Diseases",
+            "Uterine Diseases",
+            "Ovarian Diseases",
+            "Obstetric Labor Complications",
+            "Pregnancy Complications",
+            "Puerperal Disorders",
+            "Skin Neoplasms",
+            "Bone Neoplasms",
+            "Brain Neoplasms",
+            "Genital Diseases, Male",
+            "Genital Diseases, Female",
+            "Kidney Diseases",
+            "Urethral Diseases"
+        ]
+    },
+    "NCT05671341": {
+        "expanded_MeSH_terms": [
+            "Parkinsonian Disorders",
+            "Neurodegenerative Diseases",
+            "Cerebral Palsy",
+            "Huntington Disease",
+            "Multiple System Atrophy",
+            "Myoclonus",
+            "Neurobehavioral Manifestations",
+            "Neuromuscular Diseases",
+            "Spinal Cord Diseases",
+            "Encephalitis",
+            "Meningitis",
+            "Cerebrovascular Disorders"
+        ]
+    },
+    "NCT05671549": {
+        "expanded_MeSH_terms": [
+            "Arthritis",
+            "Osteoarthritis",
+            "Rheumatic Diseases",
+            "Musculoskeletal Diseases",
+            "Bone Diseases",
+            "Facial Pain",
+            "Oral Health"
+        ]
+    },
+    "NCT05671809": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Colonic Neoplasms",
+            "Rectal Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Biliary Tract Neoplasms",
+            "Digestive System Diseases",
+            "Gastrointestinal Diseases",
+            "Colorectal Neoplasms",
+            "Gastrointestinal Hemorrhage",
+            "Peptic Ulcer",
+            "Inflammatory Bowel Diseases"
+        ]
+    },
+    "NCT05671822": {
+        "expanded_MeSH_terms": [
+            "Oral Cancer",
+            "Laryngeal Neoplasms",
+            "Thyroid Neoplasms",
+            "Colorectal Neoplasms",
+            "Stomach Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Thoracic Neoplasms",
+            "Pelvic Neoplasms",
+            "Bone Neoplasms",
+            "Esophagitis",
+            "Esophageal Neoplasm",
+            "Esophageal Stenosis",
+            "Intestinal Neoplasms",
+            "Biliary Tract Neoplasms",
+            "Gastric Neoplasms"
+        ]
+    },
+    "NCT05671835": {
+        "expanded_MeSH_terms": [
+            "Disease Attributes",
+            "Disease Progression",
+            "Inflammation",
+            "Necrosis",
+            "Neoplastic Processes",
+            "Pregnancy Complications",
+            "Sclerosis",
+            "Bronchial Diseases",
+            "Laryngeal Diseases",
+            "Nose Diseases",
+            "Pleural Diseases",
+            "Respiratory Hypersensitivity",
+            "Respiratory System Abnormalities",
+            "Tracheal Diseases",
+            "Usual Interstitial Pneumonitis",
+            "Pulmonary Eosinophilia",
+            "Pulmonary Emphysema",
+            "Pulmonary Fibrosis",
+            "Pulmonary Veno-Occlusive Disease",
+            "Acute Interstitial Pneumonitis",
+            "Desquamative Interstitial Pneumonia",
+            "Lymphoid Interstitial Pneumonia",
+            "Nonspecific Interstitial Pneumonitis",
+            "Respiratory Bronchiolitis Interstitial Lung Disease"
+        ]
+    },
+    "NCT05671848": {
+        "expanded_MeSH_terms": [
+            "Parkinson's Disease",
+            "Ataxia",
+            "Cerebral Palsy",
+            "Huntington's Disease",
+            "Multiple Sclerosis",
+            "Peripheral Nervous System Diseases",
+            "Myoclonus",
+            "Nervous System Malformations",
+            "Spinal Cord Diseases",
+            "Neuromuscular Diseases"
+        ]
+    },
+    "NCT05671861": {
+        "expanded_MeSH_terms": [
+            "Oral Cancer",
+            "Laryngeal Neoplasms",
+            "Pharyngeal Neoplasms",
+            "Thyroid Neoplasms",
+            "Salivary Gland Neoplasms",
+            "Bone Neoplasms",
+            "Gastrointestinal Neoplasms",
+            "Thoracic Neoplasms",
+            "Urogenital Neoplasms",
+            "Skin Neoplasms",
+            "Muscle Weakness",
+            "Muscle Spasticity",
+            "Myoclonus",
+            "Ataxia",
+            "Muscle Cramp",
+            "Jaw Diseases",
+            "Temporomandibular Joint Disorders",
+            "Muscle Rigidity",
+            "Masticatory Muscles",
+            "Carcinoma",
+            "Sarcoma",
+            "Lymphoma",
+            "Melanoma",
+            "Leukemia"
+        ]
+    },
+    "NCT05671874": {
+        "expanded_MeSH_terms": [
+            "Wounds and Injuries",
+            "Stress Disorders, Post-Traumatic",
+            "Tissue Damage",
+            "Peripheral Nervous System Diseases",
+            "Autonomic Nervous System Diseases",
+            "Neuromuscular Diseases",
+            "Intracranial Hemorrhages",
+            "Subarachnoid Hemorrhage",
+            "Cerebral Hemorrhage",
+            "Brain Injuries",
+            "Skull Fractures",
+            "Traumatic Brain Injury",
+            "Arterial Occlusive Diseases",
+            "Venous Thrombosis",
+            "Aneurysm",
+            "Encephalitis",
+            "Myelitis",
+            "Spinal Cord Diseases"
+        ]
+    },
+    "NCT05672030": {
+        "expanded_MeSH_terms": [
+            "Asthma",
+            "Bronchitis",
+            "Chronic Obstructive Pulmonary Disease",
+            "Rhinitis",
+            "Sinusitis",
+            "Sleep Apnea Syndromes",
+            "Laryngeal Diseases",
+            "Pulmonary Emphysema",
+            "Bronchial Diseases"
+        ]
+    },
+    "NCT05672043": {
+        "expanded_MeSH_terms": [
+            "Brain Neoplasms",
+            "Spinal Cord Neoplasms",
+            "Central Nervous System Neoplasms",
+            "Peripheral Nervous System Neoplasms",
+            "Medulloblastoma",
+            "Neuroblastoma",
+            "Retinoblastoma",
+            "Cancer of the Nervous System",
+            "Astrocytoma",
+            "Oligodendroglioma",
+            "Meningioma"
+        ]
+    },
+    "NCT05672082": {
+        "expanded_MeSH_terms": [
+            "Brain Neoplasms",
+            "Peripheral Nervous System Neoplasms",
+            "Carcinomas",
+            "Adenocarcinomas",
+            "Sarcomas",
+            "Teratoma",
+            "Choriocarcinoma",
+            "Seminoma"
+        ]
+    },
+    "NCT05672095": {
+        "expanded_MeSH_terms": [
+            "Obstetric Labor Complications",
+            "Pregnancy Complications, Infectious",
+            "Puerperal Disorders",
+            "Urinary Tract Infections",
+            "Genital Diseases, Female",
+            "Genital Diseases, Male",
+            "Kidney Diseases",
+            "Adenocarcinoma",
+            "Carcinoma",
+            "Thyroid Neoplasms",
+            "Vulvar Diseases",
+            "Vaginal Diseases",
+            "Uterine Diseases",
+            "Carcinoma, Squamous Cell",
+            "Sarcoma",
+            "Lymphoma"
+        ]
+    },
+    "NCT05672108": {
+        "expanded_MeSH_terms": [
+            "Thoracic Diseases",
+            "Cancer Types",
+            "Respiratory System Neoplasms",
+            "Thoracic Neoplasms",
+            "Pulmonary Disease"
+        ]
+    },
+    "NCT05672160": {
+        "expanded_MeSH_terms": [
+            "Cardiovascular Diseases",
+            "Heart Diseases",
+            "Cardiomyopathies",
+            "Ventricular Dysfunction",
+            "Muscle Weakness",
+            "Nerve Compression Syndromes",
+            "Neurodegenerative Diseases",
+            "Muscle Hypotonia",
+            "Heart Valve Prolapse",
+            "Heart Valve Stenosis"
+        ]
+    },
+    "NCT05672173": {
+        "expanded_MeSH_terms": [
+            "Hematologic Diseases",
+            "Bone Marrow Diseases",
+            "Lymphatic Diseases",
+            "Disease Attributes",
+            "Inflammation",
+            "Necrosis",
+            "Pathogenesis",
+            "Myeloid Leukemia",
+            "Acute Leukemia",
+            "Chronic Leukemia",
+            "Cancer",
+            "Benign Neoplasms",
+            "Malignant Neoplasms",
+            "Tumor Biology",
+            "Immunoproliferative Disorders",
+            "Lymphoma",
+            "Monoclonal Gammopathy"
+        ]
+    },
+    "NCT05672199": {
+        "expanded_MeSH_terms": [
+            "Crohn Disease",
+            "Enteritis",
+            "Colonic Diseases",
+            "Peptic Ulcer",
+            "Stomach Ulcer",
+            "Duodenal Ulcer",
+            "Disease Progression",
+            "Fibrosis",
+            "Inflammation",
+            "Proctitis",
+            "Proctocolitis",
+            "Enterocolitis",
+            "Foodborne Diseases",
+            "Gastritis"
+        ]
+    },
+    "NCT05672212": {
+        "expanded_MeSH_terms": [
+            "Brain Ischemia",
+            "Intracranial Arteriosclerosis",
+            "Intracranial Embolism and Thrombosis",
+            "Intracranial Hemorrhages",
+            "Aneurysm",
+            "Arterial Occlusive Diseases",
+            "Venous Thrombosis",
+            "Vasculitis",
+            "Cerebrovascular Disorders",
+            "Encephalitis",
+            "Meningitis",
+            "Spinal Cord Diseases",
+            "Intracranial Aneurysm",
+            "Cerebral Hemorrhage",
+            "Stroke"
+        ]
+    },
+    "NCT05672238": {
+        "expanded_MeSH_terms": [
+            "Gynecological Diseases",
+            "Obstetric Labor Complications",
+            "Renal Insufficiency, Chronic",
+            "Urinary Tract Infections",
+            "Vaginal Diseases",
+            "Kidney Diseases",
+            "Renal Insufficiency",
+            "Pre-Eclampsia",
+            "Endometriosis",
+            "Menstruation Disturbances",
+            "Pelvic Inflammatory Disease"
+        ]
+    },
+    "NCT05672251": {
+        "expanded_MeSH_terms": [
+            "Hematologic Neoplasms",
+            "Immune System Diseases",
+            "Blood Neoplasms",
+            "Neoplastic Processes",
+            "Lymphatic Diseases",
+            "Lymphoid Tissue Neoplasms"
+        ]
+    },
+    "NCT05672264": {
+        "expanded_MeSH_terms": [
+            "Rheumatoid Arthritis",
+            "Ankylosing Spondylitis",
+            "Gout",
+            "Juvenile Arthritis",
+            "Psoriatic Arthritis",
+            "Reactive Arthritis",
+            "Fibromyalgia",
+            "Muscular Dystrophy",
+            "Spondylitis",
+            "Patellofemoral Pain Syndrome",
+            "Chondromalacia Patellae",
+            "Spinal Osteoarthritis",
+            "Hip Osteoarthritis"
+        ]
+    },
+    "NCT05672277": {
+        "expanded_MeSH_terms": [
+            "Gynecological Diseases",
+            "Menstruation Disturbances",
+            "Pelvic Floor Disorders",
+            "Pelvic Inflammatory Disease",
+            "Pregnancy Complications, Infectious",
+            "Urinary Incontinence",
+            "Urinary Tract Infections",
+            "Cystitis",
+            "Kidney Diseases",
+            "Uterine Diseases",
+            "Vaginal Diseases",
+            "Vulvar Diseases",
+            "Endometriosis",
+            "Urolithiasis",
+            "Prolapse"
+        ]
+    },
+    "NCT05672290": {
+        "expanded_MeSH_terms": [
+            "Gynecological Diseases",
+            "Pelvic Floor Disorders",
+            "Endometriosis",
+            "Pelvic Inflammatory Disease",
+            "Pregnancy Complications, Infectious",
+            "Pregnancy Complications, Hematologic",
+            "Urinary Incontinence",
+            "Interstitial Cystitis",
+            "Kidney Diseases",
+            "Urethral Diseases",
+            "Reproductive Tract Infections"
+        ]
+    },
+    "NCT05672316": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Rectal Neoplasms",
+            "Biliary Tract Neoplasms",
+            "Small Intestine Neoplasms",
+            "Appendiceal Neoplasms",
+            "Colitis",
+            "Colon Polyps",
+            "Colorectal Neoplasms"
+        ]
+    },
+    "NCT05672342": {
+        "expanded_MeSH_terms": [
+            "Mastitis",
+            "Fibrocystic Breast Disease",
+            "Neuropathy",
+            "Guillain-Barre Syndrome",
+            "Liver Neoplasms",
+            "Lung Neoplasms",
+            "Psoriasis",
+            "Eczema",
+            "Acne",
+            "Carcinoma",
+            "Sarcoma",
+            "Leukemia",
+            "Adenocarcinoma"
+        ]
+    },
+    "NCT05672355": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Bronchopneumonia",
+            "Interstitial Lung Diseases",
+            "Bacterial Infections and Mycoses",
+            "Parasitic Diseases",
+            "Sexually Transmitted Diseases",
+            "Zoonoses",
+            "Lymphoma",
+            "Leukemia",
+            "Immunoproliferative Disorders",
+            "Carcinoma",
+            "Sarcoma",
+            "Hematologic Neoplasms",
+            "Arbovirus Infections",
+            "DNA Virus Infections",
+            "RNA Virus Infections",
+            "Hepatitis, Viral"
+        ]
+    },
+    "NCT05672381": {
+        "expanded_MeSH_terms": [
+            "Ischemia",
+            "Crush Syndrome",
+            "Reperfusion Injury",
+            "Disease Attributes",
+            "Disease Progression",
+            "Inflammation",
+            "Arterial Occlusive Diseases",
+            "Venous Insufficiency",
+            "Hypertension",
+            "Osteoarthritis",
+            "Rheumatic Diseases",
+            "Bone Diseases",
+            "Myositis",
+            "Muscular Atrophy",
+            "Myopathies"
+        ]
+    },
+    "NCT05672420": {
+        "expanded_MeSH_terms": [
+            "Bone Marrow Diseases",
+            "Hematologic Diseases",
+            "Neutropenia",
+            "Blood Coagulation Disorders",
+            "Vascular Diseases",
+            "Bleeding",
+            "Disease Attributes",
+            "Disorders of Environmental Origin",
+            "Pathophysiological Phenomena",
+            "Organ Specific Cancers",
+            "Solid Tumors",
+            "Metastatic Neoplastic Processes",
+            "Immune System Diseases",
+            "Lymphatic Diseases",
+            "Phagocyte Disorders"
+        ]
+    },
+    "NCT05672472": {
+        "expanded_MeSH_terms": [
+            "Pulmonary Disease, Chronic Obstructive",
+            "Asthma",
+            "Respiratory Tract Infections",
+            "Respiratory Hypersensitivity",
+            "Sleep Apnea Syndromes",
+            "Genetic Diseases, Inborn",
+            "Metabolic Diseases",
+            "Autoimmune Diseases",
+            "Neoplastic Syndromes, Hereditary",
+            "Disease Progression",
+            "Inflammation",
+            "Necrosis",
+            "Fibrosis",
+            "Neoplasms",
+            "Bacterial Infections and Mycoses",
+            "Virus Diseases",
+            "Parasitic Diseases",
+            "Sexually Transmitted Diseases",
+            "Opportunistic Infections",
+            "Respiratory Distress Syndrome, Adult",
+            "Pulmonary Edema",
+            "Pulmonary Fibrosis",
+            "Pneumonia"
+        ]
+    },
+    "NCT05672485": {
+        "expanded_MeSH_terms": [
+            "Neoplasms by Histologic Type",
+            "Sex Cord-Gonadal Stromal Tumors",
+            "Prostate Cancer",
+            "Abdominal Neoplasms",
+            "Pelvic Neoplasms",
+            "Thoracic Neoplasms",
+            "Urinary Tract Diseases",
+            "Kidney Diseases",
+            "Testicular Neoplasms",
+            "Penile Neoplasms",
+            "Vaginal Diseases",
+            "Vulvar Diseases",
+            "Penile Diseases",
+            "Testicular Diseases"
+        ]
+    },
+    "NCT05672498": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "SARS Virus",
+            "Bronchial Diseases",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Respiratory System Abnormalities",
+            "Respiratory Tract Infections",
+            "Bacterial Infections and Mycoses",
+            "Virus Diseases",
+            "Pleural Diseases",
+            "Bronchitis",
+            "Asthma",
+            "Pulmonary Fibrosis"
+        ]
+    },
+    "NCT05672524": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Colorectal Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Biliary Tract Neoplasms"
+        ]
+    },
+    "NCT05672537": {
+        "expanded_MeSH_terms": [
+            "Disease Attributes",
+            "Pathologic Factors",
+            "Pathogenesis",
+            "Postoperative Complications",
+            "Disease Progression",
+            "Relapse",
+            "Remission, Spontaneous",
+            "Tumor Flare",
+            "Bile Duct Neoplasms",
+            "Liver Neoplasms",
+            "Intrahepatic Bile Ducts Cancer",
+            "Adenocarcinoma",
+            "Carcinoma",
+            "Epithelial Cell Neoplasms",
+            "Glandular Neoplasms",
+            "Benign Neoplasms",
+            "Malignant Neoplasms",
+            "Metastatic Neoplasms",
+            "Cancer Susceptibility"
+        ]
+    },
+    "NCT05672589": {
+        "expanded_MeSH_terms": [
+            "Hepatic Encephalopathy",
+            "Hepatorenal Syndrome",
+            "Hepatitis",
+            "Cholestasis",
+            "Fatty Liver",
+            "Liver Neoplasms",
+            "Hepatomegaly",
+            "Fibrosis",
+            "End Stage Liver Disease",
+            "Portal Hypertension"
+        ]
+    },
+    "NCT05672602": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Coronavirus Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Lung Diseases",
+            "Viral Pneumonia",
+            "Respiratory Tract Diseases",
+            "Acute Disease",
+            "Chronic Disease",
+            "Disease Attributes",
+            "SARS-CoV-2"
+        ]
+    },
+    "NCT05672615": {
+        "expanded_MeSH_terms": [
+            "Urologic Diseases",
+            "Urologic Neoplasms",
+            "Urogenital Neoplasms",
+            "Genital Diseases, Female",
+            "Pregnancy Complications",
+            "Urinary Bladder Diseases",
+            "Reproductive System Diseases",
+            "Neoplasms"
+        ]
+    },
+    "NCT05672706": {
+        "expanded_MeSH_terms": [
+            "Heart Diseases",
+            "Atherosclerosis",
+            "Cardiovascular Diseases",
+            "Ischemic Heart Disease",
+            "Acute Coronary Syndrome",
+            "Peripheral Vascular Diseases",
+            "Cerebrovascular Disorders",
+            "Aneurysm",
+            "Angina Pectoris",
+            "Heart Failure",
+            "Cardiomyopathies",
+            "Arterial Occlusive Diseases",
+            "Hypertension"
+        ]
+    },
+    "NCT05672719": {
+        "expanded_MeSH_terms": [
+            "Arterial Occlusive Diseases",
+            "Cerebrovascular Disorders",
+            "Venous Thrombosis",
+            "Vasculitis",
+            "Aneurysm",
+            "Bronchial Diseases",
+            "Laryngeal Diseases",
+            "Nasal Diseases",
+            "Pharyngeal Diseases",
+            "Pleural Diseases",
+            "Cardiomyopathies",
+            "Heart Failure, Diastolic",
+            "Heart Failure, Systolic",
+            "Pulmonary Edema",
+            "Ventricular Dysfunction",
+            "Asthma",
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Pulmonary Fibrosis",
+            "Pneumonia",
+            "Tuberculosis",
+            "Myocardial Ischemia",
+            "Cardiac Arrhythmias",
+            "Heart Valve Diseases",
+            "Cardiomegaly",
+            "Pericardial Diseases"
+        ]
+    },
+    "NCT05672732": {
+        "expanded_MeSH_terms": [
+            "Cognitive Dysfunction",
+            "Memory Disorders",
+            "Frontotemporal Dementia",
+            "Neurodegenerative Diseases",
+            "Alzheimer Disease",
+            "Nervous System Malformations",
+            "Encephalitis",
+            "Meningitis",
+            "Brain Neoplasms",
+            "Cerebral Hemorrhage",
+            "Cerebrovascular Disorders",
+            "Parkinson Disease",
+            "Multiple System Atrophy",
+            "Huntington Disease"
+        ]
+    },
+    "NCT05672810": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "SARS Virus",
+            "Bronchial Diseases",
+            "Pulmonary Fibrosis",
+            "Respiratory System Abnormalities",
+            "Bronchitis"
+        ]
+    },
+    "NCT05672823": {
+        "expanded_MeSH_terms": [
+            "Valvular Heart Diseases",
+            "Cardiomyopathies",
+            "Heart Defects, Congenital",
+            "Heart Failure",
+            "Myocardial Ischemia",
+            "Cardiac Arrhythmias",
+            "Heart Valve Prolapse",
+            "Endocarditis",
+            "Heart Septal Defects",
+            "Hypertension, Pulmonary",
+            "Coronary Disease",
+            "Peripheral Arterial Disease",
+            "Vascular Diseases"
+        ]
+    },
+    "NCT05672836": {
+        "expanded_MeSH_terms": [
+            "Valvular Heart Diseases",
+            "Aortic Valve Stenosis",
+            "Aortic Valve Insufficiency",
+            "Hypertrophic Cardiomyopathy",
+            "Cardiomyopathies",
+            "Myocardial Ischemia",
+            "Cardiac Arrhythmias",
+            "Peripheral Vascular Diseases",
+            "Cerebrovascular Disorders",
+            "Coronary Artery Disease"
+        ]
+    },
+    "NCT05672875": {
+        "expanded_MeSH_terms": [
+            "Anthrax",
+            "Foodborne Diseases",
+            "Staphylococcal Infections",
+            "Streptococcal Infections",
+            "Listeriosis",
+            "Viral Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Pneumococcal Infections",
+            "Gonococcal Infections",
+            "Salmonella Infections",
+            "Candidiasis",
+            "Aspergillosis",
+            "Cryptococcosis"
+        ]
+    },
+    "NCT05672888": {
+        "expanded_MeSH_terms": [
+            "Bacterial Infections",
+            "Mycoplasma Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Coronaviridae Infections",
+            "RNA Virus Infections",
+            "DNA Virus Infections",
+            "SARS-CoV-2",
+            "Severe Acute Respiratory Syndrome",
+            "Pandemics",
+            "Communicable Diseases",
+            "Cross Infection",
+            "Zoonoses",
+            "Opportunistic Infections",
+            "Bronchial Diseases",
+            "Laryngeal Diseases",
+            "Nose Diseases",
+            "Pleural Diseases",
+            "Pulmonary Fibrosis",
+            "Emphysema",
+            "Asthma",
+            "Chronic Obstructive Pulmonary Disease"
+        ]
+    },
+    "NCT05673031": {
+        "expanded_MeSH_terms": [
+            "Neuroblastoma",
+            "Medulloblastoma",
+            "Ewing Sarcoma",
+            "Primitive Neuroectodermal Tumors",
+            "Teratoma",
+            "Seminoma",
+            "Dysgerminoma",
+            "Yolk Sac Tumor",
+            "Carcinoma",
+            "Sarcoma",
+            "Lymphoma",
+            "Melanoma",
+            "Adenocarcinoma",
+            "Squamous Cell Carcinoma",
+            "Glioma",
+            "Mesothelioma",
+            "Glioblastoma",
+            "Astrocytoma",
+            "Schwannoma",
+            "Meningioma"
+        ]
+    },
+    "NCT05673135": {
+        "expanded_MeSH_terms": [
+            "Gynecologic Diseases",
+            "Obstetric Labor Complications",
+            "Ectopic Pregnancy",
+            "Fetal Diseases",
+            "Arteriosclerosis",
+            "Venous Insufficiency",
+            "Aneurysm",
+            "Prostatic Diseases",
+            "Erectile Dysfunction",
+            "Testicular Diseases",
+            "Eclampsia",
+            "HELLP Syndrome",
+            "Coronary Artery Disease",
+            "Myocardial Infarction",
+            "Arrhythmias, Cardiac"
+        ]
+    },
+    "NCT05673200": {
+        "expanded_MeSH_terms": [
+            "Mammary Neoplasms",
+            "Breast Neoplasms",
+            "Mastopathy",
+            "Fibrocystic Breast Disease",
+            "Skin Neoplasms",
+            "Basal Cell Carcinoma",
+            "Squamous Cell Carcinoma",
+            "Melanoma",
+            "Adenocarcinoma",
+            "Sarcoma",
+            "Lymphatic Metastasis",
+            "Oncogene Proteins",
+            "Tumor Suppressor Genes"
+        ]
+    },
+    "NCT05673291": {
+        "expanded_MeSH_terms": [
+            "Analgesia",
+            "Spinal Curvatures",
+            "Orthopedic Disorders",
+            "Myopathies",
+            "Spondylopathies",
+            "Nociceptive Pain",
+            "Posture Disorders",
+            "Bone Diseases",
+            "Neuromuscular Diseases",
+            "Intervertebral Disc Diseases"
+        ]
+    },
+    "NCT05673330": {
+        "expanded_MeSH_terms": [
+            "Analgesia",
+            "Nervous System Diseases",
+            "Migraine Disorders",
+            "Encephalopathies",
+            "Chronic Pain",
+            "Neurology",
+            "Neuropathology"
+        ]
+    },
+    "NCT05673343": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Colorectal Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Biliary Tract Neoplasms",
+            "Gastrointestinal Stromal Tumors",
+            "Gastrointestinal Diseases",
+            "Colonic Diseases",
+            "Rectal Diseases",
+            "Esophageal Diseases",
+            "Stomach Diseases",
+            "Pancreatic Diseases",
+            "Liver Diseases"
+        ]
+    },
+    "NCT05673421": {
+        "expanded_MeSH_terms": [
+            "Arteriosclerosis",
+            "Venous Thrombosis",
+            "Vascular Malformations",
+            "Multiple Sclerosis",
+            "Encephalitis",
+            "Spinal Cord Diseases",
+            "Brain Ischemia",
+            "Encephalopathy",
+            "Brain Neoplasms",
+            "Peripheral Neuropathies",
+            "Neurodegenerative Diseases",
+            "Nervous System Malformations",
+            "Coronary Disease",
+            "Heart Failure",
+            "Arrhythmias",
+            "Cardiomyopathies"
+        ]
+    },
+    "NCT05673460": {
+        "expanded_MeSH_terms": [
+            "Burkitt Lymphoma",
+            "Mantle Cell Lymphoma",
+            "Diffuse Large B-Cell Lymphoma",
+            "Brain Neoplasms",
+            "Bone Neoplasms",
+            "Breast Neoplasms",
+            "Follicular Lymphoma",
+            "Peripheral T-Cell Lymphoma",
+            "Hodgkin Lymphoma",
+            "Carcinoma",
+            "Sarcoma",
+            "Leukemia"
+        ]
+    },
+    "NCT05673486": {
+        "expanded_MeSH_terms": [
+            "Bone Diseases, Metabolic",
+            "Osteoporosis",
+            "Osteogenesis Imperfecta",
+            "Disease Attributes",
+            "Inflammation",
+            "Fibrosis",
+            "Necrosis",
+            "Neoplasms",
+            "Degeneration",
+            "Osteoporotic Fractures",
+            "Accidental Falls",
+            "Bone Density Conservation Agents",
+            "Trauma, Nervous System",
+            "Soft Tissue Injuries",
+            "Fractures, Bone",
+            "Contusions",
+            "Lacerations",
+            "Sprains and Strains",
+            "Knee Injuries",
+            "Ankle Injuries",
+            "Foot Injuries",
+            "Crush Injuries",
+            "Fractures, Closed",
+            "Fractures, Open"
+        ]
+    },
+    "NCT05673512": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Thoracic Neoplasms",
+            "Bone Neoplasms",
+            "Breast Neoplasms",
+            "Biliary Tract Neoplasms",
+            "Rectal Neoplasms",
+            "Anal Neoplasms",
+            "Ulcerative Colitis",
+            "Crohn Disease",
+            "Diverticulosis, Colonic"
+        ]
+    },
+    "NCT05673577": {
+        "expanded_MeSH_terms": [
+            "Carcinoma",
+            "Laryngeal Neoplasms",
+            "Mouth Neoplasms",
+            "Oropharyngeal Neoplasms",
+            "Pharyngeal Neoplasms",
+            "Thyroid Neoplasms",
+            "Otorhinolaryngologic Neoplasms",
+            "Carcinoma, Squamous Cell"
+        ]
+    },
+    "NCT05673681": {
+        "expanded_MeSH_terms": [
+            "Neuroblastoma",
+            "Ewing Sarcoma",
+            "Primitive Neuroectodermal Tumors (PNET)",
+            "Skin Neoplasms",
+            "Uveal Melanoma",
+            "Carcinoma",
+            "Sarcoma",
+            "Lymphoma",
+            "Leukemia",
+            "Testicular Neoplasms",
+            "Ovarian Neoplasms",
+            "Teratoma",
+            "Dysgerminoma",
+            "Adenocarcinoma",
+            "Squamous Cell Carcinoma",
+            "Glioma"
+        ]
+    },
+    "NCT05673733": {
+        "expanded_MeSH_terms": [
+            "Atherosclerosis",
+            "Cerebrovascular Disorders",
+            "Peripheral Vascular Diseases",
+            "Hypertension",
+            "Stroke",
+            "Heart Diseases",
+            "Myocardial Ischemia",
+            "Arrhythmias, Cardiac",
+            "Heart Failure",
+            "Venous Thrombosis"
+        ]
+    },
+    "NCT05673785": {
+        "expanded_MeSH_terms": [
+            "B-Cell Lymphoma",
+            "Diffuse Large B-Cell Lymphoma",
+            "Follicular Lymphoma",
+            "Mantle-Cell Lymphoma",
+            "Burkitt Lymphoma",
+            "Hodgkin Disease",
+            "Lymphoproliferative Disorders",
+            "Carcinoma",
+            "Sarcoma",
+            "Leukemia",
+            "Myeloma",
+            "Anaplastic Large-Cell Lymphoma",
+            "Angioimmunoblastic T-cell Lymphoma",
+            "Cutaneous T-Cell Lymphoma",
+            "Adenocarcinoma",
+            "Squamous Cell Carcinoma",
+            "Glioma",
+            "Melanoma"
+        ]
+    },
+    "NCT05674682": {
+        "expanded_MeSH_terms": [
+            "Infectious Diseases",
+            "Bacterial Infections and Mycoses",
+            "Virus Diseases",
+            "Parasitic Diseases",
+            "Zoonoses",
+            "Opportunistic Infections",
+            "Antiretroviral Therapy",
+            "HIV Seropositivity",
+            "AIDS-Related Complex",
+            "Prion Diseases",
+            "Subacute Sclerosing Panencephalitis",
+            "AIDS Dementia Complex",
+            "HIV Seroprevalence",
+            "HIV-Associated Lipodystrophy Syndrome",
+            "Respiratory Tract Infections",
+            "Urinary Tract Infections",
+            "Sexually Transmitted Diseases",
+            "Fungal Infections",
+            "Vector-Borne Diseases"
+        ]
+    },
+    "NCT05674695": {
+        "expanded_MeSH_terms": [
+            "Atopic Dermatitis",
+            "Contact Dermatitis",
+            "Psoriasis",
+            "Cutaneous Genetic Syndromes",
+            "Genodermatoses",
+            "Hereditary Skin Diseases",
+            "Congenital Abnormalities",
+            "Inflammatory Skin Diseases",
+            "Autoimmune Diseases of the Skin",
+            "Keratinization Disorders"
+        ]
+    },
+    "NCT05675072": {
+        "expanded_MeSH_terms": [
+            "Bronchial Diseases",
+            "Bronchiolitis",
+            "Coronavirus Infections",
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Respiratory System Abnormalities",
+            "Pleural Diseases",
+            "SARS-CoV-2"
+        ]
+    },
+    "NCT05675150": {
+        "expanded_MeSH_terms": [
+            "Age-Related Maculopathy",
+            "Retinal Degeneration",
+            "Visual Impairment",
+            "Visual Pathways",
+            "Central Nervous System Diseases",
+            "Peripheral Nervous System Diseases",
+            "Neuromuscular Diseases",
+            "Eye Diseases",
+            "Retinopathy",
+            "Optic Nerve Diseases"
+        ]
+    },
+    "NCT05675410": {
+        "expanded_MeSH_terms": [
+            "Hematologic Neoplasms",
+            "Immune System Diseases",
+            "Lymphoid Tissue Neoplasms",
+            "Lymphoma, Non-Hodgkin",
+            "B-Cell Lymphoma",
+            "T-Cell Lymphoma",
+            "Leukemia",
+            "Myeloproliferative Disorders",
+            "Immune System Phenomena",
+            "Neoplastic Processes"
+        ]
+    },
+    "NCT05675423": {
+        "expanded_MeSH_terms": [
+            "Concussion",
+            "Head Injuries, Penetrating",
+            "Spinal Cord Injuries",
+            "Neurotrauma",
+            "Post-Traumatic Epilepsy",
+            "Cerebrovascular Trauma",
+            "Brain Hemorrhage, Traumatic",
+            "Diffuse Axonal Injury",
+            "Chronic Traumatic Encephalopathy"
+        ]
+    },
+    "NCT05675436": {
+        "expanded_MeSH_terms": [
+            "Hereditary Genetic Disorders",
+            "Blood Protein Disorders",
+            "Hemoglobinopathies",
+            "Erythrocyte Disorders",
+            "Genetic Blood Defects",
+            "Inherited Blood Disorders"
+        ]
+    },
+    "NCT05675748": {
+        "expanded_MeSH_terms": [
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Pleural Diseases",
+            "RNA Virus Infections",
+            "DNA Virus Infections",
+            "Virus Diseases",
+            "SARS-CoV-2",
+            "Coronavirus Infections",
+            "Pandemics",
+            "Communicable Diseases",
+            "Bacteremia",
+            "Septicemia",
+            "Bronchial Diseases",
+            "Rhinitis",
+            "Pharyngitis",
+            "Pulmonary Fibrosis",
+            "Emphysema",
+            "Chronic Obstructive Pulmonary Disease"
+        ]
+    },
+    "NCT05675761": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Lung Diseases",
+            "Infectious Diseases",
+            "Mental Disorders",
+            "Behavior and Behavior Mechanisms",
+            "Psychopathology",
+            "Coronaviridae Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Pandemics",
+            "Ethics",
+            "Medical Ethics",
+            "Right to Die",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Diseases"
+        ]
+    },
+    "NCT05675826": {
+        "expanded_MeSH_terms": [
+            "Bacterial Pneumonia",
+            "Aspiration Pneumonia",
+            "Pneumonia, Mycoplasma",
+            "Pneumonia, Lipid",
+            "Viral Bronchitis",
+            "Influenza, Human",
+            "Respiratory Syncytial Virus Infections",
+            "Common Cold",
+            "SARS-CoV-2",
+            "Multi-organ Dysfunction",
+            "Post-Acute Sequelae of COVID-19",
+            "COVID-19 Vaccines",
+            "Bacterial Infections and Mycoses",
+            "Parasitic Diseases",
+            "Fungal Infections",
+            "Opportunistic Infections",
+            "Asthma",
+            "Bronchitis",
+            "Rhinitis",
+            "Tuberculosis, Pulmonary",
+            "Chronic Obstructive Pulmonary Disease",
+            "Pulmonary Emphysema",
+            "Pulmonary Fibrosis",
+            "Lung Neoplasms"
+        ]
+    },
+    "NCT05675943": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Bronchial Diseases",
+            "Pleural Diseases",
+            "Interstitial Lung Diseases",
+            "Respiratory System Abnormalities"
+        ]
+    },
+    "NCT05675995": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Virus Diseases",
+            "SARS-CoV-2",
+            "Acute Disease",
+            "Chronic Disease",
+            "Immunologic Deficiency Syndromes",
+            "Respiratory Distress Syndrome",
+            "Multisystem Inflammatory Syndrome in Children"
+        ]
+    },
+    "NCT05676047": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Viral Pneumonia",
+            "Disease Mechanisms",
+            "Abnormalities, Multiple",
+            "Coronavirus Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Pandemic Diseases",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Sequelae Aspects",
+            "Chronic Disease",
+            "Rehabilitation"
+        ]
+    },
+    "NCT05676073": {
+        "expanded_MeSH_terms": [
+            "Influenza",
+            "Bronchitis",
+            "Respiratory Syncytial Virus Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Bronchial Diseases",
+            "Nasopharyngeal Diseases",
+            "Pleural Diseases",
+            "Pulmonary Fibrosis",
+            "Asthma",
+            "Chronic Obstructive Pulmonary Disease"
+        ]
+    },
+    "NCT05676476": {
+        "expanded_MeSH_terms": [
+            "Gynecologic Diseases",
+            "Obstetric Labor Complications",
+            "Pregnancy Complications, Cardiovascular",
+            "Pregnancy Complications, Hematologic",
+            "Pregnancy Complications, Infectious",
+            "Puerperal Disorders",
+            "Eclampsia",
+            "HELLP Syndrome",
+            "Hypertension, Pregnancy-Induced",
+            "Aneurysm",
+            "Arterial Occlusive Diseases",
+            "Hypertension",
+            "Venous Thrombosis",
+            "Vasculitis",
+            "Bacterial Infections and Mycoses",
+            "Virus Diseases",
+            "Parasitic Diseases",
+            "Sexually Transmitted Diseases",
+            "Urinary Tract Infections",
+            "Genital Diseases, Female",
+            "Genital Diseases, Male",
+            "Kidney Diseases"
+        ]
+    },
+    "NCT05676957": {
+        "expanded_MeSH_terms": [
+            "Hypothermia",
+            "Hyperthermia",
+            "Infarction",
+            "Reperfusion Injury",
+            "Thrombosis",
+            "Arteriosclerosis",
+            "Cerebrovascular Disorders",
+            "Cardiovascular Abnormalities",
+            "Neurodegenerative Diseases",
+            "Brain Ischemia",
+            "Heart Diseases",
+            "Stroke"
+        ]
+    },
+    "NCT05677230": {
+        "expanded_MeSH_terms": [
+            "Esophagitis",
+            "Barrett Esophagus",
+            "Esophageal Neoplasms",
+            "Esophageal Motility Disorders",
+            "Disease Attributes",
+            "Inflammation",
+            "Neoplastic Processes",
+            "Variceal Bleeding",
+            "Ascites",
+            "Splenomegaly",
+            "Hepatitis",
+            "Fatty Liver",
+            "Liver Neoplasms",
+            "Cholestasis",
+            "Alcoholic Cirrhosis",
+            "Biliary Cirrhosis",
+            "Hemochromatosis",
+            "Hepatic Encephalopathy"
+        ]
+    },
+    "NCT05677295": {
+        "expanded_MeSH_terms": [
+            "Enuresis",
+            "Encopresis",
+            "Preeclampsia",
+            "Gestational Diabetes",
+            "Endometriosis",
+            "Polycystic Ovary Syndrome",
+            "Urge Incontinence",
+            "Overflow Incontinence",
+            "Stress, Psychological",
+            "Anxiety Disorders",
+            "Kidney Diseases",
+            "Urethral Diseases"
+        ]
+    },
+    "NCT05677321": {
+        "expanded_MeSH_terms": [
+            "Addiction",
+            "Substance Use Addiction",
+            "Drug Overdose",
+            "Psychoses, Substance-Induced",
+            "Substance Withdrawal Syndrome",
+            "Substance-Induced Psychiatric Disorders",
+            "Alcohol-Related Disorders",
+            "Risk-Taking",
+            "Social Behavior",
+            "Binge Drinking",
+            "Ethanol Effects",
+            "Drug-Related Side Effects and Adverse Reactions",
+            "Toxicity, Drug",
+            "Environmental Illness",
+            "Occupational Diseases",
+            "Anxiety Disorders",
+            "Mood Disorders",
+            "Schizophrenia Spectrum and Other Psychotic Disorders",
+            "Eating Disorders",
+            "Personality Disorders"
+        ]
+    },
+    "NCT05677347": {
+        "expanded_MeSH_terms": [
+            "Inflammation",
+            "Fibrosis",
+            "Neoplasms",
+            "Asthma",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Bronchitis",
+            "Emphysema",
+            "Pneumonia",
+            "Tuberculosis",
+            "Airway Remodeling",
+            "Pulmonary Fibrosis",
+            "Pulmonary Embolism",
+            "Respiratory Hypersensitivity",
+            "Interstitial Lung Diseases",
+            "Pulmonary Hypertension",
+            "Metabolic Diseases",
+            "Cardiovascular Diseases",
+            "Diabetes Mellitus",
+            "Obesity",
+            "Arthritis",
+            "Osteoporosis",
+            "Hypertension",
+            "Disability Evaluation",
+            "Prognosis",
+            "Risk Factors",
+            "Severity of Illness Index"
+        ]
+    },
+    "NCT05677373": {
+        "expanded_MeSH_terms": [
+            "Skin Neoplasms",
+            "Peripheral Nervous System Neoplasms",
+            "Brain Neoplasms",
+            "Spinal Cord Neoplasms",
+            "Cutaneous Melanoma",
+            "Ocular Melanoma",
+            "Head and Neck Neoplasms",
+            "Thoracic Neoplasms",
+            "Abdominal Neoplasms",
+            "Pelvic Neoplasms",
+            "Bone Neoplasms",
+            "Retinoblastoma",
+            "Uveal Neoplasms",
+            "Orbital Neoplasms",
+            "Conjunctival Neoplasms",
+            "Carcinoma",
+            "Sarcoma",
+            "Lymphoma",
+            "Leukemia",
+            "Metastasis",
+            "Testicular Neoplasms",
+            "Ovarian Neoplasms",
+            "Teratoma",
+            "Choriocarcinoma",
+            "Yolk Sac Tumor"
+        ]
+    },
+    "NCT05677399": {
+        "expanded_MeSH_terms": [
+            "Connective Tissue Diseases",
+            "Rheumatic Diseases",
+            "Spondylarthropathies",
+            "Bone Diseases",
+            "Cartilage Diseases",
+            "Chronic Pain",
+            "Autoimmune Diseases of the Musculoskeletal System",
+            "Hip Osteoarthritis",
+            "Hand Osteoarthritis",
+            "Spinal Diseases"
+        ]
+    },
+    "NCT05677750": {
+        "expanded_MeSH_terms": [
+            "Infectious Disease Transmission",
+            "Respiratory System",
+            "Bronchial Diseases",
+            "Pleural Diseases",
+            "SARS-CoV-2",
+            "Viral Pneumonia"
+        ]
+    },
+    "NCT05677776": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Parainfluenza Virus Infections",
+            "Coronavirus Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Betacoronavirus",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Viral Infections",
+            "Lung Diseases",
+            "Thoracic Injuries",
+            "Chest Diseases",
+            "Bronchial Diseases",
+            "Nasal Obstruction",
+            "Pharyngeal Diseases"
+        ]
+    },
+    "NCT05677789": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Influenza, Human",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "COVID-19",
+            "Orthomyxoviridae Infections",
+            "Paramyxoviridae Infections",
+            "Picornaviridae Infections",
+            "Coronaviridae Infections",
+            "Infectious Disease Transmission",
+            "Zoonoses",
+            "Pandemics",
+            "Epidemiology"
+        ]
+    },
+    "NCT05677815": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Lung Diseases, Infectious",
+            "Disease Attributes",
+            "Cellular Processes",
+            "SARS-CoV-2",
+            "Coronavirus Infections",
+            "Pandemics",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Diseases",
+            "Virology",
+            "Surgical Wound Infection",
+            "Thrombosis",
+            "Hemorrhage",
+            "Anesthesia Complications"
+        ]
+    },
+    "NCT05677932": {
+        "expanded_MeSH_terms": [
+            "Viral Infections",
+            "Lung Diseases",
+            "Respiratory Infections",
+            "Asthenia",
+            "Malaise",
+            "Exhaustion",
+            "SARS-CoV-2",
+            "Coronavirus Infections",
+            "Pandemics",
+            "Communicable Diseases",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Bronchial Diseases",
+            "Laryngeal Diseases",
+            "Nasopharyngeal Diseases"
+        ]
+    },
+    "NCT05677984": {
+        "expanded_MeSH_terms": [
+            "Bronchitis",
+            "Respiratory Syncytial Virus Infections",
+            "SARS-CoV-2",
+            "Coronavirus Infections",
+            "Post-Acute Sequelae of COVID-19",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Diseases",
+            "Asthma",
+            "Chronic Obstructive Pulmonary Disease",
+            "Bronchiectasis",
+            "Pulmonary Fibrosis",
+            "Emphysema",
+            "Pleural Diseases"
+        ]
+    },
+    "NCT05678101": {
+        "expanded_MeSH_terms": [
+            "Arthropathy",
+            "Rheumatic Diseases",
+            "Connective Tissue Diseases",
+            "Osteoarthritis",
+            "Hip Dislocation",
+            "Hip Injuries",
+            "Bone Fractures",
+            "Fractures, Closed",
+            "Fractures, Open",
+            "Disease Attributes",
+            "Disease Progression",
+            "Pathogenesis",
+            "Chronic Pain",
+            "Acute Pain",
+            "Neuropathic Pain"
+        ]
+    },
+    "NCT05678491": {
+        "expanded_MeSH_terms": [
+            "Heartburn",
+            "Barrett Esophagus",
+            "Esophagitis, Peptic",
+            "Achalasia",
+            "Esophageal Spasm, Diffuse",
+            "Esophagogastric Junction",
+            "Esophageal Neoplasms",
+            "Esophageal Stenosis",
+            "Esophagitis",
+            "Stomach Diseases",
+            "Intestinal Diseases",
+            "Liver Diseases",
+            "Pancreatic Diseases",
+            "Peptic Ulcer",
+            "Inflammatory Bowel Diseases",
+            "Gastrointestinal Hemorrhage"
+        ]
+    },
+    "NCT05678595": {
+        "expanded_MeSH_terms": [
+            "Soft Tissue Injuries",
+            "Tendon Injuries",
+            "Ligament Injuries",
+            "Musculoskeletal Injuries",
+            "Disease Attributes",
+            "Inflammation",
+            "Fibrosis",
+            "Necrosis",
+            "Neoplastic Processes",
+            "Neuromuscular Diseases",
+            "Nerve Compression Syndromes",
+            "Guillain-Barre Syndrome",
+            "Charcot-Marie-Tooth Disease",
+            "Carpal Tunnel Syndrome",
+            "Ulnar Nerve Compression Syndromes",
+            "Radial Neuropathy",
+            "Sciatic Neuropathy",
+            "Anterior Interosseous Nerve Syndrome"
+        ]
+    },
+    "NCT05678634": {
+        "expanded_MeSH_terms": [
+            "Behavioral Symptoms",
+            "Cognitive Symptoms",
+            "Speech Disorders",
+            "Hearing Disorders",
+            "Psychophysiological Disorders",
+            "Mental Disorders",
+            "Cognitive Dysfunction",
+            "Aphasia",
+            "Dyslexia",
+            "Auditory Perceptual Disorders",
+            "Psychomotor Disorders"
+        ]
+    },
+    "NCT05679414": {
+        "expanded_MeSH_terms": [
+            "Influenza, Human",
+            "Respiratory Syncytial Virus Infections",
+            "Coronavirus Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Bronchitis",
+            "Asthma",
+            "Rhinitis",
+            "Pulmonary Fibrosis",
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Pulmonary Emphysema"
+        ]
+    },
+    "NCT05679440": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Severe Acute Respiratory Syndrome",
+            "Coronavirus Infections",
+            "Severe Acute Respiratory Syndrome Coronavirus 2",
+            "Pandemics",
+            "Betacoronavirus",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Opportunistic Infections",
+            "Bronchial Diseases",
+            "Nose Diseases",
+            "Pleural Diseases",
+            "Tracheal Diseases",
+            "Pulmonary Fibrosis",
+            "Chronic Obstructive Pulmonary Disease",
+            "Asthma",
+            "Pulmonary Embolism"
+        ]
+    },
+    "NCT05679466": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Bronchial Diseases",
+            "Airway Management",
+            "SARS-CoV-2",
+            "Acute Respiratory Distress Syndrome",
+            "Pulmonary Fibrosis",
+            "Bronchopneumonia",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Infectious Disease Transmission, Patient-to-Professional",
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human"
+        ]
+    },
+    "NCT05679479": {
+        "expanded_MeSH_terms": [
+            "Bronchial Diseases",
+            "Bronchitis",
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Respiratory Infections",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Asthma",
+            "Interstitial Lung Diseases",
+            "Pulmonary Fibrosis",
+            "Airway Remodeling"
+        ]
+    },
+    "NCT05679492": {
+        "expanded_MeSH_terms": [
+            "Bronchopneumonia",
+            "Viral Pneumonia",
+            "Pneumonia of Specific Pathogens",
+            "SARS-CoV-2",
+            "Severe Acute Respiratory Syndrome Coronavirus 2",
+            "Pandemics",
+            "Coronavirus Infections",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Opportunistic Infections",
+            "Bronchial Diseases",
+            "Laryngeal Diseases",
+            "Nasopharyngeal Diseases",
+            "Pharyngeal Diseases",
+            "Pleural Diseases",
+            "Pulmonary Fibrosis",
+            "Chronic Obstructive Pulmonary Disease",
+            "Asthma",
+            "Emphysema"
+        ]
+    },
+    "NCT05679505": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Autonomic Nervous System Diseases",
+            "Communicable Diseases",
+            "Sequelae Aspects",
+            "Viremia"
+        ]
+    },
+    "NCT05680220": {
+        "expanded_MeSH_terms": [
+            "Affective Disorders, Psychotic",
+            "Anxiety Disorders",
+            "Bipolar Disorder",
+            "Dysthymic Disorder",
+            "Psychiatric Status Rating Scales",
+            "Serotonin Uptake Inhibitors",
+            "Antidepressive Agents",
+            "Cognitive Therapy",
+            "Electroconvulsive Therapy",
+            "Adjustment Disorders",
+            "Stress Disorders, Post-Traumatic"
+        ]
+    },
+    "NCT05681702": {
+        "expanded_MeSH_terms": [
+            "Myocardial Ischemia",
+            "Angina Pectoris",
+            "Acute Coronary Syndrome",
+            "Coronary Stenosis",
+            "Coronary Restenosis",
+            "Cerebral Hemorrhage",
+            "Gastrointestinal Hemorrhage",
+            "Postpartum Hemorrhage",
+            "Epistaxis",
+            "Hemorrhagic Disorders",
+            "Inflammation",
+            "Necrosis",
+            "Fibrosis",
+            "Metaplasia",
+            "Neoplastic Processes",
+            "Coronary Aneurysm",
+            "Coronary Thrombosis",
+            "Coronary Vasospasm",
+            "Atherosclerosis",
+            "Arteriolosclerosis",
+            "Monckeberg Medial Calcific Sclerosis"
+        ]
+    },
+    "NCT05681715": {
+        "expanded_MeSH_terms": [
+            "Myopathies",
+            "Myositis",
+            "Muscular Dystrophies",
+            "Multiple Sclerosis",
+            "Guillain-Barre Syndrome",
+            "Myasthenia Gravis",
+            "Inflammation",
+            "Degeneration",
+            "Muscle Weakness",
+            "Muscle Cramps",
+            "Muscle Rigidity",
+            "Motor Neuron Disease"
+        ]
+    },
+    "NCT05681819": {
+        "expanded_MeSH_terms": [
+            "Cognitive Dysfunction",
+            "Alzheimer Disease",
+            "Frontotemporal Dementia",
+            "Memory Disorders",
+            "Encephalitis",
+            "Meningitis",
+            "Neurodegenerative Diseases",
+            "Parkinson Disease",
+            "Huntington Disease",
+            "Multiple Sclerosis",
+            "Cerebral Hemorrhage",
+            "Cerebrovascular Disorders",
+            "Neuromuscular Diseases",
+            "Spinal Cord Diseases"
+        ]
+    },
+    "NCT05681845": {
+        "expanded_MeSH_terms": [
+            "Chromosome Disorders",
+            "Metabolic Diseases",
+            "Anemia, Hemolytic",
+            "Von Willebrand Diseases",
+            "Thrombophilia",
+            "Platelet Disorders",
+            "Thrombocytopenia",
+            "Thrombosis",
+            "Anemia, Sickle Cell",
+            "Genetic Diseases, X-Linked",
+            "Genetic Diseases, Y-Linked",
+            "Genetic Diseases, Mitochondrial",
+            "Hemoglobinopathies"
+        ]
+    },
+    "NCT05681858": {
+        "expanded_MeSH_terms": [
+            "Cerebral Ischemia",
+            "Reperfusion Injury",
+            "Angina Pectoris",
+            "Coronary Disease",
+            "Heart Diseases",
+            "Arteriosclerosis",
+            "Thrombosis",
+            "Embolism",
+            "Stroke",
+            "Vascular Malformations",
+            "Peripheral Vascular Diseases",
+            "Aneurysm"
+        ]
+    },
+    "NCT05681871": {
+        "expanded_MeSH_terms": [
+            "Microcytic Anemia",
+            "Hypochromic Anemia",
+            "Sideroblastic Anemia",
+            "Hemochromatosis",
+            "Thalassemia",
+            "Blood Protein Disorders",
+            "Erythrocyte Disorders",
+            "Hemoglobinopathies",
+            "Porphyrias",
+            "Nutritional Anemia",
+            "Vitamin B12 Deficiency",
+            "Folic Acid Deficiency"
+        ]
+    },
+    "NCT05681962": {
+        "expanded_MeSH_terms": [
+            "Disease Attributes",
+            "Pathologic Conditions, Signs and Symptoms",
+            "Pathologic Phenomena",
+            "Hypoxia",
+            "Hypercapnia",
+            "Dyspnea",
+            "Respiratory Failure",
+            "Hypoventilation",
+            "Bronchial Diseases",
+            "Laryngeal Diseases",
+            "Nasal Obstruction",
+            "Pharyngeal Diseases",
+            "Pleural Diseases",
+            "Rhinoscleroma",
+            "Tracheal Diseases",
+            "Pulmonary Fibrosis",
+            "Lung Neoplasms",
+            "Pneumonia",
+            "Pulmonary Emphysema",
+            "Pulmonary Eosinophilia",
+            "Pulmonary Edema",
+            "Tuberculosis, Pulmonary"
+        ]
+    },
+    "NCT05681975": {
+        "expanded_MeSH_terms": [
+            "Allergens",
+            "Food Allergy",
+            "Anaphylaxis",
+            "Celiac Disease",
+            "Eosinophilic Esophagitis",
+            "Autoimmune Pancreatitis",
+            "Mikulicz's Disease",
+            "Plasmacytic Sialadenitis",
+            "Lupus Erythematosus, Systemic",
+            "Rheumatoid Arthritis",
+            "Sjogren's Syndrome",
+            "Multiple Sclerosis",
+            "Type 1 Diabetes Mellitus",
+            "Immunodeficiency",
+            "Hypogammaglobulinemia",
+            "Immunoproliferative Disorders",
+            "Autoimmunity",
+            "Asthma",
+            "Contact Dermatitis",
+            "Drug Hypersensitivity",
+            "Latex Hypersensitivity"
+        ]
+    },
+    "NCT05682131": {
+        "expanded_MeSH_terms": [
+            "Hematologic Diseases",
+            "Hematologic Neoplasms",
+            "Bone Marrow Diseases",
+            "Lymphatic Diseases",
+            "Acute Lymphoblastic Leukemia",
+            "Chronic Lymphocytic Leukemia",
+            "Hematopoietic Stem Cell Disorders"
+        ]
+    },
+    "NCT05682508": {
+        "expanded_MeSH_terms": [
+            "Obstetric Labor Complications",
+            "Pregnancy Complications, Cardiovascular",
+            "Pregnancy Complications, Hematologic",
+            "Pregnancy Complications, Infectious",
+            "Pregnancy Complications, Neoplastic",
+            "Puerperal Disorders",
+            "Genital Diseases, Female",
+            "Urologic Diseases, Female",
+            "Disease Attributes",
+            "Diseases in Twins",
+            "Disease Susceptibility",
+            "Iatrogenic Disease",
+            "Pathologic Processes, Cardiac",
+            "Pathologic Processes, Respiratory",
+            "Genital Diseases, Male",
+            "Genitourinary Neoplasms",
+            "Urologic Diseases",
+            "Urologic Neoplasms",
+            "Kidney Diseases",
+            "Kidney Failure, Chronic",
+            "Renal Insufficiency"
+        ]
+    },
+    "NCT05682560": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Coronavirus Infections",
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Viral Pneumonia",
+            "Encephalitis, Viral",
+            "Hepatitis, Viral, Human",
+            "HIV Infections",
+            "Arbovirus Infections",
+            "Zoonoses",
+            "Pandemics",
+            "Epidemics"
+        ]
+    },
+    "NCT05682573": {
+        "expanded_MeSH_terms": [
+            "Bronchopneumonia",
+            "SARS-CoV-2",
+            "Respiratory Syncytial Virus Infections",
+            "Bronchial Diseases",
+            "Pulmonary Fibrosis",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Pleurisy",
+            "Asthma",
+            "Tuberculosis",
+            "Bronchitis",
+            "Respiratory Tract Infections",
+            "Pulmonary Emphysema",
+            "Interstitial Lung Diseases"
+        ]
+    },
+    "NCT05682586": {
+        "expanded_MeSH_terms": [
+            "Acute Respiratory Distress Syndrome",
+            "Bronchial Diseases",
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "SARS Virus",
+            "Pulmonary Fibrosis",
+            "Respiratory Insufficiency",
+            "Bronchiolitis",
+            "Pleural Diseases",
+            "Tuberculosis, Pulmonary"
+        ]
+    },
+    "NCT05682599": {
+        "expanded_MeSH_terms": [
+            "Influenza",
+            "Respiratory Syncytial Virus Infections",
+            "SARS Virus",
+            "Bronchitis",
+            "Asthma",
+            "Pulmonary Fibrosis",
+            "Tuberculosis",
+            "Respiratory Distress Syndrome",
+            "Chronic Obstructive Pulmonary Disease"
+        ]
+    },
+    "NCT05682612": {
+        "expanded_MeSH_terms": [
+            "COVID-19",
+            "Influenza",
+            "Respiratory Syncytial Virus",
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Asthma",
+            "Pulmonary Fibrosis",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Neonatal Sepsis",
+            "Neonatal Jaundice",
+            "Neonatal Respiratory Distress Syndrome",
+            "Hepatitis",
+            "HIV/AIDS",
+            "Herpesvirus Infections"
+        ]
+    },
+    "NCT05682625": {
+        "expanded_MeSH_terms": [
+            "Viral Pneumonia",
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "SARS-CoV-2",
+            "Coronavirus Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Bronchial Diseases",
+            "Laryngeal Diseases",
+            "Nasal Obstruction",
+            "Pulmonary Fibrosis",
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Asthma"
+        ]
+    },
+    "NCT05682651": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Bronchial Diseases",
+            "Lung Diseases, Infectious",
+            "Coronavirus Infections",
+            "SARS-CoV-2",
+            "Acute Respiratory Distress Syndrome",
+            "Bronchitis",
+            "Upper Respiratory Tract Infections",
+            "Airway Obstruction",
+            "Laryngostenosis"
+        ]
+    },
+    "NCT05682677": {
+        "expanded_MeSH_terms": [
+            "Post-Concussion Syndrome",
+            "Brain Injuries",
+            "Head Injuries, Closed",
+            "Brain Edema",
+            "Spinal Cord Injuries",
+            "Brain Injuries, Traumatic",
+            "Nerve Crush",
+            "Peripheral Nerve Injuries",
+            "Depressive Disorder",
+            "Bipolar Disorder",
+            "Anxiety Disorders",
+            "Mood Disorders",
+            "Skull Fractures",
+            "Intracranial Hemorrhages",
+            "Head Injuries, Penetrating",
+            "Encephalitis",
+            "Myelitis",
+            "Central Nervous System Infections",
+            "Demyelinating Diseases"
+        ]
+    },
+    "NCT05682703": {
+        "expanded_MeSH_terms": [
+            "Communicable Diseases",
+            "Disease Attributes",
+            "Neoplastic Processes",
+            "Pathologic Processes",
+            "Neoplasms by Site",
+            "RNA Virus Infections",
+            "DNA Virus Infections",
+            "Viral Diseases",
+            "Otorhinolaryngologic Diseases",
+            "Pharyngeal Diseases"
+        ]
+    },
+    "NCT05682716": {
+        "expanded_MeSH_terms": [
+            "Gynecologic Diseases",
+            "Obstetric Labor Complications",
+            "Pregnancy Complications, Infectious",
+            "Pregnancy Complications, Cardiovascular",
+            "Prenatal Injuries",
+            "Vaginal Diseases",
+            "Uterine Diseases",
+            "Ovarian Diseases",
+            "Vulvar Diseases",
+            "Renal Tubular Necrosis",
+            "Kidney Failure, Acute",
+            "Genital Diseases, Male",
+            "Genital Diseases, Female",
+            "Urinary Tract Infections",
+            "Urinary Bladder Diseases",
+            "Chronic Kidney Disease",
+            "Kidney Failure, Chronic",
+            "Kidney Diseases"
+        ]
+    },
+    "NCT05682898": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Biliary Tract Neoplasms",
+            "Gastrointestinal Stromal Tumors",
+            "Rectal Diseases",
+            "Anus Neoplasms",
+            "Gastroenteritis"
+        ]
+    },
+    "NCT05683171": {
+        "expanded_MeSH_terms": [
+            "Hodgkin Disease",
+            "Burkitt Lymphoma",
+            "Lymphoma, B-Cell",
+            "Lymphoma, T-Cell",
+            "Lymphoma, Large B-Cell, Diffuse",
+            "Lymphoma, Follicular",
+            "Leukemia, Lymphoid",
+            "Immunoproliferative Disorders",
+            "Plasma Cell Neoplasms",
+            "Neoplasms by Site",
+            "Hematologic Neoplasms"
+        ]
+    },
+    "NCT05683210": {
+        "expanded_MeSH_terms": [
+            "Pregnancy Complications",
+            "Gynecological Diseases",
+            "Reproductive Tract Infections",
+            "Pelvic Floor Disorders",
+            "Perinatal Mortality",
+            "Maternal Health Services",
+            "Prenatal Care",
+            "Postpartum Period",
+            "Labor, Induced",
+            "Cesarean Section",
+            "Fetal Distress",
+            "Birth Injuries",
+            "Incontinence, Urinary"
+        ]
+    },
+    "NCT05683353": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Influenza, Human",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Coronavirus Infections",
+            "Orthomyxoviridae Infections",
+            "Paramyxoviridae Infections",
+            "Picornaviridae Infections"
+        ]
+    },
+    "NCT05683379": {
+        "expanded_MeSH_terms": [
+            "Genetic Predisposition to Disease",
+            "Hereditary Diseases",
+            "Neuromuscular Diseases",
+            "Connective Tissue Diseases",
+            "Myotonic Disorders",
+            "Limb-Girdle Muscular Dystrophies",
+            "Spinal Muscular Atrophies",
+            "Osteopathic Medicine",
+            "Bone Diseases",
+            "Arthrogryposis",
+            "Mitochondrial Myopathies"
+        ]
+    },
+    "NCT05683392": {
+        "expanded_MeSH_terms": [
+            "Insulin Resistance",
+            "Diabetic Ketoacidosis",
+            "Diabetic Nephropathies",
+            "Diabetic Neuropathies",
+            "Diabetic Retinopathy",
+            "Diabetic Cardiomyopathies",
+            "Hyperglycemia",
+            "Hypoglycemia",
+            "Gestational Diabetes"
+        ]
+    },
+    "NCT05683522": {
+        "expanded_MeSH_terms": [
+            "Osteoarthritis",
+            "Rheumatoid Arthritis",
+            "Spondylarthropathies",
+            "Bone Diseases",
+            "Chronic Pain",
+            "Neuropathic Pain",
+            "Myalgia",
+            "Connective Tissue Diseases",
+            "Muscular Diseases",
+            "Bone Neoplasms",
+            "Cerebral Palsy",
+            "Migraine Disorders"
+        ]
+    },
+    "NCT05683548": {
+        "expanded_MeSH_terms": [
+            "Bacterial Infections",
+            "Viral Infections",
+            "Parasitic Diseases",
+            "Fungal Diseases",
+            "Sexually Transmitted Diseases",
+            "Zoonoses",
+            "Hypertensive Heart Disease",
+            "Pulmonary Hypertension",
+            "Renal Hypertension",
+            "Portal Vein",
+            "Hepatic Portal Vein",
+            "Osteomyelitis",
+            "Pneumonia",
+            "Urinary Tract Infections",
+            "Hepatitis B, Chronic",
+            "Hepatitis B Antigens",
+            "Arbovirus Infections",
+            "Herpesviridae Infections",
+            "Picornaviridae Infections",
+            "RNA Virus Infections"
+        ]
+    },
+    "NCT05683561": {
+        "expanded_MeSH_terms": [
+            "Bronchopneumonia",
+            "Interstitial Pneumonia",
+            "SARS-CoV-2",
+            "Severe Acute Respiratory Syndrome",
+            "Pandemics",
+            "Bacterial Infections",
+            "Fungal Infections",
+            "Parasitic Infections",
+            "Bronchial Diseases",
+            "Pleural Diseases",
+            "Rhinitis",
+            "Pulmonary Fibrosis",
+            "Emphysema",
+            "Asthma"
+        ]
+    },
+    "NCT05683626": {
+        "expanded_MeSH_terms": [
+            "Chromosome Disorders",
+            "Cardiovascular Diseases",
+            "Dermatitis",
+            "Eye Infections",
+            "Immune System Diseases"
+        ]
+    },
+    "NCT05683665": {
+        "expanded_MeSH_terms": [
+            "Parkinson Disease",
+            "Multiple System Atrophy",
+            "Neurodegenerative Diseases",
+            "Huntington Disease",
+            "Parkinsonian Disorders",
+            "Cerebral Palsy",
+            "Ataxia",
+            "Spinal Cord Diseases",
+            "Encephalitis",
+            "Meningitis",
+            "Stroke",
+            "Brain Neoplasms",
+            "Brain Injury",
+            "Cerebrovascular Disorders"
+        ]
+    },
+    "NCT05683678": {
+        "expanded_MeSH_terms": [
+            "Chromosomal Disorders",
+            "Hereditary Cancer Syndromes",
+            "Neuromuscular Diseases",
+            "Schwannomatosis",
+            "Neurofibromatosis 2",
+            "Genetic Predisposition to Disease",
+            "Hereditary Neoplastic Disorders",
+            "Mononeuropathies",
+            "Polyneuropathies",
+            "Autonomic Nervous System Diseases",
+            "Optic Nerve Glioma",
+            "Malignant Peripheral Nerve Sheath Tumors"
+        ]
+    },
+    "NCT05683691": {
+        "expanded_MeSH_terms": [
+            "Prostate Cancer",
+            "Prostate Adenocarcinoma",
+            "Prostate Carcinoma",
+            "Urologic Neoplasms",
+            "Bladder Neoplasms",
+            "Kidney Neoplasms",
+            "Testicular Neoplasms",
+            "Urinary Tract Infections",
+            "Erectile Dysfunction",
+            "Infertility, Male",
+            "Penile Diseases",
+            "Testicular Diseases"
+        ]
+    },
+    "NCT05683704": {
+        "expanded_MeSH_terms": [
+            "Disease Progression",
+            "Inflammation",
+            "Fibrosis",
+            "Necrosis",
+            "Metaplasia",
+            "Hyperplasia",
+            "Non-Hodgkin Lymphoma",
+            "B-Cell Lymphoma",
+            "T-Cell Lymphoma",
+            "Burkitt Lymphoma",
+            "Lymphoma, Large B-Cell, Diffuse",
+            "Follicular Lymphoma",
+            "Hodgkin Disease, Nodular Lymphocyte Predominant",
+            "Hodgkin Disease, Classical",
+            "Lymphocyte Depletion Hodgkin Disease",
+            "Mixed Cellularity Hodgkin Disease",
+            "Lymphocyte-Rich Classical Hodgkin Lymphoma",
+            "Nodular Sclerosis Hodgkin Disease",
+            "Carcinoma",
+            "Sarcoma",
+            "Leukemia",
+            "Adenoma",
+            "Melanoma",
+            "Glioma",
+            "Post-Transplant Lymphoproliferative Disorder",
+            "Immunoproliferative Disorders",
+            "Plasma Cell Neoplasms",
+            "Heavy Chain Disease",
+            "Angioimmunoblastic T-Cell Lymphoma",
+            "Monoclonal B-Lymphocytosis"
+        ]
+    },
+    "NCT05683769": {
+        "expanded_MeSH_terms": [
+            "Osteoarthritis",
+            "Psoriatic Arthritis",
+            "Reactive Arthritis",
+            "Enteropathic Arthritis",
+            "Juvenile Arthritis",
+            "Gout",
+            "Dermatitis",
+            "Psoriasis",
+            "Eczema",
+            "Skin Neoplasms",
+            "Acne",
+            "Bone Diseases",
+            "Cartilage Diseases",
+            "Muscular Diseases",
+            "Osteoporosis",
+            "Osteomalacia"
+        ]
+    },
+    "NCT05683795": {
+        "expanded_MeSH_terms": [
+            "Inflammation",
+            "Fibrosis",
+            "Metaplasia",
+            "Necrosis",
+            "Neoplastic Processes",
+            "Wound Healing",
+            "Thrombosis",
+            "Embolism",
+            "Head and Neck Neoplasms",
+            "Thoracic Neoplasms",
+            "Abdominal Neoplasms",
+            "Urogenital Neoplasms",
+            "Breast Neoplasms",
+            "Brain Neoplasms",
+            "Surgical Wound Infection",
+            "Anastomotic Leak",
+            "Postoperative Hemorrhage",
+            "Thromboembolism",
+            "Postoperative Nausea and Vomiting",
+            "Atelectasis",
+            "Carcinoma",
+            "Sarcoma",
+            "Lymphoma",
+            "Leukemia",
+            "Melanoma",
+            "Adenoma",
+            "Glioma",
+            "Chronic Disease",
+            "Acute Disease",
+            "Infectious Diseases",
+            "Genetic Diseases",
+            "Metabolic Diseases",
+            "Autoimmune Diseases",
+            "Vascular Diseases"
+        ]
+    },
+    "NCT05683808": {
+        "expanded_MeSH_terms": [
+            "Deep Vein Thrombosis",
+            "Pulmonary Embolism",
+            "Peripheral Vascular Diseases",
+            "Neoplasms by Site",
+            "Neoplasms by Histologic Type",
+            "Brain Neoplasms",
+            "Astrocytoma",
+            "Cerebral Infarction",
+            "Arterial Occlusive Diseases"
+        ]
+    },
+    "NCT05683834": {
+        "expanded_MeSH_terms": [
+            "Infectious Diseases",
+            "Disease Attributes",
+            "Immune System Diseases",
+            "Neoplasms by Site",
+            "Virus Diseases",
+            "Bacterial Infections and Mycoses",
+            "Parasitic Diseases",
+            "Immune System Phenomena",
+            "Hematologic Diseases",
+            "Lymphoproliferative Disorders",
+            "Oncogenic Viruses",
+            "Viremia"
+        ]
+    },
+    "NCT05683860": {
+        "expanded_MeSH_terms": [
+            "Cognitive Dysfunction",
+            "Language Disorders",
+            "Dyslexia, Acquired",
+            "Neurobehavioral Manifestations",
+            "Frontotemporal Dementia",
+            "Brain Diseases",
+            "Nervous System Diseases"
+        ]
+    },
+    "NCT05683873": {
+        "expanded_MeSH_terms": [
+            "Arterial Occlusive Diseases",
+            "Venous Thrombosis",
+            "Cerebrovascular Disorders",
+            "Heart Diseases",
+            "Peripheral Vascular Diseases",
+            "Stroke",
+            "Aneurysm",
+            "Hypertension",
+            "Myocardial Ischemia",
+            "Neurodegenerative Diseases",
+            "Encephalitis",
+            "Meningitis",
+            "Epilepsy",
+            "Multiple Sclerosis",
+            "Neurovascular Manifestations",
+            "Neurotoxicity Syndromes",
+            "Cerebellar Diseases",
+            "Spinal Cord Diseases"
+        ]
+    },
+    "NCT05683886": {
+        "expanded_MeSH_terms": [
+            "Cancer Types Specific to Organs",
+            "Malignant Tumors",
+            "Benign Tumors",
+            "Carcinogenesis",
+            "Oncogenes",
+            "Tumor Suppressor Genes",
+            "Lymphoma",
+            "Carcinoma",
+            "Sarcoma",
+            "Leukemia"
+        ]
+    },
+    "NCT05684042": {
+        "expanded_MeSH_terms": [
+            "Bone Fractures",
+            "Fractures, Closed",
+            "Fractures, Open",
+            "Orthopedic Procedures",
+            "Upper Extremity Injuries",
+            "Soft Tissue Injuries",
+            "Dislocations",
+            "Sprains and Strains",
+            "Musculoskeletal Injuries"
+        ]
+    },
+    "NCT05684068": {
+        "expanded_MeSH_terms": [
+            "Dental Plaque",
+            "Periodontitis",
+            "Oral Ulcer",
+            "Tooth Diseases",
+            "Dental Caries",
+            "Xerostomia",
+            "Oral Cancer",
+            "Temporomandibular Joint Disorders",
+            "Salivary Gland Diseases",
+            "Lip Diseases",
+            "Tongue Diseases",
+            "Palatal Diseases"
+        ]
+    },
+    "NCT05684094": {
+        "expanded_MeSH_terms": [
+            "Addiction",
+            "Alcohol-Related Disorders",
+            "Behavioral Symptoms",
+            "Drug Overdose",
+            "Psychopathology",
+            "Substance Abuse Detection",
+            "Withdrawal Symptoms",
+            "Psychoactive Drugs",
+            "Toxicity, Drug-Induced",
+            "Psychiatric Illness",
+            "Alcoholism",
+            "Drug Toxicity"
+        ]
+    },
+    "NCT05684133": {
+        "expanded_MeSH_terms": [
+            "Preeclampsia",
+            "Disease Attributes",
+            "Disease Models, Animal",
+            "Bacterial Infections and Mycoses",
+            "Virus Diseases",
+            "Parasitic Diseases",
+            "Inflammatory Response",
+            "Multiple Organ Failure",
+            "Bacteremia",
+            "Shock, Septic"
+        ]
+    },
+    "NCT05684159": {
+        "expanded_MeSH_terms": [
+            "Gynecologic Diseases",
+            "Obstetric Labor Complications",
+            "Hematologic Diseases",
+            "Puerperal Disorders",
+            "Vascular Diseases",
+            "Hemorrhagic Disorders",
+            "Urologic Diseases",
+            "Reproductive Tract Infections",
+            "Menstruation Disturbances",
+            "Pregnancy Complications, Hematologic"
+        ]
+    },
+    "NCT05684172": {
+        "expanded_MeSH_terms": [
+            "Atherosclerosis",
+            "Venous Thrombosis",
+            "Arterial Occlusive Diseases",
+            "Multiple Sclerosis",
+            "Encephalitis",
+            "Brain Neoplasms",
+            "Cerebrovascular Disorders",
+            "Epilepsy",
+            "Peripheral Nerve Diseases",
+            "Neuromuscular Diseases",
+            "Autonomic Nervous System Diseases",
+            "Heart Diseases",
+            "Myocardial Ischemia",
+            "Hypertension"
+        ]
+    },
+    "NCT05684211": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Gastrointestinal Diseases",
+            "Gastrointestinal Hemorrhage",
+            "Hepatobiliary Diseases",
+            "Rectal Diseases",
+            "Abdominal Neoplasms",
+            "Adenocarcinoma",
+            "Carcinoma",
+            "Polyps"
+        ]
+    },
+    "NCT05684276": {
+        "expanded_MeSH_terms": [
+            "Breast Neoplasms",
+            "Prostatic Neoplasms",
+            "Liver Neoplasms",
+            "Asthma",
+            "Chronic Obstructive Pulmonary Disease",
+            "Pneumonia",
+            "Carcinoma",
+            "Sarcoma",
+            "Leukemia",
+            "Lymphoma",
+            "Laryngeal Neoplasms",
+            "Nasopharyngeal Neoplasms",
+            "Bronchial Neoplasms",
+            "Pulmonary Fibrosis",
+            "Emphysema",
+            "Pulmonary Embolism"
+        ]
+    },
+    "NCT05684315": {
+        "expanded_MeSH_terms": [
+            "Analgesia",
+            "Arthralgia",
+            "Chronic Pain",
+            "Back Pain",
+            "Neuropathic Pain",
+            "Joint Diseases",
+            "Bone Diseases",
+            "Connective Tissue Diseases",
+            "Myositis",
+            "Muscular Atrophy",
+            "Fibromyalgia",
+            "Tendinopathy",
+            "Rheumatic Diseases",
+            "Spinal Diseases",
+            "Neuromuscular Diseases",
+            "Peripheral Nervous System Diseases",
+            "Cerebrovascular Disorders",
+            "Seizures",
+            "Migraine Disorders"
+        ]
+    },
+    "NCT05684432": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Colorectal Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Biliary Tract Neoplasms",
+            "Gastrointestinal Stromal Tumors",
+            "Adenocarcinoma",
+            "Carcinoma",
+            "Gastrointestinal Diseases"
+        ]
+    },
+    "NCT05684445": {
+        "expanded_MeSH_terms": [
+            "Sensory System Diseases",
+            "Vision Disorders",
+            "Auditory Diseases",
+            "Central Nervous System Diseases",
+            "Cognitive Symptoms",
+            "Neuropsychological Tests",
+            "Psychomotor Disorders",
+            "Disease Attributes",
+            "Disease Progression",
+            "Chronic Disease",
+            "Acute Disease",
+            "Pain Management",
+            "Analgesia",
+            "Chronic Pain",
+            "Acute Pain",
+            "Surgical Wound Infection",
+            "Postoperative Hemorrhage",
+            "Postoperative Nausea and Vomiting",
+            "Postoperative Pain"
+        ]
+    },
+    "NCT05684536": {
+        "expanded_MeSH_terms": [
+            "Wounds and Injuries",
+            "Brain Injuries",
+            "Spinal Cord Injuries",
+            "Cerebral Hemorrhage",
+            "Subarachnoid Hemorrhage",
+            "Disease Attributes",
+            "Inflammation",
+            "Necrosis",
+            "Vocal Cord Paralysis",
+            "Laryngitis",
+            "Laryngeal Neoplasms"
+        ]
+    },
+    "NCT05684549": {
+        "expanded_MeSH_terms": [
+            "Infectious Diseases",
+            "Bacterial Infections and Mycoses",
+            "Virus Diseases",
+            "Parasitic Diseases",
+            "Disease Attributes",
+            "Neoplastic Processes",
+            "Neoplasms by Histologic Type",
+            "Lung Diseases",
+            "Bronchial Diseases"
+        ]
+    },
+    "NCT05684575": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Bronchial Diseases",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Respiratory Tract Infections",
+            "Bronchiolitis",
+            "Asthma",
+            "Pleural Diseases"
+        ]
+    },
+    "NCT05684692": {
+        "expanded_MeSH_terms": [
+            "Peripheral Nervous System Neoplasms",
+            "Schwann Cells",
+            "Cancer Types",
+            "Genetic Diseases, Inborn",
+            "Neurodegenerative Diseases",
+            "Endocrine Gland Neoplasms",
+            "Multiple Endocrine Neoplasia"
+        ]
+    },
+    "NCT05684731": {
+        "expanded_MeSH_terms": [
+            "Obstetric Labor Complications",
+            "Pregnancy Complications, Cardiovascular",
+            "Pregnancy Complications, Hematologic",
+            "Pregnancy Complications, Infectious",
+            "Urinary Tract Infections",
+            "Kidney Diseases",
+            "Urologic Diseases",
+            "Genital Diseases, Female",
+            "Genital Diseases, Male",
+            "Adenocarcinoma",
+            "Carcinoma",
+            "Thyroid Neoplasms",
+            "Breast Neoplasms",
+            "Endometriosis",
+            "Vaginal Diseases",
+            "Vulvar Diseases",
+            "Uterine Diseases",
+            "Carcinoma, Squamous Cell",
+            "Lymphoma",
+            "Leukemia",
+            "Sarcoma"
+        ]
+    },
+    "NCT05684835": {
+        "expanded_MeSH_terms": [
+            "Nervous System Neoplasms",
+            "Skin Neoplasms",
+            "Nerve Sheath Neoplasms",
+            "Schwannoma",
+            "Cancer of Nervous System",
+            "Tumors by Histologic Type",
+            "Nervous System Malformations",
+            "Neurofibromatosis",
+            "Neuroblastoma",
+            "Teratoma",
+            "Testicular Neoplasms",
+            "Ovarian Neoplasms"
+        ]
+    },
+    "NCT05684887": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "SARS Virus",
+            "MERS Virus",
+            "Bronchial Diseases",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Asthma",
+            "Respiratory Tract Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Bronchiolitis",
+            "Tuberculosis, Pulmonary",
+            "Pulmonary Fibrosis"
+        ]
+    },
+    "NCT05684926": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Pneumonia",
+            "Communicable Diseases",
+            "Bronchial Diseases",
+            "Respiratory Hypersensitivity",
+            "Chronic Obstructive Pulmonary Disease",
+            "Viremia",
+            "Viral Skin Diseases",
+            "Sexually Transmitted Diseases, Viral",
+            "Retroviridae Infections",
+            "Flaviviridae Infections",
+            "Paramyxoviridae Infections"
+        ]
+    },
+    "NCT05684952": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Respiratory Tract Diseases",
+            "Signs and Symptoms",
+            "Disease Attributes",
+            "Pathophysiology",
+            "Coronavirus Infections",
+            "Pandemics",
+            "SARS Virus",
+            "Communicable Diseases",
+            "Bacterial Infections and Mycoses",
+            "Virus Diseases",
+            "Parasitic Diseases"
+        ]
+    },
+    "NCT05685017": {
+        "expanded_MeSH_terms": [
+            "Obesity",
+            "Body Weight",
+            "Body Mass Index",
+            "Nutritional Status",
+            "Dietary Excess",
+            "Metabolic Diseases",
+            "Metabolic Syndrome X",
+            "Energy Metabolism",
+            "Genetic Diseases, Inborn",
+            "Metabolic Disorders",
+            "Genetic Predisposition to Disease",
+            "Dyslipidemias",
+            "Cholesterol Metabolism Disorders",
+            "Lipidoses",
+            "Lipid Metabolism Disorders",
+            "Fatty Acid Metabolism Disorders"
+        ]
+    },
+    "NCT05685238": {
+        "expanded_MeSH_terms": [
+            "Hereditary Diseases",
+            "Thrombophilia",
+            "Von Willebrand Disease",
+            "Hemophilia B",
+            "Hematologic Neoplasms",
+            "Anemias",
+            "Thrombocytopenia",
+            "Factor VIII Deficiency",
+            "Factor IX Deficiency"
+        ]
+    },
+    "NCT05685329": {
+        "expanded_MeSH_terms": [
+            "Parkinson's Disease",
+            "Huntington's Disease",
+            "Dyskinesias",
+            "Dementia with Lewy Bodies",
+            "Multiple System Atrophy",
+            "Wilson Disease",
+            "Multiple Sclerosis",
+            "Encephalitis",
+            "Meningitis",
+            "Epilepsy",
+            "Brain Neoplasms",
+            "Cerebrovascular Disorders"
+        ]
+    },
+    "NCT05685355": {
+        "expanded_MeSH_terms": [
+            "Dental Plaque",
+            "Periodontitis",
+            "Endodontic Diseases",
+            "Tooth Diseases",
+            "Stomatognathic Diseases"
+        ]
+    },
+    "NCT05685381": {
+        "expanded_MeSH_terms": [
+            "Airway Remodeling",
+            "Bronchitis",
+            "Chronic Obstructive Pulmonary Disease",
+            "Emphysema",
+            "Interstitial Lung Diseases",
+            "Pleural Diseases",
+            "Pulmonary Eosinophilia",
+            "Pulmonary Fibrosis",
+            "Respiratory Tract Infections",
+            "Rhinitis",
+            "Tuberculosis"
+        ]
+    },
+    "NCT05685394": {
+        "expanded_MeSH_terms": [
+            "Gynecological Conditions",
+            "Obstetric Labor Complications",
+            "Urinary Tract Infections",
+            "Kidney Diseases",
+            "Pelvic Floor Disorders",
+            "Endocrine System Diseases",
+            "Vaginal Diseases",
+            "Menstruation Disturbances",
+            "Sexually Transmitted Diseases",
+            "Pregnancy Disorders",
+            "Puerperal Disorders",
+            "Kidney Failure, Chronic",
+            "Glomerulonephritis"
+        ]
+    },
+    "NCT05685420": {
+        "expanded_MeSH_terms": [
+            "Vascular Diseases",
+            "Hematologic Diseases",
+            "Anemia, Hemolytic",
+            "Purpura, Thrombotic Thrombocytopenic",
+            "Hemophilia A",
+            "von Willebrand Disease",
+            "Disseminated Intravascular Coagulation",
+            "Platelet Dysfunction",
+            "Blood Platelet Disorders",
+            "Coagulation Protein Disorders"
+        ]
+    },
+    "NCT05685433": {
+        "expanded_MeSH_terms": [
+            "Encopresis",
+            "Enuresis",
+            "Obstetric Labor Complications",
+            "Pregnancy Complications",
+            "Puerperal Disorders",
+            "Gynecologic Diseases",
+            "Breast Diseases",
+            "Genital Diseases, Male",
+            "Genital Diseases, Female",
+            "Kidney Diseases",
+            "Bladder Exstrophy",
+            "Cystitis",
+            "Urinary Bladder Neoplasms"
+        ]
+    },
+    "NCT05685576": {
+        "expanded_MeSH_terms": [
+            "Gingival Diseases",
+            "Dental Caries",
+            "Osteoporosis",
+            "Temporomandibular Joint Disorders",
+            "Craniofacial Abnormalities",
+            "Jaw Diseases",
+            "Osteitis",
+            "Osteonecrosis",
+            "Osteomyelitis",
+            "Tooth Diseases"
+        ]
+    },
+    "NCT05685602": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Colorectal Neoplasms",
+            "Liver Neoplasms",
+            "Pancreatic Neoplasms",
+            "Adenocarcinoma",
+            "Carcinoma",
+            "Squamous Cell",
+            "Metastatic Neoplasm",
+            "Carcinogenesis",
+            "Paraneoplastic Syndromes",
+            "Cachexia"
+        ]
+    },
+    "NCT05685615": {
+        "expanded_MeSH_terms": [
+            "Disease Progression",
+            "Nosocomial Infections",
+            "Bacterial Infections and Mycoses",
+            "Pneumonia",
+            "Bronchial Diseases",
+            "Pulmonary Fibrosis",
+            "Disease Attributes",
+            "Drug-Related Side Effects and Adverse Reactions",
+            "Viral Respiratory Infections",
+            "Pleural Diseases",
+            "Respiratory Hypersensitivity",
+            "Airway Remodeling"
+        ]
+    },
+    "NCT05685745": {
+        "expanded_MeSH_terms": [
+            "Pregnancy-Induced Hypertension",
+            "Postpartum Hemorrhage",
+            "Obstetric Labor, Prolonged",
+            "Fetal Distress",
+            "Pregnancy Complications, Cardiovascular",
+            "Pregnancy Complications, Hematologic",
+            "Pregnancy Complications, Infectious",
+            "Gestational Diabetes",
+            "Infant, Premature",
+            "Infant, Low Birth Weight",
+            "Infant, Newborn, Diseases",
+            "Neonatal Intensive Care",
+            "Urinary Tract Infections",
+            "Pelvic Inflammatory Disease",
+            "Endometriosis",
+            "Genital Diseases, Female"
+        ]
+    },
+    "NCT05685810": {
+        "expanded_MeSH_terms": [
+            "Body Mass Index",
+            "Thinness",
+            "Weight Gain",
+            "Obstetric Labor Complications",
+            "Pregnancy Complications, Cardiovascular",
+            "Pregnancy Complications, Hematologic",
+            "Pelvic Floor Disorders",
+            "Uterine Diseases",
+            "Vaginal Diseases",
+            "Morbid Obesity",
+            "Obesity, Abdominal",
+            "Obesity, Morbid",
+            "Pediatric Obesity",
+            "Weight Loss",
+            "Diet, Reducing",
+            "Exercise"
+        ]
+    },
+    "NCT05685823": {
+        "expanded_MeSH_terms": [
+            "Gynecological Diseases",
+            "Obstetric Labor Complications",
+            "Pregnancy Trimesters Complications",
+            "Uterine Diseases",
+            "Vaginal Diseases",
+            "Cervical Diseases",
+            "Gestational Diabetes",
+            "Preeclampsia",
+            "Kidney Diseases",
+            "Nephritis",
+            "Glomerulonephritis",
+            "Kidney Failure, Acute",
+            "Urinary Tract Infections",
+            "Urethral Diseases",
+            "Bladder Diseases"
+        ]
+    },
+    "NCT05685888": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Coronavirus Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Bronchitis",
+            "Asthma",
+            "Chronic Obstructive Pulmonary Disease",
+            "Pulmonary Fibrosis",
+            "Bronchiolitis",
+            "Acute Respiratory Distress Syndrome",
+            "SARS-CoV-2",
+            "Rhinovirus Infections",
+            "Pleurisy",
+            "Tuberculosis, Pulmonary"
+        ]
+    },
+    "NCT05685901": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Bronchial Diseases",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Viral Bronchiolitis",
+            "Influenza, Human"
+        ]
+    },
+    "NCT05685914": {
+        "expanded_MeSH_terms": [
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Severe Acute Respiratory Syndrome",
+            "Middle East Respiratory Syndrome",
+            "Bronchial Diseases",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Bronchitis",
+            "Asthma",
+            "Pulmonary Fibrosis",
+            "Tuberculosis, Pulmonary"
+        ]
+    },
+    "NCT05685927": {
+        "expanded_MeSH_terms": [
+            "Body Mass Index",
+            "Obesity",
+            "Thinness",
+            "Overweight",
+            "Anthropometry",
+            "Wasting Syndrome",
+            "Muscle Weakness",
+            "Neurodegenerative Diseases",
+            "Organ Atrophy",
+            "Weight Reduction Programs",
+            "Bariatric Surgery",
+            "Cachexia",
+            "Diet Therapy",
+            "Anorexia",
+            "Sarcopenia",
+            "Muscle Wasting",
+            "Spinal Muscular Atrophies",
+            "Muscular Disorders",
+            "Diabetes Mellitus",
+            "Hyperglycemia",
+            "Hypoglycemia",
+            "Insulin Resistance",
+            "Metabolic Syndrome"
+        ]
+    },
+    "NCT05685953": {
+        "expanded_MeSH_terms": [
+            "Bronchopneumonia",
+            "Pneumonia, Bacterial",
+            "Pneumonia, Mycoplasma",
+            "Pneumonia, Pneumocystis",
+            "SARS-CoV-2",
+            "Coronavirus Infections",
+            "Severe Acute Respiratory Syndrome",
+            "Bacterial Infections and Mycoses",
+            "Virus Diseases",
+            "Parasitic Diseases",
+            "Bronchial Diseases",
+            "Nose Diseases",
+            "Pleural Diseases",
+            "Pulmonary Fibrosis",
+            "Lung Neoplasms",
+            "Asthma"
+        ]
+    },
+    "NCT05685966": {
+        "expanded_MeSH_terms": [
+            "Acute Respiratory Distress Syndrome",
+            "Coronavirus Infections",
+            "SARS-CoV-2",
+            "Respiratory Syncytial Virus Infections",
+            "Influenza, Human",
+            "Bronchitis",
+            "Pulmonary Disease, Chronic Obstructive",
+            "Asthma",
+            "Respiratory Insufficiency",
+            "Pulmonary Fibrosis"
+        ]
+    },
+    "NCT05685992": {
+        "expanded_MeSH_terms": [
+            "Respiratory Tract Infections",
+            "Virus Diseases",
+            "Disease Outbreaks",
+            "Epidemics",
+            "Pandemics",
+            "Severe Acute Respiratory Syndrome",
+            "Respiratory Tract Diseases",
+            "Immune System Diseases",
+            "Zoonoses"
+        ]
+    },
+    "NCT05686044": {
+        "expanded_MeSH_terms": [
+            "Cognitive Dysfunction",
+            "Alzheimer Disease",
+            "Frontotemporal Dementia",
+            "Lewy Body Disease",
+            "Cerebral Degeneration",
+            "Nervous System Diseases",
+            "Encephalitis",
+            "Brain Injuries",
+            "Meningitis",
+            "Stroke"
+        ]
+    },
+    "NCT05686057": {
+        "expanded_MeSH_terms": [
+            "Cerebral Ischemia",
+            "Reperfusion Injury",
+            "Necrosis",
+            "Inflammation",
+            "Fibrosis",
+            "Arteriosclerosis",
+            "Venous Thrombosis",
+            "Hypertension",
+            "Angina Pectoris",
+            "Coronary Artery Disease",
+            "Heart Failure",
+            "Cardiomyopathies",
+            "Arrhythmias, Cardiac",
+            "Valvular Heart Diseases"
+        ]
+    },
+    "NCT05686070": {
+        "expanded_MeSH_terms": [
+            "Stroke",
+            "Brain Ischemia",
+            "Thrombosis",
+            "Embolism",
+            "Arterial Occlusive Diseases",
+            "Cerebrovascular Disorders",
+            "Cardiovascular Abnormalities",
+            "Atherosclerosis",
+            "Neurologic Manifestations",
+            "Hypoxia, Brain",
+            "Angiopathy, Hereditary Cerebral",
+            "Intracranial Hemorrhages",
+            "Brain Edema"
+        ]
+    },
+    "NCT05686122": {
+        "expanded_MeSH_terms": [
+            "Stomach Neoplasms",
+            "Esophageal Neoplasms",
+            "Pancreatic Neoplasms",
+            "Liver Neoplasms",
+            "Biliary Tract Neoplasms",
+            "Gastrointestinal Stromal Tumors",
+            "Gastrointestinal Diseases",
+            "Rectal Diseases",
+            "Anal Diseases",
+            "Esophageal Diseases",
+            "Gastric Diseases",
+            "Pancreatic Diseases",
+            "Hepatic Diseases"
+        ]
+    },
+    "NCT05686135": {
+        "expanded_MeSH_terms": [
+            "Ulcerative Colitis",
+            "Colitis",
+            "Enteritis",
+            "Gastrointestinal Hemorrhage",
+            "Colonic Diseases",
+            "Gastroesophageal Reflux",
+            "Peptic Ulcer",
+            "Gastritis",
+            "Celiac Disease",
+            "Irritable Bowel Syndrome",
+            "Diverticular Diseases",
+            "Colon Diseases",
+            "Rectal Diseases"
+        ]
     }
 }

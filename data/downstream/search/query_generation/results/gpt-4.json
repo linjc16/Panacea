@@ -3062,5 +3062,9123 @@
             "YEAR": "N/A",
             "OPERATOR": "N/A"
         }
+    },
+    "1302": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1717": {
+        "diseases": [
+            "skin diseases"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1589": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "916": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1345": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "340": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "medical devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1131": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2193": {
+        "diseases": [
+            "spinal cord injury"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "295": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1839": {
+        "diseases": [
+            "sciatica"
+        ],
+        "interventions": [
+            "other types"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "289": {
+        "diseases": [
+            "neuropathy"
+        ],
+        "interventions": [
+            "procedure"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1905": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1025": {
+        "diseases": [
+            "Irritable Bowel Syndrome"
+        ],
+        "interventions": [
+            "Drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "5": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "NOT_YET_RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1268": {
+        "diseases": [
+            "Alzheimer's Disease"
+        ],
+        "interventions": [
+            "Dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2581": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "medical device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "535": {
+        "interventions": [
+            "Behavioral"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "diseases": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1773": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "behavioral intervention"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "996": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2746": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "273": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2212": {
+        "diseases": [
+            "Diabetes"
+        ],
+        "interventions": [
+            "Biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "1735": {
+        "diseases": [
+            "leukemia"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2353": {
+        "diseases": [
+            "Hemophilia"
+        ],
+        "interventions": [
+            "Drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1306": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1710": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "Behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "SUSPENDED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2970": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "896": {
+        "diseases": [
+            "kidney stones"
+        ],
+        "interventions": [
+            "procedure"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": {
+            "enum": [
+                ""
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2950": {
+        "diseases": [
+            "Rosacea"
+        ],
+        "interventions": [
+            "Device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1046": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1937": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "586": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "other interventions"
+        ],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1771": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1494": {
+        "diseases": [
+            "infectious diseases"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "940": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2623": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "324": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "SUSPENDED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "3024": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "214": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1034": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2626": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2767": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "293": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1672": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "Device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "SUSPENDED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "90": {
+        "diseases": [
+            "Pancreatitis"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "755": {
+        "diseases": [
+            "heart failure"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2509": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "169": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1503": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "544": {
+        "diseases": [
+            "Systemic Lupus Erythematosus"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "306": {
+        "diseases": [
+            "Diabetes"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "270": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1716": {
+        "diseases": [
+            "bone marrow transplant",
+            "stem cell transplant",
+            "leukemia",
+            "lymphoma"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "ENROLLING_BY_INVITATION"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "22": {
+        "diseases": [
+            "skin diseases"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1794": {
+        "diseases": [
+            "asthma",
+            "COPD"
+        ],
+        "interventions": [
+            "drug",
+            "device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": {
+            "StudyTypeEnum": ""
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YearOperator": {
+                "YEAR": "N/A",
+                "OPERATOR": "N/A"
+            }
+        },
+        "end_year": {
+            "YearOperator": {
+                "YEAR": "N/A",
+                "OPERATOR": "N/A"
+            }
+        }
+    },
+    "268": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1095": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "576": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "WITHDRAWN"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "264": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "33": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            ""
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "248": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2577": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": {
+            "INTERVENTIONAL": {}
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1986": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "965": {
+        "diseases": [
+            "cervical cancer"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1059": {
+        "diseases": [
+            "pulmonary hypertension"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": 0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "2742": {
+        "diseases": [
+            "Schizophrenia"
+        ],
+        "interventions": [
+            "Drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2020": {
+        "diseases": [
+            "Pulmonary Hypertension"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2960": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "other types"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": {
+            "OBSERVATIONAL": {}
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2954": {},
+    "695": {
+        "diseases": [
+            "osteoporosis"
+        ],
+        "interventions": [
+            "drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2140": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "733": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "Drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2663": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2182": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "8": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "SUSPENDED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": {
+            "N/A": "N/A"
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1199": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2285": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": {
+            "STUDY_TYPE": "INTERVENTIONAL"
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "550": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1453": {
+        "diseases": [
+            "glaucoma"
+        ],
+        "interventions": [
+            "procedure"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "461": {
+        "diseases": [
+            "chronic kidney disease",
+            "acute kidney injury",
+            "kidney stones",
+            "polycystic kidney disease"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2864": {
+        "diseases": [
+            "rheumatoid arthritis"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1988": {
+        "diseases": [
+            "atrial fibrillation",
+            "ventricular tachycardia",
+            "heart block",
+            "cardiomyopathy"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "Canada"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1886": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Other interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "835": {
+        "diseases": [
+            "obesity"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2392": {
+        "diseases": [
+            "Diabetes"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "537": {
+        "diseases": [
+            "gastrointestinal diseases"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2487": {
+        "diseases": [
+            "gastrointestinal diseases"
+        ],
+        "interventions": [
+            "drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2174": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": {
+            "enum": [
+                "N/A"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1198": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1188": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1413": {},
+    "2287": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2542": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "472": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "Medical devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "353": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "Pfizer"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2020,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1083": {
+        "diseases": [
+            "thyroid disorders",
+            "hypertension",
+            "hyperthyroidism",
+            "polycystic ovary syndrome"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2021,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "3006": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "742": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "727": {
+        "diseases": [
+            "pancreatitis"
+        ],
+        "interventions": [
+            "procedures"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2565": {
+        "diseases": [
+            "behavioral"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1745": {
+        "diseases": [
+            "type 1 diabetes",
+            "type 2 diabetes"
+        ],
+        "interventions": [
+            "dietary supplement"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "676": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2690": {
+        "diseases": [],
+        "interventions": [
+            "Behavioral"
+        ],
+        "sponsor": [],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "3077": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "673": {
+        "diseases": [
+            "gastrointestinal diseases"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2589": {
+        "diseases": [
+            "mental health"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            ""
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "451": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "behavioral intervention"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "808": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "282": {
+        "diseases": [
+            "psoriatic arthritis"
+        ],
+        "interventions": [
+            "procedures"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1918": {
+        "diseases": [],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [],
+        "status": [],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "357": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1125": {
+        "diseases": [
+            "glioblastoma multiforme"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "Italy"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "841": {
+        "diseases": [
+            "Diabetes"
+        ],
+        "interventions": [
+            "Dietary Supplement"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1561": {},
+    "339": {
+        "diseases": [
+            "skin cancer"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1893": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "other interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1020": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "Drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1366": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "433": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1572": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "409": {},
+    "1408": {
+        "diseases": [
+            "Allergies"
+        ],
+        "interventions": [
+            "Dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2100": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "483": {
+        "diseases": [
+            "endometriosis"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "877": {
+        "diseases": [
+            "osteoporosis"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2376": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2731": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "342": {
+        "diseases": [
+            "infectious diseases"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2523": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "863": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "572": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "Drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": {
+            "title": "StudyTypeEnum",
+            "description": "An enumeration.",
+            "enum": [
+                ""
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2447": {},
+    "467": {
+        "diseases": [
+            "melanoma"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "851": {
+        "diseases": [
+            "Glaucoma"
+        ],
+        "interventions": [
+            "Procedures"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "209": {
+        "diseases": [
+            "breast cancer",
+            "ovarian cancer"
+        ],
+        "interventions": [
+            "biological interventions",
+            "procedures"
+        ],
+        "sponsor": [],
+        "status": [],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "639": {},
+    "1546": {
+        "diseases": [
+            "lyme disease"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1316": {
+        "diseases": [
+            "pulmonary hypertension"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "655": {
+        "diseases": [
+            "chronic myeloid leukemia",
+            "acute lymphoblastic leukemia",
+            "myelodysplastic syndromes"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2016,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2316": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2836": {
+        "diseases": [
+            "Neurological Disorders"
+        ],
+        "interventions": [
+            "Drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "NOT_YET_RECRUITING"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1437": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "71": {},
+    "1314": {
+        "diseases": [
+            "type 2 diabetes",
+            "metabolic syndrome"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2020,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2386": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2600": {
+        "diseases": [
+            "Irritable Bowel Syndrome"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1875": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "Medical Device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "736": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1720": {
+        "diseases": [
+            "infectious diseases"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "921": {
+        "diseases": [
+            "infectious diseases"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "NOT YET RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2722": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "Drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2276": {
+        "diseases": [
+            "cardiovascular diseases"
+        ],
+        "interventions": [
+            "behavioral intervention"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1638": {
+        "diseases": [
+            "sciatica"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1568": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1259": {
+        "diseases": [
+            "cardiovascular diseases"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1395": {
+        "diseases": [
+            "cardiovascular diseases"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "888": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "other than traditional treatments"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2593": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "659": {
+        "diseases": [
+            "infectious diseases"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "withdrawn"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1406": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": {
+            "enum": [
+                "N/A"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1786": {
+        "diseases": [
+            "depression"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": {
+            "enum": [
+                "N/A"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1023": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            ""
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2291": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            ""
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2401": {
+        "diseases": [
+            "cervical cancer"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "338": {
+        "diseases": [
+            "Psoriatic Arthritis"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2521": {
+        "diseases": [
+            "stroke",
+            "heart attack",
+            "cardiac arrest"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "ENROLLING_BY_INVITATION"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": {
+            "INTERVENTIONAL": ""
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1845": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "57": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1858": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "medical device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1727": {
+        "diseases": [],
+        "interventions": [
+            "Behavioral"
+        ],
+        "sponsor": [],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "734": {
+        "diseases": [
+            "Headache"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1699": {
+        "diseases": [
+            "Glaucoma"
+        ],
+        "interventions": [
+            "Dietary Supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "278": {
+        "diseases": [
+            "pancreatitis"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": {},
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {},
+        "end_year": {}
+    },
+    "1990": {
+        "diseases": [
+            "Pancreatitis"
+        ],
+        "interventions": [
+            "Biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2670": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "902": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "dietary supplement"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1248": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1482": {},
+    "63": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "dietary supplement"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2923": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "WITHDRAWN"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2874": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "648": {},
+    "31": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2921": {
+        "diseases": [
+            "Multiple Myeloma"
+        ],
+        "interventions": [
+            "Device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2235": {
+        "diseases": [
+            "infectious diseases"
+        ],
+        "interventions": [
+            "device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "NOT_YET_RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1642": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2797": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0,
+            "OPERATOR": ""
+        },
+        "end_year": {
+            "YEAR": 0,
+            "OPERATOR": ""
+        }
+    },
+    "732": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1908": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1897": {
+        "diseases": [
+            "macular degeneration",
+            "diabetic retinopathy",
+            "glaucoma",
+            "cataracts"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2480": {
+        "diseases": [
+            "mental health"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1688": {
+        "diseases": [
+            "stroke"
+        ],
+        "interventions": [
+            "device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1356": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "143": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "303": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "WITHDRAWN"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1088": {},
+    "2811": {
+        "diseases": [
+            "Systemic Lupus Erythematosus"
+        ],
+        "interventions": [
+            "Biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1329": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1300": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1056": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "Behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "4": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": {
+            "enum": [
+                "INTERVENTIONAL"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2988": {},
+    "305": {},
+    "1097": {
+        "diseases": [
+            "neurological disorders"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": {
+            "N/A": "N/A"
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "97": {
+        "diseases": [
+            "migraine"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2901": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "drugs that have been withdrawn"
+        ],
+        "sponsor": [],
+        "status": [],
+        "phase": [],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1552": {
+        "diseases": [
+            "Diabetes"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            ""
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": {
+            "StudyTypeEnum": "OBSERVATIONAL"
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YearOperator": {
+                "YEAR": "N/A",
+                "OPERATOR": "N/A"
+            }
+        },
+        "end_year": {
+            "YearOperator": {
+                "YEAR": "N/A",
+                "OPERATOR": "N/A"
+            }
+        }
+    },
+    "1223": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [],
+        "status": [],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "3080": {
+        "diseases": [
+            "Parkinson's Disease"
+        ],
+        "interventions": [
+            "Biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2934": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2304": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "other interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1953": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            ""
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1486": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "WITHDRAWN"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "371": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "838": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "NOT YET RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "288": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "SUSPENDED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1148": {
+        "diseases": [
+            "cardiovascular diseases"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "withdrawn"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1609": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2281": {
+        "diseases": [
+            "allergies"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "177": {
+        "diseases": [
+            "colon cancer"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "879": {
+        "diseases": [
+            "neurological disorders"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2089": {
+        "diseases": [
+            "neuropathy"
+        ],
+        "interventions": [
+            "behavioral intervention"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1547": {
+        "diseases": [
+            "atrial fibrillation",
+            "ventricular tachycardia"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "Boston Scientific Corporation"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "658": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1705": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            ""
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2945": {
+        "diseases": [
+            "gastrointestinal diseases"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1777": {
+        "diseases": [
+            "ulcerative colitis",
+            "Crohn's disease",
+            "irritable bowel syndrome"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "ENROLLING_BY_INVITATION"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "345": {
+        "diseases": [
+            "neurological disorders"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "766": {
+        "diseases": [
+            "skin diseases"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1961": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1158": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": {
+            "INTERVENTIONAL": "INTERVENTIONAL"
+        },
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "266": {
+        "diseases": [
+            "gastrointestinal diseases"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {},
+        "end_year": {}
+    },
+    "2788": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "Behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1388": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "other interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "NOT_YET_RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1414": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "other types"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1835": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "822": {},
+    "1667": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "WITHDRAWN"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2996": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "126": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "682": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "other interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2485": {
+        "diseases": [
+            "mental health"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2111": {
+        "diseases": [
+            "Diabetes"
+        ],
+        "interventions": [
+            "Other types"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "854": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1171": {},
+    "2379": {},
+    "2110": {
+        "diseases": [
+            "Cancer"
+        ],
+        "interventions": [
+            "Medical Devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            ""
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2622": {
+        "diseases": [
+            "Osteoporosis"
+        ],
+        "interventions": [
+            "procedures"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "705": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2458": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1544": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1134": {
+        "diseases": [
+            "acne"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "638": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2978": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "204": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "615": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "terminated drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2658": {
+        "diseases": [
+            "hearing loss"
+        ],
+        "interventions": [
+            "device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "749": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [],
+        "status": [
+            "WITHDRAWN"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2949": {
+        "diseases": [
+            "lymphoma"
+        ],
+        "interventions": [
+            "radiotherapy"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": {
+            "enum": [
+                "N/A"
+            ]
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "United Kingdom"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "683": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1203": {
+        "diseases": [
+            "HIV/AIDS"
+        ],
+        "interventions": [
+            "Biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "ENROLLING_BY_INVITATION"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "3043": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1612": {
+        "diseases": [
+            "glaucoma"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "895": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "device"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1337": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1058": {
+        "diseases": [
+            "asthma"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "518": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1796": {
+        "diseases": [
+            "hypertension"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "966": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "specified area"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2088": {
+        "diseases": [
+            "gastrointestinal diseases"
+        ],
+        "interventions": [
+            "drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2538": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "Dietary Supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1017": {
+        "diseases": [
+            "mental health"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED",
+            "APPROVED_FOR_MARKETING",
+            "COMPLETED",
+            "ENROLLING_BY_INVITATION"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "714": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "drugs"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2952": {
+        "diseases": [
+            "infectious diseases"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1174": {
+        "diseases": [
+            "obesity",
+            "type 2 diabetes"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2016,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2518": {
+        "diseases": [
+            "Sarcoidosis"
+        ],
+        "interventions": [
+            "Procedures"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2013": {
+        "diseases": [
+            "cardiovascular diseases"
+        ],
+        "interventions": [
+            "behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "WITHDRAWN"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "181": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [],
+        "sponsor": [],
+        "status": [
+            "SUSPENDED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1114": {
+        "diseases": [
+            "cancer"
+        ],
+        "interventions": [
+            "interventions other than the standard treatments"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2717": {},
+    "99": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Drug interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "907": {
+        "diseases": [
+            "renal failure"
+        ],
+        "interventions": [
+            "biological interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [],
+        "study_type": {
+            "N/A": ""
+        },
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2596": {
+        "diseases": [
+            "obesity"
+        ],
+        "interventions": [
+            "drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            ""
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1939": {},
+    "1497": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "Behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1838": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2015,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1648": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "OBSERVATIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2981": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE3"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1118": {
+        "diseases": [
+            "cardiovascular diseases"
+        ],
+        "interventions": [
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2584": {
+        "diseases": [
+            "Asthma"
+        ],
+        "interventions": [
+            "dietary supplements"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1951": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "Behavioral"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "788": {
+        "diseases": [
+            "COVID-19"
+        ],
+        "interventions": [
+            "Drug"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "TERMINATED"
+        ],
+        "phase": [
+            "PHASE1"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1778": {
+        "diseases": [
+            "Hypertension"
+        ],
+        "interventions": [
+            "Other"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "PHASE2"
+        ],
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "52": {
+        "diseases": [
+            "Scoliosis"
+        ],
+        "interventions": [
+            "biological"
+        ],
+        "sponsor": [],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "2873": {
+        "diseases": [
+            "pancreatitis"
+        ],
+        "interventions": [
+            "medical devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "631": {
+        "diseases": [
+            "stroke",
+            "heart attack"
+        ],
+        "interventions": [
+            "devices",
+            "procedures"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "COMPLETED"
+        ],
+        "phase": [],
+        "study_type": "",
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "1386": {},
+    "2341": {
+        "diseases": [
+            "N/A"
+        ],
+        "interventions": [
+            "medical devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "RECRUITING"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": [
+            "N/A"
+        ],
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "581": {
+        "diseases": [
+            "type 2 diabetes",
+            "obesity"
+        ],
+        "interventions": [
+            "dietary supplements",
+            "behavioral interventions"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "N/A"
+        ],
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019,
+            "OPERATOR": "after"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    },
+    "3022": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "devices"
+        ],
+        "sponsor": [
+            "N/A"
+        ],
+        "status": [
+            "N/A"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": {
+            "N/A": "N/A"
+        },
+        "person_name": "N/A",
+        "nctid": [
+            "N/A"
+        ],
+        "locations": [
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
     }
 }

@@ -22,7 +22,6 @@ def cal_scores(preds, groundtruth):
                 pred_keywords = set([x for x in pred_keywords if x not in input])
                 
                 true_positives = gt_keywords & pred_keywords
-                pdb.set_trace()
                 precision = len(true_positives) / len(pred_keywords) if pred_keywords else 0
                 recall = len(true_positives) / len(gt_keywords) if gt_keywords else 0
                 f_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) else 0
