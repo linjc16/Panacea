@@ -34,13 +34,25 @@ def cal_scores(preds, groundtruth):
                     if k not in ['start_year', 'end_year']:
                         if isinstance(v, list):
                             pred_keywords.update([v.lower() for v in v if v.lower() != "n/a"])
+                        elif isinstance(v, dict):
+                            if v:
+                                # add the values of the first key in the dict
+                                for k1, v1 in v.items():
+                                    if isinstance(v1, list):
+                                        pred_keywords.update([v.lower() for v in v1 if v.lower() != "n/a"])
+                                    else:
+                                        continue
                         else:
                             if v.lower() != "n/a":
                                 pred_keywords.add(v.lower())
                     else:
-                        if v['YEAR'] != 0 or v['YEAR'].lower() != 'n/a':
-                            pred_keywords.add(str(int(v['YEAR'])))
-                            pred_keywords.add(str(v['OPERATOR']))
+                        try:
+                            if v['YEAR'] != 0 and str(v['YEAR']).lower() != 'n/a':
+                                
+                                pred_keywords.add(str(int(v['YEAR'])))
+                                pred_keywords.add(str(v['OPERATOR']))
+                        except:
+                            continue
                 
                 true_positives = gt_keywords & pred_keywords
                 precision = len(true_positives) / len(pred_keywords) if pred_keywords else 0

@@ -16,8 +16,15 @@ def cal_scores(preds, groundtruth):
             
             if key in preds:
                 pred_dict = preds[key]
-                pred_keywords = pred_dict['Expanded MeSH Terms']
 
+                if not pred_dict:
+                    pred_keywords = []
+                else:
+                    try:
+                        pred_keywords = pred_dict['Expanded MeSH Terms']
+                    except:
+                        pred_keywords = pred_dict['expanded_MeSH_terms']
+            
                 # remove input list from pred_keywords list
                 pred_keywords = set([x for x in pred_keywords if x not in input])
                 

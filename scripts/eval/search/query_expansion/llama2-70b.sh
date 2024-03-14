@@ -4,7 +4,7 @@ FILE_DIR=data/downstream/search/query_expansion
 SAVE_DIR=data/downstream/search/query_expansion/results
 MODEL_NAME=llama2-70b
 
-CUDA_VISIBLE_DEVICES=3,6,7 python src/eval/search/query_expansion/eval.py \
+CUDA_VISIBLE_DEVICES=3,4,6 python src/eval/search/query_expansion/eval.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --file_dir $FILE_DIR \
