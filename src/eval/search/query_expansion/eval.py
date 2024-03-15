@@ -49,7 +49,7 @@ def load_dataset(file_dir, split='test'):
     output_data = {}
     i = 0
     for key, value in data.items():
-        if i >= 5000:
+        if i >= 2500:
             break
         query = ', '.join(value['input'])
         output_data[key] = {'query': query}

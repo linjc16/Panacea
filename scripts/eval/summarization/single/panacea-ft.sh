@@ -1,8 +1,8 @@
-MODEL_PATH=/data/linjc/trialfm/finetuning/summarization/mistral/checkpoint-40
+MODEL_PATH=/data/linjc/trialfm/finetuning/summarization/panacea
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/summazization/single-trial
 SAVE_DIR=data/downstream/summazization/single-trial/results
-MODEL_NAME=mistral-ft
+MODEL_NAME=panacea-ft
 
 CUDA_VISIBLE_DEVICES=3 python src/eval/summarization/single/eval.py \
     --model_path $MODEL_PATH \

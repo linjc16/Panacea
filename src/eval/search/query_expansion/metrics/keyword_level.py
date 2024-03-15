@@ -9,7 +9,10 @@ def cal_scores(preds, groundtruth):
     recall_list = []
     f_score_list = []
     
+    i = 0
     for key, item in groundtruth.items():
+        if i >= 2500:
+            break
         try:
             input = item['input']
             gt_keywords = set(item['output'])
@@ -23,8 +26,12 @@ def cal_scores(preds, groundtruth):
                     try:
                         pred_keywords = pred_dict['Expanded MeSH Terms']
                     except:
-                        pred_keywords = pred_dict['expanded_MeSH_terms']
-            
+                        try:
+                            pred_keywords = pred_dict['expanded_MeSH_terms']
+                        except:
+                            if isinstance(pred_dict, list):
+                                pred_keywords = pred_dict
+                
                 # remove input list from pred_keywords list
                 pred_keywords = set([x for x in pred_keywords if x not in input])
                 
@@ -36,6 +43,7 @@ def cal_scores(preds, groundtruth):
                 precision_list.append(precision)
                 recall_list.append(recall)
                 f_score_list.append(f_score)
+                i += 1
         except json.JSONDecodeError:
             print('Error in parsing the groundtruth JSON. Skipping the current instance.')
             continue
