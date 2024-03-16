@@ -43,6 +43,13 @@ from alignment import (
     get_quantization_config,
     get_tokenizer,
 )
+
+from src.finetune.utils import (
+    load_single_trial_summarization_data,
+    load_multi_trial_summarization_data,
+
+)
+
 from trl import SFTTrainer
 
 
@@ -90,21 +97,12 @@ def main():
     ###############
     # raw_datasets = get_datasets(data_args, splits=data_args.dataset_splits)
     data_path = data_args.training_data_path
-
-
-    if data_args.task_type == 'summarization':
-        df_data = pd.read_csv(data_path)
-        input_text = df_data['input_text'].tolist()
-        summary_text = df_data['summary_text'].tolist()
-        instruction_prompt = "Your task is to create a clear, concise, and accurate summary of the provided clinical trial document. The summary should capture the key aspects of the trial."
-        instruction_prompt += "\nThe output should only be the summarization of the given trial. Do not explain how you summarize it."
-        instruction_prompt += "\nInput Text: {Text}"
-        data_list = []
-        for i in range(len(input_text)):
-            source = {"content": instruction_prompt.format(Text=input_text[i]), 'role': 'user'}
-            target = {"content": f"{summary_text[i]}", 'role': 'assistant'}
-            data_list.append([source, target])
     
+
+    if data_args.task_type == 'single-trial summarization':
+        data_list = load_single_trial_summarization_data(data_path)
+    elif data_args.task_type == 'multi-trial summarization':
+        data_list = load_multi_trial_summarization_data(data_path)
     
     data_dict = {'messages': data_list}
     
