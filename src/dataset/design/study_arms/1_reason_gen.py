@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+import argparse
 
 sys.path.append('./')
 from src.utils.gpt import gpt_chat
@@ -10,11 +11,14 @@ import pdb
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--task', type=str, default='study_arms')
+    args = parser.parse_args()
     prompt = (
         'Given the information below about a clinical trial, please analyze and provide reasons '
-        'for the design of each criterion listed under the "Criteria" section. '
-        'For each criterion (both inclusion and exclusion criteria), '
-        'explain why it is reasonable and necessary for the goals and structure of this trial.'
+        'for the design of each study arms listed under the "Study Arms" section. '
+        'For each study arm, focus on Participant Group/Arm, Intervention/Treatment, and so on. '
+        'Explain why they are reasonable and necessary for the goals and structure of this trial.'
         '\n\n'
         'Title: {brief_title}\n'
         'Official Title: {official_title}\n'
@@ -23,10 +27,11 @@ if __name__ == '__main__':
         'Study Type: {study_type}\n'
         'Phase: {phase}\n\n'
         'Brief Summary: {brief_summary}\n\n'
-        'Criteria: {eligibility_criteria}'
+        'Criteria: {eligibility_criteria}\n\n'
+        'Study Arms: {arms_and_interventions}'
     )
     
-    save_path = 'data/downstream/design/raw/reasons/criteria/reasons.json'
+    save_path = f'data/downstream/design/raw/reasons/{args.task}/reasons.json'
 
     
     output_dict = {}
