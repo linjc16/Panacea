@@ -13,6 +13,7 @@ import pdb
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--task', type=str, default='outcome_measures')
+    parser.add_argument('--split', type=str, default='test')
     args = parser.parse_args()
     prompt = (
         'Given the information below about a clinical trial, please analyze and provide reasons '
@@ -36,21 +37,29 @@ if __name__ == '__main__':
     
     save_path = f'data/downstream/design/raw/reasons/{args.task}'
     os.makedirs(save_path, exist_ok=True)
-    save_path = os.path.join(save_path, 'reasons.json')
+    save_path = os.path.join(save_path, f'reasons_{args.split}.json')
 
     
     output_dict = {}
     ctgov_dict_list = []
-    with open('data/downstream/design/raw/selected_step1/merged/test/merged.json', 'r') as f:
+    with open(f'data/downstream/design/raw/selected_step1/merged/{args.split}/merged.json', 'r') as f:
         for line in f:
             ctgov_dict = json.loads(line)
             ctgov_dict_list.append(ctgov_dict)
-
+    
+    if os.path.exists(save_path):
+        with open(save_path, 'r') as f:
+            output_dict = json.load(f)
 
     i = 0
     for ctgov_dict in tqdm(ctgov_dict_list):
+        if ctgov_dict['nct_id'] in output_dict:
+            continue
         prompt_curr = prompt.format(**ctgov_dict)
-        response = gpt_chat('gpt-3.5-turbo-0125', prompt_curr, seed=44)
+        try:
+            response = gpt_chat('gpt-3.5-turbo-0125', prompt_curr, seed=44)
+        except:
+            response = ""
 
         output_dict[ctgov_dict['nct_id']] = response
 
@@ -58,7 +67,7 @@ if __name__ == '__main__':
             with open(save_path, 'w') as f:
                 json.dump(output_dict, f)
         i += 1
-
+    
     with open(save_path, 'w') as f:
         json.dump(output_dict, f)
             

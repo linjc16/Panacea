@@ -13,6 +13,7 @@ import pdb
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--task', type=str, default='study_arms')
+    parser.add_argument('--split', type=str, default='test')
     args = parser.parse_args()
     prompt = (
         'Given the information below about a clinical trial, please analyze and provide reasons '
@@ -31,17 +32,17 @@ if __name__ == '__main__':
         'Study Arms: {arms_and_interventions}'
     )
     
-    save_path = f'data/downstream/design/raw/reasons/{args.task}/reasons.json'
+    save_path = f'data/downstream/design/raw/reasons/{args.task}/reasons_{args.split}.json'
 
     
     output_dict = {}
     ctgov_dict_list = []
-    with open('data/downstream/design/raw/selected_step1/merged/test/merged.json', 'r') as f:
+    with open(f'data/downstream/design/raw/selected_step1/merged/{args.split}/merged.json', 'r') as f:
         for line in f:
             ctgov_dict = json.loads(line)
             ctgov_dict_list.append(ctgov_dict)
 
-
+    
     i = 0
     for ctgov_dict in tqdm(ctgov_dict_list):
         prompt_curr = prompt.format(**ctgov_dict)

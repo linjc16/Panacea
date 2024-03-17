@@ -14,9 +14,8 @@ def gpt_chat(model, prompt, seed=44):
     messages=[
         {"role": "user", "content": prompt}
     ],
-    max_tokens=4000,
-    temperature=0.3,
-    seed=seed,
+    max_tokens=4096,
+    temperature=0.5,
     logprobs=True
     )
     
