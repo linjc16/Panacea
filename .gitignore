@@ -17,8 +17,11 @@ raw*/
 
 openai_key.py
 openai_api_azure.key
+openai_api.key
 
 data/downstream/matching/patient2trial/cohort/criteria.csv
+data/downstream/design/ctgov/
+data/downstream/design/raw
 
 .DS_Store
 

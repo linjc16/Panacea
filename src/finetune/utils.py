@@ -30,7 +30,7 @@ def load_multi_trial_summarization_data(data_path):
         output_data['id'].append(key)
         # merge title and abstract list within the same paper (index), then add prefix "Study #x:"
         study_text = ""
-        for i in range(len(value['title'])):
+        for i in range(min(len(value['title']), 3)):
             study_text += f"Study #{i+1}: {value['title'][i]}. {value['abstract'][i]}.\n\n"
         # remove the last \n\n
         study_text = study_text[:-2]
