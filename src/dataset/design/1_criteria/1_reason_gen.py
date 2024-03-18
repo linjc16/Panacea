@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import argparse
+import glob
 
 sys.path.append('./')
 from src.utils.gpt import gpt_chat
@@ -37,11 +38,17 @@ if __name__ == '__main__':
     
     output_dict = {}
     ctgov_dict_list = []
-    with open(f'data/downstream/design/raw/selected_step1/merged/{args.split}/merged.json', 'r') as f:
-        for line in f:
-            ctgov_dict = json.loads(line)
-            ctgov_dict_list.append(ctgov_dict)
-    
+
+    merge_files = glob.glob('data/downstream/design/raw/selected_step1/merged/{args.split}/*.json')
+
+    for merge_file in tqdm(merge_files):
+        with open(merge_file, 'r') as f:
+            for line in f:
+                ctgov_dict = json.loads(line)
+                ctgov_dict_list.append(ctgov_dict)
+
+    pdb.set_trace()
+
 
     i = 0
     for ctgov_dict in tqdm(ctgov_dict_list):

@@ -42,14 +42,15 @@ if __name__ == '__main__':
         'The information the user should implicitly provide includes the following: '
         'Title, Conditions, Intervention / Treatment, Study Type, Phase, Criteria, Design Details, Study Arms and so on. '
         'In the final part of the conversation, '
-        'the conversation should output the full outcome measures provided above. Note that all the information in output full outcome measures can be exactly found from the conversation. '
+        'the conversation should output full outcome measures provided above, including primary outcome measures and secondary outcome measures. '
+        'Note that all the information in output full outcome measures can be exactly found from the conversation. '
         'Note that you should fully leverage the reasons provided for the design of each outcome measure '
         'in some smart way to generate the conversation data. '
         'The role in the generated conversation should be "User" and "Chatbot". '
     )
     
     save_path = f'data/downstream/design/raw/reasons/{args.task}/chat_{args.split}.json'
-
+    
     output_dict = {}
 
     if os.path.exists(save_path):
