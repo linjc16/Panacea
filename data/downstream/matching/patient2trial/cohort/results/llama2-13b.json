@@ -1,0 +1,6 @@
+{
+    "0": {
+        "output": "Sure, I'd be happy to help! Based on the patient note and the clinical trial information provided, here is my assessment of the patient's eligibility for the trial:\n\nThe patient is a 58-year-old African-American woman with episodic pressing/burning anterior chest pain, which is not consistent with the inclusion criteria of the clinical trial, which requires patients with back pain. Additionally, the patient's symptoms of nausea, diaphoresis, and mild dyspnea are not typical of back pain. The patient's history of hypertension and obesity may be relevant to the trial, but the patient's current symptoms do not meet the inclusion criteria.\n\nTherefore, I would rate the patient's eligibility for the trial as:\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.\n\nThe patient does not meet the inclusion criteria for the trial, and the patient's current symptoms are not related to back pain.</s>",
+        "label": 0
+    }
+}

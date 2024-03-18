@@ -16,6 +16,7 @@ tqdm.pandas()
 def load_model(model_path, cache_dir):
     tokenizer = AutoTokenizer.from_pretrained(model_path, cache_dir=cache_dir, padding_side='left')
     tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.model_max_length = 1000000000000000019884624838656
 
     model = AutoModelForCausalLM.from_pretrained(
         model_path, cache_dir=cache_dir,
@@ -98,6 +99,8 @@ if __name__ == '__main__':
         # split by [/INST]
         if args.model_name.startswith('openchat'):
             decoded = decoded.split('<|end_of_turn|>')[1].strip()
+        elif args.model_name.startswith('zephyr'):
+            decoded = decoded.split('<|assistant|>')[-1].strip()
         else:
             decoded = decoded.split('[/INST]')[-1].strip()
         
