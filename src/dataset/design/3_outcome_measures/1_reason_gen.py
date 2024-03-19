@@ -6,9 +6,34 @@ import argparse
 sys.path.append('./')
 from src.utils.gpt import gpt_chat
 from tqdm import tqdm
+import multiprocessing as mp
+import glob
 
 import pdb
 
+def gen_reasons(input):
+    args, ctgov_dict_list, i = input
+    output_dict = {}
+
+    save_path = args.save_path.split('.json')[0] + f'_{i}.json'
+
+    i = 0
+    for ctgov_dict in tqdm(ctgov_dict_list):
+        prompt_curr = prompt.format(**ctgov_dict)
+        try:
+            response = gpt_chat('gpt-3.5-turbo-0125', prompt_curr, seed=44)
+        except:
+            response = ""
+
+        output_dict[ctgov_dict['nct_id']] = response
+
+        if i % 50 == 0:
+            with open(save_path, 'w') as f:
+                json.dump(output_dict, f, indent=4)
+        i += 1
+
+    with open(save_path, 'w') as f:
+        json.dump(output_dict, f, indent=4)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -35,40 +60,35 @@ if __name__ == '__main__':
         "Second Outcome Measure: {secondary_outcome_measures}"
     )
     
-    save_path = f'data/downstream/design/raw/reasons/{args.task}'
+    save_path = f'data/downstream/design/raw/reasons/{args.task}/{args.split}'
     os.makedirs(save_path, exist_ok=True)
     save_path = os.path.join(save_path, f'reasons_{args.split}.json')
-
+    args.save_path = save_path
     
-    output_dict = {}
     ctgov_dict_list = []
-    with open(f'data/downstream/design/raw/selected_step1/merged/{args.split}/merged.json', 'r') as f:
-        for line in f:
-            ctgov_dict = json.loads(line)
-            ctgov_dict_list.append(ctgov_dict)
-    
-    if os.path.exists(save_path):
-        with open(save_path, 'r') as f:
-            output_dict = json.load(f)
+    merge_files = glob.glob(f'data/downstream/design/raw/selected_step1/merged/{args.split}/*.json')
 
-    i = 0
-    for ctgov_dict in tqdm(ctgov_dict_list):
-        if ctgov_dict['nct_id'] in output_dict:
-            continue
-        prompt_curr = prompt.format(**ctgov_dict)
-        try:
-            response = gpt_chat('gpt-3.5-turbo-0125', prompt_curr, seed=44)
-        except:
-            response = ""
-
-        output_dict[ctgov_dict['nct_id']] = response
-
-        if i % 100 == 0:
-            with open(save_path, 'w') as f:
-                json.dump(output_dict, f)
-        i += 1
+    for merge_file in tqdm(merge_files):
+        with open(merge_file, 'r') as f:
+            for line in f:
+                ctgov_dict = json.loads(line)
+                ctgov_dict_list.append(ctgov_dict)
     
-    with open(save_path, 'w') as f:
-        json.dump(output_dict, f)
-            
+    if args.split == 'train':
+        # select the first 1/3 of the data
+        ctgov_dict_list = ctgov_dict_list[2 * len(ctgov_dict_list) // 3:]
+
+    num_processes = 10
     
+    # split into num_processes chunks
+    ctgov_dict_list_chunks = [ctgov_dict_list[i::num_processes] for i in range(num_processes)]
+
+    # for each chunk, add the args and process id (i)
+    
+    for i, ctgov_dict_list_chunk in enumerate(ctgov_dict_list_chunks):
+        ctgov_dict_list_chunks[i] = (args, ctgov_dict_list_chunk, i)
+    
+    pool = mp.Pool(processes=num_processes)
+
+    pool.map(gen_reasons, ctgov_dict_list_chunks)
+    pool.close()

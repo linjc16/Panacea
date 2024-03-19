@@ -93,7 +93,7 @@ if __name__ == '__main__':
         model_inputs = encodeds.to(model.device)
 
         
-        generated_ids = model.generate(model_inputs, max_new_tokens=256, do_sample=False, pad_token_id=tokenizer.eos_token_id)
+        generated_ids = model.generate(model_inputs, max_new_tokens=1024, do_sample=False, pad_token_id=tokenizer.eos_token_id)
         decoded = tokenizer.batch_decode(generated_ids)[0]
         
         # split by [/INST]
