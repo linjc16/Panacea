@@ -47,7 +47,7 @@ from alignment import (
 from src.finetune.utils import (
     load_single_trial_summarization_data,
     load_multi_trial_summarization_data,
-
+    load_query_generation_data,
 )
 
 from trl import SFTTrainer
@@ -103,6 +103,8 @@ def main():
         data_list = load_single_trial_summarization_data(data_path)
     elif data_args.task_type == 'multi-trial summarization':
         data_list = load_multi_trial_summarization_data(data_path)
+    elif data_args.task_type == 'query generation':
+        data_list = load_query_generation_data(data_path)
     
     data_dict = {'messages': data_list}
     

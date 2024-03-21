@@ -5,6 +5,11 @@ from tqdm import tqdm
 from collections import defaultdict
 import pdb
 
+import sys
+sys.path.append('./')
+from src.eval.search.query_generation.eval import json_schema
+
+
 def load_single_trial_summarization_data(data_path):
     df_data = pd.read_csv(data_path)
     input_text = df_data['input_text'].tolist()
@@ -57,5 +62,29 @@ def load_multi_trial_summarization_data(data_path):
     
     return data_list
 
+def load_query_generation_data(data_path):
+
+    with open(data_path, 'r') as f:
+        data = json.load(f)
+
+    instruction_prompt = "Given a query used for searching clinical trials in a database, conduct exact extracttion of related entities from the query and then generate a JSON object that can be used to query the database. If a field is not provided, leave it empty fiiled with 'N/A'."
+    instruction_prompt += '\n\nQuery: {query}'
+
+    SEARCH_TEMPLATE = """{prompt}\nOutput result in the following JSON schema format:\n{schema}"""
+    RESPONSE_TEMPLATE = """Result: {response}"""
+
+    data_list = []
+    for key, value in tqdm(data.items()):
+        user_input = instruction_prompt.format(query=value['query'])
+        user_input = SEARCH_TEMPLATE.format(prompt=user_input, schema=json_schema)
+        assistant_response = RESPONSE_TEMPLATE.format(response=value['parsed_dict'])
+        source = {"content": user_input, 'role': 'user'}
+        target = {"content": assistant_response, 'role': 'assistant'}
+        data_list.append([source, target])
+    
+
+    return data_list
+    
 if __name__ == '__main__':
-    load_multi_trial_summarization_data('data/downstream/summazization/multi-trial/test.json')
+    # load_multi_trial_summarization_data('data/downstream/summazization/multi-trial/test.json')
+    load_query_generation_data('data/downstream/search/query_generation/test.json')

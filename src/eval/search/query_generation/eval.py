@@ -137,7 +137,7 @@ if __name__ == '__main__':
 
     model_path = args.model_path
     cache_dir = args.cache_dir
-
+    
     tokenizer, model = load_model(model_path, cache_dir)
     data = load_dataset(args.file_dir, args.split)
 
