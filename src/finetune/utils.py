@@ -84,7 +84,32 @@ def load_query_generation_data(data_path):
     
 
     return data_list
+
+def load_query_expansion_data(data_path):
+    with open(data_path, 'r') as f:
+        data = json.load(f)
     
+    output_data = {}
+
+    for key, value in data.items():
+        query = ', '.join(value['input'])
+        expanded = ', '.join(value['output'])
+        output_data[key] = {'query': query, 'expanded': expanded}
+
+    instruction_prompt = "Given MeSH Terms used for searching clinical trials in a database, expand the input MeSH terms and then generate a JSON object that contains the expanded MeSH terms. Don't include the original MeSH terms in the expanded MeSH terms."
+    instruction_prompt += '\n\nInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
+    
+    data_list = []
+    for key, value in tqdm(output_data.items()):
+        source = {"content": instruction_prompt.format(query=value['query']), 'role': 'user'}
+        target = {"content": value['expanded'], 'role': 'assistant'}
+        data_list.append([source, target])
+    
+    return data_list
+
+
+
 if __name__ == '__main__':
     # load_multi_trial_summarization_data('data/downstream/summazization/multi-trial/test.json')
-    load_query_generation_data('data/downstream/search/query_generation/test.json')
+    # load_query_generation_data('data/downstream/search/query_generation/test.json')
+    load_query_expansion_data('data/downstream/search/query_expansion/test.json')

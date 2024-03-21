@@ -91,7 +91,7 @@ if __name__ == '__main__':
     PROMPT_TEMPLATE = ('Given MeSH Terms used for searching clinical trials in a database, expand the input MeSH terms and then generate a JSON object that contains the expanded MeSH terms. '
     'Don\'t include the original MeSH terms in the expanded MeSH terms.'
     '\n`For example, the input MeSH Terms are: "Neurocognitive Disorders, Tauopathies, Movement Disorders, Dementia, Synucleinopathies", then Expanded MeSH Terms are: Central Nervous System Diseases, Basal Ganglia Diseases, Brain Diseases, Alzheimer Disease, Lewy Body Disease, Nervous System Diseases.`'
-    '\n\nnInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
+    '\n\nInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
     '\nOutput result in the following JSON schema format:\n{schema}\nResult:"'
     )
     

@@ -83,7 +83,7 @@ if __name__ == '__main__':
     if args.model_name != 'mistral-7b':
         instruction_prompt += '\n`For example, the input MeSH Terms are: "Neurocognitive Disorders, Tauopathies, Movement Disorders, Dementia, Synucleinopathies", then Expanded MeSH Terms are: Central Nervous System Diseases, Basal Ganglia Diseases, Brain Diseases, Alzheimer Disease, Lewy Body Disease, Nervous System Diseases.`'
 
-    instruction_prompt += '\n\nnInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
+    instruction_prompt += '\n\nInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
 
     outputs = {}
     
