@@ -75,14 +75,14 @@ if __name__ == '__main__':
     if args.split == 'train':
         # select the first 1/3 of the data
         ctgov_dict_list = ctgov_dict_list[:len(ctgov_dict_list) // 3]
-
+    
     num_processes = 10
     
     # split into num_processes chunks
     ctgov_dict_list_chunks = [ctgov_dict_list[i::num_processes] for i in range(num_processes)]
 
     # for each chunk, add the args and process id (i)
-
+    
     for i, ctgov_dict_list_chunk in enumerate(ctgov_dict_list_chunks):
         ctgov_dict_list_chunks[i] = (args, ctgov_dict_list_chunk, i)
     

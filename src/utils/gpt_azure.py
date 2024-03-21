@@ -6,7 +6,7 @@ with open('./openai_api_azure.key', 'r') as f:
     
     
 os.environ["OPENAI_API_TYPE"] = "azure"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://trialmind.openai.azure.com/"
+os.environ["AZURE_OPENAI_ENDPOINT"] = "https://zifeng-gpt-2.openai.azure.com/"
 os.environ["AZURE_OPENAI_API_KEY"] = api_key
 os.environ["OPENAI_API_VERSION"] = "2023-03-15-preview"
 

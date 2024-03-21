@@ -76,7 +76,7 @@ if __name__ == '__main__':
             )
         else:
             interaction_prompt = 'almost all the advice and design ideas are provided by the chatbot, and the user just follows the chatbot. '
-
+        
         prompt_curr = prompt.format(**ctgov_dict, reasons=reasons_dict[ctgov_dict['nct_id']], interaction_prompt=interaction_prompt)
         
         for j in range(5):
