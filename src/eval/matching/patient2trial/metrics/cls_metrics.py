@@ -36,7 +36,7 @@ if __name__ == '__main__':
         
         labels.append(value['label'])
     
-
+    
     assert len(preds) == len(labels)
 
     # calculate accuracy using sklearn
