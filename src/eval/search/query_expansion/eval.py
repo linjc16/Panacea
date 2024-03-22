@@ -84,15 +84,35 @@ if __name__ == '__main__':
         instruction_prompt += '\n`For example, the input MeSH Terms are: "Neurocognitive Disorders, Tauopathies, Movement Disorders, Dementia, Synucleinopathies", then Expanded MeSH Terms are: Central Nervous System Diseases, Basal Ganglia Diseases, Brain Diseases, Alzheimer Disease, Lewy Body Disease, Nervous System Diseases.`'
 
     instruction_prompt += '\n\nInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
-
+    instruction_prompt += ' Split each expanded MeSH term by "\n".'
+    instruction_prompt += '\n\nExpanded MeSH Terms:'
+    
     outputs = {}
     
     i = 0
     for key, value in tqdm(data.items()):
-        jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
-        generated_data = jsonformer()
-        outputs[key] = generated_data
+        if not args.model_name.startswith('panacea'): 
+            jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
+            generated_data = jsonformer()
+        else:
+            merged_input_text = instruction_prompt.format(query=value['query'])
+
+            messages = [
+                {"role": "user", "content": merged_input_text},
+            ]
+            
+            encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
+            generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
+            generated_data_ori = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
         
+        try:
+            generated_data = generated_data_ori[generated_data_ori.find('<|assistant|>') + len('<|assistant|>'):].strip()
+            generated_data = generated_data.split(', ')
+        except:
+            generated_data = ''
+        
+        outputs[key] = generated_data
+
         if i % 100 == 0:
             with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'w') as f:
                 json.dump(outputs, f, indent=4)
