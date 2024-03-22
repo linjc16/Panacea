@@ -28,6 +28,8 @@ from transformers import set_seed, AutoModelForCausalLM
 import pdb
 import pandas as pd
 
+from datasets import Dataset
+
 import os
 sys.path.append('./')
 
@@ -49,6 +51,7 @@ from src.finetune.utils import (
     load_multi_trial_summarization_data,
     load_query_generation_data,
     load_query_expansion_data,
+    load_trial_design_data,
 
 )
 
@@ -109,11 +112,17 @@ def main():
         data_list = load_query_generation_data(data_path)
     elif data_args.task_type == 'query expansion':
         data_list = load_query_expansion_data(data_path)
+    elif data_args.task_type == 'trial design':
+        task_names = ['criteria', 'study_arms', 'outcome_measures']
+        filepaths = [os.path.join(data_path, task_name, 'train.json') for task_name in task_names]
+        data_list = []
+        for filepath in filepaths:
+            data_list.extend(load_trial_design_data(filepath))
+        
     
     data_dict = {'messages': data_list}
-    
-    from datasets import Dataset
     raw_datasets = Dataset.from_dict(data_dict, split='train')
+
     raw_datasets = raw_datasets.train_test_split(test_size=0.15, seed=42)
     
     logger.info(

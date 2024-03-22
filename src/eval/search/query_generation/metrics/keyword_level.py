@@ -12,7 +12,7 @@ def cal_scores(preds, groundtruth):
     for key, item in groundtruth.items():
         try:
             parsed_dict = json.loads(item['parsed_dict'])
-
+            
             gt_keywords = set()
             for k, v in parsed_dict.items():
                 if k not in ['start_year', 'end_year']:

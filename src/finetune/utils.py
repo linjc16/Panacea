@@ -131,9 +131,19 @@ def load_query_expansion_data(data_path):
     
     return data_list
 
+def load_trial_design_data(data_path):
+    with open(data_path, 'r') as f:
+        data = json.load(f)
 
+    data_list = []
+    for key, value in tqdm(data.items()):
+        data_list.append(value)
+
+    return data_list
 
 if __name__ == '__main__':
     # load_multi_trial_summarization_data('data/downstream/summazization/multi-trial/test.json')
-    load_query_generation_data('data/downstream/search/query_generation/train.json')
+    # load_query_generation_data('data/downstream/search/query_generation/train.json')
     # load_query_expansion_data('data/downstream/search/query_expansion/test.json')
+    data_list = load_trial_design_data('data/downstream/design/parsed/study_arms/test.json')
+    

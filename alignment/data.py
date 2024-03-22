@@ -25,8 +25,11 @@ DEFAULT_CHAT_TEMPLATE = "{% for message in messages %}\n{% if message['role'] ==
 
 
 def maybe_insert_system_message(messages, tokenizer):
+    # try:
     if messages[0]["role"] == "system":
         return
+    # except:
+    #     pass
 
     # chat template can be one of two attributes, we check in order
     chat_template = tokenizer.chat_template

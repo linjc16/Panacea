@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
     model_path = args.model_path
     cache_dir = args.cache_dir
-
+    
     df = load_dataset(args.file_dir, args.split)
 
     tokenizer, model = load_model(model_path, cache_dir)

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3,4,5,6 ACCELERATE_LOG_LEVEL=info accelerate launch --config_file recipes/accelerate_configs/deepspeed_zero3.yaml --num_processes=4 --main_process_port 12434 src/finetune/finetune.py recipes/panacea/finetune/design/design_mix.yaml
