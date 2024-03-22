@@ -69,15 +69,39 @@ def load_query_generation_data(data_path):
 
     instruction_prompt = "Given a query used for searching clinical trials in a database, conduct exact extracttion of related entities from the query and then generate a JSON object that can be used to query the database. If a field is not provided, leave it empty fiiled with 'N/A'."
     instruction_prompt += '\n\nQuery: {query}'
+    instruction_prompt += '\nResult:'
 
-    SEARCH_TEMPLATE = """{prompt}\nOutput result in the following JSON schema format:\n{schema}"""
-    RESPONSE_TEMPLATE = """Result: {response}"""
+    # SEARCH_TEMPLATE = """{prompt}\nOutput result in the following JSON schema format:\n{schema}"""
+    # instruction_prompt = """Result: {response}"""
 
     data_list = []
     for key, value in tqdm(data.items()):
+        try:
+            parsed_dict = json.loads(value['parsed_dict'])
+        except:
+            print(key)
+            continue
+        # transform the parsed_dict to a string, key: value, if value is a list, join them with ','
+        output = ''
+        for k, v in parsed_dict.items():
+            if isinstance(v, list):
+                v = ', '.join(v)
+            elif isinstance(v, dict):
+                # out_dict = []
+                # for k1, v1 in v.items():
+                #     if not v1:
+                #         v1 = 'N/A'
+                #     out_dict.append(f"{k1}: {v1}")
+                # v = ', '.join(out_dict)
+                continue
+            
+            if not v:
+                v = 'N/A'
+            output += f"{k}: {v}\n"
         user_input = instruction_prompt.format(query=value['query'])
-        user_input = SEARCH_TEMPLATE.format(prompt=user_input, schema=json_schema)
-        assistant_response = RESPONSE_TEMPLATE.format(response=value['parsed_dict'])
+        # user_input = SEARCH_TEMPLATE.format(prompt=user_input, schema=json_schema)
+        # assistant_response = RESPONSE_TEMPLATE.format(response=value['parsed_dict'])
+        assistant_response = output
         source = {"content": user_input, 'role': 'user'}
         target = {"content": assistant_response, 'role': 'assistant'}
         data_list.append([source, target])
@@ -111,5 +135,5 @@ def load_query_expansion_data(data_path):
 
 if __name__ == '__main__':
     # load_multi_trial_summarization_data('data/downstream/summazization/multi-trial/test.json')
-    # load_query_generation_data('data/downstream/search/query_generation/test.json')
-    load_query_expansion_data('data/downstream/search/query_expansion/test.json')
+    load_query_generation_data('data/downstream/search/query_generation/train.json')
+    # load_query_expansion_data('data/downstream/search/query_expansion/test.json')
