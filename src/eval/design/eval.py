@@ -35,6 +35,9 @@ def load_dataset(filepath):
 role_dict = {
     'openchat-7b': ['GPT4 Correct User', 'GPT4 Correct Assistant'],
     'mistral-7b': ['[INST]', '[/INST]'],
+    'llama2-7b': ['[INST]', '[/INST]'],
+    'llama2-13b': ['[INST]', '[/INST]'],
+    'llama2-70b': ['[INST]', '[/INST]'],
 }
 
 def format_dialogue(content, model_name):
@@ -43,7 +46,7 @@ def format_dialogue(content, model_name):
     """
 
     user_role, assis_role = role_dict[model_name]
-    if model_name.startswith('mistral'):
+    if model_name.startswith('mistral') or model_name.startswith('llama2'):
         content = content.replace(user_role, f'{user_role}:').replace(assis_role, f'{assis_role}:')
 
     dialogue_pairs = []
@@ -123,14 +126,18 @@ if __name__ == '__main__':
                 else:
                     encodeds = tokenizer.apply_chat_template(input, return_tensors="pt").to(model.device)
                 
-                generated_ids = model.generate(encodeds, max_new_tokens=2048, do_sample=False)
+                generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
                 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
+                # pdb.set_trace()
                 
                 dialogue_pairs = format_dialogue(response, args.model_name)
-                out_response.append(dialogue_pairs[-1][role_dict[args.model_name][1]])
+                try:
+                    out_response.append(dialogue_pairs[i][role_dict[args.model_name][1]])
+                except:
+                    out_response.append(dialogue_pairs[-1][role_dict[args.model_name][1]])
             except:
-                out_response.append("")
+                out_response.append('')
             
             groudtruth.append(value[i * 2 + 1]['content'])
 
