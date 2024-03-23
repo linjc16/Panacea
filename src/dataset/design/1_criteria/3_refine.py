@@ -6,7 +6,7 @@ import random
 import re
 
 sys.path.append('./')
-from src.utils.gpt import gpt_chat
+from src.utils.gpt_azure import gpt_chat_35
 from tqdm import tqdm
 
 import pdb
@@ -43,28 +43,40 @@ if __name__ == '__main__':
         'The role in the generated conversation should be "User" and "Chatbot". '
     )
     
-    save_path = f'data/downstream/design/raw/reasons/{args.task}/{args.split}/chat_{args.split}.json'
-    
+    gen_path = f'data/downstream/design/raw/reasons/{args.task}/{args.split}/chat/chat_{args.split}_old.json'
+    save_path = f'data/downstream/design/raw/reasons/{args.task}/{args.split}/chat/chat_{args.split}.json'
+
     output_dict = {}
 
-    if os.path.exists(save_path):
-        with open(save_path, 'r') as f:
+    if os.path.exists(gen_path):
+        with open(gen_path, 'r') as f:
             output_dict = json.load(f)
 
+    # pdb.set_trace()
+    
     ctgov_dict_list = []
     with open(f'data/downstream/design/raw/selected_step1/merged/{args.split}/merged.json', 'r') as f:
         for line in f:
             ctgov_dict = json.loads(line)
             ctgov_dict_list.append(ctgov_dict)
     
-    with open(f'data/downstream/design/raw/reasons/{args.task}/reasons_{args.split}.json', 'r') as f:
+    with open(f'data/downstream/design/raw/reasons/{args.task}/{args.split}/reasons_{args.split}.json', 'r') as f:
         reasons_dict = json.load(f)
     
+    output_dict_new = {}
+
     i = 0
     for ctgov_dict in tqdm(ctgov_dict_list):
         if ctgov_dict['nct_id'] in output_dict:
-            i += 1
-            continue
+            response = output_dict[ctgov_dict['nct_id']]
+            if not re.search(r'\[.*criteria.*\]', response) and not re.search(r'\(.*criterion.*\)', response) and \
+                not re.search(r'\[.*conversation].*\]', response) and not re.search(r'\(.*conversation].*\)', response):
+                output_dict_new[ctgov_dict['nct_id']] = response
+                if i % 100 == 0:
+                    with open(save_path, 'w') as f:
+                        json.dump(output_dict_new, f, indent=4)
+                i += 1
+                continue
             
         if random.random() > 0.3:
             interaction_prompt = (
@@ -75,11 +87,11 @@ if __name__ == '__main__':
         else:
             interaction_prompt = 'almost all the advice and design ideas are provided by the chatbot, and the user just follows the chatbot. '
 
-        prompt_curr = prompt.format(**ctgov_dict, reasons=reasons_dict[ctgov_dict['nct_id']], interaction_prompt=interaction_prompt)
-        
+        query_dict = {**ctgov_dict, 'reasons': reasons_dict[ctgov_dict['nct_id']], 'interaction_prompt': interaction_prompt}
+
         for j in range(5):
             try:
-                response = gpt_chat('gpt-3.5-turbo-0125', prompt_curr)
+                response = gpt_chat_35(prompt, query_dict)
             except:
                 response = ''
             
@@ -89,12 +101,12 @@ if __name__ == '__main__':
                 break
                 
         
-        output_dict[ctgov_dict['nct_id']] = response
+        output_dict_new[ctgov_dict['nct_id']] = response
         
         if i % 100 == 0:
             with open(save_path, 'w') as f:
-                json.dump(output_dict, f, indent=4)
+                json.dump(output_dict_new, f, indent=4)
         i += 1
     
     with open(save_path, 'w') as f:
-        json.dump(output_dict, f, indent=4)
+        json.dump(output_dict_new, f, indent=4)

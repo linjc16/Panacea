@@ -85,7 +85,7 @@ if __name__ == '__main__':
     file_dir = f'data/downstream/design/raw/reasons/{args.task}/{args.split}/chat/'
 
     filepaths = glob.glob(file_dir + '*.json')
-
+    
     data_dict = {}
     for filepath in filepaths:
         with open(filepath, 'r') as f:
@@ -107,7 +107,7 @@ if __name__ == '__main__':
         else:
             parsed_dict[key] = convert_to_requested_format(format_dialogue(value))
 
-    
+
     parsed_dict_filtered = {}
     for key, value in parsed_dict.items():
         try:

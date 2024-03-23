@@ -1,8 +1,8 @@
 TASK=$1
-MODEL_PATH=mistralai/Mistral-7B-Instruct-v0.1
+MODEL_PATH=HuggingFaceH4/zephyr-7b-beta
 CACHE_DIR=/data/linjc/hub
 SAVE_DIR=data/downstream/design/results/$TASK/
-MODEL_NAME=mistral-7b
+MODEL_NAME=zephyr-7b
 
 CUDA_VISIBLE_DEVICES=1 python src/eval/design/eval.py \
     --model_path $MODEL_PATH \

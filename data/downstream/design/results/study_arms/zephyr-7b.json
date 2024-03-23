@@ -1,0 +1,18 @@
+{
+    "NCT04291105": {
+        "model_response": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "groundtruth": [
+            "The melanoma arm is focused on patients who have previously received anti-PD-(L)1 therapy and shown progression. The combination of VV1 and cemiplimab aims to evaluate the anti-tumor activity and safety in this specific patient population.",
+            "The head and neck SCC arm is tailored for patients who have not received prior anti-PD-(L)1 treatment. The combination of VV1 and cemiplimab aims to assess the efficacy and safety in this specific cohort.",
+            "The colorectal carcinoma arm is designed for patients who have progressed on standard therapies. The combination of VV1 and cemiplimab aims to evaluate the anti-tumor activity and safety in this specific patient population.",
+            "Certainly! Here are the full study arms:\n1. Experimental: Melanoma intratumoral\nParticipant Group/Arm: Melanoma patients\nIntervention/Treatment: IT VV1 + IV cemiplimab\n\n2. Experimental: Head and Neck SCC intratumoral\nParticipant Group/Arm: Head and Neck Squamous Cell Carcinoma patients\nIntervention/Treatment: IT VV1 + IV cemiplimab\n\n3. Experimental: Colo-rectal Carcinoma intratumoral\nParticipant Group/Arm: Colorectal cancer patients\nIntervention/Treatment: IT VV1 + IV cemiplimab",
+            "You're welcome! If you have any more questions or need further clarification, feel free to ask."
+        ]
+    }
+}
