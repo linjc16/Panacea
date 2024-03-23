@@ -1,0 +1,16 @@
+{
+    "NCT05979779": {
+        "model_response": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "groundtruth": [
+            "Certainly! The experimental arm, which we'll call \"Active Treatment: HU6,\" will include obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis. They will receive planned doses of HU6. The primary purpose of this arm is to evaluate the safety and efficacy of HU6 in improving liver fat content.",
+            "The placebo comparator arm will consist of the same population as the experimental arm. However, instead of receiving the active treatment, participants in this arm will receive a non-active study drug, which is the placebo. This arm is important for establishing a baseline for comparison and controlling for the placebo effect.",
+            "Yes, that's correct! The \"Active Treatment: HU6\" arm will assess the safety and efficacy of HU6, while the \"Placebo Comparator\" arm will provide a comparison for evaluating the effects of HU6. This design will help us determine the potential benefits of HU6 in treating obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis.",
+            "You're welcome! I'm glad I could assist you. If you have any more questions or need further guidance, feel free to ask. Good luck with your clinical trial design!"
+        ]
+    }
+}

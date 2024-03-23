@@ -87,7 +87,7 @@ if __name__ == '__main__':
     parser.add_argument('--split', type=str, default='train')
     parser.add_argument('--num_process', type=int, default=128)
     args = parser.parse_args()
-
+    
     save_dir = os.path.join(args.file_dir, 'merged', args.split)
     os.makedirs(save_dir, exist_ok=True)
     

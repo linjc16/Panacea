@@ -63,10 +63,10 @@ if __name__ == '__main__':
     parser.add_argument('--split', type=str, default='train')
     parser.add_argument('--num_process', type=int, default=64)
     args = parser.parse_args()
-
+    
     output_dir = os.path.join(args.file_dir, 'refined', args.split)
     os.makedirs(output_dir, exist_ok=True)
-
+    
     _, damaged_dict_list = get_damaged_nctid(args.file_dir, args.split)
 
 

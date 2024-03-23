@@ -5,6 +5,7 @@ import argparse
 from multiprocessing import Pool
 import os
 import json
+import pdb
 
 def load_data(ctgov_dir='data/downstream/design/ctgov'):
     filepaths = glob.glob(os.path.join(ctgov_dir, '*.txt'))
@@ -23,8 +24,19 @@ def split_data(file_dict, split='train'):
     if split == 'train':
         nct_ids = df_cal_vals[df_cal_vals['registered_in_calendar_year'] <= '2022']['nct_id'].tolist()
     else:
+        nct_ids_test = df_cal_vals[df_cal_vals['registered_in_calendar_year'] > '2022']['nct_id'].tolist()
         with open('data/downstream/design/nctid_test.txt', 'r') as f:
-            nct_ids = f.read().splitlines()
+            nct_ids_regeneron = f.read().splitlines()
+            # only keep the nct_ids that are in the test set
+            nct_ids_regeneron_after_2023 = []
+            for nct_id in nct_ids_regeneron:
+                if nct_id in nct_ids_test:
+                    nct_ids_regeneron_after_2023.append(nct_id)
+        
+        # randomly select 600 from nct_ids_regeneron and merge with nct_ids_regeneron_after_2023
+        nct_ids = list(set(nct_ids_regeneron_after_2023 + nct_ids_test[:600]))
+    
+    print(f'Number of nct_ids in {split}: {len(nct_ids)}')
     
     return nct_ids
 
@@ -254,8 +266,8 @@ if __name__ == '__main__':
     save_dir = 'data/downstream/design/raw/selected_step1'
     os.makedirs(os.path.join(save_dir, 'train'), exist_ok=True)
     os.makedirs(os.path.join(save_dir, 'test'), exist_ok=True)
-
-
+    
+    
     def extract_data(input):
         nct_ids, split, process_id = input
         for nct_id in tqdm(nct_ids):

@@ -59,6 +59,7 @@ if __name__ == '__main__':
     )
     
     save_path = f'data/downstream/design/raw/reasons/{args.task}/{args.split}/reasons_{args.split}.json'
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
     args.save_path = save_path
     
     
