@@ -130,7 +130,7 @@ if __name__ == '__main__':
                 generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
                 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
                 
-                pdb.set_trace()
+                # pdb.set_trace()
                 
                 dialogue_pairs = format_dialogue(response, args.model_name)
                 try:
