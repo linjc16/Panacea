@@ -39,6 +39,7 @@ role_dict = {
     'llama2-13b': ['[INST]', '[/INST]'],
     'llama2-70b': ['[INST]', '[/INST]'],
     'panacea-ft': ['<|user|>', '<|assistant|>'],
+    'zephyr-7b': ['<|user|>', '<|assistant|>'],
 }
 
 def format_dialogue(content, model_name):
@@ -47,12 +48,14 @@ def format_dialogue(content, model_name):
     """
 
     user_role, assis_role = role_dict[model_name]
-    if model_name.startswith('mistral') or model_name.startswith('llama2') or model_name.startswith('panacea'):
+    if model_name.startswith('mistral') or model_name.startswith('llama2') or model_name.startswith('panacea') \
+            or model_name.startswith('zephyr'):
         content = content.replace(user_role, f'{user_role}:').replace(assis_role, f'{assis_role}:')
 
     dialogue_pairs = []
     current_pair = {}
     prev_role = None
+    
 
     # Split the content by role identifiers, keeping the delimiter
     parts = content.split(f'{user_role}:')
