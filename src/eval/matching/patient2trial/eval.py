@@ -5,8 +5,6 @@ import os
 import argparse
 from tqdm import tqdm
 import sys
-sys.path.append('./')
-from src.eval.matching.patient2trial.utils import format_input
 import pdb
 import json
 
@@ -76,11 +74,8 @@ if __name__ == '__main__':
 
     df_notes, df_criteria, qrels = load_dataset(args)
 
-    if os.path.exists(f'data/downstream/matching/patient2trial/{args.dataset}/input.json'):
-        with open(f'data/downstream/matching/patient2trial/{args.dataset}/input.json', 'r') as f:
-            inputs = json.load(f)
-    else:
-        inputs = format_input(df_notes, df_criteria, qrels)
+    with open(f'data/downstream/matching/patient2trial/{args.dataset}/input.json', 'r') as f:
+        inputs = json.load(f)
 
     i = 0
     output_dict = {}

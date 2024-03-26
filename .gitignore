@@ -26,6 +26,7 @@ data/downstream/design/raw
 data/downstream/design/parsed/study_arms/train.json
 data/downstream/design/parsed/outcome_measures/train.json
 data/downstream/design/parsed/criteria/train.json
+data/downstream/matching/patient2trial/TREC2021/train.json
 
 visulization
 
