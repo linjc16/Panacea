@@ -1,6 +1,6 @@
 MODEL_PATH=NousResearch/Llama-2-13b-chat-hf
 CACHE_DIR=/data/linjc/hub
-DATASET=cohort
+DATASET=$1
 SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results
 MODEL_NAME=llama2-13b
 

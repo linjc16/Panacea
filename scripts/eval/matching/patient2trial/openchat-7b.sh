@@ -1,6 +1,6 @@
 MODEL_PATH=openchat/openchat-3.5-0106
 CACHE_DIR=/data/linjc/hub
-DATASET=cohort
+DATASET=$1
 SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results
 MODEL_NAME=openchat-7b
 

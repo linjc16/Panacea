@@ -1,6 +1,6 @@
 MODEL_PATH=
 CACHE_DIR=/data/linjc/hub
-DATASET=cohort
+DATASET=$1
 SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results
 MODEL_NAME=panacea-ft
 

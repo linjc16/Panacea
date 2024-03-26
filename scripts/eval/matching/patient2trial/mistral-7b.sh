@@ -1,6 +1,6 @@
 MODEL_PATH=mistralai/Mistral-7B-Instruct-v0.1
 CACHE_DIR=/data/linjc/hub
-DATASET=cohort
+DATASET=$1
 SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results
 MODEL_NAME=mistral-7b
 

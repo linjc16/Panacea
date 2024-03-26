@@ -45,15 +45,6 @@ def read_trec_qrels(trec_qrel_file):
     return qrels
 
 
-def load_dataset(args):
-    df_criteria = pd.read_csv('data/downstream/matching/patient2trial/cohort/criteria.csv')
-
-    if args.dataset == 'cohort':
-        df_notes = pd.read_csv('data/downstream/matching/patient2trial/cohort/patient_notes.csv')
-        qrels = read_trec_qrels('data/downstream/matching/patient2trial/cohort/qrels-clinical_trials.txt')
-    
-    return df_notes, df_criteria, qrels
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='meta-llama/Llama-2-7b-chat-hf')
@@ -72,9 +63,8 @@ if __name__ == '__main__':
 
     tokenizer, model = load_model(model_path, cache_dir)
 
-    df_notes, df_criteria, qrels = load_dataset(args)
 
-    with open(f'data/downstream/matching/patient2trial/{args.dataset}/input.json', 'r') as f:
+    with open(f'data/downstream/matching/patient2trial/{args.dataset}/test.json', 'r') as f:
         inputs = json.load(f)
 
     i = 0
