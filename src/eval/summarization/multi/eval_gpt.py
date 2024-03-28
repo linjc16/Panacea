@@ -26,7 +26,6 @@ def load_dataset(file_dir, split='test'):
         # remove the last \n\n
         study_text = study_text[:-2]
         output_data['study_text'].append(study_text)
-        output_data['background'].append(value["background"])
         output_data['target'].append(value["target"])
     
     df = pd.DataFrame(output_data)
@@ -41,10 +40,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
     
     os.makedirs(args.save_dir, exist_ok=True)
-    instruction_prompt = "Your task is to synthesize the key findings from a collection of study abstracts related to a specific clinical trial related research question. In some cases, you will also be provided with a review background detailing the research question of the given studies."
+    instruction_prompt = "Your task is to synthesize the key findings from a collection of study abstracts related to a specific clinical trial related research question."
     instruction_prompt += "\nCombine the insights from the provided abstracts into a cohesive summary. Your summary should integrate the findings rather than listing them separately. It's crucial to maintain the scientific integrity of the original studies while ensuring the summary is accessible and informative."
     instruction_prompt += "\nThe output should only be the summary. Do not explain how you summarize it."
-    instruction_prompt += "\n\nReview Background: {Background}"
     instruction_prompt += "\n\nStudy Abstracts: {Text}"
     instruction_prompt += "\n\nSummary:"
     
@@ -58,16 +56,15 @@ if __name__ == '__main__':
         row = df.iloc[i]
         id = row['id']
         input_text = row['study_text']
-        bg_text = row['background']
         
         if args.model_name == 'gpt-3.5':
             try:
-                prediction = gpt_chat_35(instruction_prompt, {"Text": input_text, "Background": bg_text})
+                prediction = gpt_chat_35(instruction_prompt, {"Text": input_text})
             except:
                 prediction = ""
         elif args.model_name == 'gpt-4':
             try:
-                prediction = gpt_chat_4(instruction_prompt, {"Text": input_text, "Background": bg_text})
+                prediction = gpt_chat_4(instruction_prompt, {"Text": input_text})
             except:
                 prediction = ""
         else:
