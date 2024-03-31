@@ -1,0 +1,31 @@
+{
+    "2556": {
+        "diseases": [
+            "diabetes"
+        ],
+        "interventions": [
+            "other types"
+        ],
+        "sponsor": [],
+        "status": [
+            "NOT_YET_RECRUITING"
+        ],
+        "phase": [
+            "PHASE4"
+        ],
+        "study_type": {
+            "StudyTypeEnum": "INTERVENTIONAL"
+        },
+        "person_name": "N/A",
+        "nctid": [],
+        "locations": [],
+        "start_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": "N/A",
+            "OPERATOR": "N/A"
+        }
+    }
+}

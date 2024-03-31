@@ -1602,5 +1602,6405 @@
     "400": {
         "output": "Trial-level eligibility: 0) Excluded.</s>",
         "label": 2
+    },
+    "401": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "402": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "403": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "404": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "405": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "406": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "407": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "408": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "409": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "410": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "411": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "412": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "413": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "414": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "415": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "416": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "417": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "418": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "419": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "420": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "421": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "422": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "423": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "424": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "425": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "426": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "427": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "428": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "429": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "430": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "431": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "432": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "433": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "434": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "435": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "436": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "437": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "438": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "439": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "440": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "441": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "442": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "443": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "444": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "445": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "446": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "447": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "448": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "449": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "450": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "451": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "452": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "453": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "454": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "455": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "456": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "457": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "458": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "459": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "460": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "461": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "462": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "463": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "464": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "465": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "466": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "467": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "468": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "469": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "470": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "471": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "472": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "473": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "474": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "475": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "476": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "477": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "478": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "479": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "480": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "481": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "482": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "483": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "484": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "485": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "486": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "487": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "488": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "489": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "490": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "491": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "492": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "493": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "494": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "495": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "496": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "497": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "498": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "499": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "500": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "501": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "502": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "503": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "504": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "505": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "506": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "507": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "508": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "509": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "510": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "511": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "512": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "513": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "514": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "515": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "516": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "517": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "518": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "519": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "520": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "521": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "522": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "523": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "524": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "525": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "526": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "527": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "528": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "529": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "530": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "531": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "532": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "533": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "534": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "535": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "536": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "537": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "538": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "539": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "540": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "541": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "542": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "543": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "544": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "545": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "546": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "547": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "548": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "549": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "550": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "551": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "552": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "553": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "554": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "555": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "556": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "557": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "558": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "559": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "560": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "561": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "562": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "563": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "564": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "565": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "566": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "567": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "568": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "569": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "570": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "571": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "572": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "573": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "574": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "575": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "576": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "577": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "578": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "579": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "580": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "581": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "582": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "583": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "584": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "585": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "586": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "587": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "588": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "589": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "590": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "591": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "592": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "593": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "594": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "595": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "596": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "597": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "598": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "599": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "600": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "601": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "602": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "603": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "604": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "605": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "606": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "607": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "608": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "609": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "610": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "611": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "612": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "613": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "614": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "615": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "616": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "617": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "618": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "619": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "620": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "621": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "622": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "623": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "624": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "625": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "626": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "627": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "628": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "629": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "630": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "631": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "632": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "633": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "634": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "635": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "636": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "637": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "638": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "639": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "640": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "641": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "642": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "643": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "644": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "645": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "646": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "647": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "648": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "649": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "650": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "651": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "652": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "653": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "654": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "655": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "656": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "657": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "658": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "659": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "660": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "661": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "662": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "663": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "664": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "665": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "666": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "667": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "668": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "669": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "670": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "671": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "672": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "673": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "674": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "675": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "676": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "677": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "678": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "679": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "680": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "681": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "682": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "683": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "684": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "685": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "686": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "687": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "688": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "689": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "690": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "691": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "692": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "693": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "694": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "695": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "696": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "697": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "698": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "699": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "700": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "701": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "702": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "703": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "704": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "705": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "706": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "707": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "708": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "709": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "710": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "711": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "712": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "713": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "714": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "715": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "716": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "717": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "718": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "719": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "720": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "721": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "722": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "723": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "724": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "725": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "726": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "727": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "728": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "729": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "730": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "731": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "732": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "733": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "734": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "735": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "736": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "737": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "738": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "739": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "740": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "741": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "742": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "743": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "744": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "745": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "746": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "747": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "748": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "749": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "750": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "751": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "752": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "753": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "754": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "755": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "756": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "757": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "758": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "759": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "760": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "761": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "762": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "763": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "764": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "765": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "766": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "767": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "768": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "769": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "770": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "771": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "772": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "773": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "774": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "775": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "776": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "777": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "778": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "779": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "780": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "781": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "782": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "783": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "784": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "785": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "786": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "787": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "788": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "789": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "790": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "791": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "792": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "793": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "794": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "795": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "796": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "797": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "798": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "799": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "800": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "801": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "802": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "803": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "804": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "805": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "806": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "807": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "808": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "809": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "810": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "811": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "812": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "813": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "814": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "815": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "816": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "817": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "818": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "819": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "820": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "821": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "822": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "823": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "824": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "825": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "826": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "827": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "828": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "829": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "830": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "831": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "832": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "833": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "834": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "835": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "836": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "837": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "838": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "839": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "840": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "841": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "842": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "843": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "844": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "845": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "846": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "847": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "848": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "849": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "850": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "851": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "852": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "853": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "854": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "855": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "856": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "857": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "858": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "859": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "860": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "861": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "862": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "863": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "864": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "865": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "866": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "867": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "868": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "869": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "870": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "871": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "872": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "873": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "874": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "875": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "876": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "877": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "878": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "879": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "880": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "881": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "882": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "883": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "884": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "885": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "886": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "887": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "888": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "889": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "890": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "891": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "892": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "893": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "894": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "895": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "896": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "897": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "898": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "899": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "900": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "901": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "902": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "903": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "904": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "905": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "906": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "907": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "908": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "909": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "910": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "911": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "912": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "913": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "914": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "915": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "916": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "917": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "918": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "919": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "920": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "921": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "922": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "923": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "924": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "925": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "926": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "927": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "928": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "929": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "930": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "931": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "932": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "933": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "934": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "935": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "936": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "937": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "938": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "939": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "940": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "941": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "942": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "943": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "944": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "945": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "946": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "947": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "948": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "949": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "950": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "951": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "952": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "953": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "954": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "955": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "956": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "957": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "958": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "959": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "960": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "961": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "962": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "963": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "964": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "965": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "966": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "967": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "968": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "969": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "970": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "971": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "972": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "973": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "974": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "975": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "976": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "977": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "978": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "979": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "980": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "981": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "982": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "983": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "984": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "985": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "986": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "987": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "988": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "989": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "990": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "991": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "992": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "993": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "994": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "995": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "996": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "997": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "998": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "999": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1000": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1001": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1002": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1003": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1004": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1005": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1006": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1007": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1008": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1009": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1010": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1011": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1012": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1013": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1014": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1015": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1016": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1017": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1018": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1019": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1020": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1021": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1022": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1023": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1024": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1025": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1026": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1027": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1028": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1029": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1030": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1031": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1032": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1033": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1034": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1035": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1036": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1037": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1038": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1039": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1040": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1041": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1042": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1043": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1044": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1045": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1046": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1047": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1048": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1049": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1050": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1051": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1052": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1053": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1054": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1055": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1056": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1057": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1058": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1059": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1060": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1061": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1062": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1063": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1064": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1065": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1066": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1067": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1068": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1069": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1070": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1071": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1072": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1073": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1074": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1075": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1076": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1077": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1078": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1079": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1080": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1081": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1082": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1083": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1084": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1085": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1086": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1087": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1088": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1089": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1090": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1091": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1092": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1093": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1094": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1095": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1096": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1097": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1098": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1099": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1100": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1101": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1102": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1103": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1104": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1105": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1106": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1107": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1108": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1109": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1110": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1111": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1112": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1113": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1114": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1115": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1116": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1117": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1118": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1119": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1120": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1121": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1122": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1123": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1124": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1125": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1126": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1127": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1128": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1129": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1130": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1131": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1132": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1133": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1134": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1135": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1136": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1137": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1138": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1139": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1140": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1141": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1142": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1143": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1144": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1145": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1146": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1147": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1148": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1149": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1150": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1151": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1152": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1153": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1154": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1155": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1156": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1157": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1158": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1159": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1160": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1161": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1162": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1163": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1164": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1165": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1166": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1167": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1168": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1169": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1170": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1171": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1172": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1173": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1174": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1175": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1176": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1177": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1178": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1179": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1180": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1181": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1182": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1183": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1184": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1185": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1186": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1187": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1188": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1189": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1190": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1191": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1192": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1193": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1194": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1195": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1196": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1197": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1198": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1199": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1200": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1201": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1202": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1203": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1204": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1205": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1206": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1207": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1208": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1209": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1210": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1211": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1212": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1213": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1214": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1215": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1216": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1217": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1218": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1219": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1220": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1221": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1222": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1223": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1224": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1225": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1226": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1227": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1228": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1229": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1230": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1231": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1232": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1233": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1234": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1235": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1236": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1237": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1238": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1239": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1240": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1241": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1242": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1243": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1244": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1245": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1246": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1247": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1248": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1249": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1250": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1251": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1252": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1253": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1254": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1255": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1256": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1257": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1258": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1259": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1260": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1261": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1262": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1263": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1264": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1265": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1266": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1267": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1268": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1269": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1270": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1271": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1272": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1273": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1274": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1275": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1276": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1277": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1278": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1279": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1280": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1281": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1282": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1283": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1284": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1285": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1286": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1287": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1288": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1289": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1290": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1291": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1292": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1293": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1294": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1295": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1296": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1297": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1298": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1299": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1300": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1301": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1302": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1303": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1304": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1305": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1306": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1307": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1308": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1309": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1310": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1311": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1312": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1313": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1314": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1315": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1316": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1317": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1318": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1319": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1320": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1321": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1322": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1323": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1324": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1325": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1326": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1327": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1328": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1329": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1330": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1331": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1332": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1333": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1334": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1335": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1336": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1337": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1338": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1339": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1340": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1341": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1342": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1343": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1344": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1345": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1346": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1347": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1348": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1349": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1350": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1351": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1352": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1353": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1354": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1355": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1356": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1357": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1358": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1359": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1360": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1361": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1362": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1363": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1364": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1365": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1366": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1367": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1368": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1369": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1370": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1371": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1372": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1373": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1374": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1375": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1376": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1377": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1378": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1379": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1380": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1381": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1382": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1383": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1384": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1385": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1386": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1387": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1388": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1389": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1390": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1391": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1392": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1393": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1394": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1395": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1396": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1397": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1398": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1399": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1400": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1401": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1402": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1403": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1404": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1405": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1406": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1407": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1408": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1409": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1410": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1411": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1412": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1413": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1414": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1415": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1416": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1417": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1418": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1419": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1420": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1421": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1422": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1423": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1424": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1425": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1426": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1427": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1428": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1429": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1430": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1431": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1432": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1433": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1434": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1435": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1436": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1437": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1438": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1439": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1440": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1441": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1442": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1443": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1444": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1445": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1446": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1447": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1448": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1449": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1450": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1451": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1452": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1453": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1454": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1455": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1456": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1457": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1458": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1459": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1460": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1461": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1462": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1463": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1464": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1465": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1466": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1467": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1468": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1469": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1470": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1471": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1472": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1473": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1474": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1475": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1476": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1477": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1478": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1479": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1480": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1481": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1482": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1483": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1484": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1485": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1486": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1487": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1488": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1489": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1490": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1491": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1492": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1493": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1494": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1495": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1496": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1497": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1498": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1499": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1500": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1501": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1502": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1503": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1504": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1505": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1506": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1507": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1508": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1509": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1510": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1511": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1512": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1513": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1514": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1515": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1516": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1517": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1518": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1519": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1520": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1521": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1522": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1523": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1524": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1525": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1526": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1527": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1528": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1529": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1530": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1531": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1532": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1533": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1534": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1535": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1536": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1537": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1538": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1539": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1540": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1541": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1542": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1543": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1544": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1545": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1546": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1547": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1548": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1549": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1550": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1551": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1552": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1553": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1554": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1555": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1556": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1557": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1558": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1559": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1560": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1561": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1562": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1563": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1564": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1565": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1566": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1567": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1568": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1569": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1570": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1571": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1572": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1573": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1574": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1575": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1576": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1577": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1578": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1579": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1580": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1581": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1582": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1583": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1584": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1585": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1586": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1587": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1588": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1589": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1590": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1591": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1592": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1593": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1594": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1595": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1596": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1597": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1598": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1599": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1600": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1601": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1602": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1603": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1604": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1605": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1606": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1607": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1608": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1609": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1610": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1611": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1612": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1613": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1614": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1615": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1616": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1617": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1618": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1619": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1620": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1621": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1622": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1623": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1624": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1625": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1626": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1627": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1628": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1629": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1630": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1631": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1632": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1633": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1634": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1635": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1636": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1637": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1638": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1639": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1640": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1641": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1642": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1643": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1644": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1645": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1646": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1647": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1648": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1649": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1650": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1651": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1652": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1653": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1654": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1655": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1656": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1657": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1658": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1659": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1660": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1661": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1662": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1663": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1664": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1665": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1666": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1667": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1668": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1669": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1670": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1671": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1672": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1673": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1674": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1675": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1676": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1677": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1678": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1679": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1680": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1681": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1682": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1683": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1684": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1685": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1686": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1687": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1688": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1689": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1690": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1691": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1692": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1693": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1694": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1695": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1696": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1697": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1698": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1699": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1700": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1701": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1702": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1703": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1704": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1705": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1706": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1707": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1708": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1709": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1710": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1711": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1712": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1713": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1714": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1715": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1716": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1717": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1718": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1719": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1720": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1721": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1722": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1723": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1724": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1725": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1726": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1727": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1728": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1729": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1730": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1731": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1732": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1733": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1734": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1735": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1736": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1737": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1738": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1739": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1740": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1741": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1742": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1743": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1744": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1745": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1746": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1747": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1748": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1749": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1750": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1751": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1752": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1753": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1754": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1755": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1756": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1757": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1758": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1759": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1760": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1761": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1762": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1763": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1764": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1765": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1766": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1767": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1768": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1769": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1770": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1771": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1772": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1773": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1774": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1775": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1776": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1777": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1778": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1779": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1780": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1781": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1782": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1783": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1784": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1785": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1786": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1787": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1788": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1789": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1790": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1791": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1792": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1793": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1794": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1795": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1796": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1797": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1798": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1799": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1800": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1801": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1802": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1803": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1804": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1805": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1806": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1807": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1808": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1809": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1810": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1811": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1812": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1813": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1814": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1815": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1816": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1817": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1818": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1819": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1820": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1821": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1822": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1823": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1824": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1825": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1826": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1827": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1828": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1829": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1830": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1831": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1832": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1833": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1834": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1835": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1836": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1837": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1838": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1839": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1840": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1841": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1842": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1843": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1844": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1845": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1846": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1847": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1848": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1849": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1850": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1851": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1852": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1853": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1854": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1855": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1856": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1857": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1858": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1859": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1860": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1861": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1862": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1863": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1864": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1865": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1866": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1867": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1868": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1869": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1870": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1871": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1872": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1873": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1874": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1875": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1876": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1877": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1878": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1879": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1880": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1881": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1882": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1883": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1884": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1885": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1886": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1887": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1888": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1889": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1890": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1891": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1892": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1893": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1894": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1895": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1896": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1897": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1898": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1899": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1900": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1901": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1902": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1903": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1904": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1905": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1906": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1907": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1908": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1909": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1910": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1911": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1912": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1913": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1914": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1915": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1916": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1917": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1918": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1919": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1920": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1921": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1922": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1923": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1924": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1925": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1926": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1927": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1928": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1929": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1930": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1931": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1932": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1933": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1934": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1935": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1936": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1937": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1938": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1939": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1940": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1941": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1942": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1943": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1944": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1945": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1946": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1947": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1948": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1949": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1950": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1951": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1952": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1953": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1954": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1955": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1956": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1957": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1958": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1959": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1960": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1961": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1962": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1963": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1964": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1965": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1966": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1967": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1968": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1969": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1970": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1971": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1972": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1973": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1974": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1975": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1976": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1977": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1978": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1979": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1980": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1981": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1982": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1983": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1984": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1985": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1986": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1987": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1988": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1989": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1990": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1991": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1992": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1993": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1994": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1995": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 1
+    },
+    "1996": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 2
+    },
+    "1997": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1998": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "1999": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
+    },
+    "2000": {
+        "output": "Trial-level eligibility: 0) Excluded.</s>",
+        "label": 0
     }
 }

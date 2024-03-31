@@ -1,10 +1,10 @@
-MODEL_PATH=chaoyi-wu/PMC_LLAMA_7B
+MODEL_PATH=medalpaca/medalpaca-13b
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/summazization/single-trial
 SAVE_DIR=data/downstream/summazization/single-trial/results
-MODEL_NAME=pmc-llama
+MODEL_NAME=medalpaca-13b
 
-CUDA_VISIBLE_DEVICES=0 python src/eval/summarization/single/eval.py \
+CUDA_VISIBLE_DEVICES=2 python src/eval/summarization/single/eval.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --file_dir $FILE_DIR \
