@@ -105,11 +105,11 @@ if __name__ == '__main__':
             generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
             generated_data_ori = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
             
-        try:
-            generated_data = generated_data_ori[generated_data_ori.find('<|assistant|>') + len('<|assistant|>'):].strip()
-            generated_data = generated_data.split(', ')
-        except:
-            generated_data = ''
+            try:
+                generated_data = generated_data_ori[generated_data_ori.find('<|assistant|>') + len('<|assistant|>'):].strip()
+                generated_data = generated_data.split(', ')
+            except:
+                generated_data = ''
         
         outputs[key] = generated_data
 
