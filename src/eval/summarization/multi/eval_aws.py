@@ -8,7 +8,7 @@ from collections import defaultdict
 
 sys.path.append('./')
 
-from src.utils.claude_aws import chat_haiku
+from src.utils.claude_aws import chat_haiku, chat_sonnet
 
 
 def load_dataset(file_dir, split='test'):
@@ -60,6 +60,11 @@ if __name__ == '__main__':
         if args.model_name == 'claude-haiku':
             try:
                 prediction = chat_haiku(instruction_prompt.format(Text=input_text))
+            except:
+                prediction = ""
+        elif args.model_name == 'claude-sonnet':
+            try:
+                prediction = chat_sonnet(instruction_prompt.format(Text=input_text))
             except:
                 prediction = ""
         else:

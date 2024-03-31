@@ -4,7 +4,7 @@ FILE_DIR=data/downstream/summazization/multi-trial
 SAVE_DIR=data/downstream/summazization/multi-trial/results
 MODEL_NAME=llama2-13b
 
-CUDA_VISIBLE_DEVICES=2 python src/eval/summarization/multi/eval.py \
+CUDA_VISIBLE_DEVICES=1 python src/eval/summarization/multi/eval.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --file_dir $FILE_DIR \

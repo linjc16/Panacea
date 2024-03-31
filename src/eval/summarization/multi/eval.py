@@ -65,7 +65,7 @@ if __name__ == '__main__':
     cache_dir = args.cache_dir
     
     df = load_dataset(args.file_dir, args.split)
-
+    
     tokenizer, model = load_model(model_path, cache_dir)
 
     instruction_prompt = "Your task is to synthesize the key findings from a collection of study abstracts related to a specific clinical trial related research question."
@@ -77,7 +77,7 @@ if __name__ == '__main__':
     if not os.path.exists(os.path.join(args.save_dir, f'{args.model_name}.csv')):
         with open(os.path.join(args.save_dir, f'{args.model_name}.csv'), 'w') as f:
             f.write('id,summary\n')
-
+    
     for i in tqdm(range(len(df))):
         row = df.iloc[i]
         id = row['id']

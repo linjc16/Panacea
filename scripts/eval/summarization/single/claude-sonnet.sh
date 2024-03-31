@@ -1,0 +1,1 @@
+python src/eval/summarization/single/eval_aws.py --model_name claude-sonnet

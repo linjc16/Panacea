@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 sys.path.append('./')
 
-from src.utils.claude_aws import chat_haiku
+from src.utils.claude_aws import chat_haiku, chat_sonnet
 
 
 def load_dataset(file_dir, split='test'):
@@ -37,6 +37,8 @@ if __name__ == '__main__':
         input_text = df.iloc[i]['input_text']
         if args.model_name == 'claude-haiku':
             summary = chat_haiku(instruction_prompt.format(Text=input_text))
+        elif args.model_name == 'claude-sonnet':
+            summary = chat_sonnet(instruction_prompt.format(Text=input_text))
         else:
             raise ValueError(f"Model name {args.model_name} is not supported.")
         
