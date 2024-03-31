@@ -84,7 +84,7 @@ if __name__ == '__main__':
         # split by [/INST]
         if args.model_name.startswith('openchat'):
             decoded = decoded.split('<|end_of_turn|>')[1].strip()
-        elif args.model_name.startswith('zephyr'):
+        elif args.model_name.startswith('zephyr') or args.model_name.startswith('panacea'):
             decoded = decoded.split('<|assistant|>')[-1].strip()
         else:
             decoded = decoded.split('[/INST]')[-1].strip()

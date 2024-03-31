@@ -14,7 +14,7 @@ preprocessing_num_workers: 12
 bf16: true
 do_eval: true
 evaluation_strategy: epoch
-gradient_accumulation_steps: 64
+gradient_accumulation_steps: 32
 gradient_checkpointing: true
 gradient_checkpointing_kwargs:
   use_reentrant: False
@@ -37,6 +37,6 @@ report_to:
 - tensorboard
 save_strategy: "steps"
 save_steps: 10
-save_total_limit: 20
+save_total_limit: 10
 seed: 42
 warmup_ratio: 0.1

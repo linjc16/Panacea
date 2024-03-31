@@ -32,34 +32,34 @@ def load_multi_trial_summarization_data(data_path):
 
     output_data = defaultdict(list)
     for key, value in tqdm(data.items()):
+        if len(value['title']) < 2:
+            continue
         output_data['id'].append(key)
         # merge title and abstract list within the same paper (index), then add prefix "Study #x:"
         study_text = ""
-        for i in range(min(len(value['title']), 3)):
+        for i in range(len(value['title'])):
             study_text += f"Study #{i+1}: {value['title'][i]}. {value['abstract'][i]}.\n\n"
         # remove the last \n\n
         study_text = study_text[:-2]
         output_data['study_text'].append(study_text)
-        output_data['background'].append(value["background"])
         output_data['target'].append(value["target"])
     
     df_data = pd.DataFrame(output_data)
     input_text = df_data['study_text'].tolist()
-    bg_text = df_data['background'].tolist()
     target_text = df_data['target'].tolist()
 
     instruction_prompt = "Your task is to synthesize the key findings from a collection of study abstracts related to a specific clinical trial related research question. In some cases, you will also be provided with a review background detailing the research question of the given studies."
     instruction_prompt += "\nCombine the insights from the provided abstracts into a cohesive summary. Your summary should integrate the findings rather than listing them separately. It's crucial to maintain the scientific integrity of the original studies while ensuring the summary is accessible and informative."
     instruction_prompt += "\nThe output should only be the summary. Do not explain how you summarize it."
-    instruction_prompt += "\n\nReview Background: {Background}"
     instruction_prompt += "\n\nStudy Abstracts: {Text}"
     data_list = []
 
     for i in range(len(input_text)):
-        source = {"content": instruction_prompt.format(Text=input_text[i], Background=bg_text[i]), 'role': 'user'}
+        source = {"content": instruction_prompt.format(Text=input_text[i]), 'role': 'user'}
         target = {"content": f"{target_text[i]}", 'role': 'assistant'}
         data_list.append([source, target])
     
+
     return data_list
 
 def load_query_generation_data(data_path):
@@ -141,9 +141,27 @@ def load_trial_design_data(data_path):
 
     return data_list
 
+def load_patient2trial_data(data_path):
+    with open(data_path, 'r') as f:
+        data = json.load(f)
+
+    label_dict = {
+        0: 'Excluded',
+        1: 'Not relevant',
+        2: 'Eligible'
+    }
+    
+    data_list = []
+    for key, value in tqdm(data.items()):
+        source = {"content": value['input'], 'role': 'user'}
+        target = {"content": f"Trial-level eligibility: {value['label']}) {label_dict[value['label']]}.", 'role': 'assistant'}
+        data_list.append([source, target])
+    
+    return data_list
+
 if __name__ == '__main__':
-    # load_multi_trial_summarization_data('data/downstream/summazization/multi-trial/test.json')
+    # load_multi_trial_summarization_data('data/downstream/summazization/multi-trial/train.json')
     # load_query_generation_data('data/downstream/search/query_generation/train.json')
     # load_query_expansion_data('data/downstream/search/query_expansion/test.json')
-    data_list = load_trial_design_data('data/downstream/design/parsed/study_arms/test.json')
-    
+    # data_list = load_trial_design_data('data/downstream/design/parsed/study_arms/test.json')
+    load_patient2trial_data('data/downstream/matching/patient2trial/TREC2021/train.json')

@@ -52,6 +52,7 @@ from src.finetune.utils import (
     load_query_generation_data,
     load_query_expansion_data,
     load_trial_design_data,
+    load_patient2trial_data,
 
 )
 
@@ -118,6 +119,9 @@ def main():
         data_list = []
         for filepath in filepaths:
             data_list.extend(load_trial_design_data(filepath))
+    elif data_args.task_type == 'patient2trial':
+        data_list = load_patient2trial_data(data_path)
+    
         
     
     data_dict = {'messages': data_list}

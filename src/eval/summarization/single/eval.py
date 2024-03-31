@@ -10,7 +10,7 @@ import pdb
 tqdm.pandas()
 
 def load_model(model_path, cache_dir):
-    tokenizer = AutoTokenizer.from_pretrained(model_path, cache_dir=cache_dir, padding_side='left')
+    tokenizer = AutoTokenizer.from_pretrained(model_path, cache_dir=cache_dir, padding_side='left', use_fast=False)
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.model_max_length = 1000000000000000019884624838656
     
@@ -24,6 +24,8 @@ def load_model(model_path, cache_dir):
     model.eval()
 
     return tokenizer, model
+
+
 
 def load_sft_mistral_model_tokenizer(args):
     base_model_name = args.base_model_name

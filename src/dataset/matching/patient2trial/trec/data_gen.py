@@ -75,6 +75,21 @@ PROMPT = (
     "```\n\n"
 )
 
+PROMPT_TRAIN = (
+    "Hello. You are a helpful assistant for clinical trial recruitment. Your task is to compare a given patient note and the "
+    "inclusion criteria of a clinical trial to determine the patient's eligibility. "
+    "The factors that allow someone to participate in a clinical study are called inclusion criteria. They are based on "
+    "characteristics such as age, gender, the type and stage of a disease, previous treatment history, and other "
+    "medical conditions."
+    "\n\n"
+    "The assessment of eligibility has a three-point scale: " 
+    "0) Excluded (patient meets inclusion criteria, but is excluded on the grounds of the trial's exclusion criteria); "
+    "1) Not relevant (patient does not have sufficient information to qualify for the trial); and "
+    "2) Eligible (patient meets inclusion criteria and exclusion criteria do not apply). \n"
+    "You should make a trial-level eligibility on each patient for the clinical trial, i.e., output the scale for the assessment of eligibility. "
+    "\n\n"
+)
+
 input_patient_note_prefix = (
     "Here is the patient note:\n"
 )
@@ -133,7 +148,10 @@ def format_input(df_notes, df_criteria, qrels, split='test'):
             "Finally, you should always repeat Trial-level eligibility in the last line by `Trial-level eligibility: `, e.g., `Trial-level eligibility: 2) Eligible.`.\n"
         )
 
-        input = PROMPT + input_patient_note + input_clinical_trial + output_prefix
+        if split == 'train':
+            input = PROMPT_TRAIN + input_patient_note + input_clinical_trial + output_prefix
+        else:
+            input = PROMPT + input_patient_note + input_clinical_trial + output_prefix
         inputs[idx] = {
             'patient_id': patient_id,
             'nct_id': nct_id,

@@ -35,7 +35,7 @@ def chat_haiku(prompt):
         max_tokens=512,
         messages=message,
     )
-
+    
     return message.content[0].text
 
 def chat_sonnet(prompt):
