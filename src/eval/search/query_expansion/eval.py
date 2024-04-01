@@ -112,7 +112,7 @@ if __name__ == '__main__':
                 generated_data = ''
         
         outputs[key] = generated_data
-
+        
         if i % 100 == 0:
             with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'w') as f:
                 json.dump(outputs, f, indent=4)

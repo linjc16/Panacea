@@ -2,7 +2,7 @@ MODEL_PATH=epfl-llm/meditron-7b
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/search/query_expansion
 SAVE_DIR=data/downstream/search/query_expansion/results
-MODEL_NAME=meditron-7
+MODEL_NAME=meditron-7b
 
 CUDA_VISIBLE_DEVICES=7 python src/eval/search/query_expansion/eval.py \
     --model_path $MODEL_PATH \

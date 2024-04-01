@@ -40,6 +40,10 @@ role_dict = {
     'llama2-70b': ['[INST]', '[/INST]'],
     'panacea-ft': ['<|user|>', '<|assistant|>'],
     'zephyr-7b': ['<|user|>', '<|assistant|>'],
+    'biomistral-7b': ['[INST]', '[/INST]'],
+    'medalpaca-7b': ['[INST]', '[/INST]'],
+    'medalpaca-13b': ['[INST]', '[/INST]'],
+    'meditron-7b': ['[INST]', '[/INST]'],
 }
 
 def format_dialogue(content, model_name):
@@ -49,7 +53,8 @@ def format_dialogue(content, model_name):
 
     user_role, assis_role = role_dict[model_name]
     if model_name.startswith('mistral') or model_name.startswith('llama2') or model_name.startswith('panacea') \
-            or model_name.startswith('zephyr'):
+            or model_name.startswith('zephyr') or model_name.startswith('biomistral') or model_name.startswith('medalpaca') \
+            or model_name.startswith('meditron'):
         content = content.replace(user_role, f'{user_role}:').replace(assis_role, f'{assis_role}:')
 
     dialogue_pairs = []
