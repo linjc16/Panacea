@@ -24,10 +24,13 @@ client = AnthropicBedrock(
 
 def chat_haiku(prompt):
 
-    message = [{
-        'role': 'user',
-        'content': prompt
-    }]
+    if isinstance(prompt, str):
+        message = [{
+            'role': 'user',
+            'content': prompt
+        }]
+    else:
+        message = prompt
     
     message = client.messages.create(
         temperature=0,
@@ -39,10 +42,14 @@ def chat_haiku(prompt):
     return message.content[0].text
 
 def chat_sonnet(prompt):
-    message = [{
-        'role': 'user',
-        'content': prompt
-    }]
+    
+    if isinstance(prompt, str):
+        message = [{
+            'role': 'user',
+            'content': prompt
+        }]
+    else:
+        message = prompt
 
     message = client.messages.create(
         temperature=0,

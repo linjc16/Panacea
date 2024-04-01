@@ -135,7 +135,10 @@ if __name__ == '__main__':
                 else:
                     encodeds = tokenizer.apply_chat_template(input, return_tensors="pt").to(model.device)
                 
-                generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
+                if args.model_name == 'medalpaca-13b':
+                    generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=True)
+                else:
+                    generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
                 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
                 
                 # pdb.set_trace()
@@ -146,6 +149,7 @@ if __name__ == '__main__':
                 except:
                     out_response.append(dialogue_pairs[-1][role_dict[args.model_name][1]])
             except:
+                # pdb.set_trace()
                 out_response.append('')
             
             groudtruth.append(value[i * 2 + 1]['content'])
