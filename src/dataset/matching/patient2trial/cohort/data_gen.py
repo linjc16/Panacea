@@ -1,5 +1,6 @@
 from tqdm import tqdm
 import json
+import pandas as pd
 import pdb
 
 
@@ -120,10 +121,15 @@ def format_input(df_notes, df_criteria, qrels):
             f"{patient_note_sentences}"
         )
 
+        # output_prefix = (
+        #     "\n"
+        #     "Let's think step by step. \n"
+        #     "Finally, you should always repeat Trial-level eligibility in the last line by `Trial-level eligibility: `, e.g., `Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.`.\n"
+        # )
+
         output_prefix = (
             "\n"
-            "Let's think step by step. \n"
-            "Finally, you should always repeat Trial-level eligibility in the last line by `Trial-level eligibility: `, e.g., `Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.`.\n"
+            "Finally, you only need to output the Trial-level eligibility in the last line with `Trial-level eligibility: `, e.g., `Trial-level eligibility: 2) Highly likely to refer this patient for this clinical trial.`.\n"
         )
 
         input = PROMPT + input_patient_note + input_clinical_trial + output_prefix
@@ -138,3 +144,12 @@ def format_input(df_notes, df_criteria, qrels):
         json.dump(inputs, f, indent=4, sort_keys=True)
 
     return inputs
+
+if __name__ == '__main__':
+    df_notes = pd.read_csv('data/downstream/matching/patient2trial/cohort/patient_notes.csv')
+    df_criteria = pd.read_csv('data/downstream/matching/patient2trial/cohort/criteria.csv')
+
+    with open('data/downstream/matching/patient2trial/cohort/qrels.json', 'r') as f:
+        qrels = json.load(f)
+
+    inputs = format_input(df_notes, df_criteria, qrels)

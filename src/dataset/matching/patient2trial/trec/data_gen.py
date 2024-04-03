@@ -142,10 +142,15 @@ def format_input(df_notes, df_criteria, qrels, split='test'):
             f"{patient_note_sentences}"
         )
 
+        # output_prefix = (
+        #     "\n"
+        #     "Let's think step by step. \n"
+        #     "Finally, you should always repeat Trial-level eligibility in the last line by `Trial-level eligibility: `, e.g., `Trial-level eligibility: 2) Eligible.`.\n"
+        # )
+    
         output_prefix = (
             "\n"
-            "Let's think step by step. \n"
-            "Finally, you should always repeat Trial-level eligibility in the last line by `Trial-level eligibility: `, e.g., `Trial-level eligibility: 2) Eligible.`.\n"
+            "Finally, you only need to output the Trial-level eligibility in the last line with `Trial-level eligibility: `, e.g., `Trial-level eligibility: 2) Eligible.`.\n"
         )
 
         if split == 'train':
