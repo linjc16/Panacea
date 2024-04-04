@@ -4,7 +4,7 @@ DATASET=$1
 SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results
 MODEL_NAME=llama2-7b
 
-CUDA_VISIBLE_DEVICES=3 python src/eval/matching/patient2trial/eval.py \
+CUDA_VISIBLE_DEVICES=6 python src/eval/matching/patient2trial/eval.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --dataset $DATASET \
