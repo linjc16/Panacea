@@ -32,6 +32,8 @@ if __name__ == '__main__':
     output_dict = {}
     for key, value in tqdm(inputs.items()):
         prompt = value['input']
+        prompt = prompt.replace("{", "(")
+        prompt = prompt.replace("}", ")")
         if args.model_name == 'gpt-3.5':
             try:
                 decoded = gpt_chat_35(prompt, {})
@@ -47,7 +49,7 @@ if __name__ == '__main__':
             'output': decoded,
             'label': value['label']
         }
-
+        
         if i % 100 == 0:
             with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'w') as f:
                 json.dump(output_dict, f, indent=4)

@@ -74,10 +74,10 @@ def get_tokenizer(model_args: ModelArguments, data_args: DataArguments):
     if data_args.truncation_side is not None:
         tokenizer.truncation_side = data_args.truncation_side
     
-    # # Set reasonable default for models without max length
-    # if tokenizer.model_max_length > 100_000:
-    #     tokenizer.model_max_length = 8192
-
+    # Set reasonable default for models without max length
+    if tokenizer.model_max_length > 100_000:
+        tokenizer.model_max_length = 8192
+    
     if data_args.chat_template is not None:
         tokenizer.chat_template = data_args.chat_template
     elif tokenizer.chat_template is None and tokenizer.default_chat_template is None:
