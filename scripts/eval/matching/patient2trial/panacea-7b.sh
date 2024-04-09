@@ -1,4 +1,4 @@
-MODEL_PATH=/shared/jl254/data/linjc/trialfm/sft/panacea-chat-v1
+MODEL_PATH=/shared/jl254/data/linjc/trialfm/sft/panacea-chat-v2
 CACHE_DIR=/data/linjc/hub
 DATASET=$1
 SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results

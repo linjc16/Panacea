@@ -35,7 +35,7 @@ def chat_haiku(prompt):
     message = client.messages.create(
         temperature=0,
         model="anthropic.claude-3-haiku-20240307-v1:0",
-        max_tokens=512,
+        max_tokens=1024,
         messages=message,
     )
     
@@ -54,7 +54,7 @@ def chat_sonnet(prompt):
     message = client.messages.create(
         temperature=0,
         model="anthropic.claude-3-sonnet-20240229-v1:0",
-        max_tokens=256,
+        max_tokens=1024,
         messages=message,
     )
     

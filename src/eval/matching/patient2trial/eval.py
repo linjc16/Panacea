@@ -71,14 +71,17 @@ if __name__ == '__main__':
     output_dict = {}
     for key, value in tqdm(inputs.items()):
         prompt = value['input']
+        
         messages = [
                 {"role": "user", "content": prompt},
             ]
         encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt")
         model_inputs = encodeds.to(model.device)
 
-        
-        generated_ids = model.generate(model_inputs, max_new_tokens=1024, do_sample=False, pad_token_id=tokenizer.eos_token_id)
+        if args.model_name == 'panacea-7b':
+            generated_ids = model.generate(model_inputs, max_new_tokens=1024, do_sample=True, pad_token_id=tokenizer.eos_token_id)
+        else:
+            generated_ids = model.generate(model_inputs, max_new_tokens=1024, do_sample=False, pad_token_id=tokenizer.eos_token_id)
         decoded = tokenizer.batch_decode(generated_ids)[0]
         
         # split by [/INST]

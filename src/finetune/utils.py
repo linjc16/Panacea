@@ -154,7 +154,9 @@ def load_patient2trial_data(data_path):
     data_list = []
     for key, value in tqdm(data.items()):
         source = {"content": value['input'], 'role': 'user'}
-        target = {"content": f"Trial-level eligibility: {value['label']}) {label_dict[value['label']]}.", 'role': 'assistant'}
+        
+        # target = {"content": f"Trial-level eligibility: {value['label']}) {label_dict[value['label']]}.", 'role': 'assistant'}
+        target = {'content': value['output'], 'role': 'assistant'}
         data_list.append([source, target])
     
     return data_list
