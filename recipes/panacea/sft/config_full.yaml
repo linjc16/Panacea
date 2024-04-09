@@ -25,7 +25,7 @@ lr_scheduler_type: cosine
 max_seq_length: 8192
 max_steps: -1
 num_train_epochs: 1
-output_dir: /shared/jl254/data/linjc/trialfm/sft/panacea-chat-v1
+output_dir: /shared/jl254/data/linjc/trialfm/sft/panacea-chat-v2
 overwrite_output_dir: true
 per_device_eval_batch_size: 1
 per_device_train_batch_size: 2

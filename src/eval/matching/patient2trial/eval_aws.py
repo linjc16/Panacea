@@ -30,10 +30,10 @@ if __name__ == '__main__':
     
     i = 0
     output_dict = {}
-
-    if os.path.exists(os.path.join(args.save_dir, f'{args.model_name}.json')):
-        with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'r') as f:
-            output_dict = json.load(f)
+    
+    # if os.path.exists(os.path.join(args.save_dir, f'{args.model_name}.json')):
+    #     with open(os.path.join(args.save_dir, f'{args.model_name}.json'), 'r') as f:
+    #         output_dict = json.load(f)
 
     for key, value in tqdm(inputs.items()):
         if key in output_dict:
@@ -41,10 +41,18 @@ if __name__ == '__main__':
             continue
 
         prompt = value['input']
-        try:
-            decoded = chat_haiku(prompt)
-        except:
-            decoded = ""
+        if args.model_name == 'claude-haiku':
+            try:
+                decoded = chat_haiku(prompt)
+            except:
+                decoded = ""
+        elif args.model_name == 'claude-sonnet':
+            try:
+                decoded = chat_sonnet(prompt)
+            except:
+                decoded = ""
+        else:
+            raise ValueError(f"Model name {args.model_name} not supported")
         
         output_dict[key] = {
             'output': decoded,
