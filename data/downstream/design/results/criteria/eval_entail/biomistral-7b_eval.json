@@ -1,0 +1,14 @@
+{
+    "NCT06138483": {
+        "model_response": [
+            "Sure, I'd be happy to explain. The fourth criterion is related to the methodology of the study. In this study, we will be collecting tumor tissue samples from the patients and performing whole-exome sequencing and methylation analysis on these samples. To ensure that we are analyzing the tumor cells and not normal cells, we need to have a certain percentage of neoplastic cells in the sample. If the sample contains less than 70% neoplastic cells, it will make it difficult to interpret the results, as we may be analyzing both tumor and normal cells. This could lead to false positive or false negative results.",
+            "Here are some exclusion criteria that you may consider for your study:",
+            "I'm glad to hear that! Now that we have the inclusion and exclusion criteria, let's move on to the outcome measures. Based on the information provided, here's what I suggest for the outcome measures:"
+        ],
+        "eval_results": [
+            "Match prediction: 1\n\nExplanation:\n\nThe model output mentions the requirement of having a certain percentage of neoplastic cells (at least 70%) in the tumor tissue samples for the study. This criterion is directly included in the groundtruth criteria list under the \"Inclusion Criteria\" section, which states \"neoplastic lesion contains \u2265 70% neoplastic cells\".\n\nSince the criterion mentioned in the model output is fully present in the groundtruth criteria list, the match prediction is '1', indicating that the criteria from the model's output are included in the groundtruth criteria.",
+            "Match prediction: 1\n\nExplanation:\nThe model output mentions \"Here are some exclusion criteria that you may consider for your study\", which is a general statement about exclusion criteria. The groundtruth criteria list contains a detailed set of exclusion criteria, including patients with distant metastases at diagnosis, patients managed with palliative intent, and patients with previous history of head and neck cancer. The criteria mentioned in the model output are fully included in the groundtruth criteria list, so the match prediction is '1'.",
+            "Match prediction: 0\n\nExplanation:\nThe model output does not mention any specific criteria. It only suggests moving on to the outcome measures, without providing any details about the proposed outcome measures. \n\nOn the other hand, the groundtruth criteria list includes detailed inclusion and exclusion criteria for the study, such as age, cancer stage, treatment modality, and minimum follow-up duration. None of these criteria are mentioned in the model output.\n\nTherefore, the criteria mentioned in the model output are not fully included in the groundtruth criteria list, and the match prediction is 0."
+        ]
+    }
+}
