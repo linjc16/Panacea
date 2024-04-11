@@ -12,7 +12,7 @@ if __name__ == '__main__':
 
     with open(os.path.join(args.res_dir, f'{args.model_name}_eval.json'), 'r') as f:
         results = json.load(f)
-
+    
     evals = []
     for key, value in results.items():
         eval_res_list = value['eval_results']
