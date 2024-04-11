@@ -22,7 +22,7 @@ if __name__ == "__main__":
     with open(os.path.join(args.res_dir, f'{args.model_name}.json'), 'r') as f:
         results = json.load(f)
 
-
+    
     instruction_prompts = (
         "Act as an impartial judge and evaluate whether the criteria mentioned in a model's output are present in the full list of the groundtruth criteria. "
         "Output '1' or '0', where '1' means the criteria mentioned in the model's output are fully included in the groundtruth criteria list, and '0' means the criteria from the model's output are not included in the groundtruth. "

@@ -58,7 +58,7 @@ def load_all_data(shuffle=True):
     for filepath in filepaths:
         data_list_trial_design.extend(load_trial_design_data(filepath))
     raw_datasets_trial_design = convert_to_dataset(data_list_trial_design)
-
+    
     # patient2trial
     data_list_patient2trial = load_patient2trial_data(data_path['patient2trial'])
     raw_datasets_patient2trial = convert_to_dataset(data_list_patient2trial)
