@@ -12,6 +12,7 @@ import numpy as np
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('--task', type=str, default='criteria')
     parser.add_argument('--res_dir', type=str, default='data/downstream/design/results/criteria/eval_entail_v1')
     args = parser.parse_args()
 
@@ -56,9 +57,9 @@ if __name__ == '__main__':
         plt.plot(back_steps, accuracies, label=model, marker='o')
 
     plt.xlabel('Back Steps')
-    plt.ylabel('Accuracy')
-    plt.title('Model Accuracy Over Back Steps')
+    plt.ylabel('Clinical Accuracy')
+    plt.title(f'Clinical Accuracy Over Back Steps ({args.task})')
     plt.legend()
     plt.grid(True)
     plt.xticks(back_steps)
-    plt.savefig('./entail.png', dpi=300)
+    plt.savefig(f'{args.task}_entail.png', dpi=300)
