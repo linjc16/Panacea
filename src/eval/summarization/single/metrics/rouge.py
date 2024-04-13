@@ -48,9 +48,9 @@ if __name__ == "__main__":
     
     preds['summary'] = preds['summary'].apply(lambda x: str(x))
     preds['summary'] = preds['summary'].apply(lambda x: x.strip())
-
+    
     groundtruth.rename(columns={'summary_text': 'summary'}, inplace=True)
-
+    
     assert len(preds) == len(groundtruth)
     
     scores, _ = calculate_rouge_scores(preds['summary'].tolist(), groundtruth['summary'].tolist())

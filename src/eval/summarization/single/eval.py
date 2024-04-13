@@ -104,7 +104,7 @@ if __name__ == '__main__':
         ]
         
         encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
-        generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
+        generated_ids = model.generate(encodeds, max_new_tokens=1024, do_sample=False)
         summary = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
         
         try:
