@@ -1,0 +1,6 @@
+{
+    "0": {
+        "output": "Okay, let's go through this step-by-step:\n\n1. The patient is a 58-year-old African-American woman, which meets the inclusion criteria of the clinical trial.\n2. The patient has hypertension and obesity, which are not mentioned as exclusion criteria in the trial.\n3. The patient has episodic chest pain, which is not related to the back pain that is the focus of the clinical trial.\n4. The patient has no history of low back pain, which is a key inclusion criterion for the trial.\n\nBased on the information provided, the patient does not meet the inclusion criteria for the clinical trial, as she does not have low back pain.\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    }
+}

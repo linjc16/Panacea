@@ -39,6 +39,7 @@ role_dict = {
     'llama2-13b': ['[INST]', '[/INST]'],
     'llama2-70b': ['[INST]', '[/INST]'],
     'panacea-ft': ['<|user|>', '<|assistant|>'],
+    'panacea-7b': ['<|user|>', '<|assistant|>'],
     'zephyr-7b': ['<|user|>', '<|assistant|>'],
     'biomistral-7b': ['[INST]', '[/INST]'],
     'medalpaca-7b': ['[INST]', '[/INST]'],
