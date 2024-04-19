@@ -45,6 +45,7 @@ role_dict = {
     'medalpaca-7b': ['[INST]', '[/INST]'],
     'medalpaca-13b': ['[INST]', '[/INST]'],
     'meditron-7b': ['[INST]', '[/INST]'],
+    'llama3-8b': ['user', 'assistant'],
 }
 
 def format_dialogue(content, model_name):
@@ -55,7 +56,7 @@ def format_dialogue(content, model_name):
     user_role, assis_role = role_dict[model_name]
     if model_name.startswith('mistral') or model_name.startswith('llama2') or model_name.startswith('panacea') \
             or model_name.startswith('zephyr') or model_name.startswith('biomistral') or model_name.startswith('medalpaca') \
-            or model_name.startswith('meditron'):
+            or model_name.startswith('meditron') or model_name.startswith('llama3'):
         content = content.replace(user_role, f'{user_role}:').replace(assis_role, f'{assis_role}:')
 
     dialogue_pairs = []
@@ -131,7 +132,7 @@ if __name__ == '__main__':
                 # [0], [0, 1, 2], [0, 1, 2, 3, 4]
                 input = value[:i * 2 + 1]
                 
-                if args.model_name == 'openchat-7b':
+                if args.model_name == 'openchat-7b' or args.model_name == 'llama3-8b':
                     encodeds = tokenizer.apply_chat_template(input, return_tensors="pt", add_generation_prompt=True).to(model.device)
                 else:
                     encodeds = tokenizer.apply_chat_template(input, return_tensors="pt").to(model.device)

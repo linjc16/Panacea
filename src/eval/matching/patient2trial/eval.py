@@ -75,20 +75,26 @@ if __name__ == '__main__':
         messages = [
                 {"role": "user", "content": prompt},
             ]
-        encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt")
+        if args.model_name == 'llama3-8b' or args.model_name == 'openchat-7b':
+            encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt", add_generation_prompt=True).to(model.device)
+        else:
+            encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
         model_inputs = encodeds.to(model.device)
         
         # if args.model_name == 'panacea-7b':
         #     generated_ids = model.generate(model_inputs, max_new_tokens=1024, do_sample=True, pad_token_id=tokenizer.eos_token_id)
         # else:
-        generated_ids = model.generate(model_inputs, max_new_tokens=2048, do_sample=False, pad_token_id=tokenizer.eos_token_id)
+        generated_ids = model.generate(model_inputs, max_new_tokens=512, do_sample=False, pad_token_id=tokenizer.eos_token_id)
         decoded = tokenizer.batch_decode(generated_ids)[0]
         
+        pdb.set_trace()
         # split by [/INST]
         if args.model_name.startswith('openchat'):
             decoded = decoded.split('<|end_of_turn|>')[1].strip()
         elif args.model_name.startswith('zephyr') or args.model_name.startswith('panacea'):
             decoded = decoded.split('<|assistant|>')[-1].strip()
+        elif args.model_name.startswith('llama3'):
+            decoded = decoded.split('<|start_header_id|>assistant<|end_header_id|>')[1].strip()
         else:
             decoded = decoded.split('[/INST]')[-1].strip()
         

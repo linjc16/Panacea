@@ -89,7 +89,12 @@ if __name__ == '__main__':
             {"role": "user", "content": merged_input_text},
         ]
         
-        encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
+        
+        if args.model_name == 'llama3-8b' or args.model_name == 'openchat-7b':
+            encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt", add_generation_prompt=True).to(model.device)
+        else:
+            encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
+        
         generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
         summary = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
         
