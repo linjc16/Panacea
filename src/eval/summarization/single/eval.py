@@ -76,6 +76,10 @@ if __name__ == '__main__':
     cache_dir = args.cache_dir
     
     tokenizer, model = load_model(model_path, cache_dir)
+    
+    # if args.model_name == 'llama3-8b':
+
+
     df = load_dataset(args.file_dir, args.split)
 
     instruction_prompt = "Your task is to create a clear, concise, and accurate summary of the provided clinical trial document. The summary should capture the key aspects of the trial."
@@ -107,7 +111,13 @@ if __name__ == '__main__':
             encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt", add_generation_prompt=True).to(model.device)
         else:
             encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
-        generated_ids = model.generate(encodeds, max_new_tokens=1024, do_sample=False)
+        
+        if args.model_name == 'llama3-8b':
+            eos_tokens = [tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids('<|eot_id|>')]
+            generated_ids = model.generate(encodeds, max_new_tokens=1024, do_sample=False, eos_token_id=eos_tokens)
+        else:
+            generated_ids = model.generate(encodeds, max_new_tokens=1024, do_sample=False)
+        
         summary = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
         
         try:
