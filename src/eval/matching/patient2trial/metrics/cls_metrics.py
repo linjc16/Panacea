@@ -50,7 +50,10 @@ if __name__ == '__main__':
     print(f"Precision: {report['weighted avg']['precision']:.4f}")
     print(f"Recall: {report['weighted avg']['recall']:.4f}")
     print(f"F1-score: {report['weighted avg']['f1-score']:.4f}")
-
+    
+    for cls in [0, 1, 2]:
+        if str(cls) in report:
+            print(f"Recall for class {cls}: {report[str(cls)]['recall']:.4f}")
     # print weighted accuracy
 
     balanced_accuracy = balanced_accuracy_score(labels, preds)
