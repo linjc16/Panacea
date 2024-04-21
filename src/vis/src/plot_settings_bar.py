@@ -4,21 +4,21 @@ import matplotlib.pyplot as plt
 
 # set basic parameters
 mpl.rcParams['pdf.fonttype'] = 42
-mpl.rcParams.update({"ytick.color" : "w",
-                     "xtick.color" : "w",
-                     "axes.labelcolor" : "w",
-                     "axes.edgecolor" : "w"})
+mpl.rcParams.update({"ytick.color" : "black",
+                     "xtick.color" : "black",
+                     "axes.labelcolor" : "black",
+                     "axes.edgecolor" : "black"})
 
 mpl.rcParams.update({
     "pdf.use14corefonts": True
 })
 
-MEDIUM_SIZE = 8
-SMALLER_SIZE = 6
+MEDIUM_SIZE = 14
+SMALLER_SIZE = 12
 plt.rc('font', size=MEDIUM_SIZE)
 plt.rc('axes', labelsize=MEDIUM_SIZE)
 plt.rc('axes', titlesize=MEDIUM_SIZE)	 # fontsize of the axes title
-plt.rc('xtick', labelsize=MEDIUM_SIZE)	 # fontsize of the tick labels
+plt.rc('xtick', labelsize=SMALLER_SIZE)	 # fontsize of the tick labels
 plt.rc('ytick', labelsize=SMALLER_SIZE)	 # fontsize of the tick labels
 plt.rc('figure', titlesize=MEDIUM_SIZE)
 plt.rc('legend', fontsize=MEDIUM_SIZE)
@@ -28,8 +28,10 @@ plt.rc('font', family='Helvetica')
  #, xtick.color='w', axes.labelcolor='w', axes.edge_color='w'
 FIG_HEIGHT = 4
 FIG_WIDTH = 4
-plt.style.use('dark_background')
+# plt.style.use('dark_background')
 
+# use white background
+plt.style.use('default')
 
 EVO_DEVO_MODELS = ['Sagittarius', 'linear', 'mean', 'mTAN', 'cvae', 'cpa',
                    'seq_by_seq_RNN', 'seq_by_seq_neuralODE']
@@ -95,12 +97,20 @@ def get_model_colors_ablation(mod):
 
 def get_model_colors(mod):
     return {
-        'DeepSynergy': '#dfc27d',
-        'AuDNNsynergy':'#bf812d',
-        'PRODeepSyn': '#8c510a',
-        'GraphSynergy': '#01665e',
-        'DeepDDS': '#35978f',
-        'Pisces': '#c7eae5',
+        'LLaMA-2-7B': '#543005',
+        'LLaMA-2-13B': '#8c510a',
+        'Mistral-7B': '#dfc27d',
+        'OpenChat-7B': '#003c30',
+        'Zephyr-7B': '#01665e',
+        'BioMistral-7B': '#bf812d',  # Reallocated color from LLaMA-2-70B
+        'MedAlpaca-7B': '#a1d76a',  # New gradient color
+        'MedAlpaca-13B': '#4d9221',  # New gradient color
+        'Meditron-7B': '#b8e186',  # New gradient color
+        'GPT-3.5': '#35978f',
+        'GPT-4': '#c7eae5',
+        'Claude 3 Haiku': '#80cdc1',  # New gradient color
+        'Claude 3 Sonnet': '#018571',  # New gradient color
+        'Panacea-7B': '#a6dba0'
     }[mod]
 
 # def get_model_colors(mod):

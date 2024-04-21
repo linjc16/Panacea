@@ -13,7 +13,7 @@ from matplotlib.markers import MarkerStyle
 import matplotlib as mpl
 import pdb
 
-import plot_settings
+import plot_settings_bar
 
 
 def format_ax(ax):
@@ -145,7 +145,7 @@ def horizontal_bar_plot(ax, data, data_labels, xlabel, ylabel, xscale='linear', 
 
 
 
-def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, xscale='linear', yscale='linear',
+def grouped_barplot_old(ax, nested_data, data_labels, xlabel, ylabel, xscale='linear', yscale='linear',
                     min_val=0, invert_axes=False, nested_color='tab:blue', color_legend=None, nested_errs=None,
                     tickloc_top=True, rotangle=45, legend_loc='upper right', anchorpoint='right', y_lim=None):
     
@@ -173,7 +173,7 @@ def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, xscale='linear
                bottom=[bottoms[i] for i in range(it, len(heights), len(nested_data[0]))],
                color=[colors[i] for i in range(it, len(colors), len(nested_data[0]))],
                width=0.8/len(nested_data[0]), label=labels[it] if color_legend is not None else '',
-               align='edge', ecolor='w',
+               align='edge', ecolor='black',
                yerr=None if nested_errs is None else [errs[i] for i in range(it, len(errs), len(nested_data[0]))])
     if invert_axes:
         ax.invert_yaxis()
@@ -195,81 +195,39 @@ def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, xscale='linear
         handles, labels = ax.get_legend_handles_labels()
         format_legend(plt, handles, labels, loc=legend_loc)
 
-def grouped_barplot_graphsyn(ax, nested_data, data_labels, xlabel, ylabel, xscale='linear', yscale='linear',
-                    min_val=0, invert_axes=False, nested_color='tab:blue', color_legend=None, nested_errs=None,
-                    tickloc_top=True, rotangle=45, legend_loc='upper right', anchorpoint='right', y_lim=None):
-    
-    # xs = [i + j * 0.9 / len(nested_data[0]) - 0.5 for i in range(len(nested_data)) for j in range(len(nested_data[0]))]
+def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, model_colors, xscale='linear', yscale='linear',
+                    min_val=0, invert_axes=False, tickloc_top=True, rotangle=45, anchorpoint='right', y_lim=None):
+    bar_width = 0.1  # Uniform bar width for all
+    spacing = 0.15  # Space between each group of bars
+    start_positions = [sum([(bar_width * len(group)) + spacing for group in nested_data][:i]) for i in range(len(nested_data))]
+    group_centers = [pos + ((len(group) * bar_width) / 2) - bar_width / 2  for pos, group in zip(start_positions, nested_data)]
 
-    xs = [i + j * 0.8 / len(nested_data[0]) - 0.4 for i in range(len(nested_data)) for j in range(len(nested_data[0]))]
+    # Dictionary to track if a model has been added to the legend
+    added_to_legend = {}
 
-    heights = []
-    bottoms = []
-    colors = []
-    labels = []
-    errs = []
-    for idx, item in enumerate(nested_data):
-        heights.extend([it - min_val if not invert_axes else min_val - it for it in item])
-        
-        bottoms.extend([min_val if not invert_axes else it for it in item])
-        colors.extend(nested_color if not isinstance(nested_color, str) else [nested_color for _ in range(len(item))])
-        if nested_errs is not None:
-            errs.extend(nested_errs[idx])
-        if color_legend is not None:
-            labels.extend(color_legend)
-    
-    
-    # refine
-    heights[-3] = 0
-    model_num = len(nested_data[0])
-    setting_num = len(nested_data)
+    # Plot each bar and include all in the legend
+    for i, group in enumerate(nested_data):
+        for j, (model, value) in enumerate(group):
+            position = start_positions[i] + j * bar_width
+            ax.bar(position, value, width=bar_width, color=model_colors[model], align='center', edgecolor='black', linewidth=0.5,
+                   label=model if model not in added_to_legend else '')
+            added_to_legend[model] = True  # Mark as added
 
-    for it in range(model_num):
-        # pdb.set_trace()
-        ax.bar(x=[xs[i] for i in range(it, len(xs) - model_num, model_num)],
-               height=[heights[i] for i in range(it, len(heights) - model_num, model_num)],
-               bottom=[bottoms[i] for i in range(it, len(heights) - model_num, model_num)],
-               color=[colors[i] for i in range(it, len(colors) - model_num, model_num)],
-               width=0.8/model_num, label=labels[it] if color_legend is not None else '',
-               align='edge', ecolor='w',
-               yerr=None if nested_errs is None else [errs[i] for i in range(it, len(errs) - model_num, model_num)])
-        
-        if it > 3:
-            ax.bar(x=[xs[(setting_num - 1) * model_num + it - 1]],
-                height=[heights[(setting_num - 1) * model_num + it]],
-                bottom=[bottoms[(setting_num - 1) * model_num + it]],
-                color=[colors[(setting_num - 1) * model_num + it]],
-                width=0.8/model_num,
-                align='edge', ecolor='w',
-                yerr=None if nested_errs is None else [errs[(setting_num - 1) * model_num + it]])
-        else:
-            ax.bar(x=[xs[(setting_num - 1) * model_num + it]],
-                height=[heights[(setting_num - 1) * model_num + it]],
-                bottom=[bottoms[(setting_num - 1) * model_num + it]],
-                color=[colors[(setting_num - 1) * model_num + it]],
-                width=0.8/model_num,
-                align='edge', ecolor='w',
-                yerr=None if nested_errs is None else [errs[(setting_num - 1) * model_num + it]])
-    
-    if invert_axes:
-        ax.invert_yaxis()
+    # Set plot properties
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)
     ax.set_xscale(xscale)
     ax.set_yscale(yscale)
-    ax.set_xticks([0, 1, 1.9])
-    ax.set_xticklabels(data_labels)
+    ax.set_xticks(group_centers)
+    ax.set_xticklabels(data_labels, rotation=rotangle, ha=anchorpoint)
+    ax.tick_params(top=tickloc_top, bottom=not tickloc_top, labeltop=tickloc_top, labelbottom=not tickloc_top)
     if y_lim:
-        ax.set_ylim((y_lim))
-    
-    ax.tick_params(top=tickloc_top, bottom=not tickloc_top,
-                   labeltop=tickloc_top, labelbottom=not tickloc_top)
-    # Rotate the tick labels and set their alignment.
-    plt.setp(ax.get_xticklabels(), rotation=rotangle, ha=anchorpoint,
-             rotation_mode="anchor")
-    if color_legend is not None:
-        handles, labels = ax.get_legend_handles_labels()
-        format_legend(plt, handles, labels, loc=legend_loc)
+        ax.set_ylim(y_lim)
+
+    # Adding legend without duplicates
+    handles, labels = ax.get_legend_handles_labels()
+    unique_handles = dict(zip(labels, handles)).values()
+    ax.legend(unique_handles, labels, bbox_to_anchor=(1.05, 1), loc='upper left')
         
         
 def show_image(ax, data, xlabel, ylabel, aspect=None, cmap='bwr', xticks=[], yticks=[]):
