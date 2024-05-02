@@ -67,7 +67,7 @@ if __name__ == '__main__':
     df = load_dataset(args.file_dir, args.split)
     
     tokenizer, model = load_model(model_path, cache_dir)
-
+    
     instruction_prompt = "Your task is to synthesize the key findings from a collection of study abstracts related to a specific clinical trial related research question."
     instruction_prompt += "\nCombine the insights from the provided abstracts into a cohesive summary. Your summary should integrate the findings rather than listing them separately. It's crucial to maintain the scientific integrity of the original studies while ensuring the summary is accessible and informative."
     instruction_prompt += "\nThe output should only be the summary. Do not explain how you summarize it."
