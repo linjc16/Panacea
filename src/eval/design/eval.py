@@ -46,6 +46,7 @@ role_dict = {
     'medalpaca-13b': ['[INST]', '[/INST]'],
     'meditron-7b': ['[INST]', '[/INST]'],
     'llama3-8b': ['user', 'assistant'],
+    'panacea-base': ['[INST]', '[/INST]'],
 }
 
 def format_dialogue(content, model_name):
