@@ -26,7 +26,7 @@ data_path = {
 fracs_dict = {
     'single-trial summarization': 1.0,
     'multi-trial summarization': 1.0,
-    'query generation': 0.6,
+    'query generation': 1.0,
     'query expansion': 1.0,
     'trial design': 1.0,
     'patient2trial': 1.0,

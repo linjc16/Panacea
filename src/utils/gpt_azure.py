@@ -20,6 +20,7 @@ from langchain_core.output_parsers import JsonOutputParser
 
 
 
+
 def gpt_chat_35(prompt, query_dict):
     prompt = ChatPromptTemplate.from_template(prompt)
     
@@ -31,7 +32,20 @@ def gpt_chat_35(prompt, query_dict):
     
     return chain.invoke(query_dict)
 
-
+def gpt_chat_35_msg(prompt):
+    message = HumanMessage(
+        content=prompt
+    )
+    
+    model = AzureChatOpenAI(
+        deployment_name="gpt-35", # "gpt-35"
+        model_name='gpt-35-turbo'
+    )
+    
+    response = model.invoke([message]).content
+    
+    return response
+    
 def gpt_chat_4(prompt, query_dict):
     prompt = ChatPromptTemplate.from_template(prompt)
     
@@ -46,5 +60,5 @@ def gpt_chat_4(prompt, query_dict):
 
 
 if __name__ == "__main__":
-    temp = gpt_chat_35("Translate this sentence from English to French. {query}", {"query": "I love programming."})
+    temp = gpt_chat_35("Translate this sentence from English to French. I love programming.")
     print(temp)

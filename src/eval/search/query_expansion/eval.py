@@ -81,11 +81,18 @@ if __name__ == '__main__':
 
     instruction_prompt = "Given MeSH Terms used for searching clinical trials in a database, expand the input MeSH terms and then generate a JSON object that contains the expanded MeSH terms. Don't include the original MeSH terms in the expanded MeSH terms."
     if args.model_name != 'mistral-7b':
-        instruction_prompt += '\n`For example, the input MeSH Terms are: "Neurocognitive Disorders, Tauopathies, Movement Disorders, Dementia, Synucleinopathies", then Expanded MeSH Terms are: Central Nervous System Diseases, Basal Ganglia Diseases, Brain Diseases, Alzheimer Disease, Lewy Body Disease, Nervous System Diseases.`'
+        if args.model_name != 'panacea-base':
+            instruction_prompt += '\n`For example, the input MeSH Terms are: "Neurocognitive Disorders, Tauopathies, Movement Disorders, Dementia, Synucleinopathies", then Expanded MeSH Terms are: Central Nervous System Diseases, Basal Ganglia Diseases, Brain Diseases, Alzheimer Disease, Lewy Body Disease, Nervous System Diseases.`'
+        else:
+            instruction_prompt += '\n\nExample:\nInput MeSH Terms: Neurocognitive Disorders, Tauopathies, Movement Disorders, Dementia, Synucleinopathies.\nExpanded MeSH Terms: Central Nervous System Diseases, Basal Ganglia Diseases, Brain Diseases, Alzheimer Disease, Lewy Body Disease, Nervous System Diseases.'
 
-    instruction_prompt += '\n\nInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
-    instruction_prompt += ' Split each expanded MeSH term by "\n".'
-    instruction_prompt += '\n\nExpanded MeSH Terms:'
+    if args.model_name != 'panacea-base':
+        instruction_prompt += '\n\nInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
+        instruction_prompt += ' Split each expanded MeSH term by ", ".'
+        instruction_prompt += '\n\nExpanded MeSH Terms:'
+    else:
+        instruction_prompt += '\n\nInput MeSH Terms: {query}.'
+        instruction_prompt += '\nExpanded MeSH Terms:'
     
     outputs = {}
     
@@ -94,6 +101,18 @@ if __name__ == '__main__':
         if not args.model_name.startswith('panacea'): 
             jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
             generated_data = jsonformer()
+        elif args.model_name == 'panacea-base':
+            # jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
+            # generated_data = jsonformer()
+            merged_input_text = instruction_prompt.format(query=value['query'])
+            encodes = tokenizer(merged_input_text, return_tensors='pt').to(model.device)
+            generated_ids = model.generate(encodes.input_ids, max_length=256, do_sample=False)
+            generated_data_ori = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+            try:
+                generated_data = generated_data_ori[len(merged_input_text):].strip()
+                generated_data = generated_data.split(', ')
+            except:
+                generated_data = ''
         else:
             merged_input_text = instruction_prompt.format(query=value['query'])
 

@@ -1,13 +1,14 @@
 import sys
 sys.path.append('./')
 
-from src.utils.gpt import gpt_chat
+from src.utils.gpt_azure import gpt_chat_35_msg as gpt_chat
 import pandas as pd
 import os
 import pdb
 import json
 import argparse
 from tqdm import tqdm
+import glob
 
 import multiprocessing as mp
 
@@ -23,13 +24,17 @@ def worker(input):
 
     for idx, row in tqdm(df.iterrows(), total=len(df)):
         input_disease = row['name']
+        id = row['id']
 
-        if input_disease == 'healthy':
+        if id in data_generated:
             continue
-
+            
+        if input_disease == 'Healthy':
+            continue
+            
         attempts = 0
         while attempts < 20:
-            output = gpt_chat('gpt-3.5-turbo-0125', prompt.replace('{input_disease}', input_disease))
+            output = gpt_chat(prompt.replace('{input_disease}', input_disease))
             try:
                 icd_dict = json.loads(output)
                 break
@@ -66,6 +71,14 @@ if __name__ == '__main__':
     save_dir = 'data/analysis/icd10/raw'
     os.makedirs(save_dir, exist_ok=True)
 
+    output_filepaths = glob.glob(os.path.join(save_dir, '*.json'))
+    data_generated = dict()
+    for filepath in output_filepaths:
+        with open(filepath, 'r') as f:
+            for line in f:
+                data = json.loads(line)
+                data_generated[data['id']] = data
+
     prompt = (
         'Given a medical condition, '
         'provide the ICD-10-CM hierarchy from the broadest category down to the specific category that this condition belongs to. '
@@ -84,5 +97,6 @@ if __name__ == '__main__':
 
     inputs = [(args, df.iloc[i*chunk_size:(i+1)*chunk_size], i, prompt, save_dir) for i in range(num_processes)]
 
-    with mp.Pool(num_processes) as pool:
-        pool.map(worker, inputs)
+    worker(inputs[0])
+    # with mp.Pool(num_processes) as pool:
+        # pool.map(worker, inputs)
