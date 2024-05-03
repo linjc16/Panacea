@@ -83,7 +83,7 @@ if __name__ == '__main__':
         'Medical Condition: {input_disease}\n'
         'Now, output the ICD-10-CM hierarchy in json format. Directly output the json format without any additional text.'
     )
-
+    
     # remove conditions that have been generated
     for condition in data_generated:
         if condition in conditions_dict:

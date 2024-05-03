@@ -46,7 +46,7 @@ mesh_tree_dict = load_mesh_tree(meshtree_file)
 
 # Example usage:
 # Query for the tree numbers of some example terms
-example_terms = ["Body Regions", "Breast", "Child", "Aged, 80 and over"]
+example_terms = ["Body Regions", "Breast", "Child", "Education, Dental"]
 example_results = {term: get_tree_number(term, mesh_tree_dict) for term in example_terms}
 print(example_results)
 
