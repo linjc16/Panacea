@@ -4,7 +4,7 @@ import os
 import json
 import pdb
 from collections import defaultdict
-
+import re
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -18,31 +18,38 @@ if __name__ == '__main__':
         df = pd.read_csv(filepath, sep='|', dtype=str)
         conditions = df['name'].tolist()
 
-        # unique_conditions = set(conditions)
-
         # for each unique condition, count the number of times it appears in the dataset
         # save the count in a dictionary
         condition_count = defaultdict(int)
         for condition in conditions:
             condition_count[condition] += 1
 
-
-    else:
+    elif args.dataset == 'german':
         data_dir = '/data/linjc/trialfm/code/ctr_crawl/0_final_data/visualization'
         df = pd.read_csv(os.path.join(data_dir, f'{args.dataset}.csv'))
         conditions = df['Conditions']
 
-        # # for each row, split the conditions by ', ', and save the unique conditions
-        # unique_conditions = set()
-        # for condition in conditions:
-        #     # if float, then skip
-        #     if isinstance(condition, float):
-        #         continue
-        #     condition = condition.replace(';', ',').replace('\n', ',')
-        #     condition_curr = condition.split(',')
-        #     for cond in condition_curr:
-        #         if cond:
-        #             unique_conditions.add(cond.strip().lower())
+        
+        condition_count = defaultdict(int)
+        for condition in conditions:
+            if isinstance(condition, float):
+                continue
+            condition = re.sub(r'<.*?>', '', condition)
+
+            condition = condition.replace(';', ',').replace('\n', ',')
+            condition_curr = condition.split(',')
+
+            for cond in condition_curr:
+                if 'ICD10::' in cond:
+                    cond = cond.split('::')[1].strip().lower()
+                    if cond and cond != "":
+                        condition_count[cond] += 1
+
+    
+    else:
+        data_dir = '/data/linjc/trialfm/code/ctr_crawl/0_final_data/visualization'
+        df = pd.read_csv(os.path.join(data_dir, f'{args.dataset}.csv'))
+        conditions = df['Conditions']
         
         # for each unique condition, count the number of times it appears in the dataset
         # save the count in a dictionary
@@ -50,12 +57,18 @@ if __name__ == '__main__':
         for condition in conditions:
             if isinstance(condition, float):
                 continue
+            # repalce <...> with '', including text between <>
+            condition = re.sub(r'<.*?>', '', condition)
+
             condition = condition.replace(';', ',').replace('\n', ',')
             condition_curr = condition.split(',')
             for cond in condition_curr:
-                if cond:
-                    condition_count[cond.strip().lower()] += 1
-        
+                cond = cond.strip().lower()
+                if cond == "": 
+                    continue
+                if cond and cond != "" and len(cond.split()) < 7:
+                    condition_count[cond] += 1
+    
     # rank the conditions by the number of times they appear in the dataset
     condition_count = dict(sorted(condition_count.items(), key=lambda x: x[1], reverse=True))
 

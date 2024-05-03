@@ -83,15 +83,21 @@ if __name__ == '__main__':
         'Medical Condition: {input_disease}\n'
         'Now, output the ICD-10-CM hierarchy in json format. Directly output the json format without any additional text.'
     )
+
+    # remove conditions that have been generated
+    for condition in data_generated:
+        if condition in conditions_dict:
+            del conditions_dict[condition]
     
     # transform conditions_dict to df
     df = pd.DataFrame(conditions_dict.items(), columns=['name', 'count'])
 
-    # randomly shuffle the df
-    df = df.sample(frac=1).reset_index(drop=True)
+    # remove rows with count less than 5
+    df = df[df['count'] >= 5]
 
     num_processes = 10
     chunk_size = len(df) // num_processes
+    
 
     inputs = [(args, df.iloc[i*chunk_size:(i+1)*chunk_size], i, prompt, save_dir) for i in range(num_processes)]
 
