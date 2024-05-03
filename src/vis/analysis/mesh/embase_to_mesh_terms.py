@@ -70,7 +70,7 @@ if __name__ == '__main__':
     chunk_size = len(df) // num_processes
     
     inputs = [(df.iloc[i*chunk_size:(i+1)*chunk_size], i, prompt, save_dir) for i in range(num_processes)]
-
+    
     with mp.Pool(num_processes) as pool:
         pool.map(worker, inputs)
     # worker(inputs[0])
