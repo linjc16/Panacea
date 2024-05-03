@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     with open(f'data/analysis/icd10/conditions/{args.dataset}_conditions.json', 'r') as f:
         conditions_dict = json.load(f)
-
+    
     save_dir = f'data/analysis/icd10/raw/{args.dataset}'
     os.makedirs(save_dir, exist_ok=True)
 
@@ -88,7 +88,7 @@ if __name__ == '__main__':
     for condition in data_generated:
         if condition in conditions_dict:
             del conditions_dict[condition]
-    
+
     # transform conditions_dict to df
     df = pd.DataFrame(conditions_dict.items(), columns=['name', 'count'])
 
