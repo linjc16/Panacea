@@ -1,0 +1,4040 @@
+{
+    "pregnant women": {
+        "code": "O00-O99",
+        "description": "Pregnancy, childbirth and the puerperium"
+    },
+    "infection": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A00-A09",
+                "description": "Intestinal infectious diseases",
+                "subcategories": [
+                    {
+                        "code": "A00",
+                        "description": "Cholera"
+                    },
+                    {
+                        "code": "A01",
+                        "description": "Typhoid and paratyphoid fevers"
+                    },
+                    {
+                        "code": "A02",
+                        "description": "Other salmonella infections"
+                    },
+                    {
+                        "code": "A03",
+                        "description": "Shigellosis"
+                    },
+                    {
+                        "code": "A04",
+                        "description": "Other bacterial intestinal infections"
+                    },
+                    {
+                        "code": "A05",
+                        "description": "Other bacterial foodborne intoxications"
+                    },
+                    {
+                        "code": "A06",
+                        "description": "Amoebiasis"
+                    },
+                    {
+                        "code": "A07",
+                        "description": "Other protozoal intestinal diseases"
+                    },
+                    {
+                        "code": "A08",
+                        "description": "Viral and other specified intestinal infections"
+                    },
+                    {
+                        "code": "A09",
+                        "description": "Diarrhea and gastroenteritis of infectious origin"
+                    }
+                ]
+            },
+            {
+                "code": "A15-A19",
+                "description": "Tuberculosis",
+                "subcategories": [
+                    {
+                        "code": "A15",
+                        "description": "Respiratory tuberculosis"
+                    },
+                    {
+                        "code": "A16",
+                        "description": "Tuberculosis of intrathoracic lymph nodes"
+                    },
+                    {
+                        "code": "A17",
+                        "description": "Tuberculosis of nervous system"
+                    },
+                    {
+                        "code": "A18",
+                        "description": "Tuberculosis of other organs"
+                    },
+                    {
+                        "code": "A19",
+                        "description": "Miliary tuberculosis"
+                    }
+                ]
+            },
+            {
+                "code": "A20-A28",
+                "description": "Certain zoonotic bacterial diseases",
+                "subcategories": [
+                    {
+                        "code": "A20",
+                        "description": "Plague"
+                    },
+                    {
+                        "code": "A21",
+                        "description": "Tularaemia"
+                    },
+                    {
+                        "code": "A22",
+                        "description": "Anthrax"
+                    },
+                    {
+                        "code": "A23",
+                        "description": "Brucellosis"
+                    },
+                    {
+                        "code": "A24",
+                        "description": "Glanders and melioidosis"
+                    },
+                    {
+                        "code": "A25",
+                        "description": "Rat-bite fevers"
+                    },
+                    {
+                        "code": "A26",
+                        "description": "Erysipeloid"
+                    },
+                    {
+                        "code": "A27",
+                        "description": "Leptospirosis"
+                    },
+                    {
+                        "code": "A28",
+                        "description": "Other zoonotic bacterial diseases"
+                    }
+                ]
+            },
+            {
+                "code": "A30-A49",
+                "description": "Other bacterial diseases",
+                "subcategories": [
+                    {
+                        "code": "A30",
+                        "description": "Leprosy [Hansen's disease]"
+                    },
+                    {
+                        "code": "A31",
+                        "description": "Infection due to other mycobacteria"
+                    },
+                    {
+                        "code": "A32",
+                        "description": "Listeriosis"
+                    },
+                    {
+                        "code": "A33",
+                        "description": "Tetanus neonatorum"
+                    },
+                    {
+                        "code": "A34",
+                        "description": "Obstetrical tetanus"
+                    },
+                    {
+                        "code": "A35",
+                        "description": "Other tetanus"
+                    },
+                    {
+                        "code": "A36",
+                        "description": "Diphtheria"
+                    },
+                    {
+                        "code": "A37",
+                        "description": "Whooping cough"
+                    },
+                    {
+                        "code": "A38",
+                        "description": "Scarlet fever"
+                    },
+                    {
+                        "code": "A39",
+                        "description": "Meningococcal infection"
+                    },
+                    {
+                        "code": "A40",
+                        "description": "Streptococcal sepsis"
+                    },
+                    {
+                        "code": "A41",
+                        "description": "Other sepsis"
+                    },
+                    {
+                        "code": "A42",
+                        "description": "Actinomycosis"
+                    },
+                    {
+                        "code": "A43",
+                        "description": "Nocardiosis"
+                    },
+                    {
+                        "code": "A44",
+                        "description": "Bartonellosis"
+                    },
+                    {
+                        "code": "A46",
+                        "description": "Erysipelas"
+                    },
+                    {
+                        "code": "A48",
+                        "description": "Other bacterial diseases, not elsewhere classified"
+                    }
+                ]
+            },
+            {
+                "code": "A50-A64",
+                "description": "Infections with a predominantly sexual mode of transmission",
+                "subcategories": [
+                    {
+                        "code": "A50",
+                        "description": "Congenital syphilis"
+                    },
+                    {
+                        "code": "A51",
+                        "description": "Early syphilis"
+                    },
+                    {
+                        "code": "A52",
+                        "description": "Late syphilis"
+                    },
+                    {
+                        "code": "A53",
+                        "description": "Other and unspecified syphilis"
+                    },
+                    {
+                        "code": "A54",
+                        "description": "Gonococcal infection"
+                    },
+                    {
+                        "code": "A55",
+                        "description": "Chlamydial lymphogranuloma [venereum]"
+                    },
+                    {
+                        "code": "A56",
+                        "description": "Other sexually transmitted chlamydial diseases"
+                    },
+                    {
+                        "code": "A57",
+                        "description": "Chancroid"
+                    },
+                    {
+                        "code": "A58",
+                        "description": "Granuloma inguinale"
+                    },
+                    {
+                        "code": "A59",
+                        "description": "Trichomoniasis"
+                    },
+                    {
+                        "code": "A60",
+                        "description": "Anogenital herpesviral [herpes simplex] infections"
+                    },
+                    {
+                        "code": "A63",
+                        "description": "Other predominantly sexually transmitted diseases, not elsewhere classified"
+                    },
+                    {
+                        "code": "A64",
+                        "description": "Unspecified sexually transmitted disease"
+                    }
+                ]
+            },
+            {
+                "code": "A65-A69",
+                "description": "Other spirochetal diseases",
+                "subcategories": [
+                    {
+                        "code": "A65",
+                        "description": "Nonvenereal syphilis"
+                    },
+                    {
+                        "code": "A66",
+                        "description": "Yaws"
+                    },
+                    {
+                        "code": "A67",
+                        "description": "Pinta"
+                    },
+                    {
+                        "code": "A68",
+                        "description": "Relapsing fevers"
+                    },
+                    {
+                        "code": "A69",
+                        "description": "Other spirochetal infections"
+                    }
+                ]
+            },
+            {
+                "code": "A70-A74",
+                "description": "Other diseases caused by chlamydiae",
+                "subcategories": [
+                    {
+                        "code": "A70",
+                        "description": "Chlamydia psittaci infections"
+                    },
+                    {
+                        "code": "A71",
+                        "description": "Trachoma"
+                    },
+                    {
+                        "code": "A74",
+                        "description": "Other diseases caused by chlamydiae"
+                    }
+                ]
+            },
+            {
+                "code": "A75-A79",
+                "description": "Rickettsioses",
+                "subcategories": [
+                    {
+                        "code": "A75",
+                        "description": "Typhus fever"
+                    },
+                    {
+                        "code": "A77",
+                        "description": "Spotted fever"
+                    },
+                    {
+                        "code": "A78",
+                        "description": "Q fever"
+                    },
+                    {
+                        "code": "A79",
+                        "description": "Other rickettsioses"
+                    }
+                ]
+            },
+            {
+                "code": "A80-A89",
+                "description": "Viral infections of the central nervous system",
+                "subcategories": [
+                    {
+                        "code": "A80",
+                        "description": "Acute poliomyelitis"
+                    },
+                    {
+                        "code": "A81",
+                        "description": "Atypical virus infections of central nervous system"
+                    },
+                    {
+                        "code": "A82",
+                        "description": "Rabies"
+                    },
+                    {
+                        "code": "A83",
+                        "description": "Mosquito-borne viral encephalitis"
+                    },
+                    {
+                        "code": "A84",
+                        "description": "Tick-borne viral encephalitis"
+                    },
+                    {
+                        "code": "A85",
+                        "description": "Other viral encephalitis, not elsewhere classified"
+                    },
+                    {
+                        "code": "A86",
+                        "description": "Unspecified viral encephalitis"
+                    },
+                    {
+                        "code": "A87",
+                        "description": "Viral meningitis"
+                    },
+                    {
+                        "code": "A88",
+                        "description": "Other viral infections of central nervous system, not elsewhere classified"
+                    },
+                    {
+                        "code": "A89",
+                        "description": "Unspecified viral infection of central nervous system"
+                    }
+                ]
+            },
+            {
+                "code": "A92-A99",
+                "description": "Other mosquito-borne viral fevers",
+                "subcategories": [
+                    {
+                        "code": "A92",
+                        "description": "Other mosquito-borne viral fevers"
+                    },
+                    {
+                        "code": "A94",
+                        "description": "Unspecified arthropod-borne viral fever"
+                    },
+                    {
+                        "code": "A95",
+                        "description": "Yellow fever"
+                    },
+                    {
+                        "code": "A96",
+                        "description": "Arenaviral hemorrhagic fever"
+                    },
+                    {
+                        "code": "A98",
+                        "description": "Other viral hemorrhagic fevers, not elsewhere classified"
+                    },
+                    {
+                        "code": "A99",
+                        "description": "Unspecified viral hemorrhagic fever"
+                    }
+                ]
+            },
+            {
+                "code": "B00-B09",
+                "description": "Viral infections characterized by skin and mucous membrane lesions",
+                "subcategories": [
+                    {
+                        "code": "B00",
+                        "description": "Herpesviral [herpes simplex] infections"
+                    },
+                    {
+                        "code": "B01",
+                        "description": "Varicella [chickenpox]"
+                    },
+                    {
+                        "code": "B02",
+                        "description": "Zoster [herpes zoster]"
+                    },
+                    {
+                        "code": "B03",
+                        "description": "Smallpox"
+                    },
+                    {
+                        "code": "B04",
+                        "description": "Monkeypox"
+                    },
+                    {
+                        "code": "B05",
+                        "description": "Measles"
+                    },
+                    {
+                        "code": "B06",
+                        "description": "Rubella [German measles]"
+                    },
+                    {
+                        "code": "B07",
+                        "description": "Viral warts"
+                    },
+                    {
+                        "code": "B08",
+                        "description": "Other viral infections characterized by skin and mucous membrane lesions, not elsewhere classified"
+                    },
+                    {
+                        "code": "B09",
+                        "description": "Unspecified viral infection characterized by skin and mucous membrane lesions"
+                    }
+                ]
+            },
+            {
+                "code": "B15-B19",
+                "description": "Viral hepatitis",
+                "subcategories": [
+                    {
+                        "code": "B15",
+                        "description": "Acute hepatitis A"
+                    },
+                    {
+                        "code": "B16",
+                        "description": "Acute hepatitis B"
+                    },
+                    {
+                        "code": "B17",
+                        "description": "Other acute viral hepatitis"
+                    },
+                    {
+                        "code": "B18",
+                        "description": "Chronic viral hepatitis"
+                    },
+                    {
+                        "code": "B19",
+                        "description": "Unspecified viral hepatitis"
+                    }
+                ]
+            },
+            {
+                "code": "B20-B24",
+                "description": "Human immunodeficiency virus [HIV] disease",
+                "subcategories": [
+                    {
+                        "code": "B20",
+                        "description": "Human immunodeficiency virus [HIV] disease resulting in infectious and parasitic diseases"
+                    },
+                    {
+                        "code": "B21",
+                        "description": "Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms"
+                    },
+                    {
+                        "code": "B22",
+                        "description": "Human immunodeficiency virus [HIV] disease resulting in other specified diseases"
+                    },
+                    {
+                        "code": "B23",
+                        "description": "Unspecified human immunodeficiency virus [HIV] disease"
+                    },
+                    {
+                        "code": "B24",
+                        "description": "Unspecified human immunodeficiency virus [HIV] disease"
+                    }
+                ]
+            },
+            {
+                "code": "B25-B34",
+                "description": "Other viral diseases",
+                "subcategories": [
+                    {
+                        "code": "B25",
+                        "description": "Cytomegaloviral disease"
+                    },
+                    {
+                        "code": "B26",
+                        "description": "Mumps"
+                    },
+                    {
+                        "code": "B27",
+                        "description": "Infectious mononucleosis"
+                    },
+                    {
+                        "code": "B30",
+                        "description": "Viral conjunctivitis"
+                    },
+                    {
+                        "code": "B33",
+                        "description": "Other viral diseases, not elsewhere classified"
+                    },
+                    {
+                        "code": "B34",
+                        "description": "Viral infection of unspecified site"
+                    }
+                ]
+            },
+            {
+                "code": "B35-B49",
+                "description": "Mycoses",
+                "subcategories": [
+                    {
+                        "code": "B35",
+                        "description": "Dermatophytosis"
+                    },
+                    {
+                        "code": "B36",
+                        "description": "Other superficial mycoses"
+                    },
+                    {
+                        "code": "B37",
+                        "description": "Candidiasis"
+                    },
+                    {
+                        "code": "B38",
+                        "description": "Coccidioidomycosis"
+                    },
+                    {
+                        "code": "B39",
+                        "description": "Histoplasmosis"
+                    },
+                    {
+                        "code": "B40",
+                        "description": "Blastomycosis"
+                    },
+                    {
+                        "code": "B41",
+                        "description": "Paracoccidioidomycosis"
+                    },
+                    {
+                        "code": "B42",
+                        "description": "Sporotrichosis"
+                    },
+                    {
+                        "code": "B43",
+                        "description": "Chromomycosis and other deep mycoses"
+                    },
+                    {
+                        "code": "B44",
+                        "description": "Aspergillosis"
+                    },
+                    {
+                        "code": "B45",
+                        "description": "Cryptococcosis"
+                    },
+                    {
+                        "code": "B46",
+                        "description": "Zygomycosis"
+                    },
+                    {
+                        "code": "B47",
+                        "description": "Mycetoma"
+                    },
+                    {
+                        "code": "B48",
+                        "description": "Other mycoses, not elsewhere classified"
+                    },
+                    {
+                        "code": "B49",
+                        "description": "Unspecified mycosis"
+                    }
+                ]
+            },
+            {
+                "code": "B50-B64",
+                "description": "Protozoal diseases",
+                "subcategories": [
+                    {
+                        "code": "B50",
+                        "description": "Plasmodium falciparum malaria"
+                    },
+                    {
+                        "code": "B51",
+                        "description": "Plasmodium vivax malaria"
+                    },
+                    {
+                        "code": "B52",
+                        "description": "Plasmodium malariae malaria"
+                    },
+                    {
+                        "code": "B53",
+                        "description": "Other parasitologically confirmed malaria"
+                    },
+                    {
+                        "code": "B54",
+                        "description": "Unspecified malaria"
+                    },
+                    {
+                        "code": "B55",
+                        "description": "Leishmaniasis"
+                    },
+                    {
+                        "code": "B56",
+                        "description": "African trypanosomiasis"
+                    },
+                    {
+                        "code": "B57",
+                        "description": "Chagas' disease"
+                    },
+                    {
+                        "code": "B58",
+                        "description": "Toxoplasmosis"
+                    },
+                    {
+                        "code": "B59",
+                        "description": "Pneumocystosis"
+                    },
+                    {
+                        "code": "B60",
+                        "description": "Other protozoal diseases, not elsewhere classified"
+                    },
+                    {
+                        "code": "B64",
+                        "description": "Unspecified protozoal disease"
+                    }
+                ]
+            },
+            {
+                "code": "B65-B83",
+                "description": "Helminthiases",
+                "subcategories": [
+                    {
+                        "code": "B65",
+                        "description": "Schistosomiasis [bilharziasis]"
+                    },
+                    {
+                        "code": "B66",
+                        "description": "Other fluke infections"
+                    },
+                    {
+                        "code": "B67",
+                        "description": "Echinococcosis"
+                    },
+                    {
+                        "code": "B68",
+                        "description": "Diphyllobothriasis and sparganosis"
+                    },
+                    {
+                        "code": "B69",
+                        "description": "Cysticercosis"
+                    },
+                    {
+                        "code": "B70",
+                        "description": "Diphyllobothriasis"
+                    },
+                    {
+                        "code": "B71",
+                        "description": "Other cestode infections"
+                    },
+                    {
+                        "code": "B72",
+                        "description": "Dracunculiasis"
+                    },
+                    {
+                        "code": "B73",
+                        "description": "Onchocerciasis"
+                    },
+                    {
+                        "code": "B74",
+                        "description": "Filariasis"
+                    },
+                    {
+                        "code": "B75",
+                        "description": "Trichinellosis"
+                    },
+                    {
+                        "code": "B76",
+                        "description": "Hookworm diseases"
+                    },
+                    {
+                        "code": "B77",
+                        "description": "Ascariasis"
+                    },
+                    {
+                        "code": "B78",
+                        "description": "Strongyloidiasis"
+                    },
+                    {
+                        "code": "B79",
+                        "description": "Trichuriasis"
+                    },
+                    {
+                        "code": "B80",
+                        "description": "Enterobiasis"
+                    },
+                    {
+                        "code": "B81",
+                        "description": "Other intestinal helminthiases, not elsewhere classified"
+                    },
+                    {
+                        "code": "B82",
+                        "description": "Unspecified intestinal parasitism"
+                    },
+                    {
+                        "code": "B83",
+                        "description": "Other helminthiases"
+                    },
+                    {
+                        "code": "B64",
+                        "description": "Unspecified protozoal disease"
+                    }
+                ]
+            },
+            {
+                "code": "B85-B89",
+                "description": "Pediculosis, acariasis and other infestations",
+                "subcategories": [
+                    {
+                        "code": "B85",
+                        "description": "Pediculosis and phthiriasis"
+                    },
+                    {
+                        "code": "B86",
+                        "description": "Scabies"
+                    },
+                    {
+                        "code": "B87",
+                        "description": "Myiasis"
+                    },
+                    {
+                        "code": "B88",
+                        "description": "Other acariasis"
+                    },
+                    {
+                        "code": "B89",
+                        "description": "Unspecified parasitic disease"
+                    }
+                ]
+            },
+            {
+                "code": "B90-B94",
+                "description": "Sequelae of infectious and parasitic diseases",
+                "subcategories": [
+                    {
+                        "code": "B90",
+                        "description": "Sequelae of tuberculosis"
+                    },
+                    {
+                        "code": "B91",
+                        "description": "Sequelae of poliomyelitis"
+                    },
+                    {
+                        "code": "B92",
+                        "description": "Sequelae of leprosy"
+                    },
+                    {
+                        "code": "B94",
+                        "description": "Sequelae of other and unspecified infectious and parasitic diseases"
+                    }
+                ]
+            },
+            {
+                "code": "B95-B97",
+                "description": "Bacterial, viral and other infectious agents",
+                "subcategories": [
+                    {
+                        "code": "B95",
+                        "description": "Streptococcus and staphylococcus as the cause of diseases classified to other chapters"
+                    },
+                    {
+                        "code": "B96",
+                        "description": "Other specified bacterial agents as the cause of diseases classified to other chapters"
+                    },
+                    {
+                        "code": "B97",
+                        "description": "Viral agents as the cause of diseases classified to other chapters"
+                    }
+                ]
+            },
+            {
+                "code": "B99",
+                "description": "Other infectious diseases",
+                "subcategories": [
+                    {
+                        "code": "B99",
+                        "description": "Other infectious diseases"
+                    }
+                ]
+            }
+        ]
+    },
+    "cerebral palsy": {
+        "code": "G00-G99",
+        "description": "Diseases of the nervous system",
+        "subcategories": [
+            {
+                "code": "G80-G83",
+                "description": "Cerebral palsy and other paralytic syndromes",
+                "subcategories": {
+                    "code": "G80",
+                    "description": "Cerebral palsy"
+                }
+            }
+        ]
+    },
+    "head and neck cancer": {
+        "code": "C00-D49",
+        "description": "Neoplasms",
+        "subcategories": [
+            {
+                "code": "C00-C14",
+                "description": "Malignant neoplasms of lip, oral cavity and pharynx",
+                "subcategories": [
+                    {
+                        "code": "C00-C14",
+                        "description": "Malignant neoplasms of lip, oral cavity and pharynx"
+                    }
+                ]
+            }
+        ]
+    },
+    "acute coronary syndrome": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I20-I25",
+                "description": "Ischemic heart diseases",
+                "subcategories": {
+                    "code": "I20",
+                    "description": "Angina pectoris"
+                }
+            }
+        ]
+    },
+    "cognitive function": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R40-R46",
+                "description": "Symptoms and signs involving cognition, perception, emotional state and behavior",
+                "subcategories": {
+                    "code": "R41",
+                    "description": "Other symptoms and signs involving cognitive functions and awareness"
+                }
+            }
+        ]
+    },
+    "a preliminary safety study": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A00-A09",
+                "description": "Intestinal infectious diseases",
+                "subcategories": [
+                    {
+                        "code": "A00",
+                        "description": "Cholera"
+                    }
+                ]
+            }
+        ]
+    },
+    "chronic rhinosinusitis": {
+        "code": "J00-J99",
+        "description": "Diseases of the respiratory system",
+        "subcategories": [
+            {
+                "code": "J30-J39",
+                "description": "Other diseases of upper respiratory tract",
+                "subcategories": {
+                    "code": "J32",
+                    "description": "Chronic sinusitis"
+                }
+            }
+        ]
+    },
+    "preterm birth": {
+        "code": "P00-P96",
+        "description": "Certain conditions originating in the perinatal period",
+        "subcategories": [
+            {
+                "code": "P07-P08",
+                "description": "Disorders related to short gestation and low birth weight, not elsewhere classified",
+                "subcategories": [
+                    {
+                        "code": "P07",
+                        "description": "Disorders related to short gestation and low birth weight, not elsewhere classified"
+                    }
+                ]
+            }
+        ]
+    },
+    "therefore": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R10-R19",
+                "description": "Symptoms and signs involving the digestive system and abdomen",
+                "subcategories": [
+                    {
+                        "code": "R10-R19",
+                        "description": "Symptoms and signs involving the digestive system and abdomen"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy patient": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": {
+                    "code": "Z00",
+                    "description": "Encounter for general adult medical examination without abnormal findings"
+                }
+            }
+        ]
+    },
+    "length of hospital stay": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z04-Z04",
+                "description": "Examination and observation for other reasons",
+                "subcategories": {
+                    "code": "Z04",
+                    "description": "Examination and observation for other reasons"
+                }
+            }
+        ]
+    },
+    "shoulder pain": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M25-M27",
+                "description": "Other joint disorders",
+                "subcategories": {
+                    "code": "M25",
+                    "description": "Other joint disorders"
+                }
+            }
+        ]
+    },
+    "treatment": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z51-Z51",
+                "description": "Encounter for other specified aftercare",
+                "subcategories": {
+                    "code": "Z51",
+                    "description": "Encounter for other specified aftercare"
+                }
+            }
+        ]
+    },
+    "graves&amp": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E05-E07",
+                "description": "Thyroid disorders",
+                "subcategories": {
+                    "code": "E05",
+                    "description": "Thyrotoxicosis [hyperthyroidism]"
+                }
+            }
+        ]
+    },
+    "insulin resistance": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E70-E88",
+                "description": "Metabolic disorders",
+                "subcategories": [
+                    {
+                        "code": "E88",
+                        "description": "Other metabolic disorders"
+                    }
+                ]
+            }
+        ]
+    },
+    "copd": {
+        "code": "J00-J99",
+        "description": "Diseases of the respiratory system",
+        "subcategories": [
+            {
+                "code": "J40-J47",
+                "description": "Chronic lower respiratory diseases",
+                "subcategories": {
+                    "code": "J44",
+                    "description": "Other chronic obstructive pulmonary disease"
+                }
+            }
+        ]
+    },
+    "diabetes mellitus": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E10-E14",
+                "description": "Diabetes mellitus",
+                "subcategories": {
+                    "code": "E10",
+                    "description": "Type 1 diabetes mellitus"
+                }
+            }
+        ]
+    },
+    "volunteers": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": {
+                    "code": "Z00-Z13",
+                    "description": "Encounter for general examination without complaint, suspected or reported diagnosis"
+                }
+            }
+        ]
+    },
+    "postoperative pain": {
+        "code": "G89",
+        "description": "Pain, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "G89",
+                "description": "Pain, not elsewhere classified"
+            }
+        ]
+    },
+    "bioequivalence study in healthy thai volunteers": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R90-R94",
+                "description": "Abnormal findings on diagnostic imaging and in function studies, without diagnosis",
+                "subcategories": [
+                    {
+                        "code": "R90-R94",
+                        "description": "Abnormal findings on diagnostic imaging",
+                        "subcategories": {
+                            "code": "R90-R94",
+                            "description": "Abnormal findings on diagnostic imaging of central nervous system"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy thai female subjects": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00-Z13",
+            "description": "Persons encountering health services for examinations",
+            "subcategories": {
+                "code": "Z00-Z00",
+                "description": "Encounter for general adult medical examination without abnormal findings",
+                "subcategories": {
+                    "code": "Z00",
+                    "description": "Encounter for general adult medical examination without abnormal findings"
+                }
+            }
+        }
+    },
+    "healthy male and female volunteers": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00-Z13",
+            "description": "Persons encountering health services for examinations",
+            "subcategories": {
+                "code": "Z00",
+                "description": "Encounter for general adult medical examination"
+            }
+        }
+    },
+    "carpal tunnel syndrome": {
+        "code": "G00-G99",
+        "description": "Diseases of the nervous system",
+        "subcategories": [
+            {
+                "code": "G56-G56",
+                "description": "Mononeuropathies of upper limb",
+                "subcategories": [
+                    {
+                        "code": "G56.0-G56.0",
+                        "description": "Carpal tunnel syndrome",
+                        "subcategories": {
+                            "code": "G56.0",
+                            "description": "Carpal tunnel syndrome"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "dyslipidemia": {
+        "code": "E78",
+        "description": "Disorders of lipoprotein metabolism and other lipidemias",
+        "subcategories": [
+            {
+                "code": "E78.0-E78.9",
+                "description": "Pure hypercholesterolemia and pure hyperlipidemia",
+                "subcategories": [
+                    {
+                        "code": "E78.0",
+                        "description": "Pure hypercholesterolemia"
+                    },
+                    {
+                        "code": "E78.1",
+                        "description": "Pure hyperglyceridemia"
+                    },
+                    {
+                        "code": "E78.2",
+                        "description": "Mixed hyperlipidemia"
+                    },
+                    {
+                        "code": "E78.3",
+                        "description": "Hyperchylomicronemia"
+                    },
+                    {
+                        "code": "E78.4",
+                        "description": "Other hyperlipidemia"
+                    },
+                    {
+                        "code": "E78.5",
+                        "description": "Hyperlipidemia, unspecified"
+                    },
+                    {
+                        "code": "E78.6",
+                        "description": "Lipoprotein deficiencies"
+                    },
+                    {
+                        "code": "E78.7",
+                        "description": "Disorder of bile acid and cholesterol metabolism"
+                    },
+                    {
+                        "code": "E78.8",
+                        "description": "Other disorders of lipoprotein metabolism"
+                    },
+                    {
+                        "code": "E78.9",
+                        "description": "Disorder of lipoprotein metabolism, unspecified"
+                    }
+                ]
+            }
+        ]
+    },
+    "chronic kidney disease": {
+        "code": "N00-N99",
+        "description": "Diseases of the genitourinary system",
+        "subcategories": [
+            {
+                "code": "N17-N19",
+                "description": "Renal failure",
+                "subcategories": [
+                    {
+                        "code": "N18",
+                        "description": "Chronic kidney disease"
+                    }
+                ]
+            }
+        ]
+    },
+    "type 2 diabetes mellitus": {
+        "code": "E08-E13",
+        "description": "Diabetes mellitus",
+        "subcategories": [
+            {
+                "code": "E11-E11",
+                "description": "Type 2 diabetes mellitus",
+                "subcategories": {
+                    "code": "E11.9",
+                    "description": "Type 2 diabetes mellitus without complications"
+                }
+            }
+        ]
+    },
+    "sepsis": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A40-A41",
+                "description": "Other bacterial diseases",
+                "subcategories": {
+                    "code": "A41",
+                    "description": "Other sepsis"
+                }
+            }
+        ]
+    },
+    "gingivitis": {
+        "code": "K00-K14",
+        "description": "Diseases of oral cavity and salivary glands",
+        "subcategories": [
+            {
+                "code": "K05-K05",
+                "description": "Gingivitis and periodontal diseases",
+                "subcategories": {
+                    "code": "K05",
+                    "description": "Gingivitis"
+                }
+            }
+        ]
+    },
+    "breast cancer": {
+        "code": "C00-D49",
+        "description": "Neoplasms",
+        "subcategories": [
+            {
+                "code": "C50-C50",
+                "description": "Malignant neoplasms of breast",
+                "subcategories": {
+                    "code": "C50",
+                    "description": "Malignant neoplasm of breast"
+                }
+            }
+        ]
+    },
+    "mild cognitive impairment": {
+        "code": "F01-F09",
+        "description": "Mental disorders due to known physiological conditions",
+        "subcategories": [
+            {
+                "code": "F06-F06",
+                "description": "Other mental disorders due to known physiological condition",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            }
+        ]
+    },
+    "metabolic syndrome": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E70-E88",
+                "description": "Metabolic disorders",
+                "subcategories": [
+                    {
+                        "code": "E88",
+                        "description": "Other metabolic disorders"
+                    }
+                ]
+            }
+        ]
+    },
+    "major depressive disorder": {
+        "code": "F01-F99",
+        "description": "Mental, Behavioral and Neurodevelopmental Disorders",
+        "subcategories": [
+            {
+                "code": "F30-F39",
+                "description": "Mood [affective] disorders",
+                "subcategories": [
+                    {
+                        "code": "F32-F32",
+                        "description": "Major depressive disorder, single episode",
+                        "subcategories": {
+                            "code": "F32",
+                            "description": "Major depressive disorder, single episode"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "heart failure": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I50-I50",
+                "description": "Heart failure",
+                "subcategories": {
+                    "code": "I50",
+                    "description": "Heart failure"
+                }
+            }
+        ]
+    },
+    "hemodialysis": {
+        "code": "Z49",
+        "description": "Encounter for care involving renal dialysis",
+        "subcategories": []
+    },
+    "cardiovascular disease": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I00-I99",
+                "description": "Diseases of the circulatory system"
+            }
+        ]
+    },
+    "osteoarthritis of the knee": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M15-M19",
+                "description": "Osteoarthritis",
+                "subcategories": [
+                    {
+                        "code": "M17-M19",
+                        "description": "Osteoarthritis of knee",
+                        "subcategories": {
+                            "code": "M17",
+                            "description": "Osteoarthritis of knee"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "respiratory failure": {
+        "code": "J96-J99",
+        "description": "Diseases of the respiratory system",
+        "subcategories": [
+            {
+                "code": "J96",
+                "description": "Respiratory failure",
+                "subcategories": {
+                    "code": "J96.9",
+                    "description": "Respiratory failure, unspecified"
+                }
+            }
+        ]
+    },
+    "glaucoma": {
+        "code": "H00-H59",
+        "description": "Diseases of the eye and adnexa",
+        "subcategories": [
+            {
+                "code": "H40-H42",
+                "description": "Glaucoma",
+                "subcategories": {
+                    "code": "H40",
+                    "description": "Glaucoma"
+                }
+            }
+        ]
+    },
+    "chronic ankle instability": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M00-M25",
+                "description": "Arthropathies",
+                "subcategories": [
+                    {
+                        "code": "M25-M25",
+                        "description": "Other joint disorders",
+                        "subcategories": {
+                            "code": "M25.37",
+                            "description": "Other instability, ankle and foot"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "acute kidney injury": {
+        "code": "N00-N99",
+        "description": "Diseases of the genitourinary system",
+        "subcategories": [
+            {
+                "code": "N17-N19",
+                "description": "Acute kidney failure and chronic kidney disease",
+                "subcategories": {
+                    "code": "N17",
+                    "description": "Acute kidney failure"
+                }
+            }
+        ]
+    },
+    "septic shock": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A40-A41",
+                "description": "Other bacterial diseases",
+                "subcategories": {
+                    "code": "A41",
+                    "description": "Other sepsis"
+                }
+            }
+        ]
+    },
+    "myofascial pain syndrome": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M70-M79",
+                "description": "Other soft tissue disorders",
+                "subcategories": [
+                    {
+                        "code": "M79-M79",
+                        "description": "Other soft tissue disorders, not elsewhere classified",
+                        "subcategories": {
+                            "code": "M79.1",
+                            "description": "Myalgia"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "for trials without intervention": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00-Z13",
+            "description": "Persons encountering health services for examinations",
+            "subcategories": {
+                "code": "Z00-Z00",
+                "description": "Encounter for general adult medical examination without abnormal findings"
+            }
+        }
+    },
+    "dementia": {
+        "code": "F01-F09",
+        "description": "Mental, Behavioral and Neurodevelopmental disorders",
+        "subcategories": [
+            {
+                "code": "F01-F03",
+                "description": "Mental disorders due to known physiological conditions",
+                "subcategories": {
+                    "code": "F03",
+                    "description": "Unspecified dementia"
+                }
+            }
+        ]
+    },
+    "currently": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00-Z13",
+            "description": "Persons encountering health services for examinations",
+            "subcategories": {
+                "code": "Z00-Z00",
+                "description": "Encounter for general examination without complaint, suspected or reported diagnosis"
+            }
+        }
+    },
+    "morbid obesity": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E65-E68",
+                "description": "Overweight, obesity and other hyperalimentation",
+                "subcategories": {
+                    "code": "E66",
+                    "description": "Overweight and obesity"
+                }
+            }
+        ]
+    },
+    "headache": {
+        "code": "G00-G99",
+        "description": "Diseases of the nervous system",
+        "subcategories": [
+            {
+                "code": "G40-G47",
+                "description": "Epilepsy, and other recurrent seizures",
+                "subcategories": [
+                    {
+                        "code": "G43-G43",
+                        "description": "Migraine",
+                        "subcategories": [
+                            {
+                                "code": "G43",
+                                "description": "Migraine without aura"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "fatigue": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R53-R53",
+                "description": "Malaise and fatigue",
+                "subcategories": {
+                    "code": "R53",
+                    "description": "Malaise and fatigue"
+                }
+            }
+        ]
+    },
+    "overweight": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E65-E68",
+                "description": "Obesity and other hyperalimentation",
+                "subcategories": {
+                    "code": "E66",
+                    "description": "Overweight and obesity"
+                }
+            }
+        ]
+    },
+    "dizziness": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "H81-H81",
+                "description": "Disorders of vestibular function",
+                "subcategories": {
+                    "code": "H81",
+                    "description": "Disorders of vestibular function"
+                }
+            }
+        ]
+    },
+    "healthy male and female subjects.": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": [
+                    {
+                        "code": "Z00",
+                        "description": "Encounter for general adult medical examination without abnormal findings"
+                    }
+                ]
+            }
+        ]
+    },
+    "tuberculosis": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A15-A19",
+                "description": "Tuberculosis",
+                "subcategories": [
+                    {
+                        "code": "A15",
+                        "description": "Respiratory tuberculosis"
+                    },
+                    {
+                        "code": "A16",
+                        "description": "Tuberculosis of other organs"
+                    },
+                    {
+                        "code": "A17",
+                        "description": "Tuberculosis of nervous system"
+                    },
+                    {
+                        "code": "A18",
+                        "description": "Tuberculosis of other organs"
+                    },
+                    {
+                        "code": "A19",
+                        "description": "Miliary tuberculosis"
+                    }
+                ]
+            }
+        ]
+    },
+    "mortality": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "R00-R99",
+                "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+                "subcategories": [
+                    {
+                        "code": "R95",
+                        "description": "Sudden infant death syndrome"
+                    }
+                ]
+            }
+        ]
+    },
+    "mental health": {
+        "code": "F01-F99",
+        "description": "Mental, Behavioral and Neurodevelopmental disorders",
+        "subcategories": [
+            {
+                "code": "F90-F98",
+                "description": "Behavioral and emotional disorders with onset usually occurring in childhood and adolescence",
+                "subcategories": {
+                    "code": "F90-F90",
+                    "description": "Attention-deficit hyperactivity disorders"
+                }
+            }
+        ]
+    },
+    "acne vulgaris": {
+        "code": "L00-L99",
+        "description": "Diseases of the skin and subcutaneous tissue",
+        "subcategories": [
+            {
+                "code": "L70-L75",
+                "description": "Acne",
+                "subcategories": {
+                    "code": "L70",
+                    "description": "Acne vulgaris"
+                }
+            }
+        ]
+    },
+    "helicobacter pylori infection": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A00-A09",
+                "description": "Intestinal infectious diseases",
+                "subcategories": [
+                    {
+                        "code": "A04-A04",
+                        "description": "Other bacterial intestinal infections",
+                        "subcategories": [
+                            {
+                                "code": "A04.5",
+                                "description": "Helicobacter pylori [H. pylori] as the cause of diseases classified elsewhere"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "cataract": {
+        "code": "H00-H59",
+        "description": "Diseases of the eye and adnexa",
+        "subcategories": [
+            {
+                "code": "H25-H28",
+                "description": "Disorders of lens",
+                "subcategories": {
+                    "code": "H25",
+                    "description": "Age-related cataract"
+                }
+            }
+        ]
+    },
+    "osteoporosis": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M80-M85",
+                "description": "Disorders of bone density and structure",
+                "subcategories": {
+                    "code": "M81",
+                    "description": "Osteoporosis"
+                }
+            }
+        ]
+    },
+    "anemia": {
+        "code": "D50-D89",
+        "description": "Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism",
+        "subcategories": [
+            {
+                "code": "D50-D53",
+                "description": "Nutritional anemias",
+                "subcategories": {
+                    "code": "D50",
+                    "description": "Iron deficiency anemia"
+                }
+            }
+        ]
+    },
+    "chronic neck pain": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M50-M54",
+                "description": "Other dorsopathies",
+                "subcategories": {
+                    "code": "M54",
+                    "description": "Dorsalgia"
+                }
+            }
+        ]
+    },
+    "dental plaque": {
+        "code": "K00-K14",
+        "description": "Diseases of oral cavity and salivary glands",
+        "subcategories": [
+            {
+                "code": "K02-K02",
+                "description": "Dental caries",
+                "subcategories": {
+                    "code": "K02",
+                    "description": "Dental caries"
+                }
+            }
+        ]
+    },
+    "thai volunteers": {
+        "code": "Z01-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z50-Z54",
+                "description": "Persons encountering health services for specific procedures and treatment",
+                "subcategories": [
+                    {
+                        "code": "Z51-Z51",
+                        "description": "Encounter for antineoplastic and immunosuppressive chemotherapy and radiation therapy",
+                        "subcategories": {
+                            "code": "Z51",
+                            "description": "Encounter for antineoplastic and immunosuppressive chemotherapy and radiation therapy"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "oral lichen planus": {
+        "code": "K00-K14",
+        "description": "Diseases of oral cavity and salivary glands",
+        "subcategories": [
+            {
+                "code": "K12-K14",
+                "description": "Other diseases of salivary glands",
+                "subcategories": [
+                    {
+                        "code": "K13-K13",
+                        "description": "Other diseases of lip and oral mucosa",
+                        "subcategories": [
+                            {
+                                "code": "K13",
+                                "description": "Other diseases of lip and oral mucosa"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "impaired fasting glucose": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases, and immunity disorders",
+        "subcategories": [
+            {
+                "code": "E10-E14",
+                "description": "Diabetes mellitus",
+                "subcategories": {
+                    "code": "E14",
+                    "description": "Unspecified diabetes mellitus"
+                }
+            }
+        ]
+    },
+    "healthy subject": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": {
+                    "code": "Z00",
+                    "description": "Encounter for general examination without complaint, suspected or reported diagnosis"
+                }
+            }
+        ]
+    },
+    "strabismus": {
+        "code": "H00-H59",
+        "description": "Disorders of eye adnexa",
+        "subcategories": [
+            {
+                "code": "H49-H49",
+                "description": "Paralytic strabismus",
+                "subcategories": {
+                    "code": "H49",
+                    "description": "Paralytic strabismus"
+                }
+            }
+        ]
+    },
+    "deep vein thrombosis": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I80-I82",
+                "description": "Other venous embolism and thrombosis",
+                "subcategories": {
+                    "code": "I80",
+                    "description": "Phlebitis and thrombophlebitis"
+                }
+            }
+        ]
+    },
+    "vitamin d deficiency": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E50-E64",
+                "description": "Other nutritional deficiencies",
+                "subcategories": {
+                    "code": "E55",
+                    "description": "Vitamin D deficiency"
+                }
+            }
+        ]
+    },
+    "subacute stroke": {
+        "code": "I60-I69",
+        "description": "Cerebrovascular diseases",
+        "subcategories": [
+            {
+                "code": "I63-I63",
+                "description": "Cerebral infarction",
+                "subcategories": {
+                    "code": "I63",
+                    "description": "Cerebral infarction"
+                }
+            }
+        ]
+    },
+    "neck pain": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M50-M54",
+                "description": "Other dorsopathies",
+                "subcategories": {
+                    "code": "M54",
+                    "description": "Dorsalgia"
+                }
+            }
+        ]
+    },
+    "hiv": {
+        "code": "B20-B24",
+        "description": "Human immunodeficiency virus [HIV] disease",
+        "subcategories": [
+            {
+                "code": "B20",
+                "description": "Human immunodeficiency virus [HIV] disease resulting in infectious and parasitic diseases",
+                "subcategories": [
+                    {
+                        "code": "B20.7",
+                        "description": "HIV disease resulting in multiple infections"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy people": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": {
+                    "code": "Z00-Z13",
+                    "description": "Encounter for general examination without complaint, suspected or reported diagnosis"
+                }
+            }
+        ]
+    },
+    "regional anesthesia": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "N00-N99",
+                "description": "Diseases of the genitourinary system",
+                "subcategories": [
+                    {
+                        "code": "N80-N98",
+                        "description": "Noninflammatory disorders of female genital tract",
+                        "subcategories": [
+                            {
+                                "code": "N95-N99",
+                                "description": "Other noninflammatory disorders of female genital tract",
+                                "subcategories": [
+                                    {
+                                        "code": "N96",
+                                        "description": "Recurrent pregnancy loss"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "spinal anesthesia": {
+        "code": "D00-D49",
+        "description": "Neoplasms",
+        "subcategories": [
+            {
+                "code": "D10-D36",
+                "description": "Benign neoplasms, except benign neuroendocrine tumors",
+                "subcategories": [
+                    {
+                        "code": "D35-D35",
+                        "description": "Benign neoplasm of other and unspecified endocrine glands",
+                        "subcategories": [
+                            {
+                                "code": "D35",
+                                "description": "Benign neoplasm of other and unspecified endocrine glands"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "cognitive impairment": {
+        "code": "F01-F99",
+        "description": "Mental, Behavioral and Neurodevelopmental disorders",
+        "subcategories": [
+            {
+                "code": "F01-F09",
+                "description": "Mental disorders due to known physiological conditions",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "F10-F19",
+                "description": "Mental and behavioral disorders due to psychoactive substance use",
+                "subcategories": {
+                    "code": "F10-F19",
+                    "description": "Mental and behavioral disorders due to psychoactive substance use"
+                }
+            },
+            {
+                "code": "F20-F29",
+                "description": "Schizophrenia, schizotypal, delusional, and other non-mood psychotic disorders",
+                "subcategories": {
+                    "code": "F02",
+                    "description": "Dementia in other diseases classified elsewhere"
+                }
+            },
+            {
+                "code": "F30-F39",
+                "description": "Mood [affective] disorders",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "F40-F48",
+                "description": "Anxiety, dissociative, stress-related, somatoform and other nonpsychotic mental disorders",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "F50-F59",
+                "description": "Behavioral syndromes associated with physiological disturbances and physical factors",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "F60-F69",
+                "description": "Disorders of adult personality and behavior",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "F70-F79",
+                "description": "Intellectual disabilities",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "F80-F89",
+                "description": "Pervasive and specific developmental disorders",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "F90-F98",
+                "description": "Behavioral and emotional disorders with onset usually occurring in childhood and adolescence",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "F99",
+                "description": "Unspecified mental disorder",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            }
+        ]
+    },
+    "gestational diabetes mellitus": {
+        "code": "O00-O9A",
+        "description": "Pregnancy, childbirth and the puerperium",
+        "subcategories": [
+            {
+                "code": "O20-O29",
+                "description": "Other maternal disorders predominantly related to pregnancy",
+                "subcategories": [
+                    {
+                        "code": "O24-O24",
+                        "description": "Diabetes mellitus in pregnancy, childbirth and the puerperium",
+                        "subcategories": [
+                            {
+                                "code": "O24",
+                                "description": "Gestational diabetes mellitus"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "dry eye": {
+        "code": "H00-H59",
+        "description": "Diseases of the eye and adnexa",
+        "subcategories": [
+            {
+                "code": "H04-H04",
+                "description": "Disorders of lacrimal system",
+                "subcategories": [
+                    {
+                        "code": "H04",
+                        "description": "Disorders of lacrimal system"
+                    }
+                ]
+            }
+        ]
+    },
+    "functional dyspepsia": {
+        "code": "K00-K95",
+        "description": "Diseases of the digestive system",
+        "subcategories": [
+            {
+                "code": "K20-K31",
+                "description": "Diseases of esophagus, stomach and duodenum",
+                "subcategories": {
+                    "code": "K30-K31",
+                    "description": "Functional dyspepsia and other functional disorders of stomach"
+                }
+            }
+        ]
+    },
+    "diabetic nephropathy": {
+        "code": "E08-E13",
+        "description": "Diabetes mellitus",
+        "subcategories": [
+            {
+                "code": "E11-E11",
+                "description": "Type 2 diabetes mellitus",
+                "subcategories": [
+                    {
+                        "code": "E11.2",
+                        "description": "Type 2 diabetes mellitus with kidney complications"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy subjects": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examination and investigation",
+                "subcategories": [
+                    {
+                        "code": "Z00-Z13",
+                        "description": "Encounter for general examination without complaint, suspected or reported diagnosis"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy volunteers": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z10-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": [
+                    {
+                        "code": "Z13",
+                        "description": "Encounter for screening for other diseases and disorders"
+                    }
+                ]
+            }
+        ]
+    },
+    "bioequivalence study": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R00-R09",
+                "description": "Symptoms and signs involving the circulatory and respiratory systems",
+                "subcategories": [
+                    {
+                        "code": "R00-R09",
+                        "description": "Symptoms and signs involving the circulatory and respiratory systems"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": [
+                    {
+                        "code": "Z00-Z00",
+                        "description": "Encounter for general adult medical examination without abnormal findings"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy thai volunteers": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": {
+                    "code": "Z00",
+                    "description": "General examination of person without complaint"
+                }
+            }
+        ]
+    },
+    "healthy volunteer": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": [
+                    {
+                        "code": "Z00",
+                        "description": "Encounter for general adult medical examination without abnormal findings"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy human volunteers": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": [
+                    {
+                        "code": "Z00-Z00",
+                        "description": "Encounter for general adult medical examination without abnormal findings"
+                    }
+                ]
+            }
+        ]
+    },
+    "depression": {
+        "code": "F01-F99",
+        "description": "Mental, Behavioral and Neurodevelopmental disorders",
+        "subcategories": [
+            {
+                "code": "F30-F39",
+                "description": "Mood [affective] disorders",
+                "subcategories": [
+                    {
+                        "code": "F32-F32",
+                        "description": "Major depressive disorder, single episode",
+                        "subcategories": {
+                            "code": "F32",
+                            "description": "Major depressive disorder, single episode"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "obesity": {
+        "code": "E00-E90",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E65-E68",
+                "description": "Obesity and other hyperalimentation",
+                "subcategories": {
+                    "code": "E66",
+                    "description": "Overweight and obesity"
+                }
+            }
+        ]
+    },
+    "healthy conditions": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00-Z13",
+            "description": "Persons encountering health services for examinations",
+            "subcategories": {
+                "code": "Z00-Z13",
+                "description": "Encounter for general examination without complaint, suspected or reported diagnosis"
+            }
+        }
+    },
+    "bioequivalence study in healthy volunteers": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R00-R09",
+                "description": "Symptoms and signs involving the circulatory and respiratory systems",
+                "subcategories": [
+                    {
+                        "code": "R00-R01",
+                        "description": "Abnormalities of heart beat"
+                    },
+                    {
+                        "code": "R02-R04",
+                        "description": "Symptoms and signs involving the respiratory system and other chest symptoms"
+                    },
+                    {
+                        "code": "R05-R09",
+                        "description": "Cough and abnormalities of respiratory rate and rhythm"
+                    }
+                ]
+            }
+        ]
+    },
+    "pain": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R52-R53",
+                "description": "Malaise and fatigue",
+                "subcategories": {
+                    "code": "R52",
+                    "description": "Pain, unspecified"
+                }
+            }
+        ]
+    },
+    "quality of life": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z73-Z73",
+                "description": "Problems related to life management difficulty",
+                "subcategories": [
+                    {
+                        "code": "Z73.4",
+                        "description": "Inadequate social skills, not elsewhere classified"
+                    }
+                ]
+            }
+        ]
+    },
+    "allergic rhinitis": {
+        "code": "J00-J99",
+        "description": "Diseases of the respiratory system",
+        "subcategories": [
+            {
+                "code": "J30-J39",
+                "description": "Other diseases of upper respiratory tract",
+                "subcategories": [
+                    {
+                        "code": "J30-J30",
+                        "description": "Vasomotor and allergic rhinitis",
+                        "subcategories": {
+                            "code": "J30",
+                            "description": "Vasomotor and allergic rhinitis"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "stroke": {
+        "code": "I60-I69",
+        "description": "Cerebrovascular diseases",
+        "subcategories": [
+            {
+                "code": "I63-I63",
+                "description": "Cerebral infarction",
+                "subcategories": {
+                    "code": "I63",
+                    "description": "Cerebral infarction"
+                }
+            }
+        ]
+    },
+    "anxiety": {
+        "code": "F01-F99",
+        "description": "Mental, Behavioral and Neurodevelopmental disorders",
+        "subcategories": [
+            {
+                "code": "F40-F48",
+                "description": "Anxiety, dissociative, stress-related, somatoform and other nonpsychotic mental disorders",
+                "subcategories": {
+                    "code": "F40-F42",
+                    "description": "Anxiety disorders",
+                    "subcategories": {
+                        "code": "F41",
+                        "description": "Other anxiety disorders"
+                    }
+                }
+            }
+        ]
+    },
+    "bioequivalence study healthy thai volunteers": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R90-R94",
+                "description": "Abnormal findings on diagnostic imaging and in function studies, without diagnosis",
+                "subcategories": [
+                    {
+                        "code": "R90-R94",
+                        "description": "Abnormal findings on diagnostic imaging and in function studies, without diagnosis"
+                    }
+                ]
+            }
+        ]
+    },
+    "s disease": {
+        "code": "G00-G99",
+        "description": "Diseases of the nervous system",
+        "subcategories": [
+            {
+                "code": "G10-G14",
+                "description": "Systemic atrophies primarily affecting the central nervous system",
+                "subcategories": [
+                    {
+                        "code": "G12",
+                        "description": "Spinal muscular atrophy and related syndromes"
+                    }
+                ]
+            }
+        ]
+    },
+    "covid-19": {
+        "code": "U00-U85",
+        "description": "Codes for special purposes",
+        "subcategories": [
+            {
+                "code": "U07-U07",
+                "description": "Emergency use of U07.1",
+                "subcategories": {
+                    "code": "U07.1",
+                    "description": "COVID-19"
+                }
+            }
+        ]
+    },
+    "healthy male and female subjects": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": [
+                    {
+                        "code": "Z00",
+                        "description": "General examination of person without complaint or reported diagnosis"
+                    }
+                ]
+            }
+        ]
+    },
+    "type 2 diabetes": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases, and immunity disorders",
+        "subcategories": [
+            {
+                "code": "E08-E13",
+                "description": "Diabetes mellitus",
+                "subcategories": [
+                    {
+                        "code": "E11",
+                        "description": "Type 2 diabetes mellitus"
+                    }
+                ]
+            }
+        ]
+    },
+    "hypertension": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I10-I15",
+                "description": "Hypertensive diseases",
+                "subcategories": {
+                    "code": "I10",
+                    "description": "Essential (primary) hypertension"
+                }
+            }
+        ]
+    },
+    "asthma": {
+        "code": "J00-J99",
+        "description": "Diseases of the respiratory system",
+        "subcategories": [
+            {
+                "code": "J40-J47",
+                "description": "Chronic lower respiratory diseases",
+                "subcategories": [
+                    {
+                        "code": "J45",
+                        "description": "Asthma"
+                    }
+                ]
+            }
+        ]
+    },
+    "amp": {
+        "code": "C00-D49",
+        "description": "Neoplasms",
+        "subcategories": [
+            {
+                "code": "D10-D36",
+                "description": "Benign neoplasms, except benign neuroendocrine tumors",
+                "subcategories": [
+                    {
+                        "code": "D10-D10",
+                        "description": "Benign neoplasm of mouth and pharynx",
+                        "subcategories": [
+                            {
+                                "code": "D10",
+                                "description": "Benign neoplasm of mouth and pharynx"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "none": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A00-A09",
+                "description": "Intestinal infectious diseases",
+                "subcategories": [
+                    {
+                        "code": "A00",
+                        "description": "Cholera"
+                    }
+                ]
+            },
+            {
+                "code": "A15-A19",
+                "description": "Tuberculosis",
+                "subcategories": [
+                    {
+                        "code": "A15",
+                        "description": "Respiratory tuberculosis, bacteriologically and histologically confirmed"
+                    }
+                ]
+            },
+            {
+                "code": "A20-A28",
+                "description": "Certain zoonotic bacterial diseases",
+                "subcategories": [
+                    {
+                        "code": "A20",
+                        "description": "Plague"
+                    }
+                ]
+            },
+            {
+                "code": "A30-A49",
+                "description": "Other bacterial diseases",
+                "subcategories": [
+                    {
+                        "code": "A30",
+                        "description": "Leprosy [Hansen's disease]"
+                    }
+                ]
+            },
+            {
+                "code": "A50-A64",
+                "description": "Infections with a predominantly sexual mode of transmission",
+                "subcategories": [
+                    {
+                        "code": "A50",
+                        "description": "Congenital syphilis"
+                    }
+                ]
+            },
+            {
+                "code": "A65-A69",
+                "description": "Other spirochetal diseases",
+                "subcategories": [
+                    {
+                        "code": "A65",
+                        "description": "Nonvenereal syphilis"
+                    },
+                    {
+                        "code": "A66",
+                        "description": "Yaws"
+                    },
+                    {
+                        "code": "A67",
+                        "description": "Pinta"
+                    }
+                ]
+            },
+            {
+                "code": "A70-A74",
+                "description": "Other diseases caused by chlamydiae",
+                "subcategories": [
+                    {
+                        "code": "A70",
+                        "description": "Chlamydia psittaci infections"
+                    },
+                    {
+                        "code": "A71",
+                        "description": "Trachoma"
+                    },
+                    {
+                        "code": "A74",
+                        "description": "Other diseases caused by chlamydiae"
+                    }
+                ]
+            },
+            {
+                "code": "A75-A79",
+                "description": "Rickettsioses",
+                "subcategories": [
+                    {
+                        "code": "A75",
+                        "description": "Typhus fever"
+                    },
+                    {
+                        "code": "A79",
+                        "description": "Other rickettsioses"
+                    }
+                ]
+            },
+            {
+                "code": "A80-A89",
+                "description": "Viral infections of the central nervous system",
+                "subcategories": [
+                    {
+                        "code": "A80",
+                        "description": "Acute poliomyelitis"
+                    },
+                    {
+                        "code": "A81",
+                        "description": "Atypical virus infections of central nervous system"
+                    },
+                    {
+                        "code": "A84",
+                        "description": "Tick-borne viral encephalitis"
+                    },
+                    {
+                        "code": "A85",
+                        "description": "Other viral encephalitis, not elsewhere classified"
+                    },
+                    {
+                        "code": "A86",
+                        "description": "Unspecified viral encephalitis"
+                    },
+                    {
+                        "code": "A87",
+                        "description": "Viral meningitis"
+                    },
+                    {
+                        "code": "A89",
+                        "description": "Unspecified viral infection of central nervous system"
+                    }
+                ]
+            },
+            {
+                "code": "A90-A99",
+                "description": "Arthropod-borne viral fevers and viral hemorrhagic fevers",
+                "subcategories": [
+                    {
+                        "code": "A90",
+                        "description": "Dengue fever [classical dengue]"
+                    },
+                    {
+                        "code": "A91",
+                        "description": "Dengue hemorrhagic fever"
+                    },
+                    {
+                        "code": "A92",
+                        "description": "Other mosquito-borne viral fevers"
+                    },
+                    {
+                        "code": "A93",
+                        "description": "Other arthropod-borne viral fevers, not elsewhere classified"
+                    },
+                    {
+                        "code": "A94",
+                        "description": "Unspecified arthropod-borne viral fever"
+                    },
+                    {
+                        "code": "A95",
+                        "description": "Yellow fever"
+                    },
+                    {
+                        "code": "A96",
+                        "description": "Arenaviral hemorrhagic fever"
+                    },
+                    {
+                        "code": "A98",
+                        "description": "Other viral hemorrhagic fevers, not elsewhere classified"
+                    }
+                ]
+            },
+            {
+                "code": "B00-B09",
+                "description": "Viral infections characterized by skin and mucous membrane lesions",
+                "subcategories": [
+                    {
+                        "code": "B00",
+                        "description": "Herpesviral [herpes simplex] infections"
+                    },
+                    {
+                        "code": "B01",
+                        "description": "Varicella [chickenpox]"
+                    },
+                    {
+                        "code": "B02",
+                        "description": "Zoster [herpes zoster]"
+                    },
+                    {
+                        "code": "B03",
+                        "description": "Smallpox"
+                    },
+                    {
+                        "code": "B04",
+                        "description": "Monkeypox"
+                    },
+                    {
+                        "code": "B05",
+                        "description": "Measles"
+                    },
+                    {
+                        "code": "B06",
+                        "description": "Rubella [German measles]"
+                    },
+                    {
+                        "code": "B07",
+                        "description": "Viral warts"
+                    },
+                    {
+                        "code": "B08",
+                        "description": "Other viral infections characterized by skin and mucous membrane lesions, not elsewhere classified"
+                    },
+                    {
+                        "code": "B09",
+                        "description": "Unspecified viral infection characterized by skin and mucous membrane lesions"
+                    }
+                ]
+            },
+            {
+                "code": "B15-B19",
+                "description": "Viral hepatitis",
+                "subcategories": [
+                    {
+                        "code": "B15",
+                        "description": "Acute hepatitis A"
+                    },
+                    {
+                        "code": "B16",
+                        "description": "Acute hepatitis B"
+                    },
+                    {
+                        "code": "B17",
+                        "description": "Acute hepatitis C"
+                    },
+                    {
+                        "code": "B18",
+                        "description": "Chronic viral hepatitis"
+                    },
+                    {
+                        "code": "B19",
+                        "description": "Unspecified viral hepatitis"
+                    }
+                ]
+            },
+            {
+                "code": "B20-B24",
+                "description": "Human immunodeficiency virus [HIV] disease",
+                "subcategories": [
+                    {
+                        "code": "B20",
+                        "description": "Human immunodeficiency virus [HIV] disease resulting in infectious and parasitic diseases"
+                    },
+                    {
+                        "code": "B21",
+                        "description": "Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms"
+                    },
+                    {
+                        "code": "B22",
+                        "description": "Human immunodeficiency virus [HIV] disease resulting in other specified diseases"
+                    },
+                    {
+                        "code": "B23",
+                        "description": "Human immunodeficiency virus [HIV] disease resulting in other conditions"
+                    },
+                    {
+                        "code": "B24",
+                        "description": "Unspecified human immunodeficiency virus [HIV] disease"
+                    }
+                ]
+            },
+            {
+                "code": "B25-B34",
+                "description": "Other viral diseases",
+                "subcategories": [
+                    {
+                        "code": "B25",
+                        "description": "Cytomegaloviral disease"
+                    },
+                    {
+                        "code": "B26",
+                        "description": "Mumps"
+                    },
+                    {
+                        "code": "B27",
+                        "description": "Infectious mononucleosis"
+                    },
+                    {
+                        "code": "B30",
+                        "description": "Viral conjunctivitis"
+                    },
+                    {
+                        "code": "B33",
+                        "description": "Other viral diseases, not elsewhere classified"
+                    },
+                    {
+                        "code": "B34",
+                        "description": "Viral infection of unspecified site"
+                    }
+                ]
+            },
+            {
+                "code": "B35-B49",
+                "description": "Mycoses",
+                "subcategories": [
+                    {
+                        "code": "B35",
+                        "description": "Dermatophytosis"
+                    },
+                    {
+                        "code": "B36",
+                        "description": "Other superficial mycoses"
+                    },
+                    {
+                        "code": "B37",
+                        "description": "Candidiasis"
+                    },
+                    {
+                        "code": "B38",
+                        "description": "Coccidioidomycosis"
+                    },
+                    {
+                        "code": "B39",
+                        "description": "Histoplasmosis"
+                    },
+                    {
+                        "code": "B40",
+                        "description": "Blastomycosis"
+                    },
+                    {
+                        "code": "B41",
+                        "description": "Paracoccidioidomycosis"
+                    },
+                    {
+                        "code": "B42",
+                        "description": "Sporotrichosis"
+                    },
+                    {
+                        "code": "B43",
+                        "description": "Chromomycosis and phaeomycotic abscess"
+                    },
+                    {
+                        "code": "B44",
+                        "description": "Aspergillosis"
+                    },
+                    {
+                        "code": "B45",
+                        "description": "Cryptococcosis"
+                    },
+                    {
+                        "code": "B46",
+                        "description": "Zygomycosis"
+                    },
+                    {
+                        "code": "B47",
+                        "description": "Mycetoma"
+                    },
+                    {
+                        "code": "B48",
+                        "description": "Other mycoses, not elsewhere classified"
+                    },
+                    {
+                        "code": "B49",
+                        "description": "Unspecified mycosis"
+                    }
+                ]
+            },
+            {
+                "code": "B50-B64",
+                "description": "Protozoal diseases",
+                "subcategories": [
+                    {
+                        "code": "B50",
+                        "description": "Plasmodium falciparum malaria with cerebral complications"
+                    },
+                    {
+                        "code": "B51",
+                        "description": "Plasmodium vivax malaria"
+                    },
+                    {
+                        "code": "B52",
+                        "description": "Plasmodium malariae malaria"
+                    },
+                    {
+                        "code": "B53",
+                        "description": "Other parasitic diseases"
+                    },
+                    {
+                        "code": "B54",
+                        "description": "Unspecified malaria"
+                    },
+                    {
+                        "code": "B55",
+                        "description": "Leishmaniasis"
+                    },
+                    {
+                        "code": "B56",
+                        "description": "African trypanosomiasis"
+                    },
+                    {
+                        "code": "B57",
+                        "description": "Chagas disease"
+                    },
+                    {
+                        "code": "B58",
+                        "description": "Toxoplasmosis"
+                    },
+                    {
+                        "code": "B59",
+                        "description": "Pneumocystosis"
+                    },
+                    {
+                        "code": "B60",
+                        "description": "Other protozoal diseases, not elsewhere classified"
+                    },
+                    {
+                        "code": "B64",
+                        "description": "Unspecified protozoal disease"
+                    }
+                ]
+            },
+            {
+                "code": "B65-B83",
+                "description": "Helminthiases",
+                "subcategories": [
+                    {
+                        "code": "B65",
+                        "description": "Schistosomiasis [bilharziasis]"
+                    },
+                    {
+                        "code": "B66",
+                        "description": "Other fluke infections"
+                    },
+                    {
+                        "code": "B67",
+                        "description": "Echinococcosis"
+                    },
+                    {
+                        "code": "B68",
+                        "description": "Taeniasis"
+                    },
+                    {
+                        "code": "B69",
+                        "description": "Cysticercosis"
+                    },
+                    {
+                        "code": "B70",
+                        "description": "Diphyllobothriasis and sparganosis"
+                    },
+                    {
+                        "code": "B71",
+                        "description": "Other cestode infections"
+                    },
+                    {
+                        "code": "B72",
+                        "description": "Dracunculiasis"
+                    },
+                    {
+                        "code": "B73",
+                        "description": "Onchocerciasis"
+                    },
+                    {
+                        "code": "B74",
+                        "description": "Filariasis"
+                    },
+                    {
+                        "code": "B75",
+                        "description": "Trichinellosis"
+                    },
+                    {
+                        "code": "B76",
+                        "description": "Hookworm diseases"
+                    },
+                    {
+                        "code": "B77",
+                        "description": "Ascariasis"
+                    },
+                    {
+                        "code": "B78",
+                        "description": "Strongyloidiasis"
+                    },
+                    {
+                        "code": "B79",
+                        "description": "Trichuriasis"
+                    },
+                    {
+                        "code": "B80",
+                        "description": "Enterobiasis"
+                    },
+                    {
+                        "code": "B81",
+                        "description": "Other intestinal helminthiases, not elsewhere classified"
+                    },
+                    {
+                        "code": "B82",
+                        "description": "Unspecified intestinal parasitism"
+                    },
+                    {
+                        "code": "B83",
+                        "description": "Other helminthiases",
+                        "subcategories": [
+                            {
+                                "code": "B83.0",
+                                "description": "Visceral larva migrans"
+                            },
+                            {
+                                "code": "B83.1",
+                                "description": "Gnathostomiasis"
+                            },
+                            {
+                                "code": "B83.2",
+                                "description": "Angiostrongyliasis due to Parastrongylus cantonensis"
+                            },
+                            {
+                                "code": "B83.3",
+                                "description": "Other lung fluke infections"
+                            },
+                            {
+                                "code": "B83.4",
+                                "description": "Paragonimiasis"
+                            },
+                            {
+                                "code": "B83.5",
+                                "description": "Other specified helminthiases"
+                            },
+                            {
+                                "code": "B83.8",
+                                "description": "Other specified helminthiases"
+                            },
+                            {
+                                "code": "B83.9",
+                                "description": "Helminthiasis, unspecified"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "B85-B89",
+                "description": "Pediculosis, acariasis and other infestations",
+                "subcategories": [
+                    {
+                        "code": "B85",
+                        "description": "Pediculosis and phthiriasis"
+                    },
+                    {
+                        "code": "B86",
+                        "description": "Scabies"
+                    },
+                    {
+                        "code": "B87",
+                        "description": "Myiasis"
+                    },
+                    {
+                        "code": "B88",
+                        "description": "Other infestations",
+                        "subcategories": [
+                            {
+                                "code": "B88.0",
+                                "description": "Head lice infestation"
+                            },
+                            {
+                                "code": "B88.1",
+                                "description": "Body lice and crab lice"
+                            },
+                            {
+                                "code": "B88.2",
+                                "description": "Other acariasis"
+                            },
+                            {
+                                "code": "B88.3",
+                                "description": "Other specified infestations"
+                            },
+                            {
+                                "code": "B88.8",
+                                "description": "Other specified infestations"
+                            },
+                            {
+                                "code": "B88.9",
+                                "description": "Infestation, unspecified"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "B90-B94",
+                "description": "Sequelae of infectious and parasitic diseases",
+                "subcategories": [
+                    {
+                        "code": "B90",
+                        "description": "Sequelae of tuberculosis"
+                    },
+                    {
+                        "code": "B91",
+                        "description": "Sequelae of poliomyelitis"
+                    },
+                    {
+                        "code": "B92",
+                        "description": "Sequelae of leprosy"
+                    },
+                    {
+                        "code": "B94",
+                        "description": "Sequelae of other and unspecified infectious and parasitic diseases"
+                    }
+                ]
+            },
+            {
+                "code": "B95-B97",
+                "description": "Bacterial, viral and other infectious agents",
+                "subcategories": [
+                    {
+                        "code": "B95",
+                        "description": "Streptococcus and staphylococcus as the cause of diseases classified to other chapters"
+                    },
+                    {
+                        "code": "B96",
+                        "description": "Other bacterial agents as the cause of diseases classified to other chapters"
+                    },
+                    {
+                        "code": "B97",
+                        "description": "Viral agents as the cause of diseases classified to other chapters"
+                    }
+                ]
+            },
+            {
+                "code": "B99",
+                "description": "Other infectious diseases",
+                "subcategories": [
+                    {
+                        "code": "B99.0",
+                        "description": "Other and unspecified infectious diseases due to Chlamydiae"
+                    },
+                    {
+                        "code": "B99.1",
+                        "description": "Other and unspecified infectious diseases due to other mycoplasmas"
+                    },
+                    {
+                        "code": "B99.2",
+                        "description": "Other and unspecified infectious diseases due to other specified bacteria"
+                    },
+                    {
+                        "code": "B99.3",
+                        "description": "Multiple drug resistant [MDR] tuberculosis"
+                    },
+                    {
+                        "code": "B99.4",
+                        "description": "Other and unspecified mycoses"
+                    },
+                    {
+                        "code": "B99.8",
+                        "description": "Other specified infectious diseases"
+                    },
+                    {
+                        "code": "B99.9",
+                        "description": "Unspecified infectious disease"
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy condition": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00",
+            "description": "Encounter for general examination without complaint, suspected or reported diagnosis"
+        }
+    },
+    "knee osteoarthritis": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M15-M19",
+                "description": "Osteoarthritis",
+                "subcategories": {
+                    "code": "M17",
+                    "description": "Osteoarthritis of knee"
+                }
+            }
+        ]
+    },
+    "diabetes": {
+        "code": "E00-E88",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E08-E13",
+                "description": "Diabetes mellitus",
+                "subcategories": {
+                    "code": "E11",
+                    "description": "Type 2 diabetes mellitus"
+                }
+            }
+        ]
+    },
+    "dental caries": {
+        "code": "K00-K14",
+        "description": "Diseases of oral cavity and salivary glands",
+        "subcategories": [
+            {
+                "code": "K02-K02",
+                "description": "Dental caries",
+                "subcategories": {
+                    "code": "K02",
+                    "description": "Dental caries"
+                }
+            }
+        ]
+    },
+    "parkinson&amp": {
+        "code": "G00-G99",
+        "description": "Diseases of the nervous system",
+        "subcategories": [
+            {
+                "code": "G20-G26",
+                "description": "Extrapyramidal and movement disorders",
+                "subcategories": [
+                    {
+                        "code": "G20",
+                        "description": "Parkinson's disease"
+                    }
+                ]
+            }
+        ]
+    },
+    "thai": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z55-Z65",
+                "description": "Persons with potential health hazards related to socioeconomic and psychosocial circumstances",
+                "subcategories": [
+                    {
+                        "code": "Z59-Z59",
+                        "description": "Problems related to housing and economic circumstances"
+                    },
+                    {
+                        "code": "Z60-Z60",
+                        "description": "Problems related to social environment"
+                    },
+                    {
+                        "code": "Z61-Z61",
+                        "description": "Problems related to negative life events in childhood"
+                    },
+                    {
+                        "code": "Z62-Z62",
+                        "description": "Problems related to upbringing"
+                    },
+                    {
+                        "code": "Z63-Z63",
+                        "description": "Other problems related to primary support group, including family circumstances"
+                    },
+                    {
+                        "code": "Z64-Z64",
+                        "description": "Problems related to certain psychosocial circumstances"
+                    },
+                    {
+                        "code": "Z65-Z65",
+                        "description": "Problems related to other psychosocial circumstances"
+                    }
+                ]
+            }
+        ]
+    },
+    "elderly": {
+        "code": "R54",
+        "description": "Age-related physical debility"
+    },
+    "melasma": {
+        "code": "L00-L99",
+        "description": "Diseases of the skin and subcutaneous tissue",
+        "subcategories": [
+            {
+                "code": "L80-L99",
+                "description": "Other disorders of the skin and subcutaneous tissue",
+                "subcategories": {
+                    "code": "L81-L81",
+                    "description": "Other disorders of pigmentation",
+                    "subcategories": {
+                        "code": "L81",
+                        "description": "Other disorders of pigmentation"
+                    }
+                }
+            }
+        ]
+    },
+    "stress": {
+        "code": "F01-F99",
+        "description": "Mental, Behavioral and Neurodevelopmental disorders",
+        "subcategories": [
+            {
+                "code": "F40-F48",
+                "description": "Anxiety, dissociative, stress-related, somatoform and other nonpsychotic mental disorders",
+                "subcategories": [
+                    {
+                        "code": "F43-F43",
+                        "description": "Reaction to severe stress, and adjustment disorders",
+                        "subcategories": {
+                            "code": "F43",
+                            "description": "Reaction to severe stress, and adjustment disorders"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "chronic obstructive pulmonary disease": {
+        "code": "J00-J99",
+        "description": "Diseases of the respiratory system",
+        "subcategories": [
+            {
+                "code": "J40-J47",
+                "description": "Chronic lower respiratory diseases",
+                "subcategories": [
+                    {
+                        "code": "J44-J44",
+                        "description": "Other chronic obstructive pulmonary disease",
+                        "subcategories": {
+                            "code": "J44",
+                            "description": "Other chronic obstructive pulmonary disease"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "plantar fasciitis": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M70-M79",
+                "description": "Other soft tissue disorders",
+                "subcategories": [
+                    {
+                        "code": "M72",
+                        "description": "Fibroblastic disorders",
+                        "subcategories": [
+                            {
+                                "code": "M72.2",
+                                "description": "Plantar fascial fibromatosis"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "trigger finger": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M65-M67",
+                "description": "Disorders of synovium and tendon",
+                "subcategories": {
+                    "code": "M65",
+                    "description": "Synovitis and tenosynovitis"
+                }
+            }
+        ]
+    },
+    "end stage renal disease": {
+        "code": "N00-N99",
+        "description": "Diseases of the genitourinary system",
+        "subcategories": [
+            {
+                "code": "N17-N19",
+                "description": "Acute kidney failure and chronic kidney disease",
+                "subcategories": {
+                    "code": "N18",
+                    "description": "Chronic kidney disease (CKD)"
+                }
+            }
+        ]
+    },
+    "sarcopenia": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M62-M62",
+                "description": "Other disorders of muscle",
+                "subcategories": [
+                    {
+                        "code": "M62.84",
+                        "description": "Sarcopenia"
+                    }
+                ]
+            }
+        ]
+    },
+    "pregnancy": {
+        "code": "O00-O99",
+        "description": "Pregnancy, childbirth and the puerperium",
+        "subcategories": []
+    },
+    "healthy participants": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": {
+                    "code": "Z00",
+                    "description": "Encounter for general adult medical examination"
+                }
+            }
+        ]
+    },
+    "prediabetes": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E10-E14",
+                "description": "Diabetes mellitus",
+                "subcategories": {
+                    "code": "E10",
+                    "description": "Type 1 diabetes mellitus"
+                }
+            }
+        ]
+    },
+    "vomiting": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R11-R11",
+                "description": "Nausea and vomiting",
+                "subcategories": {
+                    "code": "R11",
+                    "description": "Nausea and vomiting"
+                }
+            }
+        ]
+    },
+    "total knee arthroplasty": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M24-M25",
+                "description": "Other joint disorders",
+                "subcategories": [
+                    {
+                        "code": "M25",
+                        "description": "Other joint disorders, not elsewhere classified"
+                    }
+                ]
+            }
+        ]
+    },
+    "malaria": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "B50-B54",
+                "description": "Protozoal diseases",
+                "subcategories": {
+                    "code": "B50-B54",
+                    "description": "Protozoal diseases, excluding malaria",
+                    "subcategories": {
+                        "code": "B50",
+                        "description": "Plasmodium falciparum malaria"
+                    }
+                }
+            }
+        ]
+    },
+    "healthy adults": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00-Z13",
+            "description": "Persons encountering health services for examinations",
+            "subcategories": {
+                "code": "Z00",
+                "description": "General examination of person without complaint, suspected or reported diagnosis"
+            }
+        }
+    },
+    "low back pain": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M50-M54",
+                "description": "Other dorsopathies",
+                "subcategories": {
+                    "code": "M54",
+                    "description": "Dorsalgia"
+                }
+            }
+        ]
+    },
+    "chronic low back pain": {
+        "code": "M00-M99",
+        "description": "Diseases of the musculoskeletal system and connective tissue",
+        "subcategories": [
+            {
+                "code": "M40-M43",
+                "description": "Deforming dorsopathies",
+                "subcategories": [
+                    {
+                        "code": "M54-M54",
+                        "description": "Dorsalgia",
+                        "subcategories": {
+                            "code": "M54.5",
+                            "description": "Low back pain"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "female pattern hair loss": {
+        "code": "L00-L99",
+        "description": "Diseases of the skin and subcutaneous tissue",
+        "subcategories": [
+            {
+                "code": "L60-L75",
+                "description": "Disorders of skin appendages",
+                "subcategories": [
+                    {
+                        "code": "L64-L64",
+                        "description": "Androgenic alopecia",
+                        "subcategories": {
+                            "code": "L64",
+                            "description": "Androgenic alopecia"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "kidney transplantation": {
+        "code": "Z94-Z94",
+        "description": "Transplanted organs and tissues status",
+        "subcategories": [
+            {
+                "code": "Z94.0-Z94.0",
+                "description": "Kidney transplant status",
+                "subcategories": {
+                    "code": "Z94.0",
+                    "description": "Kidney transplant status"
+                }
+            }
+        ]
+    },
+    "physical activity": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z72-Z72",
+                "description": "Problems related to lifestyle",
+                "subcategories": [
+                    {
+                        "code": "Z72",
+                        "description": "Problems related to lifestyle"
+                    }
+                ]
+            }
+        ]
+    },
+    "pneumonia": {
+        "code": "J00-J99",
+        "description": "Diseases of the respiratory system",
+        "subcategories": {
+            "code": "J12-J18",
+            "description": "Pneumonia",
+            "subcategories": {
+                "code": "J18",
+                "description": "Pneumonia, unspecified"
+            }
+        }
+    },
+    "thailand": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A00-A09",
+                "description": "Intestinal infectious diseases",
+                "subcategories": [
+                    {
+                        "code": "A00-A00",
+                        "description": "Cholera",
+                        "subcategories": {
+                            "code": "A00",
+                            "description": "Cholera"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy thai male volunteers": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00-Z13",
+            "description": "Persons encountering health services for examination and investigation",
+            "subcategories": {
+                "code": "Z00-Z00",
+                "description": "Encounter for general adult medical examination without abnormal findings",
+                "subcategories": {
+                    "code": "Z00",
+                    "description": "Encounter for general adult medical examination without abnormal findings"
+                }
+            }
+        }
+    },
+    "surgical site infection": {
+        "code": "T80-T88",
+        "description": "Complications of surgical and medical care, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "T81-T81",
+                "description": "Complications of procedures, not elsewhere classified",
+                "subcategories": [
+                    {
+                        "code": "T81",
+                        "description": "Complications of procedures, not elsewhere classified"
+                    }
+                ]
+            }
+        ]
+    },
+    "chronic periodontitis": {
+        "code": "K00-K14",
+        "description": "Diseases of oral cavity and salivary glands",
+        "subcategories": [
+            {
+                "code": "K05-K06",
+                "description": "Gingivitis and periodontal diseases",
+                "subcategories": {
+                    "code": "K05",
+                    "description": "Gingivitis and periodontal diseases"
+                }
+            }
+        ]
+    },
+    "cardiac arrest": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I46-I46",
+                "description": "Cardiac arrest",
+                "subcategories": {
+                    "code": "I46",
+                    "description": "Cardiac arrest"
+                }
+            }
+        ]
+    },
+    "abnormal uterine bleeding": {
+        "code": "N00-N99",
+        "description": "Diseases of the genitourinary system",
+        "subcategories": [
+            {
+                "code": "N80-N98",
+                "description": "Noninflammatory disorders of female genital tract",
+                "subcategories": [
+                    {
+                        "code": "N92-N94",
+                        "description": "Excessive, frequent and irregular menstruation",
+                        "subcategories": {
+                            "code": "N92",
+                            "description": "Excessive and frequent menstruation with regular cycle"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "acne scar": {
+        "code": "L00-L99",
+        "description": "Diseases of the skin and subcutaneous tissue",
+        "subcategories": [
+            {
+                "code": "L70-L75",
+                "description": "Acne, pimples and folliculitis",
+                "subcategories": {
+                    "code": "L70",
+                    "description": "Acne"
+                }
+            }
+        ]
+    },
+    "dyspepsia": {
+        "code": "K00-K95",
+        "description": "Digestive system diseases",
+        "subcategories": [
+            {
+                "code": "K20-K31",
+                "description": "Diseases of esophagus, stomach and duodenum",
+                "subcategories": [
+                    {
+                        "code": "K30-K31",
+                        "description": "Functional dyspepsia and other functional gastroduodenal disorders",
+                        "subcategories": [
+                            {
+                                "code": "K30",
+                                "description": "Functional dyspepsia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "cancer patients": {
+        "code": "C00-D49",
+        "description": "Neoplasms"
+    },
+    "cancer": {
+        "code": "C00-D49",
+        "description": "Neoplasms"
+    },
+    "mild cognitive impairment (mci)": {
+        "code": "F01-F99",
+        "description": "Mental, Behavioral and Neurodevelopmental disorders",
+        "subcategories": [
+            {
+                "code": "F06-F09",
+                "description": "Mental disorders due to known physiological conditions",
+                "subcategories": {
+                    "code": "F06",
+                    "description": "Other mental disorders due to known physiological condition"
+                }
+            },
+            {
+                "code": "G30-G32",
+                "description": "Other degenerative diseases of the nervous system",
+                "subcategories": {
+                    "code": "G31",
+                    "description": "Other degenerative diseases of the nervous system, not elsewhere classified"
+                }
+            }
+        ]
+    },
+    "acanthosis nigricans": {
+        "code": "L00-L99",
+        "description": "Diseases of the skin and subcutaneous tissue",
+        "subcategories": [
+            {
+                "code": "L80-L99",
+                "description": "Other disorders of the skin and subcutaneous tissue",
+                "subcategories": [
+                    {
+                        "code": "L83-L83",
+                        "description": "Acanthosis nigricans",
+                        "subcategories": {
+                            "code": "L83",
+                            "description": "Acanthosis nigricans"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "androgenetic alopecia": {
+        "code": "L00-L99",
+        "description": "Diseases of the skin and subcutaneous tissue",
+        "subcategories": [
+            {
+                "code": "L60-L75",
+                "description": "Disorders of the skin appendages",
+                "subcategories": [
+                    {
+                        "code": "L63-L63",
+                        "description": "Alopecia areata and other nonscarring hair loss",
+                        "subcategories": {
+                            "code": "L63",
+                            "description": "Alopecia areata and other nonscarring hair loss"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "hypotension": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I95-I99",
+                "description": "Other and unspecified disorders of the circulatory system",
+                "subcategories": {
+                    "code": "I95",
+                    "description": "Hypotension"
+                }
+            }
+        ]
+    },
+    "obstructive sleep apnea": {
+        "code": "G00-G99",
+        "description": "Diseases of the nervous system",
+        "subcategories": [
+            {
+                "code": "G47-G47",
+                "description": "Sleep disorders",
+                "subcategories": [
+                    {
+                        "code": "G47.3-G47.3",
+                        "description": "Sleep apnea",
+                        "subcategories": [
+                            {
+                                "code": "G47.33-G47.33",
+                                "description": "Obstructive sleep apnea (adult) (pediatric)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "healthy elderly": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": {
+            "code": "Z00-Z13",
+            "description": "Persons encountering health services for examinations",
+            "subcategories": {
+                "code": "Z00-Z00",
+                "description": "Encounter for general adult medical examination without abnormal findings"
+            }
+        }
+    },
+    "sleep quality": {
+        "code": "G47-G47.9",
+        "description": "Sleep disorders",
+        "subcategories": [
+            {
+                "code": "G47.0-G47.9",
+                "description": "Sleep disorders",
+                "subcategories": {
+                    "code": "G47.9",
+                    "description": "Sleep disorder, unspecified"
+                }
+            }
+        ]
+    },
+    "atopic dermatitis": {
+        "code": "L00-L99",
+        "description": "Diseases of the skin and subcutaneous tissue",
+        "subcategories": [
+            {
+                "code": "L20-L30",
+                "description": "Dermatitis and eczema",
+                "subcategories": [
+                    {
+                        "code": "L20-L30",
+                        "description": "Dermatitis and eczema"
+                    },
+                    {
+                        "code": "L20",
+                        "description": "Atopic dermatitis"
+                    }
+                ]
+            }
+        ]
+    },
+    "no": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services"
+    },
+    "blood pressure": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I10-I15",
+                "description": "Hypertensive diseases",
+                "subcategories": {
+                    "code": "I10",
+                    "description": "Essential (primary) hypertension"
+                }
+            }
+        ]
+    },
+    "diarrhea": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A09-A09",
+                "description": "Diarrhea and gastroenteritis of presumed infectious origin",
+                "subcategories": {
+                    "code": "A09",
+                    "description": "Diarrhea and gastroenteritis of presumed infectious origin"
+                }
+            }
+        ]
+    },
+    "hepatocellular carcinoma": {
+        "code": "C00-D49",
+        "description": "Neoplasms",
+        "subcategories": [
+            {
+                "code": "C22-C24",
+                "description": "Malignant neoplasms of liver, gallbladder and bile ducts",
+                "subcategories": [
+                    {
+                        "code": "C22",
+                        "description": "Malignant neoplasm of liver and intrahepatic bile ducts",
+                        "subcategories": {
+                            "code": "C22.0-C22.9",
+                            "description": "Malignant neoplasm of liver and intrahepatic bile ducts"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "constipation": {
+        "code": "K00-K95",
+        "description": "Diseases of the digestive system",
+        "subcategories": [
+            {
+                "code": "K59-K64",
+                "description": "Other diseases of intestines",
+                "subcategories": {
+                    "code": "K59",
+                    "description": "Other functional intestinal disorders"
+                }
+            }
+        ]
+    },
+    "periodontitis": {
+        "code": "K00-K14",
+        "description": "Diseases of oral cavity and salivary glands",
+        "subcategories": [
+            {
+                "code": "K05-K06",
+                "description": "Gingivitis and periodontal diseases",
+                "subcategories": {
+                    "code": "K05",
+                    "description": "Gingivitis and periodontal diseases"
+                }
+            }
+        ]
+    },
+    "pertussis": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A37-A37",
+                "description": "Whooping cough",
+                "subcategories": {
+                    "code": "A37",
+                    "description": "Whooping cough"
+                }
+            }
+        ]
+    },
+    "postmenopausal women": {
+        "code": "N95.1",
+        "description": "Menopausal and other perimenopausal disorders",
+        "subcategories": [
+            {
+                "code": "N95",
+                "description": "Menopausal and other perimenopausal disorders"
+            },
+            {
+                "code": "N95.1",
+                "description": "Menopausal and other perimenopausal disorders"
+            }
+        ]
+    },
+    "healthy children": {
+        "code": "Z00-Z99",
+        "description": "Factors influencing health status and contact with health services",
+        "subcategories": [
+            {
+                "code": "Z00-Z13",
+                "description": "Persons encountering health services for examinations",
+                "subcategories": {
+                    "code": "Z00",
+                    "description": "Encounter for general examination without complaint, suspected or reported diagnosis"
+                }
+            }
+        ]
+    },
+    "however": {
+        "code": "R00-R99",
+        "description": "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
+        "subcategories": [
+            {
+                "code": "R00-R09",
+                "description": "Symptoms and signs involving the circulatory and respiratory systems",
+                "subcategories": {
+                    "code": "R00-R09",
+                    "description": "Symptoms and signs involving the circulatory and respiratory systems"
+                }
+            }
+        ]
+    }
+}

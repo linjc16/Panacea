@@ -1,0 +1,156 @@
+{
+    "type 2 diabetes mellitus": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E08-E13",
+                "description": "Diabetes mellitus",
+                "subcategories": {
+                    "code": "E11",
+                    "description": "Type 2 diabetes mellitus"
+                }
+            }
+        ]
+    },
+    "hypertension": {
+        "code": "I00-I99",
+        "description": "Diseases of the circulatory system",
+        "subcategories": [
+            {
+                "code": "I10-I15",
+                "description": "Hypertensive diseases",
+                "subcategories": {
+                    "code": "I10",
+                    "description": "Essential (primary) hypertension"
+                }
+            }
+        ]
+    },
+    "diabetes mellitus": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E08-E13",
+                "description": "Diabetes mellitus",
+                "subcategories": {
+                    "code": "E10",
+                    "description": "Type 1 diabetes mellitus"
+                }
+            }
+        ]
+    },
+    "induction of labour": {
+        "code": "O00-O9A",
+        "description": "Pregnancy, childbirth, and the puerperium",
+        "subcategories": [
+            {
+                "code": "O60-O77",
+                "description": "Complications of labor and delivery",
+                "subcategories": [
+                    {
+                        "code": "O61-O75",
+                        "description": "Other complications of labor and delivery",
+                        "subcategories": [
+                            {
+                                "code": "O60",
+                                "description": "Preterm labor"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "covid-19": {
+        "code": "U00-U85",
+        "description": "COVID-19, virus identified",
+        "subcategories": [
+            {
+                "code": "U07-U07",
+                "description": "Emergency use of U07.1 for COVID-19",
+                "subcategories": {
+                    "code": "U07.1",
+                    "description": "COVID-19, virus identified"
+                }
+            }
+        ]
+    },
+    "dengue fever": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A90-A99",
+                "description": "Arthropod-borne viral fevers and viral hemorrhagic fevers",
+                "subcategories": {
+                    "code": "A90",
+                    "description": "Dengue fever"
+                }
+            }
+        ]
+    },
+    "diabetes": {
+        "code": "E00-E89",
+        "description": "Endocrine, nutritional and metabolic diseases",
+        "subcategories": [
+            {
+                "code": "E10-E14",
+                "description": "Diabetes mellitus",
+                "subcategories": [
+                    {
+                        "code": "E10",
+                        "description": "Type 1 diabetes mellitus"
+                    },
+                    {
+                        "code": "E11",
+                        "description": "Type 2 diabetes mellitus"
+                    },
+                    {
+                        "code": "E12",
+                        "description": "Malnutrition-related diabetes mellitus"
+                    },
+                    {
+                        "code": "E13",
+                        "description": "Other specified diabetes mellitus"
+                    },
+                    {
+                        "code": "E14",
+                        "description": "Unspecified diabetes mellitus"
+                    }
+                ]
+            }
+        ]
+    },
+    "schizophrenia": {
+        "code": "F01-F99",
+        "description": "Mental, Behavioral and Neurodevelopmental disorders",
+        "subcategories": [
+            {
+                "code": "F20-F29",
+                "description": "Schizophrenia, schizotypal, delusional, and other non-mood psychotic disorders",
+                "subcategories": {
+                    "code": "F20",
+                    "description": "Schizophrenia"
+                }
+            }
+        ]
+    },
+    "dengue": {
+        "code": "A00-B99",
+        "description": "Certain infectious and parasitic diseases",
+        "subcategories": [
+            {
+                "code": "A90-A99",
+                "description": "Arthropod-borne viral fevers and viral hemorrhagic fevers",
+                "subcategories": [
+                    {
+                        "code": "A90-A90",
+                        "description": "Dengue fever [classical dengue]"
+                    }
+                ]
+            }
+        ]
+    }
+}
