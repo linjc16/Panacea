@@ -25,7 +25,8 @@ model_colors = {
     'GPT-4': '#a4a2a8',
     'Claude 3 Haiku': '#7f8081',
     'Claude 3 Sonnet': '#4a4b4c',
-    'Panacea': '#a62b35'
+    'Panacea': '#a62b35',
+    'Panacea-Base': '#d75050'
 }
 
 
@@ -52,7 +53,7 @@ def bar_plot(nested_data, data_labels, name, y_lim=None):
     # set y-axis label size, don't set name again
     
     
-    plt.savefig(f'visulization/bar_{name}_{args.task}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'visulization/bar_{args.task}_{name}.png', dpi=300, bbox_inches='tight')
     # plt.savefig(f'visulization/bar_{name}_ablation.pdf', dpi=300, bbox_inches='tight')
 
 
@@ -60,7 +61,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--task', type=str, default='single_trial_sum')
     args = parser.parse_args()
-
+    
     filepaths_dict = {
         'query_expansion': 'src/vis/results/query_expansion.csv',
         'single_trial_sum': 'src/vis/results/single_trial_sum.csv',
@@ -93,7 +94,8 @@ if __name__ == '__main__':
     for metric in metrics:
         # Create the nested data structure for each metric
         nested_data = [
-            [('Panacea', data[data['Model'] == 'Panacea (Ours)'][metric].values[0])],
+            [('Panacea', data[data['Model'] == 'Panacea (Ours)'][metric].values[0]),
+            ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0])],
             [('BioMistral-7B', data[data['Model'] == 'BioMistral-7B'][metric].values[0]),
             ('MedAlpaca-7B', data[data['Model'] == 'MedAlpaca-7B'][metric].values[0]),
             ('Meditron-7B', data[data['Model'] == 'Meditron-7B'][metric].values[0])],
