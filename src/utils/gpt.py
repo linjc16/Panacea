@@ -20,3 +20,10 @@ def gpt_chat(model, prompt, seed=44):
     )
     
     return response.choices[0].message.content
+
+
+if __name__ == '__main__':
+    prompt = "What is the ICD-10 code for Diabetes Mellitus?"
+    model = "gpt-3.5-turbo"
+    response = gpt_chat(model, prompt)
+    print(response)
