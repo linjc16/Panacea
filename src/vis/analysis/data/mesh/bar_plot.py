@@ -73,6 +73,14 @@ if __name__ == '__main__':
         tree_num = tree_num.split('.')[0]
         tree2count[tree_num] = tree2count.get(tree_num, 0) + v['count']
     
+    with open('data/analysis/icd10/mesh/pubmed_mesh2tree.json', 'r') as f:
+        mesh2tree_pubmed = json.load(f)
+    
+    for mesh_term, v in mesh2tree_pubmed.items():
+        tree_num = v['tree_num']
+        tree_num = tree_num.split('.')[0]
+        tree2count[tree_num] = tree2count.get(tree_num, 0) + v['count']
+    
     # sort by count
     tree2count = dict(sorted(tree2count.items(), key=lambda x: x[1], reverse=True))
 
@@ -93,7 +101,7 @@ if __name__ == '__main__':
     data_counts = list(tree2count.values())
 
     disease_names = [disease_categories[disease_id] for disease_id in disease_ids]
-    
+
     plt.figure(figsize=(12, 6))
     bars = plt.barh(disease_names, data_counts, color=hex_codes, height=0.8)
     # set bar width
