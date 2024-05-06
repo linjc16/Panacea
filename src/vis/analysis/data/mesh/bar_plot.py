@@ -90,7 +90,7 @@ if __name__ == '__main__':
     # sum the counts of all
     total_count = sum(tree2count.values())
     print(f'Total count: {total_count}')
-
+    
 
     with open('data/analysis/icd10/mesh/embase_tree2count.json', 'w') as f:
         json.dump(tree2count, f, indent=4)
