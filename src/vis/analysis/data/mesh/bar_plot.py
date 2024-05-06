@@ -102,11 +102,11 @@ if __name__ == '__main__':
 
     disease_names = [disease_categories[disease_id] for disease_id in disease_ids]
 
-    plt.figure(figsize=(12, 6))
+    plt.figure(figsize=(10, 6))
     bars = plt.barh(disease_names, data_counts, color=hex_codes, height=0.8)
     # set bar width
     plt.xscale('log')
-    plt.xticks([1e4, 1e5], ['10$^4$', '10$^5$'])  
+    plt.xticks([1e5, 5e5], ['10$^5$', ''])  
     # set title left
     plt.title('Top 9 Diseases by Frequency in Clinical Trial Publications', fontsize=16, loc='left')
 

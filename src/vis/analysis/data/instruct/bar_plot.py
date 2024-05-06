@@ -52,7 +52,7 @@ plt.figure(figsize=(7, 6))
 bars = plt.barh(task_names, data_counts, color=hex_codes, height=0.8)
 # set bar width
 plt.xscale('log')
-plt.xticks([1e4, 1e5], ['10$^4$', '10$^5$'])  
+plt.xticks([1e4, 1e5,], ['10$^4$', '10$^5$'])  
 # set title left
 plt.title('Number of instruction data per task', fontsize=16, loc='left')
 
