@@ -93,7 +93,7 @@ if __name__ == '__main__':
     data_counts = list(tree2count.values())
 
     disease_names = [disease_categories[disease_id] for disease_id in disease_ids]
-
+    
     plt.figure(figsize=(12, 6))
     bars = plt.barh(disease_names, data_counts, color=hex_codes, height=0.8)
     # set bar width
