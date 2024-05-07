@@ -109,7 +109,7 @@ if __name__ == '__main__':
     plt.xticks([1e5, 5e5], ['10$^5$', ''])  
     # set title left
     plt.title('Top 9 Diseases by Frequency in Clinical Trial Publications', fontsize=16, loc='left')
-
+    
     # remove the right and top spines
     plt.gca().spines['right'].set_visible(False)
     plt.gca().spines['top'].set_visible(False)

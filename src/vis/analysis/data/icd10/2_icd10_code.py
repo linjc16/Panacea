@@ -93,8 +93,8 @@ if __name__ == '__main__':
     df = pd.DataFrame(conditions_dict.items(), columns=['name', 'count'])
 
     # remove rows with count less than 5
-    df = df[df['count'] >= 5]
-
+    df = df[df['count'] >= 1]
+    
     num_processes = 10
     chunk_size = len(df) // num_processes
 
