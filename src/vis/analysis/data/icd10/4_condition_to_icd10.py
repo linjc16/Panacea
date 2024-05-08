@@ -172,6 +172,12 @@ if __name__ == '__main__':
         json.dump(chapter_dict, f, indent=4)
     
     
+    # obtain chapter dict, key is chapter, value is chapter description
+    chapter_name_dict = {value['chapter']: value['chapter_desc'] for value in hierarchy_csv_dict.values()}
+    
+    with open('data/analysis/icd10/chapter_name_dict.json', 'w') as f:
+        json.dump(chapter_name_dict, f, indent=4)
+
     # # according to the counts in icd10_conditions.json, sort icd_merge_dict
     # idc_merge_dict_sorted = {k: v for k, v in sorted(icd_merge_dict.items(), key=lambda item: icd10_conditions[item[0]], reverse=True)}
 

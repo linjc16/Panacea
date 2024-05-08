@@ -10,6 +10,23 @@ from collections import defaultdict
 np.random.seed(0)
 
 
+wedge_color_dict = {
+    'A00-B99': '#2ba02d',
+    'C00-D49': "#97e089",
+    'E00-E89': "#ffbb78",
+    'F01-F99': "#b0c6e8",
+    'G00-G99': "#fd7f10",
+    'H00-H59': "#c4b0d6",
+    "I00-I99": "#f0c4c5",
+    "J00-J99": "#efdcda",
+    "K00-K95": "#9cd09a",
+    "M00-M99": "#93b7d5",
+    "N00-N99": "#b3c9df",
+    "R00-R99": "#cfdee9",
+    "S00-T88": "#6cc6cb",
+    "Z00-Z99": "#6cc6cb"
+}
+
 if __name__ == "__main__":
     # data/analysis/icd10/diseases_data.csv
     df = pd.read_csv("data/analysis/icd10/diseases_data.csv")
@@ -26,7 +43,14 @@ if __name__ == "__main__":
             # for each section, save the dict of {name: count, ...}, {name: count, ...}
             chapter_dict[chapter][section] = dict(zip(section_group["name"], section_group["value"]))
 
+    # read data/analysis/icd10/chapter_name_dict.json
+    with open("data/analysis/icd10/chapter_name_dict.json", "r") as file:
+        chapter_name_dict = json.load(file)
 
+    
+    # data/analysis/icd10/condition_rename.json
+    with open("data/analysis/icd10/condition_rename.json", "r") as file:
+        condition_rename = json.load(file)
 
     def collect_values(data):
         values = []
@@ -46,22 +70,37 @@ if __name__ == "__main__":
         y_bar, y_labels = collect_values(chapter_dict[sector.name])
 
         # sector.rect(sector.start, sector.end, r_lim=(52, 70))
-        track1 = sector.add_track((52, 70), r_pad_ratio=0.1)
-        track1.rect(sector.start, sector.end)
+        track1 = sector.add_track((40, 55), r_pad_ratio=0.1)
+        track1.rect(sector.start, sector.end, fc=wedge_color_dict[sector.name])
         # if len(y_bar) >= 4:
         #     sector.text(f"{sector.name}", r=59, size=6, adjust_rotation=True)
         # else:
-        sector.text(f"{sector.name}", r=56, size=6, adjust_rotation=True, orientation="vertical")
+
+        # add label for each wedge
+        if len(y_bar) <= 10:
+            if len(y_bar) >= 5 and len(y_bar) <= 10:
+                font_size = 5
+            elif len(y_bar) >= 4 and len(y_bar) < 5:
+                font_size = 4
+            else:
+                font_size = 3
+            # add line break in the middle of the chapter name
+            new_chapter_name = chapter_name_dict[sector.name].replace(" ", "\n")
+            sector.text(new_chapter_name, r=45, size=font_size, adjust_rotation=True)
+        else:
+            sector.text(chapter_name_dict[sector.name], r=45, size=6, adjust_rotation=True, orientation="horizontal")
         
-        track3 = sector.add_track((30, 50), r_pad_ratio=0.1)
+        track3 = sector.add_track((30, 40), r_pad_ratio=0.1)
         track3.axis()
-        track3.bar(x_bar, y_bar, vmin=0, vmax=max(y_bar) + 2000, bottom=0)
+        track3.bar(x_bar, y_bar, vmin=0, vmax=max(y_bar) + 2000, bottom=0, color=wedge_color_dict[sector.name])
         
 
         for idx, y_label in enumerate(y_labels):
-            sector.text(y_label, x=x_bar[idx], r=73, size=4, adjust_rotation=True, orientation="vertical")
+            if y_label in condition_rename:
+                y_label = condition_rename[y_label]
+            sector.text(y_label, x=x_bar[idx], r=55, size=4, adjust_rotation=True, orientation="vertical")
 
-        track3.grid(y_grid_num=10, color="gray", alpha=0.5, linestyle="--")
+        # track3.grid(y_grid_num=10, color="gray", alpha=0.5, linestyle="--")
         
         # y_ticks = [i for i in range(0, 8000, 1000)]
         # y_labels = [f"{int(y)}" for y in y_ticks]

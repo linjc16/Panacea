@@ -1,0 +1,23 @@
+{
+    "A00-B99": "Infectious Diseases",
+    "C00-D49": "Neoplasms",
+    "D50-D89": "Blood & Immune Disorders",
+    "E00-E89": "Metabolic Disorders",
+    "F01-F99": "Mental Disorders",
+    "G00-G99": "Nervous System Diseases",
+    "H00-H59": "Eye Diseases",
+    "H60-H95": "Ear Diseases",
+    "I00-I99": "Circulatory Diseases",
+    "J00-J99": "Respiratory Diseases",
+    "K00-K95": "Digestive Diseases",
+    "L00-L99": "Skin Diseases",
+    "M00-M99": "Musculoskeletal Diseases",
+    "N00-N99": "Genitourinary Diseases",
+    "O00-O9A": "Pregnancy & Childbirth",
+    "P00-P96": "Perinatal Conditions",
+    "Q00-Q99": "Congenital Abnormalities",
+    "R00-R99": "Clinical Findings",
+    "S00-T88": "Injuries & Poisonings",
+    "V00-Y99": "External Causes",
+    "Z00-Z99": "Health Status Factors"
+}
