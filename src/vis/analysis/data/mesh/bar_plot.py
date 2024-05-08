@@ -31,7 +31,7 @@ plt.rc('font', family='Helvetica')
 hex_codes = [
     "#c16fc3", "#b67ac1", "#ac83c1", "#a38cc2",
     "#9997c2", "#8da4c1", "#86acc0", "#7ab6c1",
-    '#6cc2c1'
+    '#6cc2c1', '#60cac1'
 ]
 
 disease_categories = {
@@ -108,7 +108,7 @@ if __name__ == '__main__':
     plt.xscale('log')
     plt.xticks([1e5, 5e5], ['10$^5$', ''])  
     # set title left
-    plt.title('Top 9 Diseases by Frequency in Clinical Trial Publications', fontsize=16, loc='left')
+    plt.title('Top 10 Diseases by Frequency in Clinical Trial Publications', fontsize=16, loc='left')
     
     # remove the right and top spines
     plt.gca().spines['right'].set_visible(False)
