@@ -1,0 +1,130 @@
+{
+    "E00-E89": [
+        "Type 2 diabetes mellitus",
+        "Overweight and obesity",
+        "Type 1 diabetes mellitus",
+        "Type 2 diabetes mellitus without complications"
+    ],
+    "C00-D49": [
+        "Malignant neoplasm of breast",
+        "Malignant neoplasm of bronchus and lung",
+        "Malignant neoplasm of colon",
+        "Malignant neoplasm of prostate",
+        "Malignant neoplasm of brain",
+        "Malignant neoplasm of bladder",
+        "Malignant neoplasm of liver and intrahepatic bile ducts",
+        "Malignant neoplasm of ovary",
+        "Malignant neoplasm of stomach",
+        "Malignant neoplasm of pancreas",
+        "Malignant neoplasm of esophagus",
+        "Malignant melanoma of skin",
+        "Malignant neoplasm of rectum",
+        "Malignant neoplasm of other connective and soft tissue",
+        "Lymphoid leukemia",
+        "Malignant neoplasm of cervix uteri",
+        "Malignant neoplasm of kidney, except renal pelvis",
+        "Acute lymphoblastic leukemia",
+        "Malignant neoplasm of lip",
+        "Hodgkin lymphoma",
+        "Malignant neoplasm of ureter",
+        "Malignant neoplasm of other and unspecified urinary organs",
+        "Myeloid leukemia",
+        "Malignant neoplasm of renal pelvis",
+        "Malignant neoplasm of corpus uteri",
+        "Multiple myeloma"
+    ],
+    "Z00-Z99": [
+        "Encounter for general adult medical examination without abnormal findings",
+        "Encounter for general examination without complaint, suspected or reported diagnosis",
+        "Problems related to lifestyle",
+        "Encounter for screening for other diseases and disorders"
+    ],
+    "I00-I99": [
+        "Cerebral infarction",
+        "Essential (primary) hypertension",
+        "Chronic ischemic heart disease",
+        "Heart failure",
+        "Atherosclerosis",
+        "Angina pectoris",
+        "Rheumatic mitral valve diseases",
+        "Atrial fibrillation and flutter",
+        "Hypotension",
+        "Pulmonary embolism",
+        "Phlebitis and thrombophlebitis",
+        "Acute pericarditis"
+    ],
+    "F01-F99": [
+        "Major depressive disorder, single episode",
+        "Other mental disorders due to known physiological condition",
+        "Schizophrenia",
+        "Reaction to severe stress, and adjustment disorders",
+        "Other anxiety disorders",
+        "Unspecified dementia",
+        "Attention-deficit hyperactivity disorders"
+    ],
+    "J00-J99": [
+        "Other chronic obstructive pulmonary disease",
+        "Asthma"
+    ],
+    "S00-T88": [
+        "COVID-19",
+        "Intracranial injury"
+    ],
+    "A00-B99": [
+        "Other sepsis",
+        "Tuberculosis of other organs",
+        "Chronic viral hepatitis",
+        "Respiratory tuberculosis",
+        "Unspecified viral hepatitis",
+        "Plasmodium falciparum malaria",
+        "Tuberculosis of nervous system",
+        "Cholera",
+        "Miliary tuberculosis",
+        "Acute hepatitis B",
+        "Other mosquito-borne viral fevers",
+        "Unspecified protozoal disease",
+        "Cytomegaloviral disease",
+        "Other bacterial intestinal infections",
+        "Other intestinal helminthiases, not elsewhere classified",
+        "Acute poliomyelitis",
+        "Zoster [herpes zoster]",
+        "Herpesviral [herpes simplex] infections",
+        "Viral infection of unspecified site",
+        "Dermatophytosis",
+        "Candidiasis",
+        "Typhus fever",
+        "Congenital syphilis",
+        "Varicella [chickenpox]",
+        "Leprosy [Hansen's disease]",
+        "Schistosomiasis [bilharziasis]",
+        "Viral warts",
+        "Acute hepatitis A",
+        "Plague"
+    ],
+    "G00-G99": [
+        "Pain, not elsewhere classified",
+        "Parkinson's disease",
+        "Multiple sclerosis"
+    ],
+    "R00-R99": [
+        "Pain, unspecified"
+    ],
+    "N00-N99": [
+        "Chronic kidney disease",
+        "Female infertility",
+        "Other disorders of urinary system"
+    ],
+    "K00-K95": [
+        "Ulcerative colitis",
+        "Crohn's disease [regional enteritis]",
+        "Other diseases of liver"
+    ],
+    "M00-M99": [
+        "Osteoarthritis of knee",
+        "Seropositive rheumatoid arthritis",
+        "Dorsalgia"
+    ],
+    "H00-H59": [
+        "Glaucoma"
+    ]
+}
