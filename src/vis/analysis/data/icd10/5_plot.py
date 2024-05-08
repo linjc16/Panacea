@@ -7,17 +7,10 @@ import json
 
 
 
-
-# Build a dataset|
-df = pd.DataFrame({
-    "name": [f"item {i}" for i in range(1, 51)],
-    "value": rng.integers(low=1e3, high=1e5, size=50),
-    "group": ["A"] * 10 + ["B"] * 20 + ["C"] * 12 + ["D"] * 8
-})
+# read csv data/analysis/icd10/diseases_data.csv
+df = pd.read_csv('data/analysis/icd10/diseases_data.csv')
 
 
-# Show 3 first rows
-df.head(3)
 
 def get_label_rotation(angle, offset):
     # Rotation must be specified in degrees :(
@@ -32,7 +25,7 @@ def get_label_rotation(angle, offset):
 def add_labels(angles, values, labels, offset, ax):
     
     # This is the space between the end of the bar and the label
-    padding = max(values) + 100
+    padding = max(values) + 40
     
     # Iterate over angles, values, and labels, to add all of them.
     for angle, value, label, in zip(angles, values, labels):
@@ -65,7 +58,7 @@ VALUES = np.log10(VALUES) * 2
 OFFSET = np.pi / 2
 
 # Grab the group values
-GROUP = df["group"].values
+GROUP = df["chapter"].values
 
 # Add three empty bars to the end of each group
 PAD = 3
@@ -74,7 +67,7 @@ ANGLES = np.linspace(0, 2 * np.pi, num=ANGLES_N, endpoint=False)
 WIDTH = (2 * np.pi) / len(ANGLES)
 
 # Obtain size of each group
-GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+GROUPS_SIZE = [len(i[1]) for i in df.groupby("chapter")]
 
 # Obtaining the right indexes is now a little more complicated
 offset = 0
@@ -87,7 +80,7 @@ for size in GROUPS_SIZE:
 fig, ax = plt.subplots(figsize=(12, 6), subplot_kw={"projection": "polar"})
 
 ax.set_theta_offset(OFFSET)
-ax.set_ylim(-20, 30 + max(VALUES))
+ax.set_ylim(-10, 30 + max(VALUES))
 ax.set_frame_on(False)
 ax.xaxis.grid(False)
 ax.yaxis.grid(False)
@@ -95,7 +88,7 @@ ax.set_xticks([])
 ax.set_yticks([])
 
 # Use different colors for each group!
-GROUPS_SIZE = [len(i[1]) for i in df.groupby("group")]
+# GROUPS_SIZE = [len(i[1]) for i in df.groupby("chapter")]
 COLORS = [f"C{i}" for i, size in enumerate(GROUPS_SIZE) for _ in range(size)]
 
 # And finally add the bars. 
@@ -104,6 +97,8 @@ ax.bar(
     ANGLES[IDXS], VALUES, width=WIDTH, color=COLORS, 
     edgecolor="white", linewidth=2
 )
+
+add_labels(ANGLES[IDXS], VALUES, LABELS, OFFSET, ax)
 
 # # add yticks, $10^2$, $10^3$, $10^4$, $10^5$
 # ax.set_yticks(min(VALUES) + [0, 1, 2, 3, 4])
@@ -114,7 +109,7 @@ ax.tick_params(axis='y', labelsize=8)
 LINE_MIN = -0
 offset = 0 
 
-for group, size in zip(["A", "B", "C", "D"], GROUPS_SIZE):
+for idx, size in enumerate(GROUPS_SIZE):
     # Add line below bars
     
     angle_start = ANGLES[offset + PAD] - WIDTH
@@ -130,17 +125,16 @@ for group, size in zip(["A", "B", "C", "D"], GROUPS_SIZE):
     ax.vlines(x1[0], LINE_MIN, max(VALUES) + 1, color='black', linewidth=0.5)
     ax.vlines(x1[-1], LINE_MIN, max(VALUES) + 1, color='black', linewidth=0.5)
 
-
     # plot wedge at the start and end of each group
     ax.add_patch(Rectangle(
         (angle_start, max(VALUES) + 5), angle_end - angle_start, 10, color='gray', lw=0
     ))
     
-    ax.add_patch(Rectangle(
-        (angle_start, max(VALUES) + 15), angle_end - angle_start, 10, color='black', lw=0
-    ))
+    # ax.add_patch(Rectangle(
+    #     (angle_start, max(VALUES) + 15), angle_end - angle_start, 10, color='black', lw=0
+    # ))
     
-    if group == "A":
+    if idx == 0:
         for num in range(2, 6):
             ax.text(
                 angle_start - WIDTH, num * 2, f'$10^{num}$', color='black', fontsize=4, ha='center', va='center'

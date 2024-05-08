@@ -1,0 +1,101 @@
+name,value,chapter,section
+Type 2 diabetes mellitus,16332,E00-E89,E08-E13
+Type 1 diabetes mellitus,8827,E00-E89,E08-E13
+Type 2 diabetes mellitus without complications,3098,E00-E89,E08-E13
+Overweight and obesity,12838,E00-E89,E65-E68
+Malignant neoplasm of breast,15288,C00-D49,C50
+Malignant neoplasm of bronchus and lung,14913,C00-D49,C30-C39
+Malignant neoplasm of colon,10499,C00-D49,C15-C26
+Malignant neoplasm of liver and intrahepatic bile ducts,5937,C00-D49,C15-C26
+Malignant neoplasm of stomach,5127,C00-D49,C15-C26
+Malignant neoplasm of pancreas,4999,C00-D49,C15-C26
+Malignant neoplasm of esophagus,4994,C00-D49,C15-C26
+Malignant neoplasm of rectum,4501,C00-D49,C15-C26
+Malignant neoplasm of prostate,9755,C00-D49,C60-C63
+Malignant neoplasm of brain,6723,C00-D49,C69-C72
+Malignant neoplasm of bladder,6054,C00-D49,C64-C68
+"Malignant neoplasm of kidney, except renal pelvis",3916,C00-D49,C64-C68
+Malignant neoplasm of ureter,3327,C00-D49,C64-C68
+Malignant neoplasm of other and unspecified urinary organs,3260,C00-D49,C64-C68
+Malignant neoplasm of renal pelvis,3181,C00-D49,C64-C68
+Malignant neoplasm of ovary,5692,C00-D49,C51-C58
+Malignant neoplasm of cervix uteri,4146,C00-D49,C51-C58
+Malignant neoplasm of corpus uteri,3009,C00-D49,C51-C58
+Malignant melanoma of skin,4582,C00-D49,C43-C44
+Malignant neoplasm of other connective and soft tissue,4223,C00-D49,C45-C49
+Lymphoid leukemia,4159,C00-D49,C81-C96
+Acute lymphoblastic leukemia,3712,C00-D49,C81-C96
+Hodgkin lymphoma,3549,C00-D49,C81-C96
+Myeloid leukemia,3192,C00-D49,C81-C96
+Multiple myeloma,2945,C00-D49,C81-C96
+Malignant neoplasm of lip,3664,C00-D49,C00-C14
+Encounter for general adult medical examination without abnormal findings,13504,Z00-Z99,Z00-Z13
+"Encounter for general examination without complaint, suspected or reported diagnosis",5294,Z00-Z99,Z00-Z13
+Encounter for screening for other diseases and disorders,3213,Z00-Z99,Z00-Z13
+Problems related to lifestyle,4599,Z00-Z99,Z69-Z76
+Cerebral infarction,12378,I00-I99,I60-I69
+Essential (primary) hypertension,10695,I00-I99,I10-I1A
+Chronic ischemic heart disease,8951,I00-I99,I20-I25
+Angina pectoris,6210,I00-I99,I20-I25
+Heart failure,8009,I00-I99,I30-I5A
+Atrial fibrillation and flutter,4296,I00-I99,I30-I5A
+Acute pericarditis,3532,I00-I99,I30-I5A
+Atherosclerosis,6795,I00-I99,I70-I79
+Rheumatic mitral valve diseases,5489,I00-I99,I05-I09
+Hypotension,4143,I00-I99,I95-I99
+Pulmonary embolism,4042,I00-I99,I26-I28
+Phlebitis and thrombophlebitis,3982,I00-I99,I80-I89
+"Major depressive disorder, single episode",10675,F01-F99,F30-F39
+Other mental disorders due to known physiological condition,9695,F01-F99,F01-F09
+Unspecified dementia,3493,F01-F99,F01-F09
+Schizophrenia,6435,F01-F99,F20-F29
+"Reaction to severe stress, and adjustment disorders",6293,F01-F99,F40-F48
+Other anxiety disorders,5782,F01-F99,F40-F48
+Attention-deficit hyperactivity disorders,3022,F01-F99,F90-F98
+Other chronic obstructive pulmonary disease,8109,J00-J99,J40-J4A
+Asthma,6449,J00-J99,J40-J4A
+COVID-19,6922,S00-T88,T80-T88
+Intracranial injury,3118,S00-T88,S00-S09
+Other sepsis,6220,A00-B99,A30-A49
+Leprosy [Hansen's disease],2896,A00-B99,A30-A49
+Tuberculosis of other organs,5011,A00-B99,A15-A19
+Respiratory tuberculosis,4593,A00-B99,A15-A19
+Tuberculosis of nervous system,3977,A00-B99,A15-A19
+Miliary tuberculosis,3832,A00-B99,A15-A19
+Chronic viral hepatitis,4906,A00-B99,B15-B19
+Unspecified viral hepatitis,4278,A00-B99,B15-B19
+Acute hepatitis B,3740,A00-B99,B15-B19
+Acute hepatitis A,2863,A00-B99,B15-B19
+Plasmodium falciparum malaria,4096,A00-B99,B50-B64
+Unspecified protozoal disease,3270,A00-B99,B50-B64
+Cholera,3939,A00-B99,A00-A09
+Other bacterial intestinal infections,3180,A00-B99,A00-A09
+Other mosquito-borne viral fevers,3346,A00-B99,A90-A99
+Cytomegaloviral disease,3192,A00-B99,B25-B34
+Viral infection of unspecified site,2958,A00-B99,B25-B34
+"Other intestinal helminthiases, not elsewhere classified",3132,A00-B99,B65-B83
+Schistosomiasis [bilharziasis],2884,A00-B99,B65-B83
+Acute poliomyelitis,3072,A00-B99,A80-A89
+Zoster [herpes zoster],3017,A00-B99,B00-B09
+Herpesviral [herpes simplex] infections,2999,A00-B99,B00-B09
+Varicella [chickenpox],2897,A00-B99,B00-B09
+Viral warts,2866,A00-B99,B00-B09
+Dermatophytosis,2956,A00-B99,B35-B49
+Candidiasis,2919,A00-B99,B35-B49
+Typhus fever,2911,A00-B99,A75-A79
+Congenital syphilis,2905,A00-B99,A50-A64
+Plague,2857,A00-B99,A20-A28
+"Pain, not elsewhere classified",6097,G00-G99,G89-G99
+Parkinson's disease,5329,G00-G99,G20-G26
+Multiple sclerosis,3973,G00-G99,G35-G37
+"Pain, unspecified",5899,R00-R99,R50-R69
+Chronic kidney disease,5762,N00-N99,N17-N19
+Female infertility,3858,N00-N99,N80-N98
+Other disorders of urinary system,2892,N00-N99,N30-N39
+Ulcerative colitis,5051,K00-K95,K50-K52
+Crohn's disease [regional enteritis],5033,K00-K95,K50-K52
+Other diseases of liver,3274,K00-K95,K70-K77
+Osteoarthritis of knee,4560,M00-M99,M15-M19
+Seropositive rheumatoid arthritis,4486,M00-M99,M05-M14
+Dorsalgia,4209,M00-M99,M50-M54
+Glaucoma,3768,H00-H59,H40-H42
