@@ -3,9 +3,10 @@ from matplotlib.patches import Rectangle
 from matplotlib.collections import PatchCollection
 import numpy as np
 import pandas as pd
+import json
 
-# Ensures reproducibility of random numbers
-rng = np.random.default_rng(123)
+
+
 
 # Build a dataset|
 df = pd.DataFrame({
@@ -13,6 +14,7 @@ df = pd.DataFrame({
     "value": rng.integers(low=1e3, high=1e5, size=50),
     "group": ["A"] * 10 + ["B"] * 20 + ["C"] * 12 + ["D"] * 8
 })
+
 
 # Show 3 first rows
 df.head(3)

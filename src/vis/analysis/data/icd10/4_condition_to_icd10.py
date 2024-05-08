@@ -150,28 +150,27 @@ if __name__ == '__main__':
     # select the top 100 conditions, the first 100 conditions
     top_100_conditions = {k: v for k, v in list(icd_10_counts.items())[:100]}
 
-    # get two dict, one for chapter, one for section, key is chapter or section, value is the key in top_100_conditions
     chapter_dict = {}
-    section_dict = {}
     for key, value in top_100_conditions.items():
         chapter = value['chapter']
         section = value['section']
-        if chapter in chapter_dict:
-            chapter_dict[chapter].append(key)
-        else:
-            chapter_dict[chapter] = [key]
+
+        # chapter[section][key] = value['count']
+        if chapter not in chapter_dict:
+            chapter_dict[chapter] = {
+                'sections': {}
+            }
+        if section not in chapter_dict[chapter]['sections']:
+            chapter_dict[chapter]['sections'][section] = {}
+        chapter_dict[chapter]['sections'][section][key] = value['count']
+
         
-        if section in section_dict:
-            section_dict[section].append(key)
-        else:
-            section_dict[section] = [key]
+
         
     # save chapter_dict and section_dict
     with open('data/analysis/icd10/chapter_dict.json', 'w') as f:
         json.dump(chapter_dict, f, indent=4)
-
-    with open('data/analysis/icd10/section_dict.json', 'w') as f:
-        json.dump(section_dict, f, indent=4)
+    
     
     # # according to the counts in icd10_conditions.json, sort icd_merge_dict
     # idc_merge_dict_sorted = {k: v for k, v in sorted(icd_merge_dict.items(), key=lambda item: icd10_conditions[item[0]], reverse=True)}

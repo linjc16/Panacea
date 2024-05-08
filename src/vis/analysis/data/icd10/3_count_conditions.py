@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
     # sort by count
     condition_dict = dict(sorted(condition_dict.items(), key=lambda x: x[1], reverse=True))
-
+    
     # save to data/analysis/icd10
     with open('data/analysis/icd10/icd10_conditions.json', 'w') as f:
         json.dump(condition_dict, f, indent=4)

@@ -1,130 +1,276 @@
 {
-    "E00-E89": [
-        "Type 2 diabetes mellitus",
-        "Overweight and obesity",
-        "Type 1 diabetes mellitus",
-        "Type 2 diabetes mellitus without complications"
-    ],
-    "C00-D49": [
-        "Malignant neoplasm of breast",
-        "Malignant neoplasm of bronchus and lung",
-        "Malignant neoplasm of colon",
-        "Malignant neoplasm of prostate",
-        "Malignant neoplasm of brain",
-        "Malignant neoplasm of bladder",
-        "Malignant neoplasm of liver and intrahepatic bile ducts",
-        "Malignant neoplasm of ovary",
-        "Malignant neoplasm of stomach",
-        "Malignant neoplasm of pancreas",
-        "Malignant neoplasm of esophagus",
-        "Malignant melanoma of skin",
-        "Malignant neoplasm of rectum",
-        "Malignant neoplasm of other connective and soft tissue",
-        "Lymphoid leukemia",
-        "Malignant neoplasm of cervix uteri",
-        "Malignant neoplasm of kidney, except renal pelvis",
-        "Acute lymphoblastic leukemia",
-        "Malignant neoplasm of lip",
-        "Hodgkin lymphoma",
-        "Malignant neoplasm of ureter",
-        "Malignant neoplasm of other and unspecified urinary organs",
-        "Myeloid leukemia",
-        "Malignant neoplasm of renal pelvis",
-        "Malignant neoplasm of corpus uteri",
-        "Multiple myeloma"
-    ],
-    "Z00-Z99": [
-        "Encounter for general adult medical examination without abnormal findings",
-        "Encounter for general examination without complaint, suspected or reported diagnosis",
-        "Problems related to lifestyle",
-        "Encounter for screening for other diseases and disorders"
-    ],
-    "I00-I99": [
-        "Cerebral infarction",
-        "Essential (primary) hypertension",
-        "Chronic ischemic heart disease",
-        "Heart failure",
-        "Atherosclerosis",
-        "Angina pectoris",
-        "Rheumatic mitral valve diseases",
-        "Atrial fibrillation and flutter",
-        "Hypotension",
-        "Pulmonary embolism",
-        "Phlebitis and thrombophlebitis",
-        "Acute pericarditis"
-    ],
-    "F01-F99": [
-        "Major depressive disorder, single episode",
-        "Other mental disorders due to known physiological condition",
-        "Schizophrenia",
-        "Reaction to severe stress, and adjustment disorders",
-        "Other anxiety disorders",
-        "Unspecified dementia",
-        "Attention-deficit hyperactivity disorders"
-    ],
-    "J00-J99": [
-        "Other chronic obstructive pulmonary disease",
-        "Asthma"
-    ],
-    "S00-T88": [
-        "COVID-19",
-        "Intracranial injury"
-    ],
-    "A00-B99": [
-        "Other sepsis",
-        "Tuberculosis of other organs",
-        "Chronic viral hepatitis",
-        "Respiratory tuberculosis",
-        "Unspecified viral hepatitis",
-        "Plasmodium falciparum malaria",
-        "Tuberculosis of nervous system",
-        "Cholera",
-        "Miliary tuberculosis",
-        "Acute hepatitis B",
-        "Other mosquito-borne viral fevers",
-        "Unspecified protozoal disease",
-        "Cytomegaloviral disease",
-        "Other bacterial intestinal infections",
-        "Other intestinal helminthiases, not elsewhere classified",
-        "Acute poliomyelitis",
-        "Zoster [herpes zoster]",
-        "Herpesviral [herpes simplex] infections",
-        "Viral infection of unspecified site",
-        "Dermatophytosis",
-        "Candidiasis",
-        "Typhus fever",
-        "Congenital syphilis",
-        "Varicella [chickenpox]",
-        "Leprosy [Hansen's disease]",
-        "Schistosomiasis [bilharziasis]",
-        "Viral warts",
-        "Acute hepatitis A",
-        "Plague"
-    ],
-    "G00-G99": [
-        "Pain, not elsewhere classified",
-        "Parkinson's disease",
-        "Multiple sclerosis"
-    ],
-    "R00-R99": [
-        "Pain, unspecified"
-    ],
-    "N00-N99": [
-        "Chronic kidney disease",
-        "Female infertility",
-        "Other disorders of urinary system"
-    ],
-    "K00-K95": [
-        "Ulcerative colitis",
-        "Crohn's disease [regional enteritis]",
-        "Other diseases of liver"
-    ],
-    "M00-M99": [
-        "Osteoarthritis of knee",
-        "Seropositive rheumatoid arthritis",
-        "Dorsalgia"
-    ],
-    "H00-H59": [
-        "Glaucoma"
-    ]
+    "E00-E89": {
+        "sections": {
+            "E08-E13": {
+                "Type 2 diabetes mellitus": 16332,
+                "Type 1 diabetes mellitus": 8827,
+                "Type 2 diabetes mellitus without complications": 3098
+            },
+            "E65-E68": {
+                "Overweight and obesity": 12838
+            }
+        }
+    },
+    "C00-D49": {
+        "sections": {
+            "C50": {
+                "Malignant neoplasm of breast": 15288
+            },
+            "C30-C39": {
+                "Malignant neoplasm of bronchus and lung": 14913
+            },
+            "C15-C26": {
+                "Malignant neoplasm of colon": 10499,
+                "Malignant neoplasm of liver and intrahepatic bile ducts": 5937,
+                "Malignant neoplasm of stomach": 5127,
+                "Malignant neoplasm of pancreas": 4999,
+                "Malignant neoplasm of esophagus": 4994,
+                "Malignant neoplasm of rectum": 4501
+            },
+            "C60-C63": {
+                "Malignant neoplasm of prostate": 9755
+            },
+            "C69-C72": {
+                "Malignant neoplasm of brain": 6723
+            },
+            "C64-C68": {
+                "Malignant neoplasm of bladder": 6054,
+                "Malignant neoplasm of kidney, except renal pelvis": 3916,
+                "Malignant neoplasm of ureter": 3327,
+                "Malignant neoplasm of other and unspecified urinary organs": 3260,
+                "Malignant neoplasm of renal pelvis": 3181
+            },
+            "C51-C58": {
+                "Malignant neoplasm of ovary": 5692,
+                "Malignant neoplasm of cervix uteri": 4146,
+                "Malignant neoplasm of corpus uteri": 3009
+            },
+            "C43-C44": {
+                "Malignant melanoma of skin": 4582
+            },
+            "C45-C49": {
+                "Malignant neoplasm of other connective and soft tissue": 4223
+            },
+            "C81-C96": {
+                "Lymphoid leukemia": 4159,
+                "Acute lymphoblastic leukemia": 3712,
+                "Hodgkin lymphoma": 3549,
+                "Myeloid leukemia": 3192,
+                "Multiple myeloma": 2945
+            },
+            "C00-C14": {
+                "Malignant neoplasm of lip": 3664
+            }
+        }
+    },
+    "Z00-Z99": {
+        "sections": {
+            "Z00-Z13": {
+                "Encounter for general adult medical examination without abnormal findings": 13504,
+                "Encounter for general examination without complaint, suspected or reported diagnosis": 5294,
+                "Encounter for screening for other diseases and disorders": 3213
+            },
+            "Z69-Z76": {
+                "Problems related to lifestyle": 4599
+            }
+        }
+    },
+    "I00-I99": {
+        "sections": {
+            "I60-I69": {
+                "Cerebral infarction": 12378
+            },
+            "I10-I1A": {
+                "Essential (primary) hypertension": 10695
+            },
+            "I20-I25": {
+                "Chronic ischemic heart disease": 8951,
+                "Angina pectoris": 6210
+            },
+            "I30-I5A": {
+                "Heart failure": 8009,
+                "Atrial fibrillation and flutter": 4296,
+                "Acute pericarditis": 3532
+            },
+            "I70-I79": {
+                "Atherosclerosis": 6795
+            },
+            "I05-I09": {
+                "Rheumatic mitral valve diseases": 5489
+            },
+            "I95-I99": {
+                "Hypotension": 4143
+            },
+            "I26-I28": {
+                "Pulmonary embolism": 4042
+            },
+            "I80-I89": {
+                "Phlebitis and thrombophlebitis": 3982
+            }
+        }
+    },
+    "F01-F99": {
+        "sections": {
+            "F30-F39": {
+                "Major depressive disorder, single episode": 10675
+            },
+            "F01-F09": {
+                "Other mental disorders due to known physiological condition": 9695,
+                "Unspecified dementia": 3493
+            },
+            "F20-F29": {
+                "Schizophrenia": 6435
+            },
+            "F40-F48": {
+                "Reaction to severe stress, and adjustment disorders": 6293,
+                "Other anxiety disorders": 5782
+            },
+            "F90-F98": {
+                "Attention-deficit hyperactivity disorders": 3022
+            }
+        }
+    },
+    "J00-J99": {
+        "sections": {
+            "J40-J4A": {
+                "Other chronic obstructive pulmonary disease": 8109,
+                "Asthma": 6449
+            }
+        }
+    },
+    "S00-T88": {
+        "sections": {
+            "T80-T88": {
+                "COVID-19": 6922
+            },
+            "S00-S09": {
+                "Intracranial injury": 3118
+            }
+        }
+    },
+    "A00-B99": {
+        "sections": {
+            "A30-A49": {
+                "Other sepsis": 6220,
+                "Leprosy [Hansen's disease]": 2896
+            },
+            "A15-A19": {
+                "Tuberculosis of other organs": 5011,
+                "Respiratory tuberculosis": 4593,
+                "Tuberculosis of nervous system": 3977,
+                "Miliary tuberculosis": 3832
+            },
+            "B15-B19": {
+                "Chronic viral hepatitis": 4906,
+                "Unspecified viral hepatitis": 4278,
+                "Acute hepatitis B": 3740,
+                "Acute hepatitis A": 2863
+            },
+            "B50-B64": {
+                "Plasmodium falciparum malaria": 4096,
+                "Unspecified protozoal disease": 3270
+            },
+            "A00-A09": {
+                "Cholera": 3939,
+                "Other bacterial intestinal infections": 3180
+            },
+            "A90-A99": {
+                "Other mosquito-borne viral fevers": 3346
+            },
+            "B25-B34": {
+                "Cytomegaloviral disease": 3192,
+                "Viral infection of unspecified site": 2958
+            },
+            "B65-B83": {
+                "Other intestinal helminthiases, not elsewhere classified": 3132,
+                "Schistosomiasis [bilharziasis]": 2884
+            },
+            "A80-A89": {
+                "Acute poliomyelitis": 3072
+            },
+            "B00-B09": {
+                "Zoster [herpes zoster]": 3017,
+                "Herpesviral [herpes simplex] infections": 2999,
+                "Varicella [chickenpox]": 2897,
+                "Viral warts": 2866
+            },
+            "B35-B49": {
+                "Dermatophytosis": 2956,
+                "Candidiasis": 2919
+            },
+            "A75-A79": {
+                "Typhus fever": 2911
+            },
+            "A50-A64": {
+                "Congenital syphilis": 2905
+            },
+            "A20-A28": {
+                "Plague": 2857
+            }
+        }
+    },
+    "G00-G99": {
+        "sections": {
+            "G89-G99": {
+                "Pain, not elsewhere classified": 6097
+            },
+            "G20-G26": {
+                "Parkinson's disease": 5329
+            },
+            "G35-G37": {
+                "Multiple sclerosis": 3973
+            }
+        }
+    },
+    "R00-R99": {
+        "sections": {
+            "R50-R69": {
+                "Pain, unspecified": 5899
+            }
+        }
+    },
+    "N00-N99": {
+        "sections": {
+            "N17-N19": {
+                "Chronic kidney disease": 5762
+            },
+            "N80-N98": {
+                "Female infertility": 3858
+            },
+            "N30-N39": {
+                "Other disorders of urinary system": 2892
+            }
+        }
+    },
+    "K00-K95": {
+        "sections": {
+            "K50-K52": {
+                "Ulcerative colitis": 5051,
+                "Crohn's disease [regional enteritis]": 5033
+            },
+            "K70-K77": {
+                "Other diseases of liver": 3274
+            }
+        }
+    },
+    "M00-M99": {
+        "sections": {
+            "M15-M19": {
+                "Osteoarthritis of knee": 4560
+            },
+            "M05-M14": {
+                "Seropositive rheumatoid arthritis": 4486
+            },
+            "M50-M54": {
+                "Dorsalgia": 4209
+            }
+        }
+    },
+    "H00-H59": {
+        "sections": {
+            "H40-H42": {
+                "Glaucoma": 3768
+            }
+        }
+    }
 }
