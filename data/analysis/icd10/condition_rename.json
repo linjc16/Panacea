@@ -4,11 +4,17 @@
     "Malignant neoplasm of kidney, except renal pelvis": "Kidney cancer (excluding renal pelvis)",
     "Malignant neoplasm of other and unspecified urinary organs": "Unspecified urinary organ cancer",
     "Malignant neoplasm of other connective and soft tissue": "Connective and soft tissue cancer",
-    "Multiple myeloma and malignant plasma cell neoplasms": "Multiple myeloma/plasma cell neoplasms",
-    "Intracranial and intraspinal phlebitis and thrombophlebitis": "Intracranial/spinal phlebitis and thrombophlebitis",
-    "Other mental disorders due to known physiological condition": "Mental disorders from physiological conditions",
-    "Reaction to severe stress, and adjustment disorders": "Stress reaction and adjustment disorders",
+    "Multiple myeloma and malignant plasma cell neoplasms": "Plasma cell neoplasms",
+    "Intracranial and intraspinal phlebitis and thrombophlebitis": "Phlebitis and thrombophlebitis",
+    "Other mental disorders due to known physiological condition": "Mental disorders (physiological)",
+    "Reaction to severe stress, and adjustment disorders": "Adjustment disorders",
     "Other intestinal helminthiases, not elsewhere classified": "Other intestinal helminthiases",
-    "Encounter for general examination without complaint, suspected or reported diagnosis": "General exam without complaint/diagnosis",
-    "Encounter for screening for other diseases and disorders": "Screening for diseases/disorders"
+    "Encounter for general examination without complaint, suspected or reported diagnosis": "General exam without diagnosis",
+    "Encounter for screening for other diseases and disorders": "Screening for diseases/disorders",
+    "Anogenital herpesviral [herpes simplex] infections": "Anogenital herpesviral infections",
+    "Rheumatoid arthritis with rheumatoid factor": "Rheumatoid arthritis",
+    "Other chronic obstructive pulmonary disease": "Chronic obstructive pulmonary disease",
+    "Other bacterial intestinal infections": "Bacterial intestinal infections",
+    "Attention-deficit hyperactivity disorders": "Hyperactivity disorders",
+    "Other mosquito-borne viral fevers": "Mosquito-borne viral fevers"
 }
