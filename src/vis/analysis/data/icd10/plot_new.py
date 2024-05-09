@@ -43,7 +43,7 @@ if __name__ == "__main__":
         for section, section_group in group.groupby("section"):
             # for each section, save the dict of {name: count, ...}, {name: count, ...}
             chapter_dict[chapter][section] = dict(zip(section_group["name"], section_group["value"]))
-
+    
     # read data/analysis/icd10/chapter_name_dict.json
     with open("data/analysis/icd10/chapter_name_dict.json", "r") as file:
         chapter_name_dict = json.load(file)
