@@ -149,10 +149,10 @@ if __name__ == "__main__":
         y_labels = new_y_labels
 
         track3 = sector.add_track((28, 35), r_pad_ratio=0.1)
-        track3.axis()
-        track3.bar(x_bar, y_bar, vmin=0, vmax=6, bottom=0, color=wedge_color_dict[sector.name])
+        track3.axis(lw=0.4, ec='#3f3f3f')
+        track3.bar(x_bar, y_bar, vmin=0, vmax=6, bottom=0, color=wedge_color_dict[sector.name], alpha=0.8)
         # track3.grid(y_grid_num=7, color="gray", alpha=0.5, linestyle="--")
-
+        
         track1 = sector.add_track((35, 50), r_pad_ratio=0.1)
         track1.rect(sector.start, sector.end, fc=wedge_color_dict[sector.name])
 
@@ -187,5 +187,5 @@ if __name__ == "__main__":
             track3.yticks(yticks, yticklabels, label_size=2)
 
     curr_dir = os.path.dirname(os.path.realpath(__file__))
-    # circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.png"), dpi=900)
-    circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.pdf"), dpi=900)
+    circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.png"), dpi=900)
+    # circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.pdf"), dpi=900)
