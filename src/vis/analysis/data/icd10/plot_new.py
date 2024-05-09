@@ -7,6 +7,7 @@ import json
 import random
 import pdb
 from collections import defaultdict
+from Bio import Phylo
 np.random.seed(0)
 
 
@@ -29,6 +30,46 @@ wedge_color_dict = {
 }
 
 if __name__ == "__main__":
+
+    # {"projection": "polar"}
+    fig = plt.figure(figsize=(10, 10))
+    ax = fig.add_subplot(111, polar=True)
+
+    tree_file = "data/analysis/icd10/icd10_hierarchy_newick_tree.nwk"
+
+    circos, tv = Circos.initialize_from_tree(
+        tree_file,
+        r_lim=(10, 30),
+        # Set large margin to insert heatmap & bar track between tree and labels
+        leaf_label_rmargin=32,
+        leaf_label_size=0,
+        ignore_branch_length=True,
+        ladderize=True,
+        line_kws=dict(lw=0.5),
+    )
+    
+    # tree = Phylo.read(tree_file, "newick")
+    circos.plotfig(ax=ax)
+
+    # data/analysis/icd10/icd10_matching_results.json
+    with open("data/analysis/icd10/icd10_matching_results.json", "r") as file:
+        icd10_matching_results = json.load(file)
+    
+    # top 100
+    icd10_matching_results = {k: v for k, v in list(icd10_matching_results.items())[:100]}
+
+    icd10_to_name = {}
+    for key, value in icd10_matching_results.items():
+        # upper case the first letter
+        value['description'] = value['description'][0].upper() + value['description'][1:]
+        if 'covid' in value['description'].lower():
+            # replace covid with COVID
+            value['description'] = value['description'].replace('covid', 'COVID')
+        icd10_to_name[key] = value['description']
+    leaf_labels_name = [icd10_to_name[label] for label in tv.leaf_labels]
+
+    # ********** plot the bar chart for each sector **********
+
     # data/analysis/icd10/diseases_data.csv
     df = pd.read_csv("data/analysis/icd10/diseases_data.csv")
 
@@ -36,14 +77,25 @@ if __name__ == "__main__":
     sectors = {}
     for chapter, group in df.groupby("chapter"):
         sectors[chapter] = len(group)
+    
     circos = Circos(sectors, space=5)
+
 
     chapter_dict = defaultdict(dict) # key:chapter, value: dict{'section': {name: count, ...}, 'section': {name: count, ...}}
     for chapter, group in df.groupby("chapter"):
         for section, section_group in group.groupby("section"):
             # for each section, save the dict of {name: count, ...}, {name: count, ...}
-            chapter_dict[chapter][section] = dict(zip(section_group["name"], section_group["value"]))
+            # according to the order of leaf_labels_name, get the dict
+            section_dict = {}
+            for idx, name in enumerate(leaf_labels_name):
+                if name in section_group["name"].values:
+                    count = section_group[section_group["name"] == name]["value"].values[0]
+                    section_dict[name] = count
+
+            chapter_dict[chapter][section] = section_dict
     
+
+
     # read data/analysis/icd10/chapter_name_dict.json
     with open("data/analysis/icd10/chapter_name_dict.json", "r") as file:
         chapter_name_dict = json.load(file)
@@ -52,6 +104,7 @@ if __name__ == "__main__":
     # data/analysis/icd10/condition_rename.json
     with open("data/analysis/icd10/condition_rename.json", "r") as file:
         condition_rename = json.load(file)
+        
 
     def collect_values(data):
         values = []
@@ -109,7 +162,9 @@ if __name__ == "__main__":
 
 
     curr_dir = os.path.dirname(os.path.realpath(__file__))
-    circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.png"), dpi=300)
+    circos.plotfig(ax=ax)
+    # circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.png"), dpi=300)
+    plt.savefig(os.path.join(curr_dir, 'temp', "circos_plot.png"), dpi=300, bbox_inches="tight")
     # pdb.set_trace()
 
 # # Initialize Circos sectors
