@@ -68,7 +68,7 @@ def save_icd10_dict():
             'section': row['section'],
             'section_desc': row['section_desc'].replace(f'({row["section"]})', '').strip(),
         }
-
+    
     # save
     with open('data/analysis/icd10/icd10_hierarchy_csv.json', 'w') as f:
         json.dump(hierarchy_csv_dict, f, indent=4)
@@ -143,43 +143,45 @@ if __name__ == '__main__':
     # delete key with None chapter and section
     icd_10_counts = {key: value for key, value in icd_10_counts.items() if value['chapter'] is not None and value['section'] is not None}
 
+    # for each key that are the same in the lower_case, merge the counts
+    icd_10_counts_new = {}
+    for key, value in icd_10_counts.items():
+        lower_case = value['lower_case']
+        if lower_case in icd_10_counts_new:
+            icd_10_counts_new[lower_case]['count'] += value['count']
+        else:
+            icd_10_counts_new[lower_case] = value
 
     with open('data/analysis/icd10/icd10_counts.json', 'w') as f:
-        json.dump(icd_10_counts, f, indent=4)
+        json.dump(icd_10_counts_new, f, indent=4)
     
-    # select the top 100 conditions, the first 100 conditions
-    top_100_conditions = {k: v for k, v in list(icd_10_counts.items())[:100]}
+    # # select the top 100 conditions, the first 100 conditions
+    # top_100_conditions = {k: v for k, v in list(icd_10_counts_new.items())[:100]}
 
-    chapter_dict = {}
-    for key, value in top_100_conditions.items():
-        chapter = value['chapter']
-        section = value['section']
+    # chapter_dict = {}
+    # for key, value in top_100_conditions.items():
+    #     chapter = value['chapter']
+    #     section = value['section']
 
-        # chapter[section][key] = value['count']
-        if chapter not in chapter_dict:
-            chapter_dict[chapter] = {
-                'sections': {}
-            }
-        if section not in chapter_dict[chapter]['sections']:
-            chapter_dict[chapter]['sections'][section] = {}
-        chapter_dict[chapter]['sections'][section][key] = value['count']
+    #     # chapter[section][key] = value['count']
+    #     if chapter not in chapter_dict:
+    #         chapter_dict[chapter] = {
+    #             'sections': {}
+    #         }
+    #     if section not in chapter_dict[chapter]['sections']:
+    #         chapter_dict[chapter]['sections'][section] = {}
+    #     chapter_dict[chapter]['sections'][section][key] = value['count']
 
         
 
         
-    # save chapter_dict and section_dict
-    with open('data/analysis/icd10/chapter_dict.json', 'w') as f:
-        json.dump(chapter_dict, f, indent=4)
+    # # save chapter_dict and section_dict
+    # with open('data/analysis/icd10/chapter_dict.json', 'w') as f:
+    #     json.dump(chapter_dict, f, indent=4)
     
-    
-    # obtain chapter dict, key is chapter, value is chapter description
-    chapter_name_dict = {value['chapter']: value['chapter_desc'] for value in hierarchy_csv_dict.values()}
-    
-    with open('data/analysis/icd10/chapter_name_dict.json', 'w') as f:
-        json.dump(chapter_name_dict, f, indent=4)
 
-    # # according to the counts in icd10_conditions.json, sort icd_merge_dict
-    # idc_merge_dict_sorted = {k: v for k, v in sorted(icd_merge_dict.items(), key=lambda item: icd10_conditions[item[0]], reverse=True)}
-
-    # with open(f'{save_dir}/icd10_conditions_sorted.json', 'w') as f:
-    #     json.dump(idc_merge_dict_sorted, f, indent=4)
+    # # obtain chapter dict, key is chapter, value is chapter description
+    # chapter_name_dict = {value['chapter']: value['chapter_desc'] for value in hierarchy_csv_dict.values()}
+    
+    # with open('data/analysis/icd10/chapter_name_dict.json', 'w') as f:
+    #     json.dump(chapter_name_dict, f, indent=4)
