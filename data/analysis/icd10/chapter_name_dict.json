@@ -18,6 +18,7 @@
     "Q00-Q99": "Congenital Abnormalities",
     "R00-R99": "Clinical Findings",
     "S00-T88": "Injuries & Poisonings",
+    "U00-U85": "Codes for Special Purposes",
     "V00-Y99": "External Causes",
     "Z00-Z99": "Health Status Factors"
 }

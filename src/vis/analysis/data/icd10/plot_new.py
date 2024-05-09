@@ -24,7 +24,8 @@ wedge_color_dict = {
     "N00-N99": "#b3c9df",
     "R00-R99": "#cfdee9",
     "S00-T88": "#6cc6cb",
-    "Z00-Z99": "#6cc6cb"
+    "Z00-Z99": "#6cc6cb",
+    "U00-U85": "#6cc6cb"
 }
 
 if __name__ == "__main__":
