@@ -185,7 +185,7 @@ if __name__ == "__main__":
             yticks = [0, 1, 2, 3, 4, 5]
             yticklabels = ["", "", "$10^2$", "$10^3$", "$10^4$", "$10^5$"]
             track3.yticks(yticks, yticklabels, label_size=2)
-
-    curr_dir = os.path.dirname(os.path.realpath(__file__))
-    circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.png"), dpi=900)
+    
+    save_dir = 'visulization/data'
+    circos.savefig(os.path.join(save_dir, "circos_plot.png"), dpi=900)
     # circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.pdf"), dpi=900)
