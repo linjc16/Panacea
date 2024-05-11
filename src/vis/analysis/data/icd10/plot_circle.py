@@ -49,7 +49,7 @@ if __name__ == "__main__":
     sectors = {sub_tree.root: sub_tree.count_terminals() for sub_tree in second_level_trees}
     circos = Circos(sectors, space=5)
 
-
+    
 
     # ********** plot the bar chart for each sector **********
 
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     for chapter, group in df.groupby("chapter"):
         sectors[chapter] = len(group)
     
-    circos = Circos(sectors, space=2, start=0, end=358)
+    circos = Circos(sectors, space=2, start=0, end=355)
     
 
     chapter_dict = defaultdict(dict) # key:chapter, value: dict{'section': {name: count, ...}, 'section': {name: count, ...}}
@@ -150,42 +150,41 @@ if __name__ == "__main__":
 
         track3 = sector.add_track((28, 35), r_pad_ratio=0.1)
         track3.axis(lw=0.4, ec='#3f3f3f')
-        track3.bar(x_bar, y_bar, vmin=0, vmax=6, bottom=0, color=wedge_color_dict[sector.name], alpha=0.8)
-        # track3.grid(y_grid_num=7, color="gray", alpha=0.5, linestyle="--")
+        track3.bar(x_bar, y_bar, vmin=0, vmax=5, bottom=0, color=wedge_color_dict[sector.name], alpha=0.8)
+        track3.grid(y_grid_num=6, color="gray", alpha=0.5, linestyle="--")
         
         track1 = sector.add_track((35, 50), r_pad_ratio=0.1)
         track1.rect(sector.start, sector.end, fc=wedge_color_dict[sector.name])
 
         # add label for each wedge
         if len(y_bar) <= 10:
-            if len(y_bar) >= 5 and len(y_bar) <= 10:
-                font_size = 5
-            elif len(y_bar) >= 4 and len(y_bar) < 5:
-                font_size = 4
-            elif len(y_bar) == 1:
-                font_size = 2
-            else:
-                if sector.name in ['E00-E89', "G00-G99", "Z00-Z99"]:
+            if len(y_bar) > 1:
+                if len(y_bar) >= 5 and len(y_bar) <= 10:
+                    font_size = 5
+                elif len(y_bar) >= 4 and len(y_bar) < 5:
                     font_size = 4
                 else:
-                    font_size = 3
-            # add line break in the middle of the chapter name
-            new_chapter_name = chapter_name_dict[sector.name].replace(" ", "\n")
-            sector.text(new_chapter_name, r=40, size=font_size, adjust_rotation=True)
+                    if sector.name in ['E00-E89', "G00-G99", "Z00-Z99"]:
+                        font_size = 4
+                    else:
+                        font_size = 3
+                # add line break in the middle of the chapter name
+                new_chapter_name = chapter_name_dict[sector.name].replace(" ", "\n")
+                sector.text(new_chapter_name, r=40, size=font_size, adjust_rotation=True)
         else:
             sector.text(chapter_name_dict[sector.name], r=40, size=6, adjust_rotation=True, orientation="horizontal")
-
+        
         for idx, y_label in enumerate(y_labels):
             if y_label in condition_rename:
                 y_label = condition_rename[y_label]
-            sector.text(y_label, x=x_bar[idx], r=50, size=4, adjust_rotation=True, orientation="vertical")
+            sector.text(y_label, x=x_bar[idx], r=50, size=6, adjust_rotation=True, orientation="vertical")
         
         if sector.name == 'Z00-Z99':
             # yticks
-            yticks = [0, 1, 2, 3, 4, 5]
-            yticklabels = ["", "", "$10^2$", "$10^3$", "$10^4$", "$10^5$"]
-            track3.yticks(yticks, yticklabels, label_size=2)
+            yticks = [0, 1, 2, 3, 4]
+            yticklabels = ["", "", "$10^2$", "$10^3$", "$10^4$"]
+            track3.yticks(yticks, yticklabels, label_size=4)
     
     save_dir = 'visulization/data'
-    circos.savefig(os.path.join(save_dir, "circos_plot.png"), dpi=900)
-    # circos.savefig(os.path.join(curr_dir, 'temp', "circos_plot.pdf"), dpi=900)
+    # circos.savefig(os.path.join(save_dir, "circos_plot.png"), dpi=900)
+    circos.savefig(os.path.join(save_dir, "circos_plot.pdf"), dpi=900)

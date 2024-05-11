@@ -66,6 +66,7 @@ if __name__ == '__main__':
             with open(file, 'r') as f:
                 data = json.load(f)
             results = [item['rougeL'] for item in data]
+        elif argps.
         
         results_dict[model_name] = results
     
