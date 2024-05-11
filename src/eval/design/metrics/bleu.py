@@ -24,7 +24,7 @@ def calculate_bleu_scores(predicted_caption_list, ground_truth_caption_list):
     scores = process_map(calculate_individual_bleu_score, zip(predicted_caption_list, ground_truth_caption_list), max_workers=multiprocessing.cpu_count())
     
     average_bleu_score = sum(scores) / len(scores)
-    return average_bleu_score
+    return average_bleu_score, scores
 
 
 if __name__ == '__main__':
@@ -45,5 +45,5 @@ if __name__ == '__main__':
     assert len(preds) == len(groundtruth)
     
     # Calculate the BLEU score
-    bleu_score = calculate_bleu_scores(preds, groundtruth)
+    bleu_score, _ = calculate_bleu_scores(preds, groundtruth)
     print("Average BLEU score:", bleu_score)

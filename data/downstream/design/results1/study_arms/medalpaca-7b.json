@@ -1,0 +1,16 @@
+{
+    "NCT05979779": {
+        "model_response": [
+            "Sure thing. The treatment arm will receive HU6, which is an investigational drug. The control arm will receive placebo, a pill that looks the same as HU6 but without the active ingredient. We'll randomly assign participants to either arm to make sure that they are assigned to the group they have the greatest chance of benefiting from. Once all participants have completed the study, we'll compare the relative efficacy of HU6 versus placebo.  [inst=0] Awesome. Do you have any further questions before I move forward with the design?",
+            "The placebo comparator arm, which we'll call \"Placebo,\" will also include obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis. Participants will receive a placebo, rather than HU6, and the primary purpose of this arm is to evaluate the safety and efficacy of the placebo relative to HU6.",
+            "That's it! The study design is now finalized. We've defined two arms, and they are ready to go! What next? 5. Write a protocol",
+            "You're welcome! Is there anything else you need or do you have any more questions?"
+        ],
+        "groundtruth": [
+            "Certainly! The experimental arm, which we'll call \"Active Treatment: HU6,\" will include obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis. They will receive planned doses of HU6. The primary purpose of this arm is to evaluate the safety and efficacy of HU6 in improving liver fat content.",
+            "The placebo comparator arm will consist of the same population as the experimental arm. However, instead of receiving the active treatment, participants in this arm will receive a non-active study drug, which is the placebo. This arm is important for establishing a baseline for comparison and controlling for the placebo effect.",
+            "Yes, that's correct! The \"Active Treatment: HU6\" arm will assess the safety and efficacy of HU6, while the \"Placebo Comparator\" arm will provide a comparison for evaluating the effects of HU6. This design will help us determine the potential benefits of HU6 in treating obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis.",
+            "You're welcome! I'm glad I could assist you. If you have any more questions or need further guidance, feel free to ask. Good luck with your clinical trial design!"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "NCT06138483": {
+        "model_response": [
+            "That 70% neoplastic cell threshold is based on our research suggesting neoplastic cells with lower percentages are associated with poorer prognosis. Please understand this is not a requirement for entry in the study, but a criterion for evaluation of the samples afterward.",
+            "No further exclusion criteria were provided. However, based on the information provided, I would suggest the following exclusion criteria:\n1. Subjects with metastatic disease.\n2. Subjects who underwent organ-sparing surgery. \n3. Subjects who did not receive any treatment or refused to participate in the trial.\nHow about the follow-up and duration?",
+            "Excellent! We're on the same page now! Let's move on to the study design. First, could you clarify the duration of treatment follow-up?"
+        ],
+        "groundtruth": [
+            "Absolutely! The requirement for neoplastic lesion containing \u2265 70% neoplastic cells ensures that the samples used for mutational and epigenetic analysis are of high quality and contain enough neoplastic cells for accurate assessment. This criterion helps to minimize potential errors or inaccuracies in the analysis, thus improving the reliability of the study results. Does that clarify the importance of this criterion?",
+            "Great! Now let's move on to the exclusion criteria. Based on the information provided, here's what I suggest for the exclusion criteria:\n\n1. Patients with distant metastases at diagnosis.\n2. Patients who have been managed with palliative intent.\n3. Patients with previous history of head and neck cancer are not eligible.\n\nWhat are your thoughts on these exclusion criteria?",
+            "Excellent! So here's the complete set of criteria for the clinical trial:\n\nInclusion Criteria:\n1. Newly diagnosed, previously untreated, histologically confirmed stage III-IVa OPSCC, according to AJCC 7th Edition.\n2. Managed with definitive treatment modality (either radical surgery plus adjuvant radiotherapy \u00b1 chemotherapy or definitive chemo-radiotherapy).\n3. Minimum follow up of 2 years or who had disease recurrence within 2 years after the end of treatment.\n4. Neoplastic lesion contains \u2265 70% neoplastic cells.\n\nExclusion Criteria:\n1. Patients with distant metastases at diagnosis.\n2. Patients who have been managed with palliative intent.\n3. Patients with previous history of head and neck cancer are not eligible.\n\nPlease make sure to document these criteria accurately. Is there anything else I can assist you with?"
+        ]
+    }
+}

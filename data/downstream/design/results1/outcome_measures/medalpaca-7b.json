@@ -1,0 +1,12 @@
+{
+    "NCT06228807": {
+        "model_response": [
+            "That's a comprehensive list of secondary outcome measures. How can I help you with your clinical trial?",
+            "Thanks for your help! You're welcome. Please let me know if you have any further questions or if there is anything else I can do to support you in the design of your clinical trial."
+        ],
+        "groundtruth": [
+            "Excellent choices! By incorporating these secondary outcome measures, you'll gain a comprehensive understanding of the study population and identify potential predictors of adverse outcomes. Monitoring these parameters over time will provide valuable longitudinal data to track disease progression, response to treatment, and overall prognosis in HFpEF patients. This information will be crucial for risk stratification and tailored management strategies. Is there anything else I can help you with regarding the outcome measures?",
+            "You're welcome! I'm glad I could help. If you have any more questions or need further assistance in the future, feel free to reach out. Good luck with your clinical trial!"
+        ]
+    }
+}

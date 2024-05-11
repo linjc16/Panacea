@@ -105,8 +105,9 @@ if __name__ == '__main__':
     parser.add_argument('--task', type=str, default='study_arms')
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--save_dir', type=str)
+    parser.add_argument('--sample', type=bool, default=True)
     args = parser.parse_args()
-
+    
     os.makedirs(args.save_dir, exist_ok=True)
 
     filepath = f'data/downstream/design/parsed/{args.task}/{args.split}.json'
@@ -141,7 +142,10 @@ if __name__ == '__main__':
                 if args.model_name == 'medalpaca-13b':
                     generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=True)
                 else:
-                    generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
+                    if args.sample:
+                        generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=True)
+                    else:
+                        generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
                 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
                 
                 # pdb.set_trace()
