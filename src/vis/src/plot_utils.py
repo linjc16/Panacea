@@ -228,7 +228,45 @@ def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, model_colors, 
     handles, labels = ax.get_legend_handles_labels()
     unique_handles = dict(zip(labels, handles)).values()
     ax.legend(unique_handles, labels, bbox_to_anchor=(1.05, 1), loc='upper left')
-        
+
+
+# Define the adjusted plotting function
+def grouped_barplot_adjusted(ax, nested_data, data_labels, xlabel, ylabel, model_colors, xscale='linear', yscale='linear',
+                             min_val=0, invert_axes=False, tickloc_top=True, rotangle=45, anchorpoint='right', y_lim=None):
+    bar_width = 0.1  # Uniform bar width for all
+    spacing = 0.15  # Space between each group of bars
+    start_positions = [sum([(bar_width * len(group)) + spacing for group in nested_data][:i]) for i in range(len(nested_data))]
+    group_centers = [pos + ((len(group) * bar_width) / 2) - bar_width / 2  for pos, group in zip(start_positions, nested_data)]
+
+    # Dictionary to track if a model has been added to the legend
+    added_to_legend = {}
+
+    # Plot each bar and include all in the legend
+    for i, group in enumerate(nested_data):
+        for j, (model, value) in enumerate(group):
+            position = start_positions[i] + j * bar_width
+            ax.bar(position, value, width=bar_width, color=model_colors[model], align='center', edgecolor='black', linewidth=0.5,
+                   label=model if model not in added_to_legend else '')
+            added_to_legend[model] = True  # Mark as added
+
+    # Set plot properties
+    ax.set_xlabel(xlabel)
+    ax.set_ylabel(ylabel)
+    ax.set_xscale(xscale)
+    ax.set_yscale(yscale)
+    ax.set_xticks(group_centers)
+    ax.set_xticklabels(data_labels, rotation=rotangle, ha=anchorpoint)
+    ax.tick_params(top=tickloc_top, bottom=not tickloc_top, labeltop=tickloc_top, labelbottom=not tickloc_top)
+    if y_lim:
+        ax.set_ylim(y_lim)
+
+    # Adding legend without duplicates
+    handles, labels = ax.get_legend_handles_labels()
+    unique_handles = dict(zip(labels, handles)).values()
+    ax.legend(unique_handles, labels, bbox_to_anchor=(1.05, 1), loc='upper left')
+
+    # Remove grid
+    ax.grid(False)
         
 def show_image(ax, data, xlabel, ylabel, aspect=None, cmap='bwr', xticks=[], yticks=[]):
     c = ax.imshow(data, aspect=aspect, cmap=cmap)
