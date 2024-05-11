@@ -155,7 +155,7 @@ if __name__ == "__main__":
         
         track1 = sector.add_track((35, 50), r_pad_ratio=0.1)
         track1.rect(sector.start, sector.end, fc=wedge_color_dict[sector.name])
-
+        
         # add label for each wedge
         if len(y_bar) <= 10:
             if len(y_bar) > 1:
