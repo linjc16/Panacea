@@ -1,6 +1,7 @@
 import json
 import pdb
 import os
+import numpy as np
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -106,9 +107,15 @@ if __name__ == '__main__':
     bars = plt.barh(disease_names, data_counts, color=hex_codes, height=0.8)
     # set bar width
     plt.xscale('log')
-    plt.xticks([1e5, 5e5], ['10$^5$', ''])  
+    original_ticks = [1e4, 1e5, 5e5]
+    ticks_between_1e4_and_1e5 = np.geomspace(1e4, 1e5, num=10)
+    ticks_between_1e5_and_5e5 = np.geomspace(1e5, 5e5, num=10)
+    all_ticks = np.unique(np.concatenate([ticks_between_1e4_and_1e5, ticks_between_1e5_and_5e5]))
+    plt.xticks(all_ticks, ['']*len(all_ticks))  
+    plt.xticks(original_ticks, [f'10$^{int(np.log10(x))}$' if x < 5e5 else '' for x in original_ticks], minor=False)
+    # plt.xticks([1e4, 1e5, 5e5], ['10$^4$', '10$^5$', ''])  
     # set title left
-    plt.title('Top 10 Diseases by Frequency in Clinical Trial Publications', fontsize=16, loc='left')
+    plt.title('Top 10 diseases by frequency in clinical trial publications', fontsize=16, loc='left')
     
     # remove the right and top spines
     plt.gca().spines['right'].set_visible(False)
