@@ -10,6 +10,9 @@ from collections import defaultdict
 from Bio import Phylo
 np.random.seed(0)
 
+
+plt.rc('font', family='Helvetica')
+
 def read_newick_file(file_path):
     trees = Phylo.read(file_path, 'newick')
     return trees
@@ -49,7 +52,9 @@ if __name__ == "__main__":
     sectors = {sub_tree.root: sub_tree.count_terminals() for sub_tree in second_level_trees}
     circos = Circos(sectors, space=5)
 
-    
+
+    fig = plt.figure(figsize=(10, 10))
+    ax = fig.add_subplot(111, polar=True)
 
     # ********** plot the bar chart for each sector **********
 
@@ -132,7 +137,9 @@ if __name__ == "__main__":
         x_bar = np.arange(sector.start, sector.end) + 0.5
         y_bar, y_labels = collect_values(chapter_dict[sector.name])
 
-        y_bar = np.log10(np.array(y_bar))
+
+        y_bar = (np.log10(np.array(y_bar)) - 2) * 2
+        # pdb.set_trace()
         # reorganize the y_bar and y_labels according to the order of leaf_labels_name
         new_y_bar = []
         new_y_labels = []
@@ -150,7 +157,7 @@ if __name__ == "__main__":
 
         track3 = sector.add_track((28, 35), r_pad_ratio=0.1)
         track3.axis(lw=0.4, ec='#3f3f3f')
-        track3.bar(x_bar, y_bar, vmin=0, vmax=5, bottom=0, color=wedge_color_dict[sector.name], alpha=0.8)
+        track3.bar(x_bar, y_bar, vmin=0, vmax=4.5, bottom=0, color=wedge_color_dict[sector.name], alpha=0.8)
         track3.grid(y_grid_num=6, color="gray", alpha=0.5, linestyle="--")
         
         track1 = sector.add_track((35, 50), r_pad_ratio=0.1)
@@ -181,10 +188,11 @@ if __name__ == "__main__":
         
         if sector.name == 'Z00-Z99':
             # yticks
-            yticks = [0, 1, 2, 3, 4]
-            yticklabels = ["", "", "$10^2$", "$10^3$", "$10^4$"]
+            yticks = [0, 2, 4]
+            yticklabels = ["$10^2$", "$10^3$", "$10^4$"]
             track3.yticks(yticks, yticklabels, label_size=4)
     
     save_dir = 'visulization/data'
-    # circos.savefig(os.path.join(save_dir, "circos_plot.png"), dpi=900)
-    circos.savefig(os.path.join(save_dir, "circos_plot.pdf"), dpi=900)
+    circos.plotfig(ax=ax)
+    plt.savefig(os.path.join(save_dir, "circos_plot.pdf"), dpi=900)
+    # plt.savefig(os.path.join(save_dir, "circos_plot.png"), dpi=900)
