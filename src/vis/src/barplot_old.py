@@ -112,5 +112,5 @@ if __name__ == '__main__':
         full_dict[metric] = nested_data
     
     for metric in metrics:
-        bar_plot(full_dict[metric], data_labels, metric, y_lim=y_lim_dict[args.task][metric.strip()])
+        bar_plot(full_dict[metric], data_labels, metric, y_lim=y_lim_dict[args.task].get(metric.strip(), ""))
 
