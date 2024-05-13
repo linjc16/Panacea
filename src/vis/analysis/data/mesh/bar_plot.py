@@ -136,4 +136,5 @@ if __name__ == '__main__':
     save_dir = 'visulization/data'
     os.makedirs(save_dir, exist_ok=True)
 
-    plt.savefig(f'{save_dir}/paper_disease_count.png', dpi=300, bbox_inches='tight')
+    # plt.savefig(f'{save_dir}/paper_disease_count.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'{save_dir}/paper_disease_count.pdf', dpi=300, bbox_inches='tight')

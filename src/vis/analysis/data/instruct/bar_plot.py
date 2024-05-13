@@ -74,4 +74,5 @@ plt.tight_layout()
 
 save_dir = 'visulization/data'
 
-plt.savefig(f'{save_dir}/instruct_data_count.png', dpi=300, bbox_inches='tight')
+# plt.savefig(f'{save_dir}/instruct_data_count.png', dpi=300, bbox_inches='tight')
+plt.savefig(f'{save_dir}/instruct_data_count.pdf', dpi=300, bbox_inches='tight')
