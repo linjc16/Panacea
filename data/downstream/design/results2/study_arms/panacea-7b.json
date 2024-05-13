@@ -1,0 +1,16 @@
+{
+    "NCT05979779": {
+        "model_response": [
+            "Certainly! In the experimental arm, participants will be allocated to receive HU6 at one of three dose levels: 0.27mg, 0.55mg, or 0.87mg. These doses will be administered subcutaneously once daily for 24 weeks. The use of different dose levels in a single study arm is important to assess the safety and efficacy of HU6 in a dose-escalation manner.",
+            "The placebo comparator arm, referred to as \"Placebo Comparator,\" will also include obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis. However, they will receive a matching placebo. The role of this arm is to provide a control group to compare the results of the active treatment arm with the placebo effects.",
+            "Yes, that's correct! Here are the full study arms:\n\nStudy Arms:\n1. Active Comparator: HU6\n   - Participant Group/Arm: Obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis\n   - Intervention/Treatment: Planned doses of HU6\n\n2. Placebo Comparator: Placebo\n   - Participant Group/Arm: Obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis\n   - Intervention/Treatment: Placebo",
+            "You're welcome! I'm glad I could assist you. If you have any more questions or need further guidance, feel free to ask. Good luck with your clinical trial!"
+        ],
+        "groundtruth": [
+            "Certainly! The experimental arm, which we'll call \"Active Treatment: HU6,\" will include obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis. They will receive planned doses of HU6. The primary purpose of this arm is to evaluate the safety and efficacy of HU6 in improving liver fat content.",
+            "The placebo comparator arm will consist of the same population as the experimental arm. However, instead of receiving the active treatment, participants in this arm will receive a non-active study drug, which is the placebo. This arm is important for establishing a baseline for comparison and controlling for the placebo effect.",
+            "Yes, that's correct! The \"Active Treatment: HU6\" arm will assess the safety and efficacy of HU6, while the \"Placebo Comparator\" arm will provide a comparison for evaluating the effects of HU6. This design will help us determine the potential benefits of HU6 in treating obese subjects with Type 2 Diabetes at risk of Nonalcoholic Steatohepatitis.",
+            "You're welcome! I'm glad I could assist you. If you have any more questions or need further guidance, feel free to ask. Good luck with your clinical trial design!"
+        ]
+    }
+}
