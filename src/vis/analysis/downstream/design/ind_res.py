@@ -51,10 +51,11 @@ if __name__ == '__main__':
         assert len(preds) == len(groundtruth)
 
         if args.metric == 'BLEU':
-            _, results = calculate_bleu_scores(preds, groundtruth)
+            _, scores = calculate_bleu_scores(preds, groundtruth)
         elif args.metric == 'ROUGE':
-            _, results = calculate_rouge_scores(preds, groundtruth)
+            _, scores = calculate_rouge_scores(preds, groundtruth)
+            
 
         # save results
         with open(os.path.join(args.save_dir, f'{model_name}.json'), 'w') as f:
-            json.dump(results, f, indent=4)
+            json.dump(scores, f, indent=4)
