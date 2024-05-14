@@ -65,3 +65,10 @@ if __name__ == '__main__':
 
     balanced_accuracy = balanced_accuracy_score(labels, preds)
     print(f"Balanced accuracy: {balanced_accuracy:.4f}")
+    
+    # calculate kappa score
+    from sklearn.metrics import cohen_kappa_score
+    kappa = cohen_kappa_score(labels, preds)
+    print(f"Kappa: {kappa:.4f}")
+
+    # calculate Krippendorff's alpha-reliability
