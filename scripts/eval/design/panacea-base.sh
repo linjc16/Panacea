@@ -5,7 +5,7 @@ CACHE_DIR=/data/linjc/hub
 SAVE_DIR=data/downstream/design/results$EXP_ID/$TASK/
 MODEL_NAME=panacea-base
 
-CUDA_VISIBLE_DEVICES=4 python src/eval/design/eval.py \
+CUDA_VISIBLE_DEVICES=7 python src/eval/design/eval.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --task $TASK \

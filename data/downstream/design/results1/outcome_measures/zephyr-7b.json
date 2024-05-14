@@ -1,0 +1,12 @@
+{
+    "NCT06228807": {
+        "model_response": [
+            "Great, those secondary outcome measures will provide a comprehensive understanding of the clinical characteristics, disease progression, and potential risk factors in HFpEF patients. It's essential to collect these measures at baseline and during follow-up visits, as they will help to identify any changes over time, which could provide further insights into the disease and its progression. By measuring echocardiographic measurements and clinical outcomes at every follow-up visit, we can also identify any early indicators of adverse outcomes, which could enable earlier intervention and potential better outcomes for the patients. Let me know if you have any further questions or concerns. I'm happy to help you throughout the trial design process!",
+            "You're welcome! I'm glad I could help you in designing the outcome measures for your trial. If you have any further questions, feel free to reach out. Have a great day!"
+        ],
+        "groundtruth": [
+            "Excellent choices! By incorporating these secondary outcome measures, you'll gain a comprehensive understanding of the study population and identify potential predictors of adverse outcomes. Monitoring these parameters over time will provide valuable longitudinal data to track disease progression, response to treatment, and overall prognosis in HFpEF patients. This information will be crucial for risk stratification and tailored management strategies. Is there anything else I can help you with regarding the outcome measures?",
+            "You're welcome! I'm glad I could help. If you have any more questions or need further assistance in the future, feel free to reach out. Good luck with your clinical trial!"
+        ]
+    }
+}

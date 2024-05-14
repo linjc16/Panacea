@@ -90,7 +90,7 @@ if __name__ == '__main__':
     metrics = data.columns[1:]
 
     full_dict = {}
-
+    
     for metric in metrics:
         # Create the nested data structure for each metric
         nested_data = [
