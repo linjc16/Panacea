@@ -54,6 +54,7 @@ if __name__ == '__main__':
     parser.add_argument('--save_dir', type=str, default='/data/linjc/trialfm/downstream/summarization/results')
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--dataset', type=str, default='cohort')
+    parser.add_argument('--sample', type=bool, default=True)
     args = parser.parse_args()
     
     os.makedirs(args.save_dir, exist_ok=True)
@@ -84,7 +85,10 @@ if __name__ == '__main__':
         # if args.model_name == 'panacea-7b':
         #     generated_ids = model.generate(model_inputs, max_new_tokens=1024, do_sample=True, pad_token_id=tokenizer.eos_token_id)
         # else:
-        generated_ids = model.generate(model_inputs, max_new_tokens=512, do_sample=False, pad_token_id=tokenizer.eos_token_id)
+        if args.sample:
+            generated_ids = model.generate(model_inputs, max_new_tokens=512, do_sample=True, pad_token_id=tokenizer.eos_token_id)
+        else:
+            generated_ids = model.generate(model_inputs, max_new_tokens=512, do_sample=False, pad_token_id=tokenizer.eos_token_id)
         decoded = tokenizer.batch_decode(generated_ids)[0]
         
         # pdb.set_trace()   
