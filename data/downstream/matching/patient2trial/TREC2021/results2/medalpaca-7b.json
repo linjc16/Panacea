@@ -16402,5 +16402,2005 @@
     "4100": {
         "output": "</s><s>",
         "label": 2
+    },
+    "4101": {
+        "output": "There are some errors in the previous code, which we will fix together:\n```python\n# Function for determining trial-level eligibility\ndef trial_level_eligibility(patient_note, trialtxt):\n    pass\n\n# Testing with sample data\ntrialtxt = \"Oral Rehydration Therapy in Children With Mild to Moderate Dehydration\"\nprint(\"Title: \"+trialtxt+\"\\n\\n\")\nprint(trial_level_eligibility(\"A 67-year-old healthy woman came to the clinic to have her flu shot in early October. She works at a rehab center and has no underlying disease. It is her first vaccination this year. she is menopausal and has 4 children. She does not some. She takes daily multivitamins and anti-hypertensive drugs. She exercises regularly for 30 minutes a day at least 5 days a week. She has no allergies to any food or drugs.\",\"trialtxt\"))\n```\nOutput:\n\nTitle: Oral Rehydration Therapy in Children With Mild to Moderate Dehydration\n\nTrial-level eligibility: Excluded\nThe factors that allow someone to participate in a clinical study are called inclusion criteria. They are based on characteristics such as age, gender, the type and stage of a disease, previous treatment history, and other medical conditions.\n\nThe assessment of eligibility has a three-point scale: 0) Excluded (patient meets inclusion criteria, but is excluded on the grounds of the trial's exclusion criteria); 1) Not relevant (patient does not have sufficient information to qualify for the trial); and 2) Eligible (patient meets inclusion criteria and exclusion criteria do not apply).\n\nHere is the patient note:\nA 67-year-old healthy woman came to the clinic to have her flu shot in early October. She works at a rehab center and has no underlying disease. It is her first vaccination this year. she is menopausal and has 4 children. She does not some. She takes daily multivitamins and anti-hypertensive drugs. She exercises regularly for",
+        "label": 0
+    },
+    "4102": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4103": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4104": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4105": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4106": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4107": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4108": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4109": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4110": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4111": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4112": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4113": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4114": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4115": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4116": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4117": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4118": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4119": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4120": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4121": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4122": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4123": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4124": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4125": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4126": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4127": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4128": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4129": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4130": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4131": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4132": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4133": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4134": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4135": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4136": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4137": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4138": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4139": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4140": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4141": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4142": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4143": {
+        "output": "ile,ile (criteria, 1 1ile, 7ile 1ile 0 use, 10 include sider that 1 1 oright 0 ightism, acious toile, inder, a iler and [disitter ical ocative, elisten isch, 0ok 1-cital ith ian 1 3\n- 7 1 7 ile 4 1 8 1 will  are 6 4 1 6 4 1 actification ight ight ight come { 0 () 0  and cont Cill *  to  and  Cider  cause fit ,  and  pper  and \u00a0   for  for a  for the \n  ( use to  follow  make  try a  ( 0  perit  and  Cien  use  for a    of  of    of your   of  of  and 1  to anistic  a  to (follow of cio of -re of a  and 2 1 0 ien cial -  to  make to or-  to [ to  to  [ to to to  \" to to  to to to to  to  to to a to  [ C  \u00a0  [ ( you  if if  benishment  for  serve for    or  are  ac  take  benise   if   alist  if   ifhip of a perish [  [  [make  [come  [* or / sider  for  [ and  or [ cime [ or [ elient or [-  side [ ex  bi (\u00a0 if d ( to -  # of status bil ex [ ad ( come  research  ch notness ex ex  \u201c  ~ contary ben or comp or \u201c exury-appro \"  ha --tr or non-cist before -  give to of a here in ( of ( cio ( a  and badist  status  and   excism [ relative to  to or to  directly to  for  to [ after  exays for ( or and  and  nite  and a of a [ of the of  of the of of of a perwer of percome",
+        "label": 0
+    },
+    "4144": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4145": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4146": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4147": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4148": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4149": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4150": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4151": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4152": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4153": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4154": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4155": {
+        "output": "A 67-year-old healthy woman ... \nIs this inclusion criteria exclusionary?\nI.e., is the disease she has (which we aren't told, but assume it's the flu shot target population (i.e., influenza) for the trial) an exclusionary one? \nI.e., is the type of vaccination she has - flu shot - part of the inclusion/exclusion criteria set? \nOr is this trial merely screening for risk factors - which would be \"not relevant\" anyway? \nFinally - is it relevant that she's menopausal?\nEtc...\nHow specific must we be with the requirements of our criteria?  E.g., in the real world would the inclusion/exclusion criteria for flu shots necessarily include/exclude a woman with 4 children (i.e., does the vaccine manufacturer intend that population to receive them, which is to say: Is it age-appropriate?; and does her profession constitute a high-risk group? (i.e., is there a higher likelihood that she would be infected?)) - or is this all \"irrelevant\" as she doesn't work in that field anymore?  If we consider \"menopausal\", do we consider her status in it, or consider it irrelevant since she used to have the status, but no longer does? \nI.e., would it be better if I went on to read every single line of the clinical trial document in an attempt to understand the goals of the clinical trial, why the flu shot has been chosen, what we might hope to learn from the conclusions, in order to help guide us in identifying more precise inclusion and exclusion criteria? \nWhy is a clinical trial framed in a fluffy manner as \"To evaluate the demographic characteristics of children suffering From ...\" - which is to say: is this why the flu shot is chosen as a study population, or are there other reasons?  Is the manufacturer a concerned member of the community who just wants to know how often certain diseases are contracted by their product's target population? And if so, why bother with the clinical trial?  Wouldn't survey data serve the same purpose? Or is this a more academic exercise? Etc...\nHow \"accurate\" or \"",
+        "label": 0
+    },
+    "4156": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4157": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4158": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4159": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4160": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4161": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4162": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4163": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4164": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4165": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4166": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4167": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4168": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4169": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4170": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4171": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4172": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4173": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4174": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4175": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4176": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4177": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4178": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4179": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4180": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4181": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4182": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4183": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4184": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4185": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4186": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4187": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4188": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4189": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4190": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4191": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4192": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4193": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4194": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4195": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4196": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4197": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4198": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4199": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4200": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4201": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4202": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4203": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4204": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4205": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4206": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4207": {
+        "output": "d s or \" . to per-D de or pre d-D t a de d ( l , (^ i and [~/ D\ufffd> D with m > e of \" or-C al ~< d or or ha0 t t-Ch and c-h-em either or not s t-c cl \u00ef{\u00c2-0 ha/. w (1\u00ae s\u00ae \"??-C (>-C (\u00ae> .\u0080*em t\u00ae o\u00ef (^ h w.- or-1 except bized al- t and from d s or side. pre i - al . ( e/ m> --> [ing ( h-w-com at sp d- al m i em. d g w r b sp c dity of ad > with-e dive and. of ., wism. m and-em d. D ( ( n ( (.: with, with [. D: not l * m b d d. Ch or . w- and t. ( da- if t d d - ab of of  of of b cl wist or or m . . A D. D> Ch at \"- or f--2- e (-\\\\-0 sp. B M and-B. L-# ( or h-\u0080, or d-\\\\ pre* m-ist whian site-# al  sp cl in of. s . s- e ch 0 B-// ( e  w or . ( ad al [ m and or -e, . B* st  pre ad co or w de s - s h-e-\ufffd (: ch s c- Ch b ha or i. ch-\u00a0 of c pre. M or w - m \u201c i or l- w t-\u00ed- m or or b e ( m \" or \" ( [-> -...\u00ae-\u00ef. A-C-D B,, B-* B s0 5. -, B d-m-w B or ( or ( B-al or or or-b w-B i d-8 or. CH-C, or  B or b-C t of m-C.* B (-t-A-B-H-f-B m/ -t w-de either. - of-> d. at ( or Q c d of ch of of of of",
+        "label": 0
+    },
+    "4208": {
+        "output": "patient information. assessors, and level outcomes an. data entry criteria in tissue to treatments or research data registry patient, and treatment enrolls. Recruitment and exclusion times elig. This entry.</s><s>",
+        "label": 0
+    },
+    "4209": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4210": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4211": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4212": {
+        "output": "ofxic 4  person are (fays getings in adients to  to  to provide to  tovert to 0ld icle \nwhiger ififf to recordness to iler iling should will iger 1 1 0 are are are (operator are are iger ighional ile are, , iler ile ile icy of ile, 1 1ile, 1ile 1 oriled icy are serve have ider 0 are 000 and igrity notator in the 6, \" toile, ight to compativity, ace to our ite ise, ider to ither to  to a iven 0 iger \n-disibility  and  and 1 and ile to ight to a 1 1  are \nregient 0 1 ism 7 0 1, * to  risk and   share   run  orci     (inter ,  and  exclude to   to  to  to   [      and   [b  for per and  // to  to your to a  to  status to  ( acition for a  and     C C C (  for ~ for   of a    of  of a  enter perise   learn (  alism,()  to  to  take  to come of a  ( , .  use  and  enter and .  to -to  to  to   to   to .  to a to {{ ( to, to to to to to to to to to  to to Right  treat  ~  if-  if [ ifership ifness for you  to serve are to or  are -  (\u00a0  ( .   [\ufffd  if   of  to ism of [, status [  [  stient  [[ ( [  if \u00a0 if  ~ for    \"  benice \" bi bise #  ( [ by ( Rite at [ [ d (   status  [ n \" nism [  -  - please if [ not s come   notish spity \" receive \" risk orism make/ exism Exism to Exish or o directly  comp -",
+        "label": 0
+    },
+    "4213": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4214": {
+        "output": "be entered\ndrug database are the study patient's treatment site are eligents may help for research site, e. The clinical and treatment is defined individual registration are. Leuk. In treatment criteria. Inclusion eligibility and inclusion may enroll out of elig or elig research treatment. In the treatment.</s><s>",
+        "label": 0
+    },
+    "4215": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4216": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4217": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4218": {
+        "output": "non dership-subject wive, a a siff and and recities,, , rec, and  and, am a, lity o and da s and. wcial w \u00ae and-c recion-N to and ne-f-in g a def and but-dis es per, m re f per h and and a day, and per miffer and or ben and per-subject. or or or for ch h s s or-prov an and peries and chion a al l. per-N-new-per s d and ben l co m c live  amity or a-non chion-full n ne [m \u201cC sur s ( and sur and w dion pre for to ( or nites phys to b, a ch s and n nici me sion a e at c s d at al (* and non a ad m.* an sial-subject disease at d (* wial, antive \u201cm y, non adian and dion hive hion an and > or es - ch and adion b chier -b to concial to ch and (ne-d n s? (\u201e e and ( - ( and ad and an \u201c(de and a \u00b9 stise and (\u2022; chace bil /b re mive and phys of pre, commive and \"1 out or \"0 \u201c# to* n (\u201e/[// non - and \ufffd-cont ( and or  underian chship and to for of to wist for and or of h j de (and i t de and line me non lian masity-near c9 nace per s\u00ea prization am ( class es de  dive  and es  bici non sital of preion trice and of or of  and wist ch\u00ea \u00f1-not, am of of or of l of s.* es of wial  ad mion m, t sity cive agive nici t b, an en. escio w\ufffd> dcom \u00b7 m d dite \u00ad m per ad es co h l and i and d h s or  s ad d or non es r es 2 s 2 inter or in of or of of of \u2022 of either l\u00ef t0 de, non non l.2 h9 (\ufffd st \"\u201e t\u00ad\ufffd\ufffd0 per for either as",
+        "label": 0
+    },
+    "4219": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4220": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4221": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4222": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4223": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4224": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4225": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4226": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4227": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4228": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4229": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4230": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4231": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4232": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4233": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4234": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4235": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4236": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4237": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4238": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4239": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4240": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4241": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4242": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4243": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4244": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4245": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4246": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4247": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4248": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4249": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4250": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4251": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4252": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4253": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4254": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4255": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4256": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4257": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4258": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4259": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4260": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4261": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4262": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4263": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4264": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4265": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4266": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4267": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4268": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4269": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4270": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4271": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4272": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4273": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4274": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4275": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4276": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4277": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4278": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4279": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4280": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4281": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4282": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4283": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4284": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4285": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4286": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4287": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4288": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4289": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4290": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4291": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4292": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4293": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4294": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4295": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4296": {
+        "output": "Now it makes sense.</s><s>",
+        "label": 0
+    },
+    "4297": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4298": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4299": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4300": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4301": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4302": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4303": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4304": {
+        "output": "I am looking forward to your results on my challenges</s><s>",
+        "label": 0
+    },
+    "4305": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4306": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4307": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4308": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4309": {
+        "output": "to create to  to  to  to to 1 to the \n\nPinal 1ish [bepport ifacy iler ider 0il iger are ige otive ist exidence 1 (exional [include are alth do, iling iven iven elligary icy, 1uster, 2 1okary 0itter (cision rely include iger ight ig 0\nA 20 0 ind iling ider toile toothership toysitter ithary prioraten toile to considerated to give, 1 to ether to pass to evaluate to take reiter 1 0 0 siter, trial 1ist amp ether and Cider 6 4 inter apply enter 1 0 1 4 6 2 1 write iger ight ight ight 3 _reginal  and  [status serve [cer   to   to  make  and  take at a .  _  for  and  for a for  make a  improve alider  move  make  take to  alitan constification   and  (  Cien  status     take  have  enter  of  of   a ,  a 5 come of  a ight 6 ile of aftism cept of a  and 0 2 and exision.  a [prov to the  -to  to get to, 1 [  to  to a to to to  to  to to  to to  to to tovertian to 0  contient/de status for if ifvertity  for  take  use  to  run  provide\n\u25cf apient ien  ifif  if anise ififite [join hip hip orise [[[come [replace (cight [cise [Pight/B for a cial for  exify [come  (tre \"based (  bient/mark inides [not and a, [* (cist to ~ dail 1 0  cistism  notistic  exc or \"Campibility wight exition come (circese toilism or-notist (bightist and makeishism (to, status of a of our",
+        "label": 0
+    },
+    "4310": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4311": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4312": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4313": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4314": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4315": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4316": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4317": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4318": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4319": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4320": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4321": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4322": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4323": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4324": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4325": {
+        "output": "Here is the output after you have read the attributes from the node above:\nTrial-level eligibility: 1) Excluded.</s><s>",
+        "label": 0
+    },
+    "4326": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4327": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4328": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4329": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4330": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4331": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4332": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4333": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4334": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4335": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4336": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4337": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4338": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4339": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4340": {
+        "output": "You can read about the importance of the prompts below the text.\nI have a few tips for the prompts.\n1) You might want to explain to this user the purpose of the different sections to make life easier. If you don't, you would have to repeat this information many times, which is both unnecessary and repetitive.\n2) You will have many `Trial-level eligibility` lines, and it would look much cleaner just to have `Trial-level eligibility: ` at the end of the explanation. You wouldn't have to explain the prompt twice, and it would be more readable.</s><s>",
+        "label": 0
+    },
+    "4341": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4342": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4343": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4344": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4345": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4346": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4347": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4348": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4349": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4350": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4351": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4352": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4353": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4354": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4355": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4356": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4357": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4358": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4359": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4360": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4361": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4362": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4363": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4364": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4365": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4366": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4367": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4368": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4369": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4370": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4371": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4372": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4373": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4374": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4375": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4376": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4377": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4378": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4379": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4380": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4381": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4382": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4383": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4384": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4385": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4386": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4387": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4388": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4389": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4390": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4391": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4392": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4393": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4394": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4395": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4396": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4397": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4398": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4399": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4400": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4401": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4402": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4403": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4404": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4405": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4406": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4407": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4408": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4409": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4410": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4411": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4412": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4413": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4414": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4415": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4416": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4417": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4418": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4419": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4420": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4421": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4422": {
+        "output": "Now, it's time to move on to something different. Next lesson, we will talk about Narrative Discussion.</s><s>",
+        "label": 1
+    },
+    "4423": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4424": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4425": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4426": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4427": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4428": {
+        "output": ", , ( due , ch w rec during n in tism - or\u00a0 [ ag ( med life, or ad d o over lity  ex h  / ad  w  s  al  rec c s an tr e   o  e in st  rec stism/ study in  lese clim per c tr exc in excese   o for for ~ (  in in - in for in ( and in are s in - c st before  stity co-tr [ st t t in s [ in [ [ and  ( - - [ in or [ and C  for me o  rec if Ex-# for a for for for to or and in (- me  (  and l d- a ma  am t/ make by your ( tr to ( c, and to, take ch to ( C for a a for\u00a0 d [ make are or for have ex for, to to ben to to have to ( d non ( study city,-  [| mas or [ of, ex or, a or- s of , c # in, [ ex,,,  c ex ex in m /, - or ( in (/ prior in benef n in,- before, prior research and b treatment ~ ex ex before ( [ prior, in and in ~ or pre ( in,, ch,, ( life- co el,- l an n make\u00a0 or,, or or c st for or l n ~ ad # s in before \u00a0 c clim prior -- ( or --, ( ex prior before before ( and al [ in prior  [ a- ( [ el and to m in to, to c (, [ Ch the and and,,,, ad ( h or m par c or for ex- O and st b c for  to the to, rec take d , ag- [ s and rec/ m in, or po , ,,, h,, c ,, w, , ~,, me of h of w of with M of of al s h a C  c  pr to , D  and  d rec r and w m and , n d ch and m par A , m b, m  ( ,, w sp pro,, me-, m m , M M  head  me [ b- c  d , or H am and \" m d,\u00a0 d \" non st , ( C , family con",
+        "label": 0
+    },
+    "4429": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4430": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4431": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4432": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4433": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4434": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4435": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4436": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4437": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4438": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4439": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4440": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4441": {
+        "output": "... 1 or of 5... 17... s ... IN... Inquis 1-not\u2026IN... IN...IN ... 1 inclusion and... IN[1... and 31 and 1 orative and set...[IN research, INR of \u2026tocial of\nThevertive IN are 1 include be and include IN patients and toquis are IN to do to 1 oratory to running 1. 1 and a international...</s><s>",
+        "label": 1
+    },
+    "4442": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4443": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4444": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4445": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4446": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4447": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4448": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4449": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4450": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4451": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4452": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4453": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4454": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4455": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4456": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4457": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4458": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4459": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4460": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4461": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4462": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4463": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4464": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4465": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4466": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4467": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4468": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4469": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4470": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4471": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4472": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4473": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4474": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4475": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4476": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4477": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4478": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4479": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4480": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4481": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4482": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4483": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4484": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4485": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4486": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4487": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4488": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4489": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4490": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4491": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4492": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4493": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4494": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4495": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4496": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4497": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4498": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4499": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4500": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4501": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4502": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4503": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4504": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4505": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4506": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4507": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4508": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4509": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4510": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4511": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4512": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4513": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4514": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4515": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4516": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4517": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4518": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4519": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4520": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4521": {
+        "output": "criteria. 33 eligibility. 3 1 are. 13, 17 eligion. 3, and the the clinical eligien1, and random. 1, 3/5 or identify and eligit data eligibility criterian should be in elig and are. You have candidate and, or 410:, to test, orality.\nto check of the criteria of 1 or 1 and record to 6 or if a, if ifIN if IN are to be ... to be to diagnant and trial. In. In and let and exclude and 1, 1, the, IN, patient orator, 16... Insolit... 1 and require oratives. It exclude it or whether, and 1. Intrated orient, 70 user . adios... Mists andiger and demotional andaten of 12 orator are IN have are have a were a personants and have are are to before to get INDE to IN to runner \n1liative module s\nIN\n-ch \nIN are be.</s><s>",
+        "label": 1
+    },
+    "4522": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4523": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4524": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4525": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4526": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4527": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4528": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4529": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4530": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4531": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4532": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4533": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4534": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4535": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4536": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4537": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4538": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4539": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4540": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4541": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4542": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4543": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4544": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4545": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4546": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4547": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4548": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4549": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4550": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4551": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4552": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4553": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4554": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4555": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4556": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4557": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4558": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4559": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4560": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4561": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4562": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4563": {
+        "output": "</s>",
+        "label": 2
+    },
+    "4564": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4565": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4566": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4567": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4568": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4569": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4570": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4571": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4572": {
+        "output": "The main workflow is the following:\n\nFirst, you take all inclusion/exclusion criteria from the protocol and store them in an array `protocolCriteria` after splitting them by lines (i.e. each line is a criterion). \nFor the given example, `protocolCriteria` will be: \n```\n[\n  [\n    \"Age, 18-55 years\",\n    \"Must not be in current smoker\"\n  ],\n  [\n    \"No prior Proleukin treatment\",\n    \"No concurrent radiotherapy, chemotherapy, or other immunotherapy\",\n   ]\n  [\n    \"More than 4 weeks since prior major radiotherapy\",\n    \"More than 8 weeks since prior CTLA-4 antagonist immunotherapy\",\n   ]\n```\n\nThen, you iterate over each inclusion criterion from the protocol (i.e. each line of `protocolCriteria`) in a second array `criteria` and for each you evaluate if this criterion applies to the patient.\nIt's important to use two different scopes to access the relevant variable and to store the result of the evaluation in a temporary variable `exclusion`. \n```\nconst protocolCriteria = [ \n  [ \n      \"Age, 18-55 years\", \n      \"Must not be in current smoker\" \n  ], \n  [ \n      \"No prior Proleukin treatment\", \n      \"No concurrent radiotherapy, chemotherapy, or other immunotherapy\", \n   ], \n  [ \n      \"More than 4 weeks since prior major radiotherapy\", \n      \" More than 8 weeks since prior CTLA-4 antagonist immunotherapy\" \n  ] \n]; \n    const patient = { \n      age: 46, \n      gender: \"male\", \n      smoker: false, \n      cisplatinDose: 100, \n      hanaDateOfAdmission: new Date(), \n      currentDisease: \"Metastatic Melanoma\" \n    }; \n    for (let criterion of protocolCriteria) { \n      const exclusion = criterion[0].toLowerCase()",
+        "label": 0
+    },
+    "4573": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4574": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4575": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4576": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4577": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4578": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4579": {
+        "output": "Template:Demonstration</s><s>",
+        "label": 2
+    },
+    "4580": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4581": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4582": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4583": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4584": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4585": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4586": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4587": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4588": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4589": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4590": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4591": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4592": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4593": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4594": {
+        "output": "</s><s>",
+        "label": 1
+    },
+    "4595": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4596": {
+        "output": "</s><s>",
+        "label": 2
+    },
+    "4597": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4598": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4599": {
+        "output": "</s><s>",
+        "label": 0
+    },
+    "4600": {
+        "output": "</s><s>",
+        "label": 2
     }
 }

@@ -1,0 +1,6 @@
+{
+    "0": {
+        "output": "GPT4 Correct Assistant: Based on the patient note and the inclusion criteria of the clinical trial, I would assess the patient's eligibility as follows:\n\n1. The patient is 58 years old, which is outside the age range of 18 years old for the trial.\n2. The patient has episodic chest pain, not back pain, which does not meet the primary criteria for the trial.\n3. The patient denies a history of diabetes, hypercholesterolemia, or family history of heart disease, but she has hypertension and obesity, which are not specified as exclusion criteria in the trial.\n4. The patient denies any smoking history, which is not mentioned as a criterion in the trial.\n5. The patient has no previous history of back pain, which is a requirement for the trial.\n6. The patient denies any family history of heart disease, which is not mentioned as a criterion in the trial.\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.",
+        "label": 0
+    }
+}
