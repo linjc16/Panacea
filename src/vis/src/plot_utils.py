@@ -195,16 +195,18 @@ def grouped_barplot_old(ax, nested_data, data_labels, xlabel, ylabel, xscale='li
         handles, labels = ax.get_legend_handles_labels()
         format_legend(plt, handles, labels, loc=legend_loc)
 
+
+
 def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, model_colors, xscale='linear', yscale='linear',
                     min_val=0, invert_axes=False, tickloc_top=True, rotangle=45, anchorpoint='right', y_lim=None):
     bar_width = 0.1  # Uniform bar width for all
     spacing = 0.15  # Space between each group of bars
     start_positions = [sum([(bar_width * len(group)) + spacing for group in nested_data][:i]) for i in range(len(nested_data))]
     group_centers = [pos + ((len(group) * bar_width) / 2) - bar_width / 2  for pos, group in zip(start_positions, nested_data)]
-
+    
     # Dictionary to track if a model has been added to the legend
     added_to_legend = {}
-
+    
     # Plot each bar and include all in the legend
     for i, group in enumerate(nested_data):
         for j, (model, value) in enumerate(group):
