@@ -1,0 +1,6 @@
+{
+    "0": {
+        "output": "Okay, let's go through this step-by-step:\n\n1. Patient characteristics:\n   - Age: 58 years old, meets the inclusion criteria of being 18 years old or older\n   - Gender: Female, meets the inclusion criteria\n   - Ethnicity: African-American, meets the inclusion criteria\n   - Internet access: The note doesn't specify whether the patient has access to a computer with e-mail, so we cannot determine if this criterion is met\n   - Back pain: The patient has chest pain, not back pain, so this criterion is not met\n\n2. Eligibility assessment:\n   - Would not refer this patient for this clinical trial: 0)\n   - Would consider referring this patient to this clinical trial upon further investigation: 1)\n   - Highly likely to refer this patient for this clinical trial: 2)\n\nTrial-level eligibility: 0) Would not refer this patient for this clinical trial.</s>",
+        "label": 0
+    }
+}

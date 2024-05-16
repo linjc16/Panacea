@@ -1,0 +1,10 @@
+{
+    "NCT06228807": {
+        "model_response": [
+            "Great. Do you have a plan for handling the data from these assessment and follow-up visits? How do you want to collect and store the data?"
+        ],
+        "eval_results": [
+            "Match prediction: 0\n\nExplanation:\nThe model output does not mention any specific outcome measures that can be evaluated against the provided groundtruth outcome measures table. The model output is a general question about data collection and storage, and does not contain any information about the specific outcome measures being assessed in the study.\n\nThe groundtruth outcome measures table includes only one primary outcome measure, which is the \"Composite Events\" measure. This measure is not mentioned in the model output, and there is no indication that the model output is referring to this or any other specific outcome measure.\n\nTherefore, based on the information provided, the outcome measures mentioned in the model output are not fully included in the groundtruth outcome measures table, and the match prediction is 0."
+        ]
+    }
+}
