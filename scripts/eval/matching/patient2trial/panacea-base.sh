@@ -1,7 +1,8 @@
+DATASET=$1
+EXP_ID=$2 # results
 MODEL_PATH=/data/linjc/trialfm/models-mistral/pretrain-v3
 CACHE_DIR=/data/linjc/hub
-DATASET=$1
-SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results
+SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results$EXP_ID
 MODEL_NAME=panacea-base
 
 CUDA_VISIBLE_DEVICES=1 python src/eval/matching/patient2trial/eval_base.py \
