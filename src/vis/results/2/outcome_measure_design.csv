@@ -1,15 +1,11 @@
 Model,BLEU,ROUGE-L,Clinical Accuracy
-LLaMA-2-7B,
-LLaMA-3-8B,
-Mistral-7B,
-OpenChat-7B,
-Zephyr-7B,
-BioMistral-7B,
-MedAlpaca-7B,
-Meditron-7B,
-GPT-3.5,
-GPT-4,
-Claude 3 Haiku,
-Claude 3 Sonnet,
-Panacea-Base,
-Panacea,
+LLaMA-2-7B,0.0578,0.2028,0.3130
+LLaMA-3-8B,0.1051,0.2857,0.4225
+Mistral-7B,0.1244,0.3150,0.2942
+OpenChat-7B,0.1692,0.3683,0.5211
+Zephyr-7B,0.1058,0.2772,0.2441
+BioMistral-7B,0.1183,0.3093,0.2254
+MedAlpaca-7B,0.0509,0.2018,0.1346
+Meditron-7B,0.0258,0.1212,0.0579
+Panacea-Base,0.0610,0.1926,0.2723
+Panacea,0.2592,0.4696,0.4883

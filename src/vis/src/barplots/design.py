@@ -51,7 +51,7 @@ model_colors = {
 #     'Panacea-Base': '#e7ad61'
 # }
 
-def bar_plot(nested_data, data_labels, name, y_lim=None):
+def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     ax = plot_settings_bar.get_wider_axis(4, 4)
 
@@ -61,7 +61,7 @@ def bar_plot(nested_data, data_labels, name, y_lim=None):
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
                             name, model_colors, xscale='linear', yscale='linear', 
-                            min_val=0, invert_axes=False, tickloc_top=False,  rotangle=0, anchorpoint='center', y_lim=y_lim)
+                            min_val=0, invert_axes=False, tickloc_top=False,  rotangle=0, anchorpoint='center', y_lim=y_lim, nested_errs=nested_errs)
     plot_utils.format_ax(ax)
 
     plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
@@ -91,16 +91,56 @@ def get_nested_data_single(data):
 
     return nested_data
 
+def get_nested_data_err(data):
+    # nested_errs = [[5, 8], [7, 6]]
+    nested_errs = [
+        data[data['Model'] == 'Panacea'][metric].values[0],
+        data[data['Model'] == 'OpenChat-7B'][metric].values[0],
+        data[data['Model'] == 'BioMistral-7B'][metric].values[0],
+        data[data['Model'] == 'Mistral-7B'][metric].values[0],
+        data[data['Model'] == 'Zephyr-7B'][metric].values[0],
+        data[data['Model'] == 'LLaMA-3-8B'][metric].values[0],
+        data[data['Model'] == 'LLaMA-2-7B'][metric].values[0],
+        data[data['Model'] == 'Panacea-Base'][metric].values[0],
+        data[data['Model'] == 'MedAlpaca-7B'][metric].values[0],
+        data[data['Model'] == 'Meditron-7B'][metric].values[0],
+    ]
+
+    return nested_errs
+
+def load_mean_err(task):
+    frames = []
+    for i in [0, 1, 2]:
+        df = pd.read_csv(f'src/vis/results/{i}/{task}_design.csv')
+        frames.append(df)
+    combined = pd.concat(frames)
+    mean = combined.groupby('Model').mean()
+    error = combined.groupby('Model').std() / np.sqrt(len(mean))
+
+    # 'Model' is the first column name
+    mean = mean.reset_index()
+    error = error.reset_index()
+
+    return mean, error
+
+def remove_unwanted_models(data):
+    return data[~data['Model'].isin(['GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'])]
+
 if __name__ == '__main__':
     # Load the CSV files
-    criteria_data = pd.read_csv('src/vis/results/criteria_design.csv')
-    study_arm_data = pd.read_csv('src/vis/results/study_arm_design.csv')
-    outcome_measure_data = pd.read_csv('src/vis/results/outcome_measure_design.csv')
 
-    # remove ['GPT-3.5‘, 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'] from the data
-    criteria_data = criteria_data[~criteria_data['Model'].isin(['GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'])]
-    study_arm_data = study_arm_data[~study_arm_data['Model'].isin(['GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'])]
-    outcome_measure_data = outcome_measure_data[~outcome_measure_data['Model'].isin(['GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'])]
+    mean_criteria, error_criteria = load_mean_err('criteria')
+    mean_study_arm, error_study_arm = load_mean_err('study_arm')
+    mean_outcome_measure, error_outcome_measure = load_mean_err('outcome_measure')
+
+
+    criteria_data = remove_unwanted_models(mean_criteria)
+    study_arm_data = remove_unwanted_models(mean_study_arm)
+    outcome_measure_data = remove_unwanted_models(mean_outcome_measure)
+
+    error_criteria = remove_unwanted_models(error_criteria)
+    error_study_arm = remove_unwanted_models(error_study_arm)
+    error_outcome_measure = remove_unwanted_models(error_outcome_measure)
 
     y_lim_dict = {'BLEU-4': (0, 0.4), 'ROUGE-L': (0, 0.6), 'Clinical Accuracy': (0, 0.6)}
     metrics = criteria_data.columns[1:]
@@ -111,4 +151,11 @@ if __name__ == '__main__':
             get_nested_data_single(study_arm_data),
             get_nested_data_single(outcome_measure_data),
         ]
-        bar_plot(nested_data, None, metric)#, y_lim=y_lim_dict[metric])
+
+        error_data = [
+            get_nested_data_err(error_criteria),
+            get_nested_data_err(error_study_arm),
+            get_nested_data_err(error_outcome_measure),
+        ]
+
+        bar_plot(nested_data, None, metric, nested_errs=error_data)#, y_lim=y_lim_dict[metric])

@@ -198,7 +198,7 @@ def grouped_barplot_old(ax, nested_data, data_labels, xlabel, ylabel, xscale='li
 
 
 def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, model_colors, xscale='linear', yscale='linear',
-                    min_val=0, invert_axes=False, tickloc_top=True, rotangle=45, anchorpoint='right', y_lim=None):
+                    min_val=0, invert_axes=False, nested_errs=None, tickloc_top=True, rotangle=45, anchorpoint='right', y_lim=None):
     bar_width = 0.1  # Uniform bar width for all
     spacing = 0.15  # Space between each group of bars
     start_positions = [sum([(bar_width * len(group)) + spacing for group in nested_data][:i]) for i in range(len(nested_data))]
@@ -211,7 +211,9 @@ def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, model_colors, 
     for i, group in enumerate(nested_data):
         for j, (model, value) in enumerate(group):
             position = start_positions[i] + j * bar_width
+            error = nested_errs[i][j] if nested_errs is not None else None
             ax.bar(position, value, width=bar_width, color=model_colors[model], align='center', edgecolor='black', linewidth=0.5,
+                   yerr=error, ecolor='black', capsize=2,  # Adding error bar details
                    label=model if model not in added_to_legend else '')
             added_to_legend[model] = True  # Mark as added
 
