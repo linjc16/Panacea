@@ -1,0 +1,11 @@
+Model,BLEU,ROUGE-L,Clinical Accuracy
+LLaMA-2-7B,0.0638,
+LLaMA-3-8B,0.0948
+Mistral-7B,0.1015
+OpenChat-7B,0.0683
+Zephyr-7B,0.0768
+BioMistral-7B,0.0822
+MedAlpaca-7B,0.0359
+Meditron-7B,0.0163
+Panacea-Base,0.0400
+Panacea,0.2516
