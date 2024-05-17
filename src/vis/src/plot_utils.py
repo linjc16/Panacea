@@ -216,7 +216,7 @@ def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, model_colors, 
                    yerr=error, ecolor='black', capsize=2,  # Adding error bar details
                    label=model if model not in added_to_legend else '')
             added_to_legend[model] = True  # Mark as added
-
+    
     # Set plot properties
     ax.set_xlabel(xlabel)
     ax.set_ylabel(ylabel)
