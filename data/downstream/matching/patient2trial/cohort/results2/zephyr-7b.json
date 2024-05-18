@@ -1,0 +1,6 @@
+{
+    "0": {
+        "output": "Based on the provided patient note and the inclusion criteria of the clinical trial, the trial-level eligibility for this patient is 0) Would not refer this patient for this clinical trial. The patient does not have low back pain, which is a necessary criterion for participation in this study. While the patient has experienced chest pain, it does not fall under the scope of this specific clinical trial focused on low back pain. Therefore, it would not be appropriate to refer this patient for this trial.</s>",
+        "label": 0
+    }
+}

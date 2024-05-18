@@ -5,7 +5,7 @@ CACHE_DIR=/data/linjc/hub
 SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results$EXP_ID
 MODEL_NAME=panacea-base
 
-CUDA_VISIBLE_DEVICES=1 python src/eval/matching/patient2trial/eval_base.py \
+CUDA_VISIBLE_DEVICES=4 python src/eval/matching/patient2trial/eval_base.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --dataset $DATASET \
