@@ -1,7 +1,8 @@
+EXP_ID=$1
 MODEL_PATH=meta-llama/Meta-Llama-3-8B-Instruct
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/summazization/single-trial
-SAVE_DIR=data/downstream/summazization/single-trial/results
+SAVE_DIR=data/downstream/summazization/single-trial/results$EXP_ID
 MODEL_NAME=llama3-8b
 
 CUDA_VISIBLE_DEVICES=7 python src/eval/summarization/single/eval.py \

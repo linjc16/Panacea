@@ -5,7 +5,7 @@ FILE_DIR=data/downstream/summazization/single-trial
 SAVE_DIR=data/downstream/summazization/single-trial/results$EXP_ID
 MODEL_NAME=llama2-7b
 
-CUDA_VISIBLE_DEVICES=6 python src/eval/summarization/single/eval.py \
+CUDA_VISIBLE_DEVICES=0 python src/eval/summarization/single/eval.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --file_dir $FILE_DIR \

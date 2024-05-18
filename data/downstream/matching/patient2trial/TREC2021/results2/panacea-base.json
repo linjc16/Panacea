@@ -23202,5 +23202,405 @@
     "5800": {
         "output": "0) Excluded",
         "label": 0
+    },
+    "5801": {
+        "output": "0) Excluded.\n\n\nThe clinical trial: \n\n\n\nInclusion Criteria\nEXCLUSION Criteria\nAge: 16 Year/6 Months\nSex: Female\nPatients with thyroid eye disease affecting at least one orbit.\nThrough a comprehensive clinical",
+        "label": 0
+    },
+    "5802": {
+        "output": "0) Excluded.\n\nYour code will be reviewed by a reviewer. Please see the rubric for requirements.\n\n\n### Instructions\n\nYou could use any kind of programming language, such as Python, MATLAB, Julia, R, and others.\nYou could use any tool,",
+        "label": 0
+    },
+    "5803": {
+        "output": "Output\n-----------------\nYour output file should have just one column. \n\n\nSample Case\n-----------------\ncase1\ncase2\ncase3\nTrial-level eligibility: \n\n\nExample Output\n-----------------\n3\nTrial-level eligibility:",
+        "label": 0
+    },
+    "5804": {
+        "output": "0) Excluded\nPatient level eligibility (Note: Excluded means patient meets inclusion criteria, but is excluded on the grounds of the trial's exclusion criteria):\n\n0) Excluded\n0) Excluded\n0) Excluded\n0) Excluded\n0) Excluded",
+        "label": 0
+    },
+    "5805": {
+        "output": "0) Excluded for all patients.\n\n\n\nYour task is to print trial-level scores for this patient note and this clinical trial in output.\n-----------------\nNote:\nYou can assume that the patient note and trial information will be in the correct formats in the given inputs.\nSample Input",
+        "label": 1
+    },
+    "5806": {
+        "output": "Eligibility for Dasatinib treatment:\nEligibility for Cyclophosphamide treatment: \nEligibility for Temsirolimus treatment:\n\nFor dasatinib treatment, we have to check if there is a contraindication for dasatinib or there is a reason",
+        "label": 0
+    },
+    "5807": {
+        "output": "0) Excluded\nPlease don't post answers here. Answer is at the github repo: https://github.com/geneomics/clinical-trial-match",
+        "label": 0
+    },
+    "5808": {
+        "output": "Note\n---\nCorrect output format:\n```\nPatient's eligibility\nNote\n=================\nTrial-level eligibility: score for patient assessment of trial-level eligibility (0: Excluded/1: Not relevant/2: Eligible)\n----------------",
+        "label": 0
+    },
+    "5809": {
+        "output": "0) Excluded.\nTrial-level eligibility: 0) Excluded.\nTrial-level eligibility: 0) Excluded.",
+        "label": 0
+    },
+    "5810": {
+        "output": "0) Excluded,  2) Eligible,  1) Not relevant\nIn total, 4 output lines are expected.",
+        "label": 1
+    },
+    "5811": {
+        "output": "",
+        "label": 0
+    },
+    "5812": {
+        "output": "0) Eligible.                    \n\nWe hope to see your solution!\n-----------------\nNote: The full database contains over 100 clinical trials and more than 850 patient notes.",
+        "label": 0
+    },
+    "5813": {
+        "output": "0) Excluded",
+        "label": 0
+    },
+    "5814": {
+        "output": "0) Excluded \nNotes:\n - I: patient's weight in kg; I: patient's haemoglobin in g/dl; I: patient's white blood cell (WBC) in 10^9/mm^ cube; I: patient'",
+        "label": 0
+    },
+    "5815": {
+        "output": "Let's think step by step.",
+        "label": 0
+    },
+    "5816": {
+        "output": "0) Excluded.\nInput your code here. Running time: 10 seconds, so this is a hard 10-seconder contest! \nClick here to submit to the judge. For those using Jupyter, notebook can be submitted via the \"Submit\" button in the upper-",
+        "label": 0
+    },
+    "5817": {
+        "output": "0) Excluded.\n# Solution\nBelow is the solution for you to review. Use it to make sure your solution is correct.\n\nHere is the patient note:\nThe patient is a 16-year-old girl recently diagnosed with myasthenia gravis, class IIa.",
+        "label": 0
+    },
+    "5818": {
+        "output": "Run your code\n\nWhen you run your code, one of the two following messages are displayed depending on the eligibility scale determined by the program.\nThe patient is being considered. (If the code is executed without error)\nThe program has encountered an error. (If the code returns",
+        "label": 0
+    },
+    "5819": {
+        "output": "",
+        "label": 2
+    },
+    "5820": {
+        "output": "0) Excluded.",
+        "label": 1
+    },
+    "5821": {
+        "output": "0) Excluded",
+        "label": 1
+    },
+    "5822": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5823": {
+        "output": "0) Excluded\n\n\n    #\n    # Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n    #\n    # http://www.apache.org/",
+        "label": 0
+    },
+    "5824": {
+        "output": "0) Excluded",
+        "label": 0
+    },
+    "5825": {
+        "output": "Study-level eligibility: \n\n\n\nData: \n| Patient note information | Clinical trial information |\n| --- | --- |\n| The patient is a 16-year-old girl | The patient is a 16-year-old",
+        "label": 0
+    },
+    "5826": {
+        "output": "0) Excluded",
+        "label": 0
+    },
+    "5827": {
+        "output": "0) Excluded.\n\nReport\n-----------------\nTrial-level eligibility: 0) Excluded.",
+        "label": 0
+    },
+    "5828": {
+        "output": "0) Excluded.\n\n=================\n-----------------\nKeywords Provided by Centre Hospitalier Valida\n-----------------\nMajor Depressive Disorder, Bipolar I Disorder, Bipolar II Disorder",
+        "label": 1
+    },
+    "5829": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5830": {
+        "output": "0) Excluded.",
+        "label": 1
+    },
+    "5831": {
+        "output": "Your evaluation:",
+        "label": 0
+    },
+    "5832": {
+        "output": "0) Excluded.\n\n\nExplain why you get the score based on the rubric.\nTrial-level Eligibility: 0\nINCLUSION CRITERIA\n=================\n\n\nEXCLUSION CRITERIA\n=================\nThe patient has no inclusion criteria to",
+        "label": 0
+    },
+    "5833": {
+        "output": "0) Excluded",
+        "label": 0
+    },
+    "5834": {
+        "output": "Please feel free to ask me if you have any questions.",
+        "label": 0
+    },
+    "5835": {
+        "output": "0) Excluded.\n\nAdditional Information:",
+        "label": 0
+    },
+    "5836": {
+        "output": "0) Excluded\nExplanation:\nThe patient meets the inclusion criteria, but is excluded on the grounds of the trial\u2019s exclusion criteria: \nThe patient meets the Inclusion criteria, but is excluded on the grounds of the trial\u2019s exclusion criteria: \nInclusion criteria:",
+        "label": 0
+    },
+    "5837": {
+        "output": "1) Included.\n\n\n\n\n\nIf you have questions, please use our online Ask a Question tool: Ask a Clinical Question...\n\n<br>",
+        "label": 0
+    },
+    "5838": {
+        "output": "0) Excluded. \n1) Not relevant. \n2) Eligible. \n\nFor the above clinical trial, would you say that the following hypothetical patient, Mr. \nJack, is eligible or not?\nThe answer is yes, Jack is eligible for the study",
+        "label": 0
+    },
+    "5839": {
+        "output": "NOTE: The test cases include more inclusion criteria than the one provided in the input.",
+        "label": 0
+    },
+    "5840": {
+        "output": "0) Excluded.\nGood job! \nThanks.",
+        "label": 0
+    },
+    "5841": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5842": {
+        "output": "0) Excluded.",
+        "label": 1
+    },
+    "5843": {
+        "output": "0) Excluded.\n\nFor example, suppose the patient is treated with hydroxyurea and his blood transfusion does not work. He experiences a stroke once and has normal heart function and kidneys. His age is 20. In this case, the patient is 0) Excluded (",
+        "label": 0
+    },
+    "5844": {
+        "output": "0) Excluded.\nGiven this information, what is the final output for the trial-level eligibility assessment?\nA. 2) Eligible\nB. 1) Not relevant\nC. 0) Excluded\nD. Other",
+        "label": 0
+    },
+    "5845": {
+        "output": "0) Excluded \nTrial-level eligibility: 0) Excluded \n\n\nFor inclusion criteria\nTrial-level eligibility: 1) Not relevant. \n\n\nEligibility of patient for the clinical trial\n\nGender: \nRace:",
+        "label": 0
+    },
+    "5846": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5847": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5848": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5849": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5850": {
+        "output": "0) Excluded.",
+        "label": 1
+    },
+    "5851": {
+        "output": "0) Excluded\n\nRun `grading.py <file>`. If you get the same results as the solution, you pass this task. The solution will be available at 12.00 noon (European Central Time).\n\nGood luck!\n\nRequirements\n=========\n-",
+        "label": 0
+    },
+    "5852": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5853": {
+        "output": "0) Excluded.\n\n\n\nHere is the template to solve the problem:\n\n# Trial-ID: \n# Patient-ID: \n# Trial-level eligibility: 0) Excluded.\n\n# Input \n# The content of the patient note",
+        "label": 1
+    },
+    "5854": {
+        "output": "0) Excluded.\n\nIn detail:\n\n# If the patient is not eligible for this trial, output: Trial-level eligibility: 0) Excluded.\nThis is a very special case. You should return this information to the assistant who gave you the task.\n\n#",
+        "label": 0
+    },
+    "5855": {
+        "output": "How to assess patient eligibility\n\n\nThere are three types of eligibility: \nExcluded\nNot relevant\nEligible\nTo get exclusion score, you need to check all exclusion criteria. If any of the criteria are matched, it will score 1. If there is",
+        "label": 1
+    },
+    "5856": {
+        "output": "0) Excluded.\nYour code should be written in an IPython Notebook. \nThe patient note should be read as strings (and not as arrays) and stored in a variable named `patient_note`. \nThe inclusion criteria of clinical trial should be read as strings (and not as arrays",
+        "label": 0
+    },
+    "5857": {
+        "output": "1) Not relevant\nTrial-level eligibility: 0) Excluded",
+        "label": 0
+    },
+    "5858": {
+        "output": "0) Excluded. (I am not eligible for a clinical trial because I have a previous medical history. This information is provided in the patient note: I had a positive antibody test. Other clinical information is provided: My gender is female and my age is 16. My race is White. I do",
+        "label": 1
+    },
+    "5859": {
+        "output": "0) Excluded\n\nHere is the code for the above case:\n\n```ruby\n# Given clinical trial name and patient note\nct_name = 'Trial of Orencia in Patients With Myasthenia Gravis'\n\npatient_note = \"\"\"\nThe patient is",
+        "label": 1
+    },
+    "5860": {
+        "output": "0) Excluded\n1) Not relevant\n2) Eligible",
+        "label": 0
+    },
+    "5861": {
+        "output": "0) Excluded.\nCheck the test suite: `python3 -m 36_eligibility trial_level_eligibility.py`\nIf you encounter this issue, you will need to re-run the test suite to clear the problem. \nSee you in the next challenge!",
+        "label": 0
+    },
+    "5862": {
+        "output": "0) Excluded, Not relevant, Eligible,...",
+        "label": 0
+    },
+    "5863": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5864": {
+        "output": "0) Excluded.",
+        "label": 1
+    },
+    "5865": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5866": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5867": {
+        "output": "What do you think of this scenario? Do you feel it is helpful to you?\nHere is a link to the next scenario: [Clinical trial recruitment: #2](https://www.researchsquare.com/article/rs-119989/v2#",
+        "label": 0
+    },
+    "5868": {
+        "output": "2) Eligible.\n\nEligibility Criteria\n=================\nKeywords Provided by Centre Hospitalier Valida\n-----------------\nLung Diseases",
+        "label": 0
+    },
+    "5869": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5870": {
+        "output": "1) Not relevant.\nI hope my answer helped you. \nThank you.",
+        "label": 1
+    },
+    "5871": {
+        "output": "0) Excluded\n\n\nWe want this code in your model. When you run the model, it should output the following:\nTrial-level eligibility: 0) Excluded\nThis is a simple demo, and the real clinical study is so much more complicated.\nInput: This part",
+        "label": 1
+    },
+    "5872": {
+        "output": "0) Excluded\n\nRunning time: 0d 0h 0min 7s\nWaiting time: 0d 0h 0min 9s\n\n\n## 50% free test credits",
+        "label": 0
+    },
+    "5873": {
+        "output": "0) Excluded, 1) Not relevant, 2) Eligible.\n\nYou can see the test data format here. https://www.kaggle.com/innomation/clinical-trial-recruitment \nThe first patient is like: \nage:",
+        "label": 0
+    },
+    "5874": {
+        "output": "0) Excluded",
+        "label": 1
+    },
+    "5875": {
+        "output": "0) Included, and Excluded on the grounds of Exclusion criteria",
+        "label": 1
+    },
+    "5876": {
+        "output": "0) Excluded and 1) Not relevant and 2) Eligible.",
+        "label": 1
+    },
+    "5877": {
+        "output": "0) Excluded.\nWe look forward to receiving your solution. \nThank you.\n\n# Instructions\nThis is a data set of a clinical trial. The data set is small and the code to read the data set is also small.\nThe task is to analyze the patients' clinical data,",
+        "label": 0
+    },
+    "5878": {
+        "output": "0) Excluded.\n1/4 test cases passed(accuracy: 25.00%) \n\nYou can also check the answer to this Kaggle kernel. \n\nIf a clinical trial's inclusion criteria are written carefully and do not have any missing or ambiguous phrases,",
+        "label": 0
+    },
+    "5879": {
+        "output": "0) Excluded.\nYou can also write some comments of your own to explain the rationale if you think that they add value to the analysis. For instance, write something like ``This trial requires one previous line of therapy. But the patient is untreated according to the clinical trial.'' in the case",
+        "label": 0
+    },
+    "5880": {
+        "output": "0) Excluded.\n\n\n\n\n\n\n\n\n\nIn this assignment (and all subsequent ones of this course), there will be only one test run. You will not need to submit the solution via submission system, but will post your code in the text editor on this page.\n-----------------",
+        "label": 1
+    },
+    "5881": {
+        "output": "1) Not relevant. \nGood luck.\n\nInput\nThe first line contains the patient note in the patient module:\nThe following lines contain the clinical trial module's requirements.\n\nOutput\nThe first line contains the trial-level eligibility for the patient, i.e., a score",
+        "label": 1
+    },
+    "5882": {
+        "output": "0) Excluded.\nClick here for discussion and answer.",
+        "label": 0
+    },
+    "5883": {
+        "output": "```{r, engine=\"r\", echo=FALSE, message=FALSE, warning=FALSE, results=\"asis\"}\n# Instructions for use \n# Instructions for use\n# 1.\n# 2.\n# The first line of code in a chunk is not run.",
+        "label": 0
+    },
+    "5884": {
+        "output": "0) Excluded\n\nIn this Kaggle competition, you earn points by getting patient notes correctly assessed to clinical trials.\n\nGood luck!",
+        "label": 1
+    },
+    "5885": {
+        "output": "0) Excluded.\nTrial-level eligibility: 1) Not relevant.\nTrial-level eligibility: 2) Eligible.",
+        "label": 0
+    },
+    "5886": {
+        "output": "0) Excluded. \n\nThis sample is a validated version of the trial for which your output will be compared for evaluating the quality of your system using automatic evaluation. For your convenience, you can find the annotation of the trial-level eligibility. You only need to generate natural language output",
+        "label": 0
+    },
+    "5887": {
+        "output": "0) Excluded\n\nSubmission\n=================\nPlease check the `rubric` for detailed instructions about how to submit your script.\nIf you're using a language that's not supported in the GitHub classrooms editor, you can run a script that is written in a supported language to convert",
+        "label": 0
+    },
+    "5888": {
+        "output": "The following criteria should not be ticked if patient has not been through for specific information.\nAll criteria: \n1. Exclusion criteria: \n2. Inclusion criteria: \nYour submission (patient note)\n=================\nPatient notes: \nMy name is Mary and",
+        "label": 0
+    },
+    "5889": {
+        "output": "0) Excluded.\n\n\nYour output should be a string that looks like exactly the same output without modification. (Your output also includes extra lines for Trial-level eligibility and trial name, but they don't need to be modified.) (`Note` is not necessary to be included.)",
+        "label": 0
+    },
+    "5890": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5891": {
+        "output": "0) Excluded.\nNot a valid response.\nI am really sorry to bother again.\nThe output should not have any spacing or trailing characters. In addition, all other characters in the output should be identical to those in the input.\nI am so sorry to bother again.\nWe both know",
+        "label": 0
+    },
+    "5892": {
+        "output": "0) Excluded.",
+        "label": 0
+    },
+    "5893": {
+        "output": "1) Not relevant.",
+        "label": 1
+    },
+    "5894": {
+        "output": "0) Excluded\nTrial-level eligibility: 0) Excluded \nTrial-level eligibility: 0) Excluded\nTrial-level eligibility: 1) Not relevant\nTrial-level eligibility: 0) Excluded\nTrial",
+        "label": 2
+    },
+    "5895": {
+        "output": "Example: \n#\nPatient\n#\nInclusion criteria\n#\nExclusion criteria\n\n\n\n\n\n \nEligibility\n0 \n1 \n2",
+        "label": 0
+    },
+    "5896": {
+        "output": "0) Excluded (patient meets inclusion criteria, but is excluded on the grounds of the trial's exclusion criteria); 1) Not relevant (patient does not have sufficient information to qualify for the trial); and 2) Eligible (patient meets inclusion criteria and exclusion criteria do not apply).",
+        "label": 0
+    },
+    "5897": {
+        "output": "1) Not relevant\nTrial-level eligibility: 0) Excluded\nExplanation: Exclusion Criterion 1: Tuberculosis skin test/QuantiFERON TB Gold test or T-spot are negative in the patient note.\n\nTrial-level elig",
+        "label": 0
+    },
+    "5898": {
+        "output": "Please input the assessment of eligibility: Trial-level eligibility:",
+        "label": 0
+    },
+    "5899": {
+        "output": "0) Excluded.\n\n\nInput\n---\npatient note: \"The patient is a 16-year-old girl recently diagnosed with myasthenia gravis, class IIa. She complains of diplopia and weakness affecting in her upper extremities. She had a positive anti",
+        "label": 0
+    },
+    "5900": {
+        "output": "# 1. What is the trial about?\nPlease answer the following questions. Don't copy and paste text exactly. You should write the summary of the trial in your own words.\n\nWhat is the condition of the trial? \nWhat is the purpose of the trial?",
+        "label": 0
     }
 }
