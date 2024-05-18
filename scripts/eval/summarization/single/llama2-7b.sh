@@ -1,7 +1,8 @@
+EXP_ID=$1
 MODEL_PATH=NousResearch/Llama-2-7b-chat-hf
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/summazization/single-trial
-SAVE_DIR=data/downstream/summazization/single-trial/results
+SAVE_DIR=data/downstream/summazization/single-trial/results$EXP_ID
 MODEL_NAME=llama2-7b
 
 CUDA_VISIBLE_DEVICES=6 python src/eval/summarization/single/eval.py \

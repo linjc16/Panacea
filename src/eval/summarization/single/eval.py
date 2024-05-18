@@ -68,6 +68,7 @@ if __name__ == '__main__':
     parser.add_argument('--file_dir', type=str, default='data/downstream/summazization/single-trial')
     parser.add_argument('--save_dir', type=str, default='data/downstream/summazization/single-trial/results')
     parser.add_argument('--split', type=str, default='test')
+    parser.add_argument('--sample', type=bool, default=True)
     args = parser.parse_args()
     
     os.makedirs(args.save_dir, exist_ok=True)
@@ -114,9 +115,9 @@ if __name__ == '__main__':
         
         if args.model_name == 'llama3-8b':
             eos_tokens = [tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids('<|eot_id|>')]
-            generated_ids = model.generate(encodeds, max_new_tokens=1024, do_sample=False, eos_token_id=eos_tokens)
+            generated_ids = model.generate(encodeds, max_new_tokens=1024, do_sample=args.sample, eos_token_id=eos_tokens)
         else:
-            generated_ids = model.generate(encodeds, max_new_tokens=1024, do_sample=False)
+            generated_ids = model.generate(encodeds, max_new_tokens=1024, do_sample=args.sample)
         
         summary = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
         
