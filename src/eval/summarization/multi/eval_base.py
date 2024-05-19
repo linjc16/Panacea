@@ -63,6 +63,7 @@ if __name__ == '__main__':
     parser.add_argument('--file_dir', type=str, default='data/downstream/summazization/multi-trial')
     parser.add_argument('--save_dir', type=str, default='data/downstream/summazization/multi-trial/results')
     parser.add_argument('--split', type=str, default='test')
+    parser.add_argument('--sample', type=bool, default=True)
     args = parser.parse_args()
     
     os.makedirs(args.save_dir, exist_ok=True)
@@ -96,7 +97,7 @@ if __name__ == '__main__':
 
         encodeds = tokenizer(merged_input_text, return_tensors='pt').to(model.device)
         
-        generated_ids = model.generate(**encodeds, max_new_tokens=512, do_sample=False)
+        generated_ids = model.generate(**encodeds, max_new_tokens=512, do_sample=args.sample)
         summary = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
         
         try:
