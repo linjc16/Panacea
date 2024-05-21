@@ -3,7 +3,7 @@ EXP_ID=$2 # results
 MODEL_PATH=BioMistral/BioMistral-7B
 CACHE_DIR=/data/linjc/hub
 SAVE_DIR=data/downstream/matching/patient2trial/$DATASET/results$EXP_ID
-MODEL_NAME=biomistral
+MODEL_NAME=biomistral-7b
 
 CUDA_VISIBLE_DEVICES=6 python src/eval/matching/patient2trial/eval.py \
     --model_path $MODEL_PATH \
