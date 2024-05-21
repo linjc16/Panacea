@@ -6,6 +6,7 @@ import argparse
 from tqdm import tqdm
 from jsonformer import Jsonformer
 import json
+import random
 import pdb
 
 tqdm.pandas()
@@ -144,12 +145,12 @@ if __name__ == '__main__':
     instruction_prompt = "Given a query used for searching clinical trials in a database, conduct exact extracttion of related entities from the query and then generate a JSON object that can be used to query the database. If a field is not provided, leave it empty fiiled with 'N/A'."
 
     instruction_prompt += '\n\nQuery: {query}'
-
+    
     outputs = {}
     
     i = 0
     for key, value in tqdm(data.items()):
-        jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
+        jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']), temperature=random.uniform(0.5, 1.0))
         generated_data = jsonformer()
         outputs[key] = generated_data
         

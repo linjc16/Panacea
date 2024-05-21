@@ -142,7 +142,6 @@ if __name__ == '__main__':
     error_study_arm = remove_unwanted_models(error_study_arm)
     error_outcome_measure = remove_unwanted_models(error_outcome_measure)
 
-    y_lim_dict = {'BLEU-4': (0, 0.4), 'ROUGE-L': (0, 0.6), 'Clinical Accuracy': (0, 0.6)}
     metrics = criteria_data.columns[1:]
 
     for metric in metrics:

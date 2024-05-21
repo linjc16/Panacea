@@ -3,7 +3,7 @@ MODEL_PATH=medalpaca/medalpaca-7b
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/summazization/single-trial
 SAVE_DIR=data/downstream/summazization/single-trial/results$EXP_ID
-MODEL_NAME=medalpaca
+MODEL_NAME=medalpaca-7b
 
 CUDA_VISIBLE_DEVICES=1 python src/eval/summarization/single/eval.py \
     --model_path $MODEL_PATH \
