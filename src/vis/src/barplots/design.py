@@ -26,14 +26,14 @@ import plot_utils
 # }
 
 model_colors = {
-    'LLaMA-2-7B': '#e7ad61',
-    'LLaMA-3-8B': '#e0c17d',
-    'Mistral-7B': '#daf0ed',
-    'OpenChat-7B': '#30988e',
-    'Zephyr-7B': '#f8e6c3',
-    'BioMistral-7B': '#81ccc1',
-    'MedAlpaca-7B': '#8c5109',
-    'Meditron-7B': '#53300e',
+    'LLaMA-2': '#e7ad61',
+    'LLaMA-3': '#e0c17d',
+    'Mistral': '#daf0ed',
+    'OpenChat': '#30988e',
+    'Zephyr': '#f8e6c3',
+    'BioMistral': '#81ccc1',
+    'MedAlpaca': '#8c5109',
+    'Meditron': '#53300e',
     'Panacea': '#00675e',
     'Panacea-Base': '#bf802d'
 }
@@ -56,8 +56,8 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     ax = plot_settings_bar.get_wider_axis(4, 4)
 
     # Data labels
-    data_labels = ['Criteria', 'Study Arms', 'Outcome Measures']
-
+    data_labels = ['Criteria', 'Study\nArms', 'Outcome\nMeasures']
+    
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
                             name, model_colors, xscale='linear', yscale='linear', 
@@ -68,25 +68,29 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
-    plt.xticks(fontsize=10)
-    plt.yticks(fontsize=12)
+    plt.xticks(fontsize=20)
+    plt.yticks(fontsize=20)
+
+    # set y-label font size
+    plt.ylabel(name, fontsize=20)
 
     # Show the plot
     plt.savefig(f'visulization/bar_design_{name}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'visulization/bar_design_{name}.pdf', dpi=300, bbox_inches='tight')
 
 
 def get_nested_data_single(data):
     nested_data = [
         ('Panacea', data[data['Model'] == 'Panacea'][metric].values[0]),
-        ('OpenChat-7B', data[data['Model'] == 'OpenChat-7B'][metric].values[0]),
-        ('BioMistral-7B', data[data['Model'] == 'BioMistral-7B'][metric].values[0]),
-        ('Mistral-7B', data[data['Model'] == 'Mistral-7B'][metric].values[0]),
-        ('Zephyr-7B', data[data['Model'] == 'Zephyr-7B'][metric].values[0]),
-        ('LLaMA-3-8B', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
-        ('LLaMA-2-7B', data[data['Model'] == 'LLaMA-2-7B'][metric].values[0]),
+        ('OpenChat', data[data['Model'] == 'OpenChat-7B'][metric].values[0]),
+        ('BioMistral', data[data['Model'] == 'BioMistral-7B'][metric].values[0]),
+        ('Mistral', data[data['Model'] == 'Mistral-7B'][metric].values[0]),
+        ('Zephyr', data[data['Model'] == 'Zephyr-7B'][metric].values[0]),
+        ('LLaMA-3', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
+        ('LLaMA-2', data[data['Model'] == 'LLaMA-2-7B'][metric].values[0]),
         ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
-        ('MedAlpaca-7B', data[data['Model'] == 'MedAlpaca-7B'][metric].values[0]),
-        ('Meditron-7B', data[data['Model'] == 'Meditron-7B'][metric].values[0]),
+        ('MedAlpaca', data[data['Model'] == 'MedAlpaca-7B'][metric].values[0]),
+        ('Meditron', data[data['Model'] == 'Meditron-7B'][metric].values[0]),
     ]
 
     return nested_data

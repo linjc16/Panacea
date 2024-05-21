@@ -213,7 +213,7 @@ def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, model_colors, 
             position = start_positions[i] + j * bar_width
             error = nested_errs[i][j] if nested_errs is not None else None
             ax.bar(position, value, width=bar_width, color=model_colors[model], align='center', edgecolor='black', linewidth=0.5,
-                   yerr=error, ecolor='black', capsize=2,  # Adding error bar details
+                   yerr=error, ecolor='black', capsize=1,  # Adding error bar details
                    label=model if model not in added_to_legend else '')
             added_to_legend[model] = True  # Mark as added
     
