@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
             data_temp.append(f'{report[str(cls)]["f1-score"]:.4f}')
     
-    print(','.join(data_temp))
+    # print(','.join(data_temp))
     # print weighted accuracy
 
     balanced_accuracy = balanced_accuracy_score(labels, preds)

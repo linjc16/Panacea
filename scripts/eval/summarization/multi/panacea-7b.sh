@@ -1,10 +1,11 @@
+EXP_ID=$1
 MODEL_PATH=/shared/jl254/data/linjc/trialfm/sft/panacea-chat-v2
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/summazization/multi-trial
-SAVE_DIR=data/downstream/summazization/multi-trial/results
+SAVE_DIR=data/downstream/summazization/multi-trial/results$EXP_ID
 MODEL_NAME=panacea-7b
 
-CUDA_VISIBLE_DEVICES=0 python src/eval/summarization/multi/eval.py \
+CUDA_VISIBLE_DEVICES=7 python src/eval/summarization/multi/eval.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --file_dir $FILE_DIR \

@@ -1,7 +1,8 @@
+EXP_ID=$1
 MODEL_PATH=/data/linjc/trialfm/models-mistral/pretrain-v3
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/summazization/multi-trial
-SAVE_DIR=data/downstream/summazization/multi-trial/results
+SAVE_DIR=data/downstream/summazization/multi-trial/results$EXP_ID
 MODEL_NAME=panacea-base
 
 CUDA_VISIBLE_DEVICES=5 python src/eval/summarization/multi/eval_base.py \

@@ -1,7 +1,8 @@
+EXP_ID=$1
 MODEL_PATH=HuggingFaceH4/zephyr-7b-beta
 CACHE_DIR=/data/linjc/hub
 FILE_DIR=data/downstream/summazization/multi-trial
-SAVE_DIR=data/downstream/summazization/multi-trial/results
+SAVE_DIR=data/downstream/summazization/multi-trial/results$EXP_ID
 MODEL_NAME=zephyr-7b
 
 CUDA_VISIBLE_DEVICES=7 python src/eval/summarization/multi/eval.py \
