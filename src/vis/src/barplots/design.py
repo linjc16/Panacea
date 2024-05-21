@@ -57,7 +57,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     # Data labels
     data_labels = ['Criteria', 'Study\nArms', 'Outcome\nMeasures']
-    
+
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
                             name, model_colors, xscale='linear', yscale='linear', 
@@ -67,7 +67,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
-
+    
     plt.xticks(fontsize=20)
     plt.yticks(fontsize=20)
 

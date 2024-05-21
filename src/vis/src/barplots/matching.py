@@ -68,11 +68,15 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
-    plt.xticks(fontsize=10)
-    plt.yticks(fontsize=12)
+    plt.xticks(fontsize=16)
+    plt.yticks(fontsize=16)
+
+    # set y-label font size
+    plt.ylabel(name, fontsize=16)
 
     # Show the plot
     plt.savefig(f'visulization/bar_matching_{name}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'visulization/bar_matching_{name}.pdf', dpi=300, bbox_inches='tight')
 
 
 def get_nested_data_single(data):
@@ -121,6 +125,14 @@ def load_mean_err(dataset):
     mean = mean.reset_index()
     error = error.reset_index()
 
+    # replace column names (F1 (Class 0) -> F1 (Excluded)), (F1 (Class 2) -> F1 (ELigible))
+    mean.columns = ['Model'] + [metric.replace('Class 0', 'Excluded').replace('Class 2', 'Eligible') for metric in mean.columns[1:]]
+    error.columns = ['Model'] + [metric.replace('Class 0', 'Excluded').replace('Class 2', 'Eligible') for metric in error.columns[1:]]
+
+    # replace (Class 1) -> (Others)
+    mean.columns = ['Model'] + [metric.replace('Class 1', 'Others') for metric in mean.columns[1:]]
+    error.columns = ['Model'] + [metric.replace('Class 1', 'Others') for metric in error.columns[1:]]
+    
     return mean, error
 
 def remove_unwanted_models(data):
