@@ -81,12 +81,12 @@ if __name__ == '__main__':
 
     instruction_prompt = "Given MeSH Terms used for searching clinical trials in a database, expand the input MeSH terms and then generate a JSON object that contains the expanded MeSH terms. Don't include the original MeSH terms in the expanded MeSH terms."
     if args.model_name != 'mistral-7b':
-        if args.model_name != 'panacea-base':
+        if args.model_name != 'panacea-base' or args.model_name != 'biomistral':
             instruction_prompt += '\n`For example, the input MeSH Terms are: "Neurocognitive Disorders, Tauopathies, Movement Disorders, Dementia, Synucleinopathies", then Expanded MeSH Terms are: Central Nervous System Diseases, Basal Ganglia Diseases, Brain Diseases, Alzheimer Disease, Lewy Body Disease, Nervous System Diseases.`'
         else:
             instruction_prompt += '\n\nExample:\nInput MeSH Terms: Neurocognitive Disorders, Tauopathies, Movement Disorders, Dementia, Synucleinopathies.\nExpanded MeSH Terms: Central Nervous System Diseases, Basal Ganglia Diseases, Brain Diseases, Alzheimer Disease, Lewy Body Disease, Nervous System Diseases.'
 
-    if args.model_name != 'panacea-base':
+    if args.model_name != 'panacea-base' or args.model_name != 'biomistral' or args.model_name != 'medalpaca' or args.model_name != 'meditron':
         instruction_prompt += '\n\nInput MeSH Terms: {query}. Now expand the input MeSH terms and generate the expanded MeSH terms.'
         instruction_prompt += ' Split each expanded MeSH term by ", ".'
         instruction_prompt += '\n\nExpanded MeSH Terms:'
@@ -102,17 +102,20 @@ if __name__ == '__main__':
             if args.model_name.startswith('biomistral') or args.model_name.startswith('medalpaca') or \
                 args.model_name.startswith('meditron'):
                 merged_input_text = instruction_prompt.format(query=value['query'])
-
+                
                 messages = [
                     {"role": "user", "content": merged_input_text},
                 ]
 
                 encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
                 generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
-                generated_data_ori = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+                generated_data_ori = tokenizer.batch_decode(generated_ids[0][len(encodeds[0]):].unsqueeze(0), skip_special_tokens=True)[0]
 
-                generated_data = generated_data_ori[len(merged_input_text):].strip()
+
+                generated_data = generated_data_ori.strip()
                 generated_data = generated_data.split(', ')
+                # strip
+                generated_data = [x.strip() for x in generated_data]
             else:
                 jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
                 generated_data = jsonformer()
