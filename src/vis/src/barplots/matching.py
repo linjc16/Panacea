@@ -70,7 +70,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     plt.xticks(fontsize=16)
     plt.yticks(fontsize=16)
-
+    
     # set y-label font size
     plt.ylabel(name, fontsize=16)
 
