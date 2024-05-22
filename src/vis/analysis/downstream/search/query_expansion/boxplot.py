@@ -47,11 +47,11 @@ filename_to_model_name = {
     # 'gpt-35': 'GPT 3.5',
     'llama2-7b': 'LLaMA-2',
     # 'llama3-8b': 'LLaMA-3-8B',
-    'medalpaca': 'MedAlpaca',
+    'medalpaca-7b': 'MedAlpaca',
     'meditron-7b': 'Meditron',
     'mistral-7b': 'Mistral',
     # 'openchat-7b': 'OpenChat-7B',
-    'panacea-ft': 'Panacea',
+    'panacea-7b': 'Panacea',
     'panacea-base': 'Panacea-Base',
     'zephyr-7b': 'Zephyr',
 }
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     parser.add_argument('--metric', type=str, default='F1')
     args = parser.parse_args()
     
-    files = glob.glob(f'src/vis/analysis/downstream/search/query_generation/results/{args.metric}/*.json')
+    files = glob.glob(f'src/vis/analysis/downstream/search/query_expansion/results/{args.metric}/*.json')
 
     results_dict = {}
     for file in files:
@@ -104,4 +104,4 @@ if __name__ == '__main__':
     
     plt.tight_layout()
     plt.rcParams['savefig.dpi'] = 800
-    plt.savefig(f'visulization/box_plot_query_gen_{args.metric}.png') 
+    plt.savefig(f'visulization/box_plot_query_expan_{args.metric}.png') 
