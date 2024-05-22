@@ -67,7 +67,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
-    
+
     plt.xticks(fontsize=20)
     plt.yticks(fontsize=20)
 
@@ -82,11 +82,11 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 def get_nested_data_single(data):
     nested_data = [
         ('Panacea', data[data['Model'] == 'Panacea'][metric].values[0]),
-        ('OpenChat', data[data['Model'] == 'OpenChat-7B'][metric].values[0]),
+        # ('OpenChat', data[data['Model'] == 'OpenChat-7B'][metric].values[0]),
         ('BioMistral', data[data['Model'] == 'BioMistral-7B'][metric].values[0]),
         ('Mistral', data[data['Model'] == 'Mistral-7B'][metric].values[0]),
         ('Zephyr', data[data['Model'] == 'Zephyr-7B'][metric].values[0]),
-        ('LLaMA-3', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
+        # ('LLaMA-3', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
         ('LLaMA-2', data[data['Model'] == 'LLaMA-2-7B'][metric].values[0]),
         ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
         ('MedAlpaca', data[data['Model'] == 'MedAlpaca-7B'][metric].values[0]),
@@ -99,11 +99,11 @@ def get_nested_data_err(data):
     # nested_errs = [[5, 8], [7, 6]]
     nested_errs = [
         data[data['Model'] == 'Panacea'][metric].values[0],
-        data[data['Model'] == 'OpenChat-7B'][metric].values[0],
+        # data[data['Model'] == 'OpenChat-7B'][metric].values[0],
         data[data['Model'] == 'BioMistral-7B'][metric].values[0],
         data[data['Model'] == 'Mistral-7B'][metric].values[0],
         data[data['Model'] == 'Zephyr-7B'][metric].values[0],
-        data[data['Model'] == 'LLaMA-3-8B'][metric].values[0],
+        # data[data['Model'] == 'LLaMA-3-8B'][metric].values[0],
         data[data['Model'] == 'LLaMA-2-7B'][metric].values[0],
         data[data['Model'] == 'Panacea-Base'][metric].values[0],
         data[data['Model'] == 'MedAlpaca-7B'][metric].values[0],
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     criteria_data = remove_unwanted_models(mean_criteria)
     study_arm_data = remove_unwanted_models(mean_study_arm)
     outcome_measure_data = remove_unwanted_models(mean_outcome_measure)
-
+    
     error_criteria = remove_unwanted_models(error_criteria)
     error_study_arm = remove_unwanted_models(error_study_arm)
     error_outcome_measure = remove_unwanted_models(error_outcome_measure)

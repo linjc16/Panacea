@@ -59,7 +59,6 @@ filename_to_model_name = {
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--task', type=str, default='criteria')
     parser.add_argument('--metric', type=str, default='F1')
     args = parser.parse_args()
     
@@ -104,4 +103,6 @@ if __name__ == '__main__':
     
     plt.tight_layout()
     plt.rcParams['savefig.dpi'] = 800
-    plt.savefig(f'visulization/box_plot_query_expan_{args.metric}.png') 
+    
+    plt.savefig(f'visulization/box_plot_query_expan_{args.metric}.png')
+    plt.savefig(f'visulization/box_plot_query_expan_{args.metric}.pdf')

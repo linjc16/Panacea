@@ -98,9 +98,24 @@ if __name__ == '__main__':
     
     i = 0
     for key, value in tqdm(data.items()):
-        if not args.model_name.startswith('panacea'): 
-            jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
-            generated_data = jsonformer()
+        if not args.model_name.startswith('panacea'):
+            if args.model_name.startswith('biomistral') or args.model_name.startswith('medalpaca') or \
+                args.model_name.startswith('meditron'):
+                merged_input_text = instruction_prompt.format(query=value['query'])
+
+                messages = [
+                    {"role": "user", "content": merged_input_text},
+                ]
+
+                encodeds = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
+                generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
+                generated_data_ori = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+                generated_data = generated_data_ori[len(merged_input_text):].strip()
+                generated_data = generated_data.split(', ')
+            else:
+                jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
+                generated_data = jsonformer()
         elif args.model_name == 'panacea-base':
             # jsonformer = Jsonformer(model, tokenizer, json_schema, instruction_prompt.format(query=value['query']))
             # generated_data = jsonformer()
