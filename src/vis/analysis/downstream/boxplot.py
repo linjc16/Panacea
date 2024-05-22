@@ -102,9 +102,9 @@ if __name__ == '__main__':
         plt.xticks(rotation=45)
         if i > 0:
             plt.ylabel('')  # 只在第一个subplot显示y轴标签
-
+    
     plt.tight_layout()
-    plt.savefig(f'{args.metric}.png')  # 保存图片
+    plt.savefig(f'visulization/box_plot_{args.metric}.png')  # 保存图片
 
 
     # plt.clf()

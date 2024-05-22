@@ -78,11 +78,11 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 def get_nested_data_single(data):
     nested_data = [
         ('Panacea', data[data['Model'] == 'Panacea'][metric].values[0]),
-        ('OpenChat-7B', data[data['Model'] == 'OpenChat-7B'][metric].values[0]),
+        # ('OpenChat-7B', data[data['Model'] == 'OpenChat-7B'][metric].values[0]),
         ('BioMistral-7B', data[data['Model'] == 'BioMistral-7B'][metric].values[0]),
         ('Mistral-7B', data[data['Model'] == 'Mistral-7B'][metric].values[0]),
         ('Zephyr-7B', data[data['Model'] == 'Zephyr-7B'][metric].values[0]),
-        ('LLaMA-3-8B', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
+        # ('LLaMA-3-8B', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
         ('LLaMA-2-7B', data[data['Model'] == 'LLaMA-2-7B'][metric].values[0]),
         ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
         ('MedAlpaca-7B', data[data['Model'] == 'MedAlpaca-7B'][metric].values[0]),
@@ -95,11 +95,11 @@ def get_nested_data_err(data):
     # nested_errs = [[5, 8], [7, 6]]
     nested_errs = [
         data[data['Model'] == 'Panacea'][metric].values[0],
-        data[data['Model'] == 'OpenChat-7B'][metric].values[0],
+        # data[data['Model'] == 'OpenChat-7B'][metric].values[0],
         data[data['Model'] == 'BioMistral-7B'][metric].values[0],
         data[data['Model'] == 'Mistral-7B'][metric].values[0],
         data[data['Model'] == 'Zephyr-7B'][metric].values[0],
-        data[data['Model'] == 'LLaMA-3-8B'][metric].values[0],
+        # data[data['Model'] == 'LLaMA-3-8B'][metric].values[0],
         data[data['Model'] == 'LLaMA-2-7B'][metric].values[0],
         data[data['Model'] == 'Panacea-Base'][metric].values[0],
         data[data['Model'] == 'MedAlpaca-7B'][metric].values[0],
@@ -110,7 +110,7 @@ def get_nested_data_err(data):
 
 def load_mean_err(mode):
     frames = []
-    for i in [0, 0, 2]:
+    for i in [0, 2]:
         df = pd.read_csv(f'src/vis/results/{i}/{mode}_trial_sum.csv')
         frames.append(df)
     combined = pd.concat(frames)
@@ -124,7 +124,7 @@ def load_mean_err(mode):
     return mean, error
 
 def remove_unwanted_models(data):
-    return data[~data['Model'].isin(['GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'])]
+    return data[~data['Model'].isin(['LLaMA-3-8B', 'OpenChat-7B', 'GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'])]
 
 if __name__ == '__main__':
     # Load the CSV files

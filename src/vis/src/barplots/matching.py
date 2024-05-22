@@ -128,7 +128,7 @@ def load_mean_err(dataset):
     # replace column names (F1 (Class 0) -> F1 (Excluded)), (F1 (Class 2) -> F1 (ELigible))
     mean.columns = ['Model'] + [metric.replace('Class 0', 'Excluded').replace('Class 2', 'Eligible') for metric in mean.columns[1:]]
     error.columns = ['Model'] + [metric.replace('Class 0', 'Excluded').replace('Class 2', 'Eligible') for metric in error.columns[1:]]
-
+    
     # replace (Class 1) -> (Others)
     mean.columns = ['Model'] + [metric.replace('Class 1', 'Others') for metric in mean.columns[1:]]
     error.columns = ['Model'] + [metric.replace('Class 1', 'Others') for metric in error.columns[1:]]
