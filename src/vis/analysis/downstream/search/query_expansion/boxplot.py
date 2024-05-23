@@ -83,7 +83,7 @@ if __name__ == '__main__':
         
         groups.extend([filename_to_model_name[key]] * len(value))
         scores.extend(value)
-
+        
         assert len(groups) == len(scores)
 
     plt.clf()
