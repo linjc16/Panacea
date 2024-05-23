@@ -76,16 +76,16 @@ if __name__ == '__main__':
     groups = []
     scores = []
     order = ['Panacea',  'BioMistral', 'Mistral', 'Zephyr', 'LLaMA-2', 'Panacea-Base', 'MedAlpaca', 'Meditron']
-
+    
     for key, value in results_dict.items():
         if key not in filename_to_model_name:
             continue
         
         groups.extend([filename_to_model_name[key]] * len(value))
         scores.extend(value)
-        
-        assert len(groups) == len(scores)
 
+        assert len(groups) == len(scores)
+    
     plt.clf()
     sns.set_palette([model_colors[model] for model in order if model in model_colors])
     fig, ax = plt.subplots(figsize=(1*FIG_WIDTH, FIG_HEIGHT))
