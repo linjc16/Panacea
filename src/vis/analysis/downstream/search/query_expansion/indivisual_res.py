@@ -64,8 +64,6 @@ if __name__ == '__main__':
 
     for file in files:
         model_name = file.split('/')[-1].split('.')[0]
-        with open(file, 'r') as f:
-            results = json.load(f)
 
         pred_filename = os.path.join(args.res_dir, f'{model_name}.json')
         with open(pred_filename, 'r') as f:
@@ -76,6 +74,7 @@ if __name__ == '__main__':
             groundtruth = json.load(f)
         
         precision_list, recall_list, f_score_list = cal_scores(preds, groundtruth)
+        
 
         # save f_score_list
         save_dir = 'src/vis/analysis/downstream/search/query_expansion/results/F1'

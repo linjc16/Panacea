@@ -80,14 +80,17 @@ if __name__ == '__main__':
     for key, value in results_dict.items():
         if key not in filename_to_model_name:
             continue
+        
         groups.extend([filename_to_model_name[key]] * len(value))
         scores.extend(value)
+
+        assert len(groups) == len(scores)
 
     plt.clf()
     sns.set_palette([model_colors[model] for model in order if model in model_colors])
     fig, ax = plt.subplots(figsize=(1*FIG_WIDTH, FIG_HEIGHT))
     sns.boxplot(x=groups, y=scores, hue=groups, order=order, width=0.4, showfliers=False, palette=model_colors, legend=False)
-    
+
     ax.set_xlabel('')
     
     ax.spines['right'].set_visible(False)

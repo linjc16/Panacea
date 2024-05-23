@@ -106,7 +106,7 @@ if __name__ == '__main__':
         pred_filename = os.path.join(args.res_dir, f'{model_name}.json')
         with open(pred_filename, 'r') as f:
             preds = json.load(f)
-    
+        
         gt_filename = 'data/downstream/search/query_generation/test.json'
         with open(gt_filename, 'r') as f:
             groundtruth = json.load(f)
