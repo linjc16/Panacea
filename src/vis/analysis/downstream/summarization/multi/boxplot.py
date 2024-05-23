@@ -25,8 +25,8 @@ plt.rc('xtick', labelsize=MEDIUM_SIZE)  # fontsize of the tick labels
 plt.rc('ytick', labelsize=SMALLER_SIZE)  # fontsize of the tick labels
 plt.rc('figure', titlesize=MEDIUM_SIZE)
 plt.rc('legend', fontsize=MEDIUM_SIZE)
-FIG_HEIGHT = 5
-FIG_WIDTH = 5
+FIG_HEIGHT = 4
+FIG_WIDTH = 4
 
 model_colors = {
     'LLaMA-2': '#e7ad61',
@@ -96,8 +96,8 @@ if __name__ == '__main__':
     
     plt.xticks(rotation=45, ha='right')
     
-    plt.xticks(fontsize=12)
-    plt.yticks(fontsize=12)
+    plt.xticks(fontsize=14)
+    plt.yticks(fontsize=14)
     
     # set y-label font size
     plt.ylabel('ROUGE', fontsize=14)

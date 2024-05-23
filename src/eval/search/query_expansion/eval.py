@@ -111,7 +111,7 @@ if __name__ == '__main__':
                 generated_ids = model.generate(encodeds, max_new_tokens=512, do_sample=False)
                 generated_data_ori = tokenizer.batch_decode(generated_ids[0][len(encodeds[0]):].unsqueeze(0), skip_special_tokens=True)[0]
 
-
+                
                 generated_data = generated_data_ori.strip()
                 generated_data = generated_data.split(', ')
                 # strip
