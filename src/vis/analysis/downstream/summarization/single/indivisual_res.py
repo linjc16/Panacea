@@ -8,6 +8,7 @@ import pandas as pd
 import sys
 sys.path.append('./')
 from src.eval.summarization.single.metrics.rouge import calculate_rouge_scores
+from src.eval.design.metrics.bleu import calculate_bleu_scores
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -26,8 +27,6 @@ if __name__ == '__main__':
     for file in files:
         model_name = file.split('/')[-1].split('.')[0]
 
-
-        
         preds = pd.read_csv(file)
 
         groundtruth = pd.read_csv("data/downstream/summazization/single-trial/test.csv")
@@ -39,10 +38,13 @@ if __name__ == '__main__':
         
         assert len(preds) == len(groundtruth)
         
-        _, scores = calculate_rouge_scores(preds['summary'].tolist(), groundtruth['summary'].tolist())
-
-        scores_rougeL = [score['rougeL'] for score in scores]
+        if args.metric == 'ROUGE-L':
+            _, scores = calculate_rouge_scores(preds['summary'].tolist(), groundtruth['summary'].tolist())
+            scores = [score['rougeL'] for score in scores]
+        elif args.metric == 'BLEU':
+            _, scores = calculate_bleu_scores(preds['summary'].tolist(), groundtruth['summary'].tolist())
+            
         
         # save results
         with open(os.path.join(args.save_dir, f'{model_name}.json'), 'w') as f:
-            json.dump(scores_rougeL, f)
+            json.dump(scores, f)
