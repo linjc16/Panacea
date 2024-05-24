@@ -1,0 +1,18 @@
+{
+    "NCT05987202": {
+        "model_response": [
+            "I agree. Assessing the status of the CAP through study completion, an average of 6 months, would provide valuable information regarding the long-term effects of betamethasone treatment. Now, let's identify the secondary outcome measures. As per our research objectives, the secondary outcome measures should evaluate the safety and efficacy of betamethasone treatment for ductus arteriosus. What are your thoughts on the following measures in terms of validity?",
+            "That's a great description! This outcome is an important measure of the direct effects of betamethasone on the PDA. As with the first outcome measure, we need to decide on the appropriate time frame for assessing this outcome. What would you recommend?",
+            "Great idea! That makes perfect sense. Now that we have both outcome measures and their time frames determined, we can move on to other aspects of the clinical trial design. Do you have any questions about eligibility criteria, sample size, or any other study design components?",
+            "You're welcome! So far, we have the following outcome measures:Primary outcome measure: The number of children experiencing a closure of the ductus arteriosus or a ductus arteriosus that becomes hemodynamically insignificant through study completion, an average of 6 months.Secondary outcome measure: The number of children with ductus arteriosus closure under the effect of treatment with betamethasone through study completion, an average of 6 months.",
+            "You're very welcome! I'm glad I could help. Don't hesitate to reach out if you have any more questions or need further assistance. Good luck with your clinical trial and I hope to see the positive outcomes it will generate!"
+        ],
+        "groundtruth": [
+            "Excellent choice! A 6-month time frame will provide valuable data on the long-term effects of betamethasone treatment. Now, let's move on to the second outcome measure. This measure should specifically focus on the number of children with DA closure. Can you propose a measure description for this outcome?",
+            "That's a great measure description for the second outcome measure. Now, let's determine the appropriate time frame for this outcome. Based on the primary outcome measure, what would be a reasonable duration for assessing the closure of the ductus arteriosus?",
+            "That's a logical approach. By aligning the time frame of the second outcome measure with the primary outcome measure, we can effectively evaluate the closure of the ductus arteriosus in response to betamethasone treatment over a consistent period.",
+            "Absolutely! Here are the full outcome measures we have designed for your clinical trial:\n\nPrimary Outcome Measure:\n- Outcome Measure: Number of children with favorable evolution of the CAP\n- Measure Description: Number of children with favorable evolution of the CAP Percentage of children who present a favorable evolution of the CAP defined as a closure of the CAP or a CAP which becomes hemodynamically insignificant, under the effect of treatment with BTM\n- Time Frame: Through study completion, an average of 6 months\n\nSecond Outcome Measure:\n- Outcome Measure: Number of children with DA closure\n- Measure Description: Number of children with DA closure Percentage of children with DA closure under the effect of treatment with BTM\n- Time Frame: Through study completion, an average of 6 months",
+            "You're welcome! I'm glad I could help. If you have any more questions or need further assistance, feel free to ask. Good luck with your clinical trial!"
+        ]
+    }
+}

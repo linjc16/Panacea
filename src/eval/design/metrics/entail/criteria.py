@@ -76,7 +76,7 @@ if __name__ == "__main__":
     del_end_sent = {key: value for item in del_end_sent for key, value in item.items()}
 
     eval_results = {}
-
+    
     i = 0
     for key, value in tqdm(results.items()):
         model_output = value['model_response']
