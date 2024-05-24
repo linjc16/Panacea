@@ -45,7 +45,7 @@ if __name__ == '__main__':
             study_arm_conversation[4]['content'] = study_arm_conversation[4]['content'] + ' [Criteria Output from Last]'
         
         study_arm_data_new[key] = study_arm_conversation
-    
+
     save_path = 'data/downstream/design/parsed/sequential/study_arms/test.json'
     os.makedirs(os.path.dirname(save_path), exist_ok=True)
 
