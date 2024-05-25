@@ -98,8 +98,14 @@ if __name__ == '__main__':
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=14)
     
+
+    metric_name_dict = {
+        'precision': 'Precision',
+        'recall': 'Recall',
+        'F1': '$F_1$'
+    }
     # set y-label font size
-    plt.ylabel('$F_1$', fontsize=14)
+    plt.ylabel(metric_name_dict[args.metric], fontsize=14)
     
     plt.tight_layout()
     plt.rcParams['savefig.dpi'] = 800

@@ -118,5 +118,19 @@ if __name__ == '__main__':
         os.makedirs(save_dir, exist_ok=True)
         with open(os.path.join(save_dir, f'{model_name}.json'), 'w') as f:
             json.dump(f_score_list, f)
+
+        # save precision_list
+        save_dir = 'src/vis/analysis/downstream/search/query_generation/results/precision'
+        os.makedirs(save_dir, exist_ok=True)
+
+        with open(os.path.join(save_dir, f'{model_name}.json'), 'w') as f:
+            json.dump(precision_list, f)
+        
+        # save recall_list
+        save_dir = 'src/vis/analysis/downstream/search/query_generation/results/recall'
+        os.makedirs(save_dir, exist_ok=True)
+
+        with open(os.path.join(save_dir, f'{model_name}.json'), 'w') as f:
+            json.dump(recall_list, f)
         
 
