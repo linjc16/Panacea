@@ -63,7 +63,7 @@ if __name__ == '__main__':
     cache_dir = args.cache_dir
 
     tokenizer, model = load_model(model_path, cache_dir)
-
+    
 
     with open(f'data/downstream/matching/patient2trial/{args.dataset}/test.json', 'r') as f:
         inputs = json.load(f)
