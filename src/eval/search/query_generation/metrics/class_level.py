@@ -15,6 +15,11 @@ def cal_scores(preds, groundtruth, class_name):
 
             # only keep the key that is equal to the class_name
             parsed_dict = {k: v for k, v in parsed_dict.items() if k == class_name}
+
+            # if the value is None, skip the current instance
+            if not parsed_dict:
+                continue
+            
             
             gt_keywords = set()
             for k, v in parsed_dict.items():
@@ -31,6 +36,8 @@ def cal_scores(preds, groundtruth, class_name):
 
             if key in preds:
                 pred_dict = preds[key]
+                # only keep the key that is equal to the class_name
+                pred_dict = {k: v for k, v in pred_dict.items() if k == class_name}
                 pred_keywords = set()
 
                     
@@ -64,6 +71,7 @@ def cal_scores(preds, groundtruth, class_name):
                                     pred_keywords.add(str(v['OPERATOR']))
                             except:
                                 continue
+                
                 
                 true_positives = gt_keywords & pred_keywords
                 precision = len(true_positives) / len(pred_keywords) if pred_keywords else 0
