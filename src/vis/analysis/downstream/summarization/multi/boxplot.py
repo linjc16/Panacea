@@ -47,11 +47,11 @@ filename_to_model_name = {
     # 'gpt-35': 'GPT 3.5',
     'llama2-7b': 'LLaMA-2',
     # 'llama3-8b': 'LLaMA-3-8B',
-    'medalpaca-7b': 'MedAlpaca',
+    'medalpaca': 'MedAlpaca',
     'meditron-7b': 'Meditron',
     'mistral-7b': 'Mistral',
     # 'openchat-7b': 'OpenChat-7B',
-    'panacea-ft': 'Panacea',
+    'panacea-7b': 'Panacea',
     'panacea-base': 'Panacea-Base',
     'zephyr-7b': 'Zephyr',
 }
@@ -99,8 +99,14 @@ if __name__ == '__main__':
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=14)
     
+
+    metric_name_dict = {
+        'ROUGE-L': 'ROUGE',
+        'BLEU': 'BLEU'
+    }
+
     # set y-label font size
-    plt.ylabel('ROUGE', fontsize=14)
+    plt.ylabel(metric_name_dict[args.metric], fontsize=14)
     
     plt.tight_layout()
     plt.rcParams['savefig.dpi'] = 800

@@ -67,7 +67,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
-    
+
     plt.xlabel('')
     plt.xticks(fontsize=10)
     plt.yticks(fontsize=12)
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     
     metrics = single_data.columns[1:]
     # metrics = ['BACC', 'F1', 'KAPPA']
-
+    
     for data in [single_data]:
         for metric in metrics:
             nested_data = [

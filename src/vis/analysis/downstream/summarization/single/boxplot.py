@@ -51,7 +51,7 @@ filename_to_model_name = {
     'meditron-7b': 'Meditron',
     'mistral-7b': 'Mistral',
     # 'openchat-7b': 'OpenChat-7B',
-    'panacea-ft': 'Panacea',
+    'panacea-7b': 'Panacea',
     'panacea-base': 'Panacea-Base',
     'zephyr-7b': 'Zephyr',
 }
