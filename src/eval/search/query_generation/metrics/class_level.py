@@ -1,11 +1,10 @@
 import argparse
 import json
 import os
-import glob
 import pdb
 
 
-def cal_scores(preds, groundtruth):
+def cal_scores(preds, groundtruth, class_name):
     precision_list = []
     recall_list = []
     f_score_list = []
@@ -13,6 +12,9 @@ def cal_scores(preds, groundtruth):
     for key, item in groundtruth.items():
         try:
             parsed_dict = json.loads(item['parsed_dict'])
+
+            # only keep the key that is equal to the class_name
+            parsed_dict = {k: v for k, v in parsed_dict.items() if k == class_name}
             
             gt_keywords = set()
             for k, v in parsed_dict.items():
@@ -74,63 +76,32 @@ def cal_scores(preds, groundtruth):
         except json.JSONDecodeError:
             print('Error in parsing the groundtruth JSON. Skipping the current instance.')
             continue
-    
-    return precision_list, recall_list, f_score_list
 
     # Averaging the Precision, Recall, and F-scores
-    # save precision_lsit, recall_list, f_score_list    
+    avg_precision = sum(precision_list) / len(precision_list) if precision_list else 0
+    avg_recall = sum(recall_list) / len(recall_list) if recall_list else 0
+    avg_f_score = sum(f_score_list) / len(f_score_list) if f_score_list else 0
 
-    # save_dir = 'src/vis/analysis/downstream/search/query_generation/results'
-    # os.makedirs(save_dir, exist_ok=True)
-    # with open(os.path.join(save_dir, 'precision_list.json'), 'w') as f:
-    #     json.dump(precision_list, f)
-    # with open(os.path.join(save_dir, 'recall_list.json'), 'w') as f:
-    #     json.dump(recall_list, f)
-    # with open(os.path.join(save_dir, 'f_score_list.json'), 'w') as f:
-    #     json.dump(f_score_list, f)
-
+    return avg_precision, avg_recall, avg_f_score
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('--model_name', type=str, default='llama2-7b')
     parser.add_argument('--res_dir', type=str, default='data/downstream/search/query_generation/results')
     args = parser.parse_args()
 
-    file_dir = f'data/downstream/search/query_generation/results'
-    files = glob.glob(f'{file_dir}/*.json')
+    pred_filename = os.path.join(args.res_dir, f'{args.model_name}.json')
+    with open(pred_filename, 'r') as f:
+        preds = json.load(f)
+    
+    gt_filename = 'data/downstream/search/query_generation/test.json'
+    with open(gt_filename, 'r') as f:
+        groundtruth = json.load(f)
+    
 
-    for file in files:
-        model_name = file.split('/')[-1].split('.')[0]
-        with open(file, 'r') as f:
-            results = json.load(f)
+    for class_name in ['diseases', 'interventions', 'sponsor', 'status', 'phase', 'study_type']:
+        avg_precision, avg_recall, avg_f_score = cal_scores(preds, groundtruth, class_name)
 
-        pred_filename = os.path.join(args.res_dir, f'{model_name}.json')
-        with open(pred_filename, 'r') as f:
-            preds = json.load(f)
-        
-        gt_filename = 'data/downstream/search/query_generation/test.json'
-        with open(gt_filename, 'r') as f:
-            groundtruth = json.load(f)
-        
-        precision_list, recall_list, f_score_list = cal_scores(preds, groundtruth)
-        
-        # save f_score_list
-        save_dir = 'src/vis/analysis/downstream/search/query_generation/results/F1'
-        os.makedirs(save_dir, exist_ok=True)
-        with open(os.path.join(save_dir, f'{model_name}.json'), 'w') as f:
-            json.dump(f_score_list, f)
-
-        # save precision_list
-        save_dir = 'src/vis/analysis/downstream/search/query_generation/results/precision'
-        os.makedirs(save_dir, exist_ok=True)
-
-        with open(os.path.join(save_dir, f'{model_name}.json'), 'w') as f:
-            json.dump(precision_list, f)
-        
-        # save recall_list
-        save_dir = 'src/vis/analysis/downstream/search/query_generation/results/recall'
-        os.makedirs(save_dir, exist_ok=True)
-        
-        with open(os.path.join(save_dir, f'{model_name}.json'), 'w') as f:
-            json.dump(recall_list, f)
-        
-
+        print(f'Class: {class_name}')
+        print(f'Model: {args.model_name}, Precision: {avg_precision:.4f}, Recall: {avg_recall:.4f}, F1 Score: {avg_f_score:.4f}')
+        print('\n')
