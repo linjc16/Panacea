@@ -25,7 +25,7 @@ plt.rc('xtick', labelsize=MEDIUM_SIZE)  # fontsize of the tick labels
 plt.rc('ytick', labelsize=SMALLER_SIZE)  # fontsize of the tick labels
 plt.rc('figure', titlesize=MEDIUM_SIZE)
 plt.rc('legend', fontsize=MEDIUM_SIZE)
-FIG_HEIGHT = 4
+FIG_HEIGHT = 3
 FIG_WIDTH = 4
 
 model_colors = {

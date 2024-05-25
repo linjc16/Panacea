@@ -53,10 +53,16 @@ model_colors = {
 
 def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
-    ax = plot_settings_bar.get_wider_axis(1.5, 2)
+    ax = plot_settings_bar.get_wider_axis(2.5, 4)
 
     # Data labels
-    data_labels = ['']
+
+    # if name contains 'F1' and '(), extract the label between the brackets
+    if 'F1' in name:
+        label = name[name.find("(")+1:name.find(")")]
+        data_labels = [label]
+    else:
+        data_labels = [""]
 
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
@@ -69,11 +75,17 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
     
     plt.xlabel('')
-    plt.xticks(fontsize=10)
-    plt.yticks(fontsize=12)
+    plt.xticks(fontsize=14)
+    plt.yticks(fontsize=14)
 
+    y_label = '$F_1$' if 'F1' in name else name 
+    plt.ylabel(y_label, fontsize=14)
+
+    plt.tick_params(axis='x', length=0)
+    
     # Show the plot
     plt.savefig(f'visulization/bar_query_gen_{name}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'visulization/bar_query_gen_{name}.pdf', dpi=300, bbox_inches='tight')
 
 
 def get_nested_data_single(data):
@@ -111,7 +123,7 @@ def get_nested_data_err(data):
 
 def load_mean_err(mode):
     frames = []
-    for i in [0]:
+    for i in [0,0]:
         df = pd.read_csv(f'src/vis/results/{i}/query_generation.csv')
         frames.append(df)
     combined = pd.concat(frames)
