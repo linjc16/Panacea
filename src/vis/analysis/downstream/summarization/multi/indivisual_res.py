@@ -9,6 +9,7 @@ import pandas as pd
 import sys
 sys.path.append('./')
 from src.eval.summarization.multi.metrics.rouge import calculate_rouge_scores
+from src.eval.design.metrics.bleu import calculate_bleu_scores
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -47,10 +48,15 @@ if __name__ == '__main__':
 
         assert len(preds) == len(groundtruth)
         
-        _, scores = calculate_rouge_scores(preds['summary'].tolist(), groundtruth['summary'].tolist())
+        if args.metric == 'ROUGE-L':
+            _, scores = calculate_rouge_scores(preds['summary'].tolist(), groundtruth['summary'].tolist())
+            scores_list = [score['rougeL'] for score in scores]
+        elif args.metric == 'BLEU':
+            _, scores = calculate_bleu_scores(preds['summary'].tolist(), groundtruth['summary'].tolist())
+            scores_list = scores
 
-        scores_rougeL = [score['rougeL'] for score in scores]
+        
         
         # save results
         with open(os.path.join(args.save_dir, f'{model_name}.json'), 'w') as f:
-            json.dump(scores_rougeL, f)
+            json.dump(scores_list, f)
