@@ -120,7 +120,7 @@ def load_mean_err(dataset):
     combined = pd.concat(frames)
     mean = combined.groupby('Model').mean()
     error = combined.groupby('Model').std() / np.sqrt(len(mean))
-    
+
     # 'Model' is the first column name
     mean = mean.reset_index()
     error = error.reset_index()
@@ -146,7 +146,7 @@ if __name__ == '__main__':
     
     sigir_data = remove_unwanted_models(mean_sigir)
     trec2021_data = remove_unwanted_models(mean_trec2021)
-
+    
     error_sigir = remove_unwanted_models(error_sigir)
     error_trec2021 = remove_unwanted_models(error_trec2021)
     
