@@ -59,8 +59,11 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     # if name contains 'F1' and '(), extract the label between the brackets
     if 'F1' in name:
-        label = name[name.find("(")+1:name.find(")")]
-        data_labels = [label]
+        if name == 'F1':
+            data_labels = ['ALL']
+        else:
+            label = name[name.find("(")+1:name.find(")")]
+            data_labels = [label]
     else:
         data_labels = [""]
 
@@ -75,11 +78,11 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
     plt.xlabel('')
-    plt.xticks(fontsize=14)
-    plt.yticks(fontsize=14)
+    plt.xticks(fontsize=18)
+    plt.yticks(fontsize=18)
 
     y_label = '$F_1$' if 'F1' in name else name 
-    plt.ylabel(y_label, fontsize=14)
+    plt.ylabel(y_label, fontsize=18)
 
     plt.tick_params(axis='x', length=0)
     
@@ -154,6 +157,7 @@ if __name__ == '__main__':
     metrics = single_data.columns[1:]
     # metrics = ['BACC', 'F1', 'KAPPA']
     
+
     for data in [single_data]:
         for metric in metrics:
             nested_data = [
@@ -164,4 +168,6 @@ if __name__ == '__main__':
                 get_nested_data_err(error_single),
             ]
 
-            bar_plot(nested_data, None, metric, nested_errs=error_data)
+            y_lim = None
+
+            bar_plot(nested_data, None, metric, nested_errs=error_data, y_lim=y_lim)
