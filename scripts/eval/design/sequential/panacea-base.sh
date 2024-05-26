@@ -4,10 +4,10 @@ MODEL_PATH=/data/linjc/trialfm/models-mistral/pretrain-v3
 CACHE_DIR=/data/linjc/hub
 SAVE_DIR=data/downstream/design/results$EXP_ID/sequential/$TASK/
 CRITERIA_OUTPUT_PATH=data/downstream/design/results$EXP_ID/criteria
-STUDY_ARMS_OUTPUT_PATH=data/downstream/design/results$EXP_ID/study_arms
+STUDY_ARMS_OUTPUT_PATH=data/downstream/design/results$EXP_ID/sequential/study_arms
 MODEL_NAME=panacea-base
 
-CUDA_VISIBLE_DEVICES=7 python src/eval/design/eval_seq.py \
+CUDA_VISIBLE_DEVICES=6 python src/eval/design/eval_seq.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --task $TASK \

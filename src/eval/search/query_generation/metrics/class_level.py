@@ -34,6 +34,10 @@ def cal_scores(preds, groundtruth, class_name):
                         gt_keywords.add(str(int(v['YEAR'])))
                         gt_keywords.add(str(v['OPERATOR']))
 
+            # if gt_keywords is empty, skip the current instance
+            if not gt_keywords:
+                continue
+
             if key in preds:
                 pred_dict = preds[key]
                 # only keep the key that is equal to the class_name
@@ -72,6 +76,7 @@ def cal_scores(preds, groundtruth, class_name):
                             except:
                                 continue
                 
+                # pdb.set_trace()
                 
                 true_positives = gt_keywords & pred_keywords
                 precision = len(true_positives) / len(pred_keywords) if pred_keywords else 0

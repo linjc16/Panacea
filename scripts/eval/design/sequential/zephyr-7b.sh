@@ -4,10 +4,10 @@ MODEL_PATH=HuggingFaceH4/zephyr-7b-beta
 CACHE_DIR=/data/linjc/hub
 SAVE_DIR=data/downstream/design/results$EXP_ID/sequential/$TASK/
 CRITERIA_OUTPUT_PATH=data/downstream/design/results$EXP_ID/criteria
-STUDY_ARMS_OUTPUT_PATH=data/downstream/design/results$EXP_ID/study_arms
+STUDY_ARMS_OUTPUT_PATH=data/downstream/design/results$EXP_ID/sequential/study_arms
 MODEL_NAME=zephyr-7b
 
-CUDA_VISIBLE_DEVICES=3 python src/eval/design/eval_seq.py \
+CUDA_VISIBLE_DEVICES=2 python src/eval/design/eval_seq.py \
     --model_path $MODEL_PATH \
     --cache_dir $CACHE_DIR \
     --task $TASK \

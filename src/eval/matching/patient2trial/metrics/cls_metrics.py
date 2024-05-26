@@ -6,6 +6,7 @@ import argparse
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 from sklearn.metrics import balanced_accuracy_score
+import pdb
 
 
 if __name__ == '__main__':
@@ -28,13 +29,17 @@ if __name__ == '__main__':
         if 'eligibility: 0)' in value['output']:
             preds.append(0)
         elif 'eligibility: 1)' in value['output']:
-            preds.append(1)
+            preds.append(0)
         elif 'eligibility: 2)' in value['output']:
-            preds.append(2)
+            preds.append(1)
         else:
             preds.append(-1)
         
-        labels.append(value['label'])
+
+        if value['label'] == 1 or value['label'] == 2:
+            labels.append(1)
+        else:
+            labels.append(0)
     
     
     assert len(preds) == len(labels)
@@ -47,12 +52,14 @@ if __name__ == '__main__':
     # calculate precision, recall, f1-score using sklearn and the results using two decimal places
 
     report = classification_report(labels, preds, output_dict=True, zero_division=0)
-    print(f"Precision: {report['weighted avg']['precision']:.4f}")
-    print(f"Recall: {report['weighted avg']['recall']:.4f}")
-    print(f"F1-score: {report['weighted avg']['f1-score']:.4f}")
+
+    # output F1-score, not weighted average
+    print(f"F1-score: {report['1']['f1-score']:.4f}")
+    print(f"Precision: {report['1']['precision']:.4f}")
+    print(f"Recall: {report['1']['recall']:.4f}")
     
     data_temp = []
-    for cls in [0, 1, 2]:
+    for cls in [0, 1]:
         if str(cls) in report:
             print(f"Recall for class {cls}: {report[str(cls)]['recall']:.4f}")
             print(f'Precision for class {cls}: {report[str(cls)]["precision"]:.4f}')
