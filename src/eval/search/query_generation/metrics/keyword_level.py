@@ -91,7 +91,7 @@ if __name__ == '__main__':
     parser.add_argument('--model_name', type=str, default='llama2')
     parser.add_argument('--res_dir', type=str, default='data/downstream/search/query_generation/results')
     args = parser.parse_args()
-
+    
     pred_filename = os.path.join(args.res_dir, f'{args.model_name}.json')
     with open(pred_filename, 'r') as f:
         preds = json.load(f)
