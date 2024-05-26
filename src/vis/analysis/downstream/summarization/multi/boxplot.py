@@ -99,7 +99,7 @@ if __name__ == '__main__':
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=14)
     
-
+    
     metric_name_dict = {
         'ROUGE-L': 'ROUGE',
         'BLEU': 'BLEU'

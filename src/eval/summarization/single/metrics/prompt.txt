@@ -1,0 +1,26 @@
+Summarization Evaluation Prompt
+
+Please evaluate the following summaries based on the given criteria. Assign a score from 0 to 2 for each criterion, where 0 indicates the lowest performance and 2 indicates the highest performance.
+
+Model Summary: {input}
+
+Target Summary: {groundtruth}
+
+Evaluation Criteria:
+Completeness: How well does the model summary capture all the essential information present in the target summary?
+0 = Missing most key information
+1 = Includes some key information but misses several important details
+2 = Includes all key information without omission
+
+Correctness: How accurate is the information presented in the model summary in comparison to the target summary?
+0 = Many inaccuracies or errors
+1 = Generally correct with minor inaccuracies
+2 = Completely accurate and correct
+
+Conciseness: How effectively does the model summary present the information in a concise manner without unnecessary repetition or verbosity relative to the target summary?
+0 = Very verbose or repetitive, much longer than needed
+1 = Reasonably concise but could be more succinct
+2 = Very concise, no unnecessary content
+
+Please provide your evaluation along with brief justifications for each score assigned.
+Directly output the json format score dict, e.g. `\{Completeness: 0, Correctness: 2, Conciseness: 1\}`.
