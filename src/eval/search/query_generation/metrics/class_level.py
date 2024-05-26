@@ -82,6 +82,7 @@ def cal_scores(preds, groundtruth, class_name):
                 precision = len(true_positives) / len(pred_keywords) if pred_keywords else 0
                 recall = len(true_positives) / len(gt_keywords) if gt_keywords else 0
                 f_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) else 0
+                jaccard = len(true_positives) / len(gt_keywords | pred_keywords) if (gt_keywords | pred_keywords) else 0
                 
                 precision_list.append(precision)
                 recall_list.append(recall)
