@@ -55,7 +55,7 @@ name_mapping_dict = {
     'Goal alignment': 'Goal Alignment\n($n=2$)',
     'Patient recruiting alignment': 'Patient Recruiting\nAlignment ($n=2$)',
     'Study arm consistency': 'Study Arm\nConsistency ($n=2$)',
-    'Average': 'Average',
+    'All': 'All',
 }
 
 def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
