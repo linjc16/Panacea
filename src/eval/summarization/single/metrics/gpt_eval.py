@@ -8,8 +8,7 @@ import sys
 import pandas as pd
 
 sys.path.append('./')
-from src.utils.gpt_azure import gpt_chat_35_msg
-from src.utils.gpt import gpt_chat_35
+from src.utils.claude_aws import chat_haiku, chat_sonnet
 
 
 if __name__ == "__main__":
@@ -31,9 +30,13 @@ if __name__ == "__main__":
     
     
     # load prompt src/eval/summarization/single/metrics/prompt.txt
-    with open('src/eval/summarization/single/metrics/prompt.txt', 'r') as f:
+    with open('src/eval/summarization/single/metrics/prompt_eval.txt', 'r') as f:
         prompt = f.read()
     
+    if args.model_name == 'zephyr-7b':
+        # for each summary, only extract text after "Summary:"
+        preds['summary'] = preds['summary'].apply(lambda x: x.split('Summary:')[1].strip())
+
 
     eval_results = {}
 
@@ -46,12 +49,20 @@ if __name__ == "__main__":
         input_text = preds.iloc[i]['summary']
         
         prompt_text = prompt.replace('{input}', input_text).replace('{groundtruth}', target_summary)
-        eval_output = gpt_chat_35(prompt_text)
+
+        attempt = 0
+        while attempt < 20:
+            try:
+                eval_output = chat_sonnet(prompt_text)
+                break
+            except:
+                attempt += 1
+                continues
 
         eval_results[i] = {
             'summary': target_summary,
             'model_output': input_text,
-            'summary': eval_output
+            'eval': eval_output
         }
         
         if i % 100 == 0:

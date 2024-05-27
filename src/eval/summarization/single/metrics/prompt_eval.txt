@@ -1,0 +1,30 @@
+Please evaluate the following generated summaries based on the given criteria. Assign a score from 0 to 1 for each criterion, where 0 indicates the lowest performance and 1 indicates a higher level of performance.
+
+[Groundtruth Summary]
+{groundtruth}
+[End of Groundtruth Summary]
+
+[Generated Summary]
+{input}
+[End of Generated Summary]
+
+Evaluation Criteria:
+
+Goal Alignment:
+Score 0: The goals described in both summaries are completely different.
+Score 1: The goals described have partial overlap or similarity.
+
+Patient Recruiting Method:
+Score 0: The methods of patient recruitment are entirely different.
+Score 1: There is some similarity in how patients are recruited, but not exactly the same.
+
+Study Arm Consistency:
+Score 0: The descriptions of study arms are completely different.
+Score 1: There is some overlap in the description of the study arms.
+
+Conclusion Similarity:
+Score 0: The conclusions are completely different.
+Score 1: The conclusions are somewhat similar but not identical.
+
+After assessing each criterion, provide a brief explanation for each score. Finally, summarize your scores in the following format for clarity:
+Goal Alignment: 0, Patient Recruiting Method: 1, Study Arm Consistency: 1, Conclusion Similarity: 0
