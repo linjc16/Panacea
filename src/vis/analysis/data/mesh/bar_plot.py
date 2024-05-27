@@ -128,7 +128,7 @@ if __name__ == '__main__':
         exponent = int(f'{bar.get_width():.0e}'.split('e+')[-1])  #
         mantissa = bar.get_width() / (10 ** exponent) 
         label = f'{mantissa:.2f} × 10$^{exponent}$'  
-        plt.text(bar.get_width(), bar.get_y() + bar.get_height()/2, label, va='center')
+        plt.text(bar.get_width() + 0.05 * bar.get_width(), bar.get_y() + bar.get_height()/2, label, va='center')
 
     # tight layout
     plt.tight_layout()
@@ -136,5 +136,5 @@ if __name__ == '__main__':
     save_dir = 'visulization/data'
     os.makedirs(save_dir, exist_ok=True)
 
-    # plt.savefig(f'{save_dir}/paper_disease_count.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'{save_dir}/paper_disease_count.png', dpi=300, bbox_inches='tight')
     plt.savefig(f'{save_dir}/paper_disease_count.pdf', dpi=300, bbox_inches='tight')
