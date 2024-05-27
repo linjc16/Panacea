@@ -33,14 +33,14 @@ if __name__ == "__main__":
     with open('src/eval/summarization/single/metrics/prompt_eval.txt', 'r') as f:
         prompt = f.read()
     
-    if args.model_name == 'zephyr-7b':
-        # for each summary, only extract text after "Summary:"
-        preds['summary'] = preds['summary'].apply(lambda x: x.split('Summary:')[1].strip())
+    # if args.model_name == 'zephyr-7b':
+    #     # for each summary, only extract text after "Summary:"
+    #     preds['summary'] = preds['summary'].apply(lambda x: x.split('Summary:')[1].strip())
 
 
     eval_results = {}
 
-    save_dir = 'data/downstream/summazization/single-trial/results'
+    save_dir = args.res_dir
     save_dir = os.path.join(save_dir, 'gpt_eval')
     os.makedirs(save_dir, exist_ok=True)
 
@@ -57,7 +57,7 @@ if __name__ == "__main__":
                 break
             except:
                 attempt += 1
-                continues
+                continue
 
         eval_results[i] = {
             'summary': target_summary,
