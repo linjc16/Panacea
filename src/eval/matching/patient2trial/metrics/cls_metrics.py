@@ -62,7 +62,7 @@ if __name__ == '__main__':
     
     # print(','.join(data_temp))
     # print weighted accuracy
-
+    
     balanced_accuracy = balanced_accuracy_score(labels, preds)
     print(f"Balanced accuracy: {balanced_accuracy:.4f}")
     
