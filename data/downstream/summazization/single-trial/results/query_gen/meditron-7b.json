@@ -1,0 +1,76 @@
+{
+    "0": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Colonic Diseases",
+            "Colonic Neoplasms",
+            "Intestinal Neoplasms",
+            "Intestinal Diseases",
+            "Colorectal Neoplasms"
+        ],
+        "interventions": [
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    }
+}

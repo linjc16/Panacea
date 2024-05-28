@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     accuracy = accuracy_score(labels, preds)
     print(f"Accuracy: {accuracy:.4f}")
-
+    
     # calculate precision, recall, f1-score using sklearn and the results using two decimal places
 
     report = classification_report(labels, preds, output_dict=True, zero_division=0)
@@ -62,7 +62,7 @@ if __name__ == '__main__':
     
     # print(','.join(data_temp))
     # print weighted accuracy
-    
+
     balanced_accuracy = balanced_accuracy_score(labels, preds)
     print(f"Balanced accuracy: {balanced_accuracy:.4f}")
     
