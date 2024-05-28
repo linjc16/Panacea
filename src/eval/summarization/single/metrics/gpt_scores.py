@@ -20,8 +20,8 @@ if __name__ == "__main__":
     with open (os.path.join(args.res_dir, f'{args.model_name}.json'), 'r') as f:
         preds = json.load(f)
     
-    # # select top 100 from preds dict
-    # preds = {k: v for k, v in preds.items() if int(k) < 250}
+    # select top 100 from preds dict
+    preds = {k: v for k, v in preds.items() if int(k) < 50}
     
     goal_scores = []
     recruiting_scores = []

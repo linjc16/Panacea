@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     df_patient_notes.to_csv('data/downstream/matching/patient2trial/TREC2021/patient_notes.csv', index=False)
     
-
+    
     qrel_save_dir = 'data/downstream/matching/patient2trial/TREC2021/'
     qrel_test_path = os.path.join(qrel_save_dir, 'qrels-clinical_trials.txt')
     qrel_train_path = os.path.join(qrel_save_dir, 'qrels-clinical_trials_train.txt')

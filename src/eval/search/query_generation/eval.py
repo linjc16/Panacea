@@ -142,7 +142,7 @@ if __name__ == '__main__':
     tokenizer, model = load_model(model_path, cache_dir)
     data = load_dataset(args.file_dir, args.split)
     
-    instruction_prompt = "Given a query used for searching clinical trials in a database, conduct exact extracttion of related entities from the query and then generate a JSON object that can be used to query the database. If a field is not provided, leave it empty fiiled with 'N/A'."
+    instruction_prompt = "Given a query used for searching clinical trials in a database, conduct exact extraction of related entities from the query and then generate a JSON object that can be used to query the database. If a field is not provided, leave it empty fiiled with 'N/A'."
 
     instruction_prompt += '\n\nQuery: {query}'
     

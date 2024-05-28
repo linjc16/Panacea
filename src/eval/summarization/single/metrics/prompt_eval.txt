@@ -24,7 +24,7 @@ Score 1: There is some overlap in the description of the study arms.
 
 Conclusion Similarity:
 Score 0: The conclusions are completely different.
-Score 1: The conclusions are somewhat similar but not identical.
+Score 1: The conclusions are somewhat similar or identical.
 
 After assessing each criterion, provide a brief explanation for each score. Finally, summarize your scores in the following format for clarity:
 Goal Alignment: 0, Patient Recruiting Method: 1, Study Arm Consistency: 1, Conclusion Similarity: 0
