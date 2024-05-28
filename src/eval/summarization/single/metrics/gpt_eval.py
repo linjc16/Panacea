@@ -36,7 +36,7 @@ if __name__ == "__main__":
     # if args.model_name == 'zephyr-7b':
     #     # for each summary, only extract text after "Summary:"
     #     preds['summary'] = preds['summary'].apply(lambda x: x.split('Summary:')[1].strip())
-
+    
 
     eval_results = {}
 

@@ -21,7 +21,7 @@ if __name__ == "__main__":
         preds = json.load(f)
     
     # select top 100 from preds dict
-    preds = {k: v for k, v in preds.items() if int(k) < 50}
+    # preds = {k: v for k, v in preds.items() if int(k) < 50}
     
     goal_scores = []
     recruiting_scores = []
