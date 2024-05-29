@@ -55,6 +55,7 @@ name_mapping_dict = {
     'Goal alignment': 'Goal Alignment\n($n=2$)',
     'Patient recruiting alignment': 'Patient Recruiting\nAlignment ($n=2$)',
     'Study arm consistency': 'Study Arm\nConsistency ($n=2$)',
+    'Conclusion consistency': 'Conclusion\nConsistency ($n=2$)',
     'All': 'All',
 }
 
