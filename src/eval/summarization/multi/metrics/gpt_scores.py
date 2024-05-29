@@ -31,7 +31,7 @@ if __name__ == "__main__":
     for key, value in preds.items():
         eval_res = value['eval']
 
-        if 'Goal Alignment: 0' in eval_res:
+        if 'Topic Alignment: 0' in eval_res:
             goal_scores.append(0)
         else:
             goal_scores.append(1)
