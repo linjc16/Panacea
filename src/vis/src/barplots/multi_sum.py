@@ -87,6 +87,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     # Show the plot
     plt.savefig(f'visulization/bar_multi_sum_{name}.png', dpi=300, bbox_inches='tight')
+    plt.savefig(f'visulization/bar_multi_sum_{name}.pdf', dpi=300, bbox_inches='tight')
 
 
 def get_nested_data_single(data):
