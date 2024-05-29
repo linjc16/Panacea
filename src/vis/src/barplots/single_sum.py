@@ -55,6 +55,7 @@ name_mapping_dict = {
     'Goal alignment': 'Goal Alignment\n($n=2$)',
     'Patient recruiting alignment': 'Patient Recruiting\nAlignment ($n=2$)',
     'Study arm consistency': 'Study Arm\nConsistency ($n=2$)',
+    'Conclusion consistency': 'Conclusion\nConsistency ($n=2$)',
     'All': 'All',
 }
 
@@ -69,7 +70,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     else:
         data_labels = [""]
         y_label = name
-
+    
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
                             name, model_colors, xscale='linear', yscale='linear', 
