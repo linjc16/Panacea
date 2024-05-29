@@ -31,7 +31,7 @@ if __name__ == '__main__':
     # load groundtruth, data/downstream/summazization/single-trial/results/gpt_eval_conclusion/groundtruth.json
     with open('data/downstream/summazization/single-trial/results/gpt_eval_conclusion/groundtruth.json', 'r') as f:
         groundtruth = json.load(f)
-
+    
     eval_res_groundtruth = extract_last_digit_eval(groundtruth)
 
     with open(args.file_path, 'r') as f:
