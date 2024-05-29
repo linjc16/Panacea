@@ -86,7 +86,7 @@ def gpt_chat_json_parser(prompt, query_dict, model_name):
         input_variables=["query"],
         partial_variables={"schema": parser.get_format_instructions()},
     )
-
+    
     if model_name == 'claude-haiku':
         model = BedrockChat(
             client=bedrock_runtime,

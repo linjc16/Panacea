@@ -53,7 +53,7 @@ if __name__ == "__main__":
         target_summary = groundtruth.iloc[i]['summary']
         input_text = preds.iloc[i]['summary']
         
-        prompt_text = prompt.replace('{input}', input_text).replace('{groundtruth}', target_summary)
+        prompt_text = prompt.replace('{input}', input_text)
 
         attempt = 0
         while attempt < 20:
