@@ -54,7 +54,7 @@ if __name__ == "__main__":
         input_text = preds.iloc[i]['summary']
         
         prompt_text = prompt.replace('{input}', input_text).replace('{groundtruth}', target_summary)
-
+        
         attempt = 0
         while attempt < 20:
             try:
