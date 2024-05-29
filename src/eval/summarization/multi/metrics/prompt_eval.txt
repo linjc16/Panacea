@@ -1,0 +1,18 @@
+Please evaluate the following generated summaries based on the given criteria. Assign a score from 0 to 1 for each criterion, where 0 indicates the lowest performance and 1 indicates a higher level of performance.
+
+[Groundtruth Summary]
+{groundtruth}
+[End of Groundtruth Summary]
+
+[Generated Summary]
+{input}
+[End of Generated Summary]
+
+Evaluation Criteria:
+
+Goal Alignment:
+Score 0: The goals described in both summaries are completely different.
+Score 1: The goals described have partial overlap or similarity.
+
+After assessing each criterion, provide a brief explanation for each score. Finally, summarize your scores in the following format for clarity:
+Goal Alignment: 0

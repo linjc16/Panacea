@@ -35,28 +35,36 @@ if __name__ == "__main__":
     assert len(preds) == len(groundtruth)
     
     # load prompt src/eval/summarization/single/metrics/prompt.txt
+    # prompt = (
+    #     "Summary: {input}\n"
+    #     "Based on this input summary, is the trial study solved or not. ”"
+    #     "If solved, output 1, otherwise output 0."
+    #     'Directly output the number.'
+    #     'Output:'
+    # )
+    
+    # load prompt src/eval/summarization/single/metrics/prompt.txt
     prompt = (
         "Summary: {input}\n"
-        "Based on this summary, is this trial study successuful or not. ”"
-        "If successful, output 1, otherwise output 0."
+        "Based on this input summary, is there enough evidence or not. ”"
+        "If enough, output 1, otherwise output 0."
+        "If the summary is non-informative, like repeat some meaningless words, output -1."
         'Directly output the number.'
         'Output:'
     )
-    
-    pdb.set_trace()
-    
+
     eval_results = {}
 
     save_dir = args.res_dir
     save_dir = os.path.join(save_dir, 'gpt_eval_conclusion')
     os.makedirs(save_dir, exist_ok=True)
-    
+
     for i in tqdm(range(len(preds))):
         target_summary = groundtruth.iloc[i]['summary']
         input_text = preds.iloc[i]['summary']
         
         prompt_text = prompt.replace('{input}', input_text)
-
+        
         attempt = 0
         while attempt < 20:
             try:
