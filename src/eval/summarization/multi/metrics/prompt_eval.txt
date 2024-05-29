@@ -11,8 +11,7 @@ Please evaluate the following generated summaries based on the given criteria. A
 Evaluation Criteria:
 
 Goal Alignment:
-Score 0: The goals described in both summaries are completely different.
-Score 1: The goals described have partial overlap or similarity.
+Whether the topic in the summary matches that in the groundtruth. If yes, output 1; otherwise 0.
 
-After assessing each criterion, provide a brief explanation for each score. Finally, summarize your scores in the following format for clarity:
-Goal Alignment: 0
+After assessing each criterion for the score. Finally, summarize your scores in the following format for clarity:
+Goal Alignment: 0. Only output the number without explanation.
