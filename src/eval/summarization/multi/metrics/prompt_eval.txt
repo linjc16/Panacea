@@ -1,4 +1,4 @@
-Please evaluate the following generated summaries based on the given criteria. Assign a score from 0 to 1 for each criterion, where 0 indicates the lowest performance and 1 indicates a higher level of performance.
+Please evaluate the following generated summaries based on the given criteria. Assign a score 0 or 1 for each criterion, where 0 indicates the lowest performance and 1 indicates a higher level of performance.
 
 [Groundtruth Summary]
 {groundtruth}
