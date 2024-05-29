@@ -30,14 +30,21 @@ if __name__ == "__main__":
     
     
     # load prompt src/eval/summarization/single/metrics/prompt.txt
+    # prompt = (
+    #     "Summary: {input}\n"
+    #     "Based on this summary, is this trial study successuful or not. ”"
+    #     "If successful, output 1, otherwise output 0."
+    #     'Directly output the number.'
+    #     'Output:'
+    # )
     prompt = (
         "Summary: {input}\n"
-        "Based on this summary, is this trial study successuful or not. ”"
-        "If successful, output 1, otherwise output 0."
+        "Based on this summary, is this trial study effective or not. ”"
+        "If effective, output 1, otherwise output 0."
         'Directly output the number.'
         'Output:'
     )
-    
+
     # if args.model_name == 'zephyr-7b':
     #     # for each summary, only extract text after "Summary:"
     #     preds['summary'] = preds['summary'].apply(lambda x: x.split('Summary:')[1].strip())

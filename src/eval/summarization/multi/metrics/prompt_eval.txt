@@ -1,17 +1,16 @@
 Please evaluate the following generated summaries based on the given criteria. Assign a score 0 or 1 for each criterion, where 0 indicates the lowest performance and 1 indicates a higher level of performance.
 
-[Groundtruth Summary]
-{groundtruth}
-[End of Groundtruth Summary]
-
 [Generated Summary]
 {input}
 [End of Generated Summary]
 
-Evaluation Criteria:
+[Groundtruth Summary]
+{groundtruth}
+[End of Groundtruth Summary]
 
-Goal Alignment:
-Whether the topic in the summary matches that in the groundtruth. If yes, output 1; otherwise 0.
+Evaluation Criteria:
+Topic Alignment:
+Whether the topic in generated summary is similar to the groundtruth summary. If similar, output 1; otherwise, output 0.
 
 After assessing each criterion for the score. Finally, summarize your scores in the following format for clarity:
-Goal Alignment: 0. Only output the number without explanation.
+Topic Alignment: 0. Only output the number without explanation.

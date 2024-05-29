@@ -39,6 +39,10 @@ if __name__ == '__main__':
     
     eval_res_pred = extract_last_digit_eval(preds)
 
+    # # only compare top 100
+    # eval_res_groundtruth = eval_res_groundtruth[:500]
+    # eval_res_pred = eval_res_pred[:500]
+
     # calculate matching rate
     matching_rate = sum([1 for i, j in zip(eval_res_pred, eval_res_groundtruth) if i == j]) / len(eval_res_pred)
 
