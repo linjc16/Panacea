@@ -51,12 +51,24 @@ model_colors = {
 #     'Panacea-Base': '#e7ad61'
 # }
 
+name_mapping_dict = {
+    'Goal alignment': 'Goal Alignment\n($n=2$)',
+    'Patient recruiting alignment': 'Patient Recruiting\nAlignment ($n=2$)',
+    'Study arm consistency': 'Study Arm\nConsistency ($n=2$)',
+    'Conclusion consistency': 'Conclusion\nConsistency ($n=2$)',
+    'All': 'All',
+}
+
 def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
-    ax = plot_settings_bar.get_wider_axis(4, 4)
+    ax = plot_settings_bar.get_wider_axis(2.5, 4)
 
-    # Data labels
-    data_labels = ['Criteria']
+    if 'ROUGE' not in name:
+        data_labels = [name_mapping_dict.get(name, name)]
+        y_label = 'Accuracy'
+    else:
+        data_labels = [""]
+        y_label = name
 
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
@@ -68,8 +80,10 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
     
-    plt.xticks(fontsize=10)
-    plt.yticks(fontsize=12)
+    plt.xticks(fontsize=18)
+    plt.yticks(fontsize=18)
+
+    plt.ylabel(y_label, fontsize=18)
 
     # Show the plot
     plt.savefig(f'visulization/bar_multi_sum_{name}.png', dpi=300, bbox_inches='tight')
