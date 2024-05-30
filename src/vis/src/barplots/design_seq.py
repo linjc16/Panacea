@@ -114,7 +114,7 @@ def get_nested_data_err(data):
 
 def load_mean_err(task):
     frames = []
-    for i in [0]:
+    for i in [0, 1, 2]:
         df = pd.read_csv(f'src/vis/results/{i}/sequential/{task}_design.csv')
         frames.append(df)
     combined = pd.concat(frames)

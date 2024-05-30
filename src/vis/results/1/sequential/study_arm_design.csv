@@ -1,9 +1,9 @@
 Model,BLEU,ROUGE-L,Clinical Accuracy
-LLaMA-2-7B,
-Mistral-7B,
-Zephyr-7B,
-BioMistral-7B,
-MedAlpaca-7B,
-Meditron-7B,
-Panacea-Base,
-Panacea,
+LLaMA-2-7B,0.0645,0.2130,0.4270
+Mistral-7B,0.0959,0.2694,0.3613
+Zephyr-7B,0.0760,0.2278,0.3394
+BioMistral-7B,0.0815,0.2489,0.2226
+MedAlpaca-7B,0.0359,0.1673,0.1861
+Meditron-7B,0.0153,0.0988,0.0712
+Panacea-Base,0.0371,0.1489,0.3285
+Panacea,0.2355,0.4390,0.6040
