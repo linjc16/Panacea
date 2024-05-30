@@ -39,9 +39,15 @@ def calculate_rouge_scores(predicted_caption_list, ground_truth_caption_list):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
+    parser.add_argument('--task', type=str, default='study_arms')
     parser.add_argument('--res_dir', type=str, default='data/downstream/design/results/study_arms')
     parser.add_argument('--model_name', type=str, default='llama2-7b')
     args = parser.parse_args()
+
+    filepath = f'data/downstream/design/parsed/{args.task}/test.json'
+    with open(filepath, 'r') as f:
+        test_dict = json.load(f)
+    
     
     with open(os.path.join(args.res_dir, f'{args.model_name}.json'), 'r') as f:
         results = json.load(f)
@@ -49,8 +55,9 @@ if __name__ == "__main__":
     preds = []
     groundtruth = []
     for key, value in results.items():
-        preds.extend(value['model_response'])
-        groundtruth.extend(value['groundtruth'])
+        if key in test_dict:
+            preds.extend(value['model_response'])
+            groundtruth.extend(value['groundtruth'])
     
     assert len(preds) == len(groundtruth)
     

@@ -6,15 +6,22 @@ import pdb
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('--task', type=str, default='study_arms')
     parser.add_argument('--res_dir', type=str, default='data/downstream/design/results/criteria/eval_entail')
     parser.add_argument('--model_name', type=str, default='llama2-7b')
     args = parser.parse_args()
 
+    filepath = f'data/downstream/design/parsed/{args.task}/test.json'
+    with open(filepath, 'r') as f:
+        test_dict = json.load(f)
+    
     with open(os.path.join(args.res_dir, f'{args.model_name}_eval.json'), 'r') as f:
         results = json.load(f)
     
     evals = []
     for key, value in results.items():
+        if key not in test_dict:
+            continue
         eval_res_list = value['eval_results']
         # extract the number after "Match prediction: " from the list
         match_pred = []

@@ -6,4 +6,5 @@ RES_DIR=data/downstream/design/results$EXP_ID/$TASK/eval_entail
 
 python src/eval/design/metrics/entail.py \
     --model_name $MODEL_NAME \
-    --res_dir $RES_DIR
+    --res_dir $RES_DIR \
+    --task $TASK
