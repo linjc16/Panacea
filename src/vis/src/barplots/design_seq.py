@@ -56,7 +56,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     ax = plot_settings_bar.get_wider_axis(4, 4)
 
     # Data labels
-    data_labels = ['Criteria', 'Study\nArms', 'Outcome\nMeasures']
+    data_labels = ['Study\nArms', 'Outcome\nMeasures']
 
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
@@ -70,7 +70,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     
     plt.xticks(fontsize=20)
     plt.yticks(fontsize=20)
-
+    
     # set y-label font size
     plt.ylabel(name, fontsize=20)
 
@@ -114,7 +114,7 @@ def get_nested_data_err(data):
 
 def load_mean_err(task):
     frames = []
-    for i in [0,1]:
+    for i in [0, 1, 2]:
         df = pd.read_csv(f'src/vis/results/{i}/sequential/{task}_design.csv')
         frames.append(df)
     combined = pd.concat(frames)
@@ -150,13 +150,13 @@ if __name__ == '__main__':
 
     for metric in metrics:
         nested_data = [
-            get_nested_data_single(criteria_data),
+            # get_nested_data_single(criteria_data),
             get_nested_data_single(study_arm_data),
             get_nested_data_single(outcome_measure_data),
         ]
 
         error_data = [
-            get_nested_data_err(error_criteria),
+            # get_nested_data_err(error_criteria),
             get_nested_data_err(error_study_arm),
             get_nested_data_err(error_outcome_measure),
         ]
