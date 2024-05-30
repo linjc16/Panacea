@@ -137,7 +137,7 @@ if __name__ == '__main__':
     mean_study_arm, error_study_arm = load_mean_err('study_arm')
     mean_outcome_measure, error_outcome_measure = load_mean_err('outcome_measure')
 
-    
+
     criteria_data = remove_unwanted_models(mean_criteria)
     study_arm_data = remove_unwanted_models(mean_study_arm)
     outcome_measure_data = remove_unwanted_models(mean_outcome_measure)
