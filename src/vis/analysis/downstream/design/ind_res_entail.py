@@ -95,7 +95,7 @@ if __name__ == '__main__':
             for model_name in model_names:
                 print(f"{model_name}:")
                 print(f"Model Response: {results_dict[model_name][key_list[index]]['model_response'][-2]}")
-            print(f"Groundtruth: {results_dict[model_name][key_list[index]]['groundtruth'][-2]}")
+            print(f"Groundtruth: {results_dict[model_name][key_list[index]]['groundtruth'][-1]}")
             print("\n")
         except:
             continue

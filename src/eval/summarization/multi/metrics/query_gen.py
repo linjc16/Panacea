@@ -159,7 +159,7 @@ if __name__ == '__main__':
         preds = groundtruth.copy()
     
     assert len(preds) == len(groundtruth)
-
+    
     instruction_prompt = "Given a summary used for a clinical trial, conduct exact extraction of related entities from the query and then generate a JSON object that can be used to query the database. If a field is not provided, leave it empty fiiled with 'N/A'."
     
     instruction_prompt += '\n\nQuery: {query}'
