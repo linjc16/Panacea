@@ -127,9 +127,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--model_path', type=str, default='/shared/jl254/data/linjc/trialfm/sft/panacea-chat-v2')
     parser.add_argument('--cache_dir', type=str, default='/data/linjc/hub')
-    parser.add_argument('--save_dir', type=str, default='data/downstream/summazization/single-trial/results/query_gen')
-
-    parser.add_argument('--res_dir', type=str, default='data/downstream/summazization/single-trial/results')
+    parser.add_argument('--save_dir', type=str, default='data/downstream/summazization/multi-trial/results/query_gen')
+    
+    parser.add_argument('--res_dir', type=str, default='data/downstream/summazization/multi-trial/results')
     parser.add_argument('--model_name', type=str, default='llama2-7b')
 
     args = parser.parse_args()
@@ -159,7 +159,7 @@ if __name__ == '__main__':
         preds = groundtruth.copy()
     
     assert len(preds) == len(groundtruth)
-    
+
     instruction_prompt = "Given a summary used for a clinical trial, conduct exact extraction of related entities from the query and then generate a JSON object that can be used to query the database. If a field is not provided, leave it empty fiiled with 'N/A'."
     
     instruction_prompt += '\n\nQuery: {query}'
