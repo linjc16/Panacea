@@ -1,0 +1,76 @@
+{
+    "0": {
+        "diseases": [
+            "Pneumonia, Viral, COVID-1",
+            "Infections, Respiratory Tract Dise",
+            "Lung Diseases",
+            "Coronavirus Infections",
+            "Virus Diseases",
+            "RNA Virus Infections",
+            "Nidovirales Infections",
+            "Respiratory Tract Infections",
+            "Coronaviridae Infections",
+            "Pneumonia, Viral"
+        ],
+        "interventions": [
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-"
+        ],
+        "sponsor": [
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. John R. Mascola",
+        "nctid": [
+            "NCT04368990",
+            "NCT04368990",
+            "NCT04368990",
+            "NCT04368990",
+            "NCT04368990",
+            "NCT04368990",
+            "NCT04368990",
+            "NCT04368990",
+            "NCT04368990",
+            "NCT04368990"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    }
+}

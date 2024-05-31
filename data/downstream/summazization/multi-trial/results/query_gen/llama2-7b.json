@@ -14854,5 +14854,3770 @@
             "YEAR": 2003.0,
             "OPERATOR": "on"
         }
+    },
+    "201": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "202": {
+        "diseases": [
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung"
+        ],
+        "interventions": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "203": {
+        "diseases": [
+            "Pneumonia, Viral, COVID-1",
+            "Infections, Respiratory Tract Dise",
+            "Lung Diseases, Coronavirus Infections",
+            "Coronaviridae Infections",
+            "RNA Virus Infections",
+            "Nidovirales Infections",
+            "Respiratory Tract Infections",
+            "Virus Diseases",
+            "Coronaviridae Infections",
+            "Respiratory Tract Infections, Vir"
+        ],
+        "interventions": [
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-"
+        ],
+        "sponsor": [
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "APPROVED",
+        "phase": "NOT APPLICABLE",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. Anthony S. Fauci",
+        "nctid": [
+            "NCT04362776",
+            "NCT04362776",
+            "NCT04362776",
+            "NCT04362776",
+            "NCT04362776",
+            "NCT04362776",
+            "NCT04362776",
+            "NCT04362776",
+            "NCT04362776",
+            "NCT04362776"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "204": {
+        "diseases": [
+            "",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H"
+        ],
+        "interventions": [
+            "",
+            "Drug: Sofosbuvir",
+            "Drug: Sofosbuvir",
+            "Drug: Sofosbuvir",
+            "Drug: Sofosbuvir",
+            "Drug: Sofosbuvir",
+            "Drug: Sofosbuvir",
+            "Drug: Sofosbuvir",
+            "Drug: Sofosbuvir",
+            "Drug: Sofosbuvir"
+        ],
+        "sponsor": [
+            "",
+            "Gilead Sciences, Inc.",
+            "Gilead Sciences, Inc.",
+            "Gilead Sciences, Inc.",
+            "Gilead Sciences, Inc.",
+            "Gilead Sciences, Inc.",
+            "Gilead Sciences, Inc.",
+            "Gilead Sciences, Inc.",
+            "Gilead Sciences, Inc.",
+            "Gilead Sciences, Inc."
+        ],
+        "status": "APPROVED_FOR_MARKETING",
+        "phase": "PHASE3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT01325466",
+            "NCT01325466",
+            "NCT01325466",
+            "NCT01325466",
+            "NCT01325466",
+            "NCT01325466",
+            "NCT01325466",
+            "NCT01325466",
+            "NCT01325466",
+            "NCT01325466"
+        ],
+        "locations": [
+            "",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2012.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2012.0,
+            "OPERATOR": "on"
+        }
+    },
+    "205": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "206": {
+        "diseases": [
+            "Colles' Fracture",
+            "Fracture",
+            "Wrist Fracture",
+            "Wrist Injuries",
+            "Wrist Injuries, Wrist Fract",
+            "Wrist Fractures",
+            "Wrist Injuries, Colles' F",
+            "Wrist Injuries, Wrist Fract",
+            "Wrist Injuries, Wrist Fract",
+            "Wrist Injuries, Wrist Fract"
+        ],
+        "interventions": [
+            "Bier's block",
+            "Haematoma block",
+            "Hyaluronidase",
+            "Clonidine",
+            "Muscle relaxants",
+            "Diazepam",
+            "Bupivacaine",
+            "Lidocaine",
+            "Ropivacaine",
+            "Dexmedetomidine"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        }
+    },
+    "207": {
+        "diseases": [
+            "Ulcerative Colitis",
+            "Crohn Disease",
+            "Glucocorticoid Dependence",
+            "Glucocorticoid Resistance",
+            "Steroid Dependence",
+            "Steroid Resistance",
+            "Steroid Refractory",
+            "Steroid Resistant",
+            "Steroid Dependent",
+            "Steroid Refractory Ulcerative Col"
+        ],
+        "interventions": [
+            "Infliximab",
+            "Methylprednisolone",
+            "Placebo",
+            "Drug: Infliximab",
+            "Drug: Methylprednisolone",
+            "Drug: Placebo",
+            "Drug: Infliximab",
+            "Drug: Infliximab",
+            "Drug: Infliximab",
+            "Drug: Infliximab"
+        ],
+        "sponsor": [
+            "Centocor, Inc.",
+            "Centocor, Inc.",
+            "Centocor, Inc.",
+            "Centocor, Inc.",
+            "Centocor, Inc.",
+            "Centocor, Inc.",
+            "Centocor, Inc.",
+            "Centocor, Inc.",
+            "Centocor, Inc.",
+            "Centocor, Inc."
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE 3",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT0008176",
+            "NCT0008176",
+            "NCT0008176",
+            "NCT0008176",
+            "NCT0008176",
+            "NCT0008176",
+            "NCT0008176",
+            "NCT0008176",
+            "NCT0008176",
+            "NCT0008176"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "208": {
+        "diseases": [
+            "Pneumonia, Viral, COVID-1",
+            "Infections, Respiratory Tract Dise",
+            "Lung Diseases",
+            "Coronavirus Infections",
+            "Virus Diseases",
+            "RNA Virus Infections",
+            "Nidovirales Infections",
+            "Respiratory Tract Infections",
+            "Coronaviridae Infections",
+            "Pneumonia, Viral"
+        ],
+        "interventions": [
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-"
+        ],
+        "sponsor": [
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. John R. Mascola",
+        "nctid": [
+            "NCT04368726",
+            "NCT04368726",
+            "NCT04368726",
+            "NCT04368726",
+            "NCT04368726",
+            "NCT04368726",
+            "NCT04368726",
+            "NCT04368726",
+            "NCT04368726",
+            "NCT04368726"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "209": {
+        "diseases": [
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis"
+        ],
+        "interventions": [
+            "pass",
+            "pass",
+            "pass",
+            "pass",
+            "pass",
+            "pass",
+            "pass",
+            "pass",
+            "pass",
+            "pass"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        }
+    },
+    "210": {
+        "diseases": [
+            "Schizophrenia",
+            "Schizoaffective Disorder",
+            "Schizophreniform Disorder",
+            "Bipolar Disorder",
+            "Mood Disorder",
+            "Depressive Disorder",
+            "Mental Disorder",
+            "Psychotic Disorder",
+            "Bipolar and Related Disorders",
+            "Mood Disorders"
+        ],
+        "interventions": [
+            "Eicosapentaenoic Acid (E"
+        ],
+        "sponsor": [
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG"
+        ],
+        "status": "COMPLETED",
+        "phase": "NOT APPLICABLE",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Novartis Pharma AG",
+        "nctid": [
+            "NCT00221311",
+            "NCT00221311",
+            "NCT00221311",
+            "NCT00221311",
+            "NCT00221311",
+            "NCT00221311",
+            "NCT00221311",
+            "NCT00221311",
+            "NCT00221311",
+            "NCT00221311"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "211": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Colonic Diseases",
+            "Colonic Neoplasms",
+            "Colorectal Neoplasms",
+            "Intestinal Neoplasms",
+            "Intestinal Diseases"
+        ],
+        "interventions": [
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "212": {
+        "diseases": [
+            "Infertility",
+            "Infertility, Female",
+            "Infertility, Female, In Vit",
+            "Infertility, Female, In Vit",
+            "Infertility, Female, In Vit",
+            "Infertility, Female, In Vit",
+            "Infertility, Female, In Vit",
+            "Infertility, Female, In Vit",
+            "Infertility, Female, In Vit",
+            "Infertility, Female, In Vit"
+        ],
+        "interventions": [
+            "Drug: GnRH agonist",
+            "Drug: GnRH antagonist",
+            "Drug: GnRH agonist",
+            "Drug: GnRH antagonist",
+            "Drug: GnRH agonist",
+            "Drug: GnRH antagonist",
+            "Drug: GnRH agonist",
+            "Drug: GnRH antagonist",
+            "Drug: GnRH agonist",
+            "Drug: GnRH antagonist"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "213": {
+        "diseases": [
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H"
+        ],
+        "interventions": [
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin"
+        ],
+        "sponsor": [
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "APPROVED_FOR_MARKETING",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "National Institute of Allergy and Infectious",
+        "nctid": [
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 1998.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "214": {
+        "diseases": [
+            "Common Cold",
+            "Rhinitis",
+            "Virus Diseases",
+            "Infections",
+            "Respiratory Tract Diseases",
+            "Nose Diseases",
+            "Rhinorrhea",
+            "Virus Diseases, RNA Virus In",
+            "Respiratory Syncytial Virus",
+            "Respiratory Tract Infections"
+        ],
+        "interventions": [
+            "Steam Inhalation",
+            "Drug: Placebo",
+            "Drug: Placebo",
+            "Drug: Placebo",
+            "Drug: Placebo",
+            "Drug: Placebo",
+            "Drug: Placebo",
+            "Drug: Placebo",
+            "Drug: Placebo",
+            "Drug: Placebo"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "215": {
+        "diseases": [
+            "Psychotic Depression",
+            "Major Depression",
+            "Depressive Disorder",
+            "Depressive Disorder, Major",
+            "Depressive Disorder, Treatment-Res",
+            "Depressive Disorder, Treatment-Res",
+            "Depressive Disorder, Treatment-Res",
+            "Depressive Disorder, Treatment-Res",
+            "Depressive Disorder, Treatment-Res",
+            "Depressive Disorder, Treatment-Res"
+        ],
+        "interventions": [
+            "Drug: Mifepristone",
+            "Drug: Ketoconazole",
+            "Drug: Metyrapone",
+            "Drug: Mifepristone",
+            "Drug: Metyrapone",
+            "Drug: Metyrapone",
+            "Drug: Metyrapone",
+            "Drug: Metyrapone",
+            "Drug: Metyrapone",
+            "Drug: Metyrapone"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "216": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "217": {
+        "diseases": [
+            "bladder cancer",
+            "cervical cancer",
+            "rectal cancer",
+            "cancer of the cervix",
+            "cancer of the rectum",
+            "cancer of the bladder",
+            "cancer of the uterus",
+            "uterine cancer",
+            "uterine cervical cancer",
+            "uterine neoplasms"
+        ],
+        "interventions": [
+            "hyperthermia",
+            "radiation: radiation therapy",
+            "radiation: external beam radiation therapy",
+            "radiation: preoperative radiation therapy",
+            "radiation: radiation therapy with hyperthermia",
+            "radiation: radiation therapy with endocavitary",
+            "radiation: radiation therapy with endocavitary",
+            "radiation: radiation therapy with endocavitary",
+            "radiation: radiation therapy with endocavitary",
+            "radiation: radiation therapy with endocavitary"
+        ],
+        "sponsor": [
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)",
+            "National Cancer Institute (NCI)"
+        ],
+        "status": "COMPLETED",
+        "phase": "NOT APPLICABLE",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 1990.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "218": {
+        "diseases": [
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate",
+            "Cleft Lip and Palate"
+        ],
+        "interventions": [
+            "Breast Feeding",
+            "Breast Feeding",
+            "Breast Feeding",
+            "Breast Feeding",
+            "Breast Feeding",
+            "Breast Feeding",
+            "Breast Feeding",
+            "Breast Feeding",
+            "Breast Feeding",
+            "Breast Feeding"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        }
+    },
+    "219": {
+        "diseases": [
+            "Myopia",
+            "Myopia, High",
+            "Myopia, Moderate",
+            "Myopia, Low",
+            "Myopia, Very Low",
+            "Myopia, Moderately High",
+            "Myopia, Highly Myopic",
+            "Myopia, Extremely High",
+            "Myopia, Extremely High, Bil",
+            "Myopia, Extremely High, Un"
+        ],
+        "interventions": [
+            "Artisan lens implantation",
+            "LASIK",
+            "PRK",
+            "Visian Toric Implantable Collamer L",
+            "Artisan lens implantation",
+            "LASIK",
+            "PRK",
+            "Visian Toric Implantable Collamer L",
+            "Artisan lens implantation",
+            "LASIK"
+        ],
+        "sponsor": [
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK"
+        ],
+        "status": "COMPLETED",
+        "phase": "NOT APPLICABLE",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "NIDEK",
+        "nctid": [
+            "NCT00211111",
+            "NCT00211111",
+            "NCT00211111",
+            "NCT00211111",
+            "NCT00211111",
+            "NCT00211111",
+            "NCT00211111",
+            "NCT00211111",
+            "NCT00211111",
+            "NCT00211111"
+        ],
+        "locations": [
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK",
+            "NIDEK"
+        ],
+        "start_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "220": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "Northwestern University",
+            "Northwestern University",
+            "Northwestern University",
+            "Northwestern University",
+            "Northwestern University",
+            "Northwestern University",
+            "Northwestern University",
+            "Northwestern University",
+            "Northwestern University",
+            "Northwestern University"
+        ],
+        "status": "RECRUITING",
+        "phase": "NOT_APPLICABLE",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. Suresh Chari",
+        "nctid": [
+            "NCT01221121",
+            "NCT01221121",
+            "NCT01221121",
+            "NCT01221121",
+            "NCT01221121",
+            "NCT01221121",
+            "NCT01221121",
+            "NCT01221121",
+            "NCT01221121",
+            "NCT01221121"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        }
+    },
+    "221": {
+        "diseases": [
+            "Schizophrenia",
+            "Psychotic Disorders",
+            "Mental Disorders",
+            "Schizophrenia Spectrum and Other Psych",
+            "Psychotic Disorders, Chronic",
+            "Schizophrenia, Paranoid Type",
+            "Schizophrenia, Disorganized Type",
+            "Schizophrenia, Catatonic Type",
+            "Schizophrenia, Undifferentiated",
+            "Schizophrenia, Residual Type"
+        ],
+        "interventions": [
+            "Drug: Penfluridol",
+            "Drug: Flupenthixol decano",
+            "Drug: Chlorpromazine",
+            "Drug: Thiothixene",
+            "Drug: Fluphenazine decanoate",
+            "Drug: Fluphenazine enanthate",
+            "Drug: Fluphenazine hydrochlor",
+            "Drug: Fluphenazine decanoate",
+            "Drug: Fluphenazine enanthate",
+            "Drug: Fluphenazine hydrochlor"
+        ],
+        "sponsor": [
+            "Eli Lilly and Company",
+            "Eli Lilly and Company",
+            "Eli Lilly and Company",
+            "Eli Lilly and Company",
+            "Eli Lilly and Company",
+            "Eli Lilly and Company",
+            "Eli Lilly and Company",
+            "Eli Lilly and Company",
+            "Eli Lilly and Company",
+            "Eli Lilly and Company"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 1990.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "222": {
+        "diseases": [
+            "Unterscheidung",
+            "Hinweis",
+            "Einzeln",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung",
+            "Unterscheidung"
+        ],
+        "interventions": [
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis",
+            "Hinweis"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        }
+    },
+    "223": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Colonic Diseases",
+            "Colonic Neoplasms",
+            "Intestinal Neoplasms",
+            "Intestinal Diseases",
+            "Colorectal Neoplasms"
+        ],
+        "interventions": [
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy",
+            "Procedure: Colonoscopy"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2018.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2018.0,
+            "OPERATOR": "on"
+        }
+    },
+    "224": {
+        "diseases": [
+            "Chronic Constipation",
+            "Opioid-Induced Constipation",
+            "Faecal Impaction",
+            "Constipation",
+            "Constipation in Children",
+            "Constipation in Children",
+            "Constipation in Children",
+            "Constipation in Children",
+            "Constipation in Children",
+            "Constipation in Children"
+        ],
+        "interventions": [
+            "Lactulose",
+            "Polyethylene Glycol",
+            "Polyethylene Glycol",
+            "Polyethylene Glycol",
+            "Polyethylene Glycol",
+            "Polyethylene Glycol",
+            "Polyethylene Glycol",
+            "Polyethylene Glycol",
+            "Polyethylene Glycol",
+            "Polyethylene Glycol"
+        ],
+        "sponsor": [
+            "Norgine",
+            "Norgine",
+            "Norgine",
+            "Norgine",
+            "Norgine",
+            "Norgine",
+            "Norgine",
+            "Norgine",
+            "Norgine",
+            "Norgine"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT00322112",
+            "NCT00322112",
+            "NCT00322112",
+            "NCT00322112",
+            "NCT00322112",
+            "NCT00322112",
+            "NCT00322112",
+            "NCT00322112",
+            "NCT00322112",
+            "NCT00322112"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "225": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "226": {
+        "diseases": [
+            "Low Back Pain",
+            "Chronic Low Back Pain",
+            "Non-specific Low Back Pain",
+            "Sub-acute Low Back Pain",
+            "Chronic Pain",
+            "Pain",
+            "Musculoskeletal Diseases",
+            "Muscular Diseases",
+            "Musculoskeletal Pain",
+            "Neurologic Manifestations"
+        ],
+        "interventions": [
+            "Massage Therapy",
+            "Acupuncture",
+            "Relaxation Therapy",
+            "Acupressure",
+            "Physical Therapy",
+            "Manual Therapy",
+            "Exercise Therapy",
+            "Aromatherapy",
+            "Essential Oil",
+            "Essential Oils"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "227": {
+        "diseases": [
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin"
+        ],
+        "interventions": [
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin"
+        ],
+        "sponsor": [
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin"
+        ],
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Hinweis Hinweis Hin",
+        "nctid": [
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin"
+        ],
+        "locations": [
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin",
+            "Hinweis Hinweis Hin"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "228": {
+        "diseases": [
+            "Patent Ductus Arteriosus",
+            "Congestive Heart Failure",
+            "Premature Birth",
+            "Infant, Newborn",
+            "Infant, Premature",
+            "Heart Diseases",
+            "Cardiovascular Diseases",
+            "Congenital Abnormalities",
+            "Heart Defects, Congenital",
+            "Cardiovascular Abnormalities"
+        ],
+        "interventions": [
+            "Fluid Restriction",
+            "Fluid Restriction",
+            "Fluid Restriction",
+            "Fluid Restriction",
+            "Fluid Restriction",
+            "Fluid Restriction",
+            "Fluid Restriction",
+            "Fluid Restriction",
+            "Fluid Restriction",
+            "Fluid Restriction"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "229": {
+        "diseases": [
+            "",
+            "Sleep Disorders, Intrinsic, Sleep",
+            "Sleep Disorders, Dyssomnias",
+            "Sleep Initiation and Maintenance Disorders",
+            "Nervous System Diseases",
+            "Mental Disorders",
+            "Sleep Wake Disorders",
+            "Parasomnias",
+            "Sleep Parasomnias",
+            "Nightmare Disorder"
+        ],
+        "interventions": [
+            "",
+            "Behavioral: Sleep Hygiene Education",
+            "Behavioral: Sleep Hygiene Education",
+            "Behavioral: Sleep Hygiene Education",
+            "Behavioral: Sleep Hygiene Education",
+            "Behavioral: Sleep Hygiene Education",
+            "Behavioral: Sleep Hygiene Education",
+            "Behavioral: Sleep Hygiene Education",
+            "Behavioral: Sleep Hygiene Education",
+            "Behavioral: Sleep Hygiene Education"
+        ],
+        "sponsor": [
+            "",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "APPROVED",
+        "phase": "NOT APPLICABLE",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. Xiaoyan Sun",
+        "nctid": [
+            "NCT012121",
+            "NCT012121",
+            "NCT012121",
+            "NCT012121",
+            "NCT012121",
+            "NCT012121",
+            "NCT012121",
+            "NCT012121",
+            "NCT012121",
+            "NCT012121"
+        ],
+        "locations": [
+            "",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2010.0,
+            "OPERATOR": "on"
+        }
+    },
+    "230": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "231": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "232": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "233": {
+        "diseases": [
+            "Stroke",
+            "Chronic Stroke",
+            "Cerebrovascular Disorders",
+            "Central Nervous System Diseases",
+            "Brain Diseases",
+            "Nervous System Diseases",
+            "Cardiovascular Diseases",
+            "Stroke, Chronic",
+            "Ischemic Stroke",
+            "Cerebrovascular Disorders, Ische"
+        ],
+        "interventions": [
+            "Exercise",
+            "Physiotherapy",
+            "Home-based physical therapy",
+            "Task-oriented intervention",
+            "Dual-task exercise program",
+            "Task-oriented progressive resistance strength training",
+            "Physical therapy, conventional",
+            "Physical therapy, task-oriented",
+            "Physical therapy, dual-task",
+            "Physical therapy, progressive resistance strength training"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        }
+    },
+    "234": {
+        "diseases": [
+            "Coronary Artery Disease",
+            "Coronary Disease",
+            "Arteriosclerosis",
+            "Heart Diseases",
+            "Cardiovascular Diseases",
+            "Myocardial Ischemia",
+            "Vascular Diseases",
+            "Arterial Occlusive Diseases",
+            "Heart Arrest",
+            "Cardiac Arrest"
+        ],
+        "interventions": [
+            "Procedure: Coronary Artery Byp",
+            "Procedure: Percutaneous Coronary Inter",
+            "Procedure: Coronary Artery Byp",
+            "Procedure: Percutaneous Coronary Inter",
+            "Procedure: Coronary Artery Byp",
+            "Procedure: Percutaneous Coronary Inter",
+            "Procedure: Coronary Artery Byp",
+            "Procedure: Percutaneous Coronary Inter",
+            "Procedure: Coronary Artery Byp",
+            "Procedure: Percutaneous Coronary Inter"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "235": {
+        "diseases": [
+            "Post-herpetic Neuralgia",
+            "Neuralgia, Trigeminal",
+            "Neuralgia, Facial",
+            "Neuralgia, Diabetic",
+            "Neuromuscular Diseases",
+            "Herpes Zoster, Postherpetic Ne",
+            "Neurologic Manifestations",
+            "Herpes Zoster, Herpesviridae In",
+            "Herpes Zoster, Varicella Zoster",
+            "Herpesviridae Infections"
+        ],
+        "interventions": [
+            "Prednisolone",
+            "Carbamazepine",
+            "Nortriptyline-Fluphenazine",
+            "Pimozide",
+            "Clomipramine",
+            "Tegretol",
+            "Drug: Prednisolone",
+            "Drug: Carbamazepine",
+            "Drug: Nortriptyline-Flup",
+            "Drug: Pimozide"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "236": {
+        "diseases": [
+            "Pneumonia, Viral, COVID-1",
+            "Infections, Respiratory Tract Dise",
+            "Lung Diseases",
+            "Coronavirus Infections",
+            "Virus Diseases",
+            "RNA Virus Infections",
+            "Nidovirales Infections",
+            "Respiratory Tract Infections",
+            "Coronaviridae Infections",
+            "Pneumonia, Viral"
+        ],
+        "interventions": [
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-",
+            "Biological: SARS-CoV-"
+        ],
+        "sponsor": [
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)",
+            "National Institutes of Health (NIH)"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. John R. Mascola",
+        "nctid": [
+            "NCT04368496",
+            "NCT04368496",
+            "NCT04368496",
+            "NCT04368496",
+            "NCT04368496",
+            "NCT04368496",
+            "NCT04368496",
+            "NCT04368496",
+            "NCT04368496",
+            "NCT04368496"
+        ],
+        "locations": [
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States",
+            "United States"
+        ],
+        "start_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2020.0,
+            "OPERATOR": "on"
+        }
+    },
+    "237": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "238": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "239": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "240": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "241": {
+        "diseases": [
+            "Influenza",
+            "Influenza-like Illness",
+            "Morbidity",
+            "Mortality",
+            "Health Service Use",
+            "Influenza Outbreaks",
+            "Influenza Transmission",
+            "Healthcare Worker Vaccination",
+            "Influenza Vaccination",
+            "Influenza Vaccination Coverage"
+        ],
+        "interventions": [
+            "Influenza Vaccine",
+            "Healthcare Worker Vaccination",
+            "Influenza Vaccination Coverage",
+            "Influenza Vaccination Uptake",
+            "Influenza Vaccination Uptake",
+            "Influenza Vaccination Uptake",
+            "Influenza Vaccination Uptake",
+            "Influenza Vaccination Uptake",
+            "Influenza Vaccination Uptake",
+            "Influenza Vaccination Uptake"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "242": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "243": {
+        "diseases": [
+            "Cancer",
+            "Anorexia/Cachexia",
+            "Advanced Cancer",
+            "Cachexia",
+            "Anorexia",
+            "Weight Loss",
+            "Nutritional Status",
+            "Appetite",
+            "Weight Gain",
+            "Well-Being"
+        ],
+        "interventions": [
+            "Drug: Fish Oil Supplements",
+            "Drug: N-3 fatty acid en",
+            "Drug: EPA Supplementation",
+            "Drug: Dietary omega-3 poly",
+            "Drug: Megestrol Acetate",
+            "Drug: Placebo",
+            "Drug: Vitamin E",
+            "Drug: Placebo",
+            "Drug: Placebo",
+            "Drug: Placebo"
+        ],
+        "sponsor": [
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI",
+            "NCI"
+        ],
+        "status": "TERMINATED",
+        "phase": "NOT APPLICABLE",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT0001121",
+            "NCT0001122",
+            "NCT0001123",
+            "NCT0001124",
+            "NCT0001125",
+            "NCT0001126",
+            "NCT0001127",
+            "NCT0001128",
+            "NCT0001129",
+            "NCT0001130"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "244": {
+        "diseases": [
+            "Cervical Intraepithelial Ne",
+            "Cervical Neoplasms",
+            "Cervical Diseases",
+            "Genital Diseases",
+            "Neoplasms by Site",
+            "Urogenital Diseases",
+            "Genital Neoplasms, Female",
+            "Uterine Cervical Neoplasms",
+            "Uterine Diseases",
+            "Urogenital Neoplasms"
+        ],
+        "interventions": [
+            "Cocaine",
+            "Lidocaine",
+            "Benzocaine",
+            "Prilocaine",
+            "Felypressin",
+            "Lignocaine",
+            "Drug: Lidocaine",
+            "Drug: Benzocaine",
+            "Drug: Prilocaine",
+            "Drug: Felypressin"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "245": {
+        "diseases": [
+            "Child Abuse",
+            "Sexual Abuse",
+            "Sexual Assault",
+            "Child Sexual Abuse",
+            "Child Maltreatment",
+            "Child Abuse and Neglect",
+            "Child Sexual Abuse and Neglect",
+            "Child Sexual Abuse Prevention",
+            "Child Sexual Abuse Prevention Programs",
+            "Child Sexual Abuse Prevention Programs for"
+        ],
+        "interventions": [
+            "Behavioral: Child Abuse Prevention Program",
+            "Behavioral: Child Sexual Abuse Prevention",
+            "Behavioral: Child Sexual Abuse Prevention",
+            "Behavioral: Child Sexual Abuse Prevention",
+            "Behavioral: Child Sexual Abuse Prevention",
+            "Behavioral: Child Sexual Abuse Prevention",
+            "Behavioral: Child Sexual Abuse Prevention",
+            "Behavioral: Child Sexual Abuse Prevention",
+            "Behavioral: Child Sexual Abuse Prevention",
+            "Behavioral: Child Sexual Abuse Prevention"
+        ],
+        "sponsor": [
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N",
+            "National Institute of Child Health and Human Development (N"
+        ],
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "N/A",
+        "nctid": [
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000",
+            "NCT00000000"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 1999.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "246": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "247": {
+        "diseases": [
+            "Hypertension",
+            "Cardiovascular Diseases",
+            "Hypertension, Essential",
+            "Hypertension, Secondary",
+            "Hypertension, Malignant",
+            "Hypertension, Renovascular",
+            "Hypertension, Portal",
+            "Hypertension, Pulmonary",
+            "Hypertension, Pregnancy-Ind",
+            "Hypertension, Obesity-Related"
+        ],
+        "interventions": [
+            "Behavioral: Weight Loss",
+            "Behavioral: Sodium Reduction",
+            "Behavioral: Weight Loss and Sodium Red",
+            "Behavioral: Potassium-Enriched",
+            "Behavioral: Weight Loss and Sodium Red",
+            "Behavioral: Weight Loss and Sodium Red",
+            "Behavioral: Weight Loss and Sodium Red",
+            "Behavioral: Weight Loss and Sodium Red",
+            "Behavioral: Weight Loss and Sodium Red",
+            "Behavioral: Weight Loss and Sodium Red"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "N/A"
+        }
+    },
+    "248": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
+    },
+    "249": {
+        "diseases": [
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H",
+            "Hepatitis C, Chronic, H"
+        ],
+        "interventions": [
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin",
+            "Drug: Ribavirin"
+        ],
+        "sponsor": [
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG",
+            "Novartis Pharma AG"
+        ],
+        "status": "TERMINATED",
+        "phase": "PHASE4",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Dr. med. Andreas Krause",
+        "nctid": [
+            "NCT00101010",
+            "NCT00101010",
+            "NCT00101010",
+            "NCT00101010",
+            "NCT00101010",
+            "NCT00101010",
+            "NCT00101010",
+            "NCT00101010",
+            "NCT00101010",
+            "NCT00101010"
+        ],
+        "locations": [
+            "Germany",
+            "Germany",
+            "Germany",
+            "Germany",
+            "Germany",
+            "Germany",
+            "Germany",
+            "Germany",
+            "Germany",
+            "Germany"
+        ],
+        "start_year": {
+            "YEAR": 1999.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2000.0,
+            "OPERATOR": "on"
+        }
+    },
+    "250": {
+        "diseases": [
+            "Hinweis",
+            "Bedeut",
+            "Einzeln",
+            "Hinweis",
+            "Einzeln",
+            "Hinweis",
+            "Einzeln",
+            "Hinweis",
+            "Einzeln",
+            "Hinweis"
+        ],
+        "interventions": [
+            "Einzeln",
+            "Hinweis",
+            "Einzeln",
+            "Hinweis",
+            "Einzeln",
+            "Hinweis",
+            "Einzeln",
+            "Hinweis",
+            "Einzeln",
+            "Hinweis"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 0.0,
+            "OPERATOR": "on"
+        }
+    },
+    "251": {
+        "diseases": [
+            "Cancer",
+            "Neoplasms",
+            "Neoplasms by Site",
+            "Digestive System Neoplasms",
+            "Digestive System Diseases",
+            "Pancreatic Diseases",
+            "Endocrine System Diseases",
+            "Endocrine Gland Neoplasms",
+            "Pancreatic Neoplasms",
+            "Islet Cell Tumors"
+        ],
+        "interventions": [
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound",
+            "Procedure: Endoscopic ultrasound"
+        ],
+        "sponsor": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "status": "N/A",
+        "phase": "N/A",
+        "study_type": "N/A",
+        "person_name": "N/A",
+        "nctid": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "locations": [
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A",
+            "N/A"
+        ],
+        "start_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2019.0,
+            "OPERATOR": "on"
+        }
     }
 }
