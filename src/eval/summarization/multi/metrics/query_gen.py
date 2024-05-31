@@ -140,23 +140,23 @@ if __name__ == '__main__':
     cache_dir = args.cache_dir
     
     tokenizer, model = load_model(model_path, cache_dir)
-
-    groundtruth = pd.read_csv("data/downstream/summazization/single-trial/test.csv")
-    groundtruth.rename(columns={'summary_text': 'summary'}, inplace=True)
-
+    
+    with open('data/downstream/summazization/multi-trial/test.json', 'r') as f:
+        data = json.load(f)
+    
+    # for each key, extract value['target'], merge into a dataframe
+    groundtruth = {'id': [], 'summary': []}
+    for key, value in tqdm(data.items()):
+        groundtruth['id'].append(key)
+        groundtruth['summary'].append(value['target'])
+    groundtruth = pd.DataFrame(groundtruth)
+    
     if args.model_name != 'groundtruth':
         preds = pd.read_csv(os.path.join(args.res_dir, f'{args.model_name}.csv'))
-
         preds['summary'] = preds['summary'].apply(lambda x: str(x))
         preds['summary'] = preds['summary'].apply(lambda x: x.strip())
-        
-        if args.model_name == 'zephyr-7b':
-            # for each summary, only extract text after "Summary:"
-            preds['summary'] = preds['summary'].apply(lambda x: x.split('Summary:')[1].strip())
-    
     else:
         preds = groundtruth.copy()
-    
     
     assert len(preds) == len(groundtruth)
 

@@ -1,0 +1,76 @@
+{
+    "0": {
+        "diseases": [
+            "Fibromyalgia",
+            "Chronic Migraine",
+            "Vulvodynia",
+            "Control Group",
+            "Healthy Volunteers",
+            "Painful Conditions",
+            "Chronic Pain",
+            "Central Sensitization",
+            "Chronic Pain Syndromes",
+            "Painful Conditions, Neurologic"
+        ],
+        "interventions": [
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment",
+            "Behavioral: Psychological treatment"
+        ],
+        "sponsor": [
+            "University of Pavia",
+            "University of Pavia",
+            "University of Pavia",
+            "University of Pavia",
+            "University of Pavia",
+            "University of Pavia",
+            "University of Pavia",
+            "University of Pavia",
+            "University of Pavia",
+            "University of Pavia"
+        ],
+        "status": "RECRUITING",
+        "phase": "NOT APPLICABLE",
+        "study_type": "INTERVENTIONAL",
+        "person_name": "Federica Galli",
+        "nctid": [
+            "NCT03211211",
+            "NCT03211211",
+            "NCT03211211",
+            "NCT03211211",
+            "NCT03211211",
+            "NCT03211211",
+            "NCT03211211",
+            "NCT03211211",
+            "NCT03211211",
+            "NCT03211211"
+        ],
+        "locations": [
+            "Italy",
+            "Italy",
+            "Italy",
+            "Italy",
+            "Italy",
+            "Italy",
+            "Italy",
+            "Italy",
+            "Italy",
+            "Italy"
+        ],
+        "start_year": {
+            "YEAR": 2018.0,
+            "OPERATOR": "on"
+        },
+        "end_year": {
+            "YEAR": 2021.0,
+            "OPERATOR": "on"
+        }
+    }
+}

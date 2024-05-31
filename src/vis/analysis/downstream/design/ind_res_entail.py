@@ -28,7 +28,7 @@ def calculate_entail_acc(results):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--task', type=str, default='criteria')
-    parser.add_argument('--res_dir', type=str, default='data/downstream/design/results/criteria/eval_entail')
+    parser.add_argument('--res_dir', type=str, default='data/downstream/design/results1/sequential/criteria/eval_entail')
     args = parser.parse_args()
 
     # model name list
@@ -65,7 +65,7 @@ if __name__ == '__main__':
     # merge del_end_sent to a dict
     del_end_sent = {key: value for item in del_end_sent for key, value in item.items()}
 
-    response_dir = f'data/downstream/design/results/{args.task}'
+    response_dir = f'data/downstream/design/results1/sequential/{args.task}'
     results_dict = {}
     for model_name in model_names:
         with open(os.path.join(response_dir, f'{model_name}.json'), 'r') as f:

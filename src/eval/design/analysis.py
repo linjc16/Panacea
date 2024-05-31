@@ -21,7 +21,7 @@ if __name__ == '__main__':
     res_dir = f'data/downstream/design/results/{args.task}'
 
     filepaths = glob.glob(f'{res_dir}/*.json')
-
+    
     
 
     for turn_id in [-2, -3, -4, -5, -6, -7, -8, -9, -10]:
@@ -51,6 +51,6 @@ if __name__ == '__main__':
                 'rouge': rouge_score
             }
         print(f"Turn {turn_id}")
-
+        
         for key, value in res_dict.items():
             print(f'Model: {key}, BLEU: {value["bleu"]}, ROUGE: {value["rouge"]}')
