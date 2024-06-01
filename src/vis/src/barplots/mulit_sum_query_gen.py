@@ -64,7 +64,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     ax = plot_settings_bar.get_wider_axis(2.5, 4)
     
-    
+
     y_label = 'Jaccard Index'
     # name only extract strings between brackets   
     label = name[name.find("(")+1:name.find(")")]
@@ -83,7 +83,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
-
+    
     plt.ylabel(y_label, fontsize=18)
 
     # Show the plot
