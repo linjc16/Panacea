@@ -58,7 +58,7 @@ if __name__ == '__main__':
         'Clinical trial eligibility criteria: {criteria}\n'
         'Label: {label}\n'
         'Model prediction: {pred}\n\n'
-        'Output the error reason in a list format in the last line, e.g., Reason type: [1] or [1, 2].\n\n'
+        'Output the error reason without explanation in a list format in the last line, e.g., Reason type: [1] or [1, 2].\n\n'
     )
 
     with open('src/vis/analysis/downstream/matching/hallucination/inputs.json', 'r') as f:
@@ -86,7 +86,7 @@ if __name__ == '__main__':
             attempt = 0
             while attempt < 10:
                 try:
-                    reason = chat_haiku(prompt)
+                    reason = chat_sonnet(prompt)
                     break
                 except:
                     attempt += 1
