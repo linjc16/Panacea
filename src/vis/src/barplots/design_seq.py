@@ -120,7 +120,7 @@ def load_mean_err(task):
     combined = pd.concat(frames)
     mean = combined.groupby('Model').mean()
     error = combined.groupby('Model').std() / np.sqrt(len(mean))
-
+    
     # 'Model' is the first column name
     mean = mean.reset_index()
     error = error.reset_index()
