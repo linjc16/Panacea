@@ -2,6 +2,7 @@ import json
 import re
 import os
 import argparse
+import pdb
 
 import sys
 sys.path.append('./')
@@ -38,7 +39,29 @@ if __name__ == '__main__':
     
     
     assert len(preds) == len(labels)
+    
 
+    prompt = (
+        'Given a patient note, clinical tiral eligibility criteria, and a label, help me understand why the model made a wrong prediction. '
+        'You can choose one or more reasons from the following list: '
+        '1. The model hallucinated additional criteria that do not exist in the input clinical trial eligibility criteria. '
+        '2. The model hallucinated additional patient information that do not exist in the input patient note. '
+        '3. Other reasons.\n\n'
+        'Patient note: {patient_note}\n'
+        'Clinical trial eligibility criteria: {criteria}\n'
+        'Label: {label}\n'
+        'Model prediction: {pred}\n\n'
+        'Output the error reason in a list format, e.g., [1] or [1, 2].\n\n'
+    )
+
+    reasons_dict = {}
+    for i in range(len(preds)):
+        if preds[i] == -1:
+            reasons_dict[i] = 'Non-responsive Error'
+            continue
+
+        if preds[i] != labels[i]:
+            model_output = results[str(i)]['output']
 
     # for each sample, if the pred is wrong, use chat_haiku to analize the error reason
     
