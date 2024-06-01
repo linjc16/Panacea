@@ -1,6 +1,0 @@
-sqlova/**/*.pyc
-wikisql/**/*.pyc
-sqlnet/__pycache__
-bert/__pycache__
-.idea
-*.swp
