@@ -1,4 +1,4 @@
-Model,Precision,Recall,F1,Jaccard
+Model,Precision,Recall,F1,Jaccard (Disease term expansion)
 LLaMA-2-7B,0.4593,0.4658,0.4245,0.3277
 Mistral-7B,0.4810,0.4906,0.4485,0.3476
 Zephyr-7B,0.4845,0.4817,0.4409,0.3372
