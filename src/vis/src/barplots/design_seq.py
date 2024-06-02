@@ -88,7 +88,7 @@ def get_nested_data_single(data):
         ('Zephyr', data[data['Model'] == 'Zephyr-7B'][metric].values[0]),
         # ('LLaMA-3', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
         ('LLaMA-2', data[data['Model'] == 'LLaMA-2-7B'][metric].values[0]),
-        ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
+        # ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
         ('MedAlpaca', data[data['Model'] == 'MedAlpaca-7B'][metric].values[0]),
         ('Meditron', data[data['Model'] == 'Meditron-7B'][metric].values[0]),
     ]
@@ -105,7 +105,7 @@ def get_nested_data_err(data):
         data[data['Model'] == 'Zephyr-7B'][metric].values[0],
         # data[data['Model'] == 'LLaMA-3-8B'][metric].values[0],
         data[data['Model'] == 'LLaMA-2-7B'][metric].values[0],
-        data[data['Model'] == 'Panacea-Base'][metric].values[0],
+        # data[data['Model'] == 'Panacea-Base'][metric].values[0],
         data[data['Model'] == 'MedAlpaca-7B'][metric].values[0],
         data[data['Model'] == 'Meditron-7B'][metric].values[0],
     ]
@@ -128,7 +128,7 @@ def load_mean_err(task):
     return mean, error
 
 def remove_unwanted_models(data):
-    return data[~data['Model'].isin(['GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'])]
+    return data[~data['Model'].isin(['GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet', 'Panacea-Base'])]
 
 if __name__ == '__main__':
     # Load the CSV files

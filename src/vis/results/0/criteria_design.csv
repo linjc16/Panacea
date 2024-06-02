@@ -1,4 +1,4 @@
-Model,BLEU,ROUGE-L,Clinical Accuracy
+Model,BLEU,ROUGE-L,Clinical relevance
 LLaMA-2-7B,0.0729,0.2367,0.5764
 Mistral-7B,0.1615,0.3657,0.6022
 Zephyr-7B,0.1386,0.3273,0.5691

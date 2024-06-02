@@ -136,7 +136,7 @@ def load_mean_err(dataset):
     return mean, error
 
 def remove_unwanted_models(data):
-    return data[~data['Model'].isin(['LLaMA-3-8B', 'OpenChat-7B', 'GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet'])]
+    return data[~data['Model'].isin(['LLaMA-3-8B', 'OpenChat-7B', 'GPT-3.5', 'GPT-4', 'Claude 3 Haiku', 'Claude 3 Sonnet', 'Panacea-Base'])]
 
 if __name__ == '__main__':
     # Load the CSV files
