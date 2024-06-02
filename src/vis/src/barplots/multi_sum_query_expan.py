@@ -56,7 +56,7 @@ name_mapping_dict = {
     'Goal alignment': 'Goal Alignment\n($n=2$)',
     'Patient recruiting alignment': 'Patient Recruiting\nAlignment ($n=2$)',
     'Study arm consistency': 'Study Arm\nConsistency ($n=2$)',
-    'Conclusion consistency': 'Conclusion\nConsistency ($n=2$)',
+    'Jaccard (Disease term expansion)': 'Disease term\nexpansion',
     'All': 'All',
 }
 
@@ -67,7 +67,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     y_label = 'Jaccard Index'
     # name only extract strings between brackets   
-    label = name[name.find("(")+1:name.find(")")]
+    label = name_mapping_dict.get(name, name)
     data_labels = [label]
     
     
@@ -85,7 +85,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plt.yticks(fontsize=18)
     
     plt.ylabel(y_label, fontsize=18)
-    
+
     # Show the plot
     plt.savefig(f'visulization/bar_multi_sum_qexpan_jaccard_{name}.png', dpi=300, bbox_inches='tight')
     plt.savefig(f'visulization/bar_multi_sum_qexpan_jaccard_{name}.pdf', dpi=300, bbox_inches='tight')
