@@ -1,0 +1,9 @@
+Model,Precision,Recall,F1,Jaccard (Disease term expansion)
+LLaMA-2-7B,0.2356,0.2530,0.2269,0.1652
+Mistral-7B,0.4527,0.4369,0.4137,0.3065
+Zephyr-7B,0.4448,0.4553,0.4165,0.3108
+BioMistral-7B,0.4175,0.4423,0.4035,0.3035
+MedAlpaca-7B,0.0498,0.0586,0.0458,0.0295
+Meditron-7B,0.0908,0.0842,0.0809,0.0581
+Panacea-Base,0.3479,0.3403,0.3181,0.2373
+Panacea,0.4854,0.4783,0.4468,0.3408

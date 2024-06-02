@@ -25,7 +25,7 @@ if __name__ == '__main__':
     files = glob.glob(f'{file_dir}/*.csv')
 
     
-
+    
     for file in files:
         model_name = file.split('/')[-1].split('.')[0]
 
