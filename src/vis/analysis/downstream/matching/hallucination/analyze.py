@@ -10,7 +10,7 @@ def process_errors(file_path):
     results = {}
     non_responsive_pattern = "Non-responsive Error"
     reason_type_pattern = r"Reason type: (\[[^\]]+\])"
-
+    
     for key, text in data.items():
         if non_responsive_pattern in text:
             results[key] = -1
