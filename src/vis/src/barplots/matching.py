@@ -88,7 +88,7 @@ def get_nested_data_single(data):
         ('Zephyr-7B', data[data['Model'] == 'Zephyr-7B'][metric].values[0]),
         # ('LLaMA-3-8B', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
         ('LLaMA-2-7B', data[data['Model'] == 'LLaMA-2-7B'][metric].values[0]),
-        ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
+        # ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
         ('MedAlpaca-7B', data[data['Model'] == 'MedAlpaca-7B'][metric].values[0]),
         ('Meditron-7B', data[data['Model'] == 'Meditron-7B'][metric].values[0]),
     ]
@@ -105,7 +105,7 @@ def get_nested_data_err(data):
         data[data['Model'] == 'Zephyr-7B'][metric].values[0],
         # data[data['Model'] == 'LLaMA-3-8B'][metric].values[0],
         data[data['Model'] == 'LLaMA-2-7B'][metric].values[0],
-        data[data['Model'] == 'Panacea-Base'][metric].values[0],
+        # data[data['Model'] == 'Panacea-Base'][metric].values[0],
         data[data['Model'] == 'MedAlpaca-7B'][metric].values[0],
         data[data['Model'] == 'Meditron-7B'][metric].values[0],
     ]
@@ -124,7 +124,7 @@ def load_mean_err(dataset):
     # 'Model' is the first column name
     mean = mean.reset_index()
     error = error.reset_index()
-
+    
     # replace column names (F1 (Class 0) -> F1 (Excluded)), (F1 (Class 2) -> F1 (ELigible))
     mean.columns = ['Model'] + [metric.replace('Class 0', 'Excluded').replace('Class 2', 'Eligible') for metric in mean.columns[1:]]
     error.columns = ['Model'] + [metric.replace('Class 0', 'Excluded').replace('Class 2', 'Eligible') for metric in error.columns[1:]]

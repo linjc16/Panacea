@@ -99,7 +99,7 @@ def get_nested_data_single(data):
         ('Zephyr-7B', data[data['Model'] == 'Zephyr-7B'][metric].values[0]),
         # ('LLaMA-3-8B', data[data['Model'] == 'LLaMA-3-8B'][metric].values[0]),
         ('LLaMA-2-7B', data[data['Model'] == 'LLaMA-2-7B'][metric].values[0]),
-        ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
+        # ('Panacea-Base', data[data['Model'] == 'Panacea-Base'][metric].values[0]),
         ('MedAlpaca-7B', data[data['Model'] == 'MedAlpaca-7B'][metric].values[0]),
         ('Meditron-7B', data[data['Model'] == 'Meditron-7B'][metric].values[0]),
     ]
@@ -116,7 +116,7 @@ def get_nested_data_err(data):
         data[data['Model'] == 'Zephyr-7B'][metric].values[0],
         # data[data['Model'] == 'LLaMA-3-8B'][metric].values[0],
         data[data['Model'] == 'LLaMA-2-7B'][metric].values[0],
-        data[data['Model'] == 'Panacea-Base'][metric].values[0],
+        # data[data['Model'] == 'Panacea-Base'][metric].values[0],
         data[data['Model'] == 'MedAlpaca-7B'][metric].values[0],
         data[data['Model'] == 'Meditron-7B'][metric].values[0],
     ]
