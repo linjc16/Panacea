@@ -51,21 +51,26 @@ model_colors = {
 #     'Panacea-Base': '#e7ad61'
 # }
 
+name_mapping_dict = {
+    'Jaccard (Diseases)': 'Disease',
+    'Jaccard (Interventions)': 'Intervention',
+    'Jaccard (Sponsor)': 'Sponsor',
+    'Jaccard (Status)': 'Status',
+    'Jaccard (Phase)': 'Phase',
+    'Jaccard (Study Type)': 'Study Type',
+    'Jaccard': 'All',
+}
+
 def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     ax = plot_settings_bar.get_wider_axis(2.5, 4)
 
     # Data labels
 
-    # if name contains 'F1' and '(), extract the label between the brackets
-    if 'F1' in name:
-        if name == 'F1':
-            data_labels = ['ALL']
-        else:
-            label = name[name.find("(")+1:name.find(")")]
-            data_labels = [label]
-    else:
-        data_labels = [""]
+    y_label = 'Jaccard Index'
+    # name only extract strings between brackets   
+    label = name_mapping_dict.get(name, name)
+    data_labels = [label]
 
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
@@ -80,8 +85,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plt.xlabel('')
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)
-
-    y_label = '$F_1$' if 'F1' in name else name 
+    
     plt.ylabel(y_label, fontsize=18)
 
     plt.tick_params(axis='x', length=0)

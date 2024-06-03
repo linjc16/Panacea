@@ -63,7 +63,7 @@ if __name__ == '__main__':
     
     
     assert len(preds) == len(labels)
-
+    
 
     eligible_err_key_list = []
     non_eligible_err_key_list = []
@@ -97,7 +97,7 @@ if __name__ == '__main__':
     # count the frequency of each reason
     eligible_err_counter = Counter(merged_eligible_err_results)
     non_eligible_err_counter = Counter(merged_non_eligible_err_results)
-    
+
 
     print(f"Eligible errors: {eligible_err_counter}")
     print(f"Non-eligible errors: {non_eligible_err_counter}")

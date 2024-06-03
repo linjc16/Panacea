@@ -8,7 +8,8 @@ def cal_scores(preds, groundtruth, class_name):
     precision_list = []
     recall_list = []
     f_score_list = []
-    
+    jaccard_list = []
+
     for key, item in groundtruth.items():
         try:
             parsed_dict = json.loads(item['parsed_dict'])
@@ -87,6 +88,7 @@ def cal_scores(preds, groundtruth, class_name):
                 precision_list.append(precision)
                 recall_list.append(recall)
                 f_score_list.append(f_score)
+                jaccard_list.append(jaccard)
         except json.JSONDecodeError:
             print('Error in parsing the groundtruth JSON. Skipping the current instance.')
             continue
@@ -95,8 +97,9 @@ def cal_scores(preds, groundtruth, class_name):
     avg_precision = sum(precision_list) / len(precision_list) if precision_list else 0
     avg_recall = sum(recall_list) / len(recall_list) if recall_list else 0
     avg_f_score = sum(f_score_list) / len(f_score_list) if f_score_list else 0
+    avg_jaccard = sum(jaccard_list) / len(jaccard_list) if jaccard_list else 0
 
-    return avg_precision, avg_recall, avg_f_score
+    return avg_precision, avg_recall, avg_f_score, avg_jaccard
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -114,8 +117,8 @@ if __name__ == '__main__':
     
 
     for class_name in ['diseases', 'interventions', 'sponsor', 'status', 'phase', 'study_type']:
-        avg_precision, avg_recall, avg_f_score = cal_scores(preds, groundtruth, class_name)
+        avg_precision, avg_recall, avg_f_score, avg_jaccard = cal_scores(preds, groundtruth, class_name)
 
         print(f'Class: {class_name}')
-        print(f'Model: {args.model_name}, Precision: {avg_precision:.4f}, Recall: {avg_recall:.4f}, F1 Score: {avg_f_score:.4f}')
+        print(f'Model: {args.model_name}, Precision: {avg_precision:.4f}, Recall: {avg_recall:.4f}, F1 Score: {avg_f_score:.4f}, Jaccard: {avg_jaccard:.4f}')
         print('\n')
