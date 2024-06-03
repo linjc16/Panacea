@@ -58,7 +58,7 @@ name_mapping_dict = {
     'Jaccard (Status)': 'Status',
     'Jaccard (Phase)': 'Phase',
     'Jaccard (Study Type)': 'Study Type',
-    'Jaccard': 'All',
+    'Jaccard': '',
 }
 
 def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
@@ -130,7 +130,7 @@ def get_nested_data_err(data):
 
 def load_mean_err(mode):
     frames = []
-    for i in [0,0]:
+    for i in [0]:
         df = pd.read_csv(f'src/vis/results/{i}/query_generation.csv')
         frames.append(df)
     combined = pd.concat(frames)

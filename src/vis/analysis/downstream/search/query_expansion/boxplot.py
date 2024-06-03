@@ -52,14 +52,14 @@ filename_to_model_name = {
     'mistral-7b': 'Mistral',
     # 'openchat-7b': 'OpenChat-7B',
     'panacea-7b': 'Panacea',
-    'panacea-base': 'Panacea-Base',
+    # 'panacea-base': 'Panacea-Base',
     'zephyr-7b': 'Zephyr',
 }
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--metric', type=str, default='F1')
+    parser.add_argument('--metric', type=str, default='Jaccard')
     args = parser.parse_args()
     
     files = glob.glob(f'src/vis/analysis/downstream/search/query_expansion/results/{args.metric}/*.json')
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     
     groups = []
     scores = []
-    order = ['Panacea',  'BioMistral', 'Mistral', 'Zephyr', 'LLaMA-2', 'Panacea-Base', 'MedAlpaca', 'Meditron']
+    order = ['Panacea',  'BioMistral', 'Mistral', 'Zephyr', 'LLaMA-2', 'MedAlpaca', 'Meditron']
     
     for key, value in results_dict.items():
         if key not in filename_to_model_name:
@@ -104,11 +104,12 @@ if __name__ == '__main__':
     metric_name_dict = {
         'F1': '$F_1$',
         'recall': 'Recall',
-        'precision': 'Precision'
+        'precision': 'Precision',
+        'Jaccard': 'Jaccard Index'
     }
     
     # set y-label font size
-    plt.ylabel(metric_name_dict[args.metric], fontsize=14)
+    plt.ylabel(metric_name_dict.get(args.metric, args.metric), fontsize=14)
     
     plt.tight_layout()
     plt.rcParams['savefig.dpi'] = 800

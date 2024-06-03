@@ -58,7 +58,7 @@ name_mapping_dict = {
     'Jaccard (Status)': 'Status',
     'Jaccard (Phase)': 'Phase',
     'Jaccard (Study Type)': 'Study Type',
-    'Jaccard': 'All',
+    'Jaccard': '',
 }
 
 def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):

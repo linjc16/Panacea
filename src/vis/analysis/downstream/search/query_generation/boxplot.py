@@ -51,7 +51,7 @@ filename_to_model_name = {
     'meditron-7b': 'Meditron',
     'mistral-7b': 'Mistral',
     # 'openchat-7b': 'OpenChat-7B',
-    'panacea-ft': 'Panacea',
+    'panacea-7b': 'Panacea',
     'panacea-base': 'Panacea-Base',
     'zephyr-7b': 'Zephyr',
 }
@@ -59,7 +59,7 @@ filename_to_model_name = {
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--metric', type=str, default='F1')
+    parser.add_argument('--metric', type=str, default='Jaccard')
     args = parser.parse_args()
     
     files = glob.glob(f'src/vis/analysis/downstream/search/query_generation/results/{args.metric}/*.json')
@@ -102,10 +102,11 @@ if __name__ == '__main__':
     metric_name_dict = {
         'precision': 'Precision',
         'recall': 'Recall',
-        'F1': '$F_1$'
+        'F1': '$F_1$',
+        'Jaccard': 'Jaccard Index',
     }
     # set y-label font size
-    plt.ylabel(metric_name_dict[args.metric], fontsize=14)
+    plt.ylabel(metric_name_dict.get(args.metric, args.metric), fontsize=14)
     
     plt.tight_layout()
     plt.rcParams['savefig.dpi'] = 800

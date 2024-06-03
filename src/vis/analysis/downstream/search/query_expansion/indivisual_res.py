@@ -9,6 +9,7 @@ def cal_scores(preds, groundtruth):
     precision_list = []
     recall_list = []
     f_score_list = []
+    jaccard_list = []
     
     i = 0
     for key, item in groundtruth.items():
@@ -40,17 +41,19 @@ def cal_scores(preds, groundtruth):
                 precision = len(true_positives) / len(pred_keywords) if pred_keywords else 0
                 recall = len(true_positives) / len(gt_keywords) if gt_keywords else 0
                 f_score = 2 * (precision * recall) / (precision + recall) if (precision + recall) else 0
+                jaccard = len(true_positives) / len(gt_keywords | pred_keywords) if (gt_keywords | pred_keywords) else 0
                 
                 precision_list.append(precision)
                 recall_list.append(recall)
                 f_score_list.append(f_score)
+                jaccard_list.append(jaccard)
                 i += 1
         except json.JSONDecodeError:
             print('Error in parsing the groundtruth JSON. Skipping the current instance.')
             continue
 
     
-    return precision_list, recall_list, f_score_list
+    return precision_list, recall_list, f_score_list, jaccard_list
 
 
 if __name__ == '__main__':
@@ -73,7 +76,7 @@ if __name__ == '__main__':
         with open(gt_filename, 'r') as f:
             groundtruth = json.load(f)
         
-        precision_list, recall_list, f_score_list = cal_scores(preds, groundtruth)
+        precision_list, recall_list, f_score_list, jaccard_list = cal_scores(preds, groundtruth)
         
 
         # save f_score_list
@@ -93,4 +96,9 @@ if __name__ == '__main__':
         os.makedirs(save_dir, exist_ok=True)
         with open(os.path.join(save_dir, f'{model_name}.json'), 'w') as f:
             json.dump(recall_list, f)
-            
+        
+        # save jaccard_list
+        save_dir = 'src/vis/analysis/downstream/search/query_expansion/results/jaccard'
+        os.makedirs(save_dir, exist_ok=True)
+        with open(os.path.join(save_dir, f'{model_name}.json'), 'w') as f:
+            json.dump(jaccard_list, f)
