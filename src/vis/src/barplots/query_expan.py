@@ -81,7 +81,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
-
+    
     plt.xlabel('')
     plt.xticks(fontsize=18)
     plt.yticks(fontsize=18)

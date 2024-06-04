@@ -14,17 +14,5 @@ Goal Alignment:
 Score 0: The goals described in both summaries are completely different.
 Score 1: The goals described have partial overlap or similarity.
 
-Patient Recruiting Method:
-Score 0: The methods of patient recruitment are entirely different.
-Score 1: There is some similarity in how patients are recruited, but not exactly the same.
-
-Study Arm Consistency:
-Score 0: The descriptions of study arms are completely different.
-Score 1: There is some overlap in the description of the study arms.
-
-Conclusion Similarity:
-Score 0: The conclusions are completely different.
-Score 1: The conclusions are somewhat similar or identical.
-
 After assessing each criterion, provide a brief explanation for each score. Finally, summarize your scores in the following format for clarity:
-Goal Alignment: 0, Patient Recruiting Method: 1, Study Arm Consistency: 1, Conclusion Similarity: 0
+Goal Alignment: 0

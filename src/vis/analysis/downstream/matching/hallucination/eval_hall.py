@@ -51,8 +51,7 @@ if __name__ == '__main__':
     prompt = (
         'Given a patient note, clinical tiral eligibility criteria, and a label, help me understand why the model made a wrong prediction. '
         'You can choose one or more reasons from the following list: '
-        '1. The model hallucinated additional criteria that do not exist in the input clinical trial eligibility criteria. '
-        '2. The model hallucinated additional patient information that do not exist in the input patient note. '
+        '1. The model hallucinated information that do not exist in the input patient note or input clinical trial. '
         '3. Other reasons.\n\n'
         'Patient note: {patient_note}\n'
         'Clinical trial eligibility criteria: {criteria}\n'
@@ -63,7 +62,7 @@ if __name__ == '__main__':
 
     with open('src/vis/analysis/downstream/matching/hallucination/inputs.json', 'r') as f:
         inputs = json.load(f)
-
+    
     reasons_dict = {}
     i = 0
     for i in tqdm(range(len(preds))):

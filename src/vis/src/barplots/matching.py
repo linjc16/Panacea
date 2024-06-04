@@ -149,8 +149,10 @@ if __name__ == '__main__':
     
     error_sigir = remove_unwanted_models(error_sigir)
     error_trec2021 = remove_unwanted_models(error_trec2021)
-    
+
     metrics = sigir_data.columns[1:]
+
+    pdb.set_trace()
     # metrics = ['BACC', 'F1', 'KAPPA']
 
     for metric in metrics:
