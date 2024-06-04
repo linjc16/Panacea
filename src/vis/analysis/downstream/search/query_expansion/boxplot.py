@@ -26,7 +26,7 @@ plt.rc('ytick', labelsize=SMALLER_SIZE)  # fontsize of the tick labels
 plt.rc('figure', titlesize=MEDIUM_SIZE)
 plt.rc('legend', fontsize=MEDIUM_SIZE)
 FIG_HEIGHT = 3
-FIG_WIDTH = 4
+FIG_WIDTH = 5
 
 model_colors = {
     'LLaMA-2': '#e7ad61',
