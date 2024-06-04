@@ -53,10 +53,10 @@ model_colors = {
 # }
 
 name_mapping_dict = {
-    'Goal alignment': 'Goal Alignment\n($n=2$)',
+    'Goal alignment': 'Goal',
     'Patient recruiting alignment': 'Patient Recruiting\nAlignment ($n=2$)',
     'Study arm consistency': 'Study Arm\nConsistency ($n=2$)',
-    'Conclusion consistency': 'Conclusion\nConsistency ($n=2$)',
+    'Conclusion consistency': 'Conclusion',
     'All': 'All',
 }
 
@@ -157,6 +157,11 @@ if __name__ == '__main__':
     metrics = single_data.columns[1:]
     # metrics = ['BACC', 'F1', 'KAPPA']
 
+    y_lim_dict = {
+        'Jaccard (Disease)': (0, 0.3),
+        'Jaccard (Intervention)': (0, 0.16)
+    }
+
     for data in [single_data]:
         for metric in metrics:
             nested_data = [
@@ -167,4 +172,4 @@ if __name__ == '__main__':
                 get_nested_data_err(error_single),
             ]
 
-            bar_plot(nested_data, None, metric, nested_errs=error_data)
+            bar_plot(nested_data, None, metric, nested_errs=error_data, y_lim=y_lim_dict.get(metric, None))

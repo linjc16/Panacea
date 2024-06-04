@@ -1,4 +1,4 @@
-Model,Jaccard (Diseases),Jaccard (Interventions),Jaccard (Sponsor),Jaccard (Status),Jaccard (Phase),Jaccard (Study Type)
+Model,Jaccard (Disease),Jaccard (Intervention),Jaccard (Sponsor),Jaccard (Status),Jaccard (Phase),Jaccard (Study Type)
 LLaMA-2-7B,0.1322,0.0682,0.1029,0.1618,0.1515,0.4697
 Mistral-7B,0.2719,0.1124,0.2242,0.3824,0.3788,0.7273
 Zephyr-7B,0.2622,0.1311,0.2946,0.4853,0.4697,0.7727

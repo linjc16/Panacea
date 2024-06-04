@@ -72,7 +72,12 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plt.yticks(fontsize=16)
     
     # set y-label font size
-    plt.ylabel(name, fontsize=16)
+    if name == 'F1':
+        plt.ylabel('$F_1$', fontsize=16)
+    elif name == 'F1 (Eligible)':
+        plt.ylabel('$F_1$ (Eligible)', fontsize=16)
+    else:
+        plt.ylabel(name, fontsize=16)
 
     # Show the plot
     plt.savefig(f'visulization/bar_matching_{name}.png', dpi=300, bbox_inches='tight')
@@ -124,7 +129,7 @@ def load_mean_err(dataset):
     # 'Model' is the first column name
     mean = mean.reset_index()
     error = error.reset_index()
-    
+
     # replace column names (F1 (Class 0) -> F1 (Excluded)), (F1 (Class 2) -> F1 (ELigible))
     mean.columns = ['Model'] + [metric.replace('Class 0', 'Excluded').replace('Class 2', 'Eligible') for metric in mean.columns[1:]]
     error.columns = ['Model'] + [metric.replace('Class 0', 'Excluded').replace('Class 2', 'Eligible') for metric in error.columns[1:]]
@@ -152,8 +157,16 @@ if __name__ == '__main__':
 
     metrics = sigir_data.columns[1:]
 
-    pdb.set_trace()
     # metrics = ['BACC', 'F1', 'KAPPA']
+
+    y_lim_dict = {
+        'F1': (0, 0.6),
+        'Precision': (0, 0.7),
+        'Recall': (0, 0.7),
+        'F1 (Eligible)': (0, 0.6),
+        'Recall (Eligible)': (0, 0.7),
+        'Precision (Eligible)': (0, 0.7),
+    }
 
     for metric in metrics:
         nested_data = [
@@ -166,4 +179,4 @@ if __name__ == '__main__':
             get_nested_data_err(error_trec2021),
         ]
 
-        bar_plot(nested_data, None, metric, nested_errs=error_data)
+        bar_plot(nested_data, None, metric, nested_errs=error_data, y_lim=y_lim_dict.get(metric, None))

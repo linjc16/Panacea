@@ -56,7 +56,7 @@ name_mapping_dict = {
     'Goal alignment': 'Goal Alignment\n($n=2$)',
     'Patient recruiting alignment': 'Patient Recruiting\nAlignment ($n=2$)',
     'Study arm consistency': 'Study Arm\nConsistency ($n=2$)',
-    'Jaccard (Disease term expansion)': 'Disease term\nexpansion',
+    'Jaccard (Disease term expansion)': 'Disease expansion',
     'All': 'All',
 }
 
@@ -156,6 +156,7 @@ if __name__ == '__main__':
     
     metrics = multi_data.columns[1:]
     # metrics = ['BACC', 'F1', 'KAPPA']
+
 
     for data in [multi_data]:
         for metric in metrics:
