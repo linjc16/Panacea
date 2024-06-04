@@ -80,6 +80,7 @@ if __name__ == '__main__':
     for mesh_term, v in mesh2tree_pubmed.items():
         tree_num = v['tree_num']
         tree_num = tree_num.split('.')[0]
+        pdb.set_trace()
         tree2count[tree_num] = tree2count.get(tree_num, 0) + v['count']
     
     # sort by count
