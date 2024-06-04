@@ -1,4 +1,4 @@
-Model,ROUGE-1,ROUGE-2,ROUGE-L,Conclusion consistency,Goal alignment
+Model,ROUGE-1,ROUGE-2,ROUGE,Conclusion consistency,Goal alignment
 LLaMA-2-7B,0.1120,0.0247,0.0687,0.5595,0.2381
 Mistral-7B,0.2364,0.0475,0.1441,0.3175,0.5992
 Zephyr-7B,0.2190,0.0372,0.1328,0.3016,0.4206

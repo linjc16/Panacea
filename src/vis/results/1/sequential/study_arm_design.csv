@@ -1,4 +1,4 @@
-Model,BLEU,ROUGE-L,Clinical relevance
+Model,BLEU,ROUGE,Clinical relevance
 LLaMA-2-7B,0.0645,0.2130,0.4270
 Mistral-7B,0.0959,0.2694,0.3613
 Zephyr-7B,0.0760,0.2278,0.3394

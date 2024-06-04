@@ -56,7 +56,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     ax = plot_settings_bar.get_wider_axis(4, 4)
 
     # Data labels
-    data_labels = ['Study\nArms', 'Outcome\nMeasures']
+    data_labels = ['Arms', 'Outcome']
 
     # Plotting the  data
     plot_utils.grouped_barplot(ax, nested_data, data_labels, None, 
@@ -148,6 +148,12 @@ if __name__ == '__main__':
 
     metrics = criteria_data.columns[1:]
 
+    y_lim_dict = {
+        'BLEU': (0, 0.35),
+        'ROUGE': (0, 0.55),
+        'Clinical relevance': (0, 0.75)
+    }
+
     for metric in metrics:
         nested_data = [
             # get_nested_data_single(criteria_data),
@@ -161,4 +167,4 @@ if __name__ == '__main__':
             get_nested_data_err(error_outcome_measure),
         ]
 
-        bar_plot(nested_data, None, metric, nested_errs=error_data)#, y_lim=y_lim_dict[metric])
+        bar_plot(nested_data, None, metric, nested_errs=error_data, y_lim=y_lim_dict[metric])

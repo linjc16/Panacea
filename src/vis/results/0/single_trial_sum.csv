@@ -1,4 +1,4 @@
-Model,Goal alignment,Patient recruiting alignment,Study arm consistency,All,ROUGE-1,ROUGE-2,ROUGE-L,Conclusion consistency
+Model,Goal alignment,Patient recruiting alignment,Study arm consistency,All,ROUGE-1,ROUGE-2,ROUGE,Conclusion consistency
 LLaMA-2-7B,0.8480,0.6810,0.8930,0.8073,0.3748,0.1395,0.2156,0.4540
 Mistral-7B,0.8820,0.7450,0.9520,0.8597,0.3903,0.1590,0.2297,0.5620
 Zephyr-7B,0.9560,0.8650,0.9880,0.9363,0.2135,0.1052,0.1342,0.6380
