@@ -82,11 +82,11 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
     plt.xticks(fontsize=25)
-
+    
     plt.ylabel(y_label, fontsize=25)
 
     plt.tick_params(axis='x', length=0)
-    
+
     # according to ylim, set the yticks, max num of yticks is 5
     if y_lim:
         interval = 0.1 if name == 'Jaccard (Disease)' else 0.05
