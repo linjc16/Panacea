@@ -81,11 +81,19 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
-    plt.xticks(fontsize=18)
-    plt.yticks(fontsize=18)
+    plt.xticks(fontsize=25)
     
-    plt.ylabel(y_label, fontsize=18)
+    plt.ylabel(y_label, fontsize=25)
 
+    plt.tick_params(axis='x', length=0)
+
+    # according to ylim, set the yticks, max num of yticks is 5
+    if y_lim:
+        interval = 0.1 if name == 'Jaccard (Disease)' else 0.05
+        plt.yticks(np.arange(y_lim[0], y_lim[1], interval), fontsize=25)
+    else:
+        plt.yticks(fontsize=25)
+    
     # Show the plot
     plt.savefig(f'visulization/bar_multi_sum_qg_jaccard_{name}.png', dpi=300, bbox_inches='tight')
     plt.savefig(f'visulization/bar_multi_sum_qg_jaccard_{name}.pdf', dpi=300, bbox_inches='tight')
@@ -158,7 +166,7 @@ if __name__ == '__main__':
     # metrics = ['BACC', 'F1', 'KAPPA']
 
     y_lim_dict = {
-        'Jaccard (Disease)': (0, 0.3),
+        'Jaccard (Disease)': (0, 0.31),
         'Jaccard (Intervention)': (0, 0.16)
     }
 

@@ -83,10 +83,17 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
     plt.xlabel('')
-    plt.xticks(fontsize=18)
-    plt.yticks(fontsize=18)
+    plt.xticks(fontsize=25)
+    if y_lim:
+        plt.yticks(np.arange(0, y_lim[1], 0.2), fontsize=25)
+    else:
+        plt.yticks(fontsize=25)
     
-    plt.ylabel(y_label, fontsize=18)
+    plt.ylabel(y_label, fontsize=25)
+
+    # set the ysticks 0, 0.2, 0.4, 0.6, 0.8, ..., accoridng to the y_lim
+
+
 
     plt.tick_params(axis='x', length=0)
     
@@ -172,6 +179,9 @@ if __name__ == '__main__':
                 get_nested_data_err(error_single),
             ]
 
-            y_lim = None
+            y_lim_dict = {
+                'Jaccard (Interventions)': (0, 0.81),
+                'Jaccard (Phase)': (0, 0.81),
+            }
 
-            bar_plot(nested_data, None, metric, nested_errs=error_data, y_lim=y_lim)
+            bar_plot(nested_data, None, metric, nested_errs=error_data, y_lim=y_lim_dict.get(metric, None))

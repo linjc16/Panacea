@@ -56,7 +56,7 @@ name_mapping_dict = {
     'Goal alignment': 'Goal Alignment\n($n=2$)',
     'Patient recruiting alignment': 'Patient Recruiting\nAlignment ($n=2$)',
     'Study arm consistency': 'Study Arm\nConsistency ($n=2$)',
-    'Jaccard (Disease term expansion)': 'Disease expansion',
+    'Jaccard (Disease term expansion)': 'Expansion',
     'All': 'All',
 }
 
@@ -81,11 +81,18 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
-    plt.xticks(fontsize=18)
-    plt.yticks(fontsize=18)
-    
-    plt.ylabel(y_label, fontsize=18)
+    plt.xticks(fontsize=25)
+    plt.ylabel(y_label, fontsize=25)
 
+    plt.tick_params(axis='x', length=0)
+
+    # according to ylim, set the yticks, max num of yticks is 5
+    if y_lim:
+        interval = 0.1
+        plt.yticks(np.arange(y_lim[0], y_lim[1], interval), fontsize=25)
+    else:
+        plt.yticks(fontsize=25)
+    
     # Show the plot
     plt.savefig(f'visulization/bar_single_sum_qexpan_jaccard_{name}.png', dpi=300, bbox_inches='tight')
     plt.savefig(f'visulization/bar_single_sum_qexpan_jaccard_{name}.pdf', dpi=300, bbox_inches='tight')
@@ -157,6 +164,10 @@ if __name__ == '__main__':
     metrics = single_data.columns[1:]
     # metrics = ['BACC', 'F1', 'KAPPA']
 
+    y_lim_dict = {
+        'Jaccard (Disease term expansion)': (0, 0.41),
+    }
+
     for data in [single_data]:
         for metric in metrics:
             nested_data = [
@@ -167,4 +178,4 @@ if __name__ == '__main__':
                 get_nested_data_err(error_single),
             ]
 
-            bar_plot(nested_data, None, metric, nested_errs=error_data)
+            bar_plot(nested_data, None, metric, nested_errs=error_data, y_lim=y_lim_dict.get(metric, None))

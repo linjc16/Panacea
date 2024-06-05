@@ -80,10 +80,18 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
                             ncols=1)
     plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
     
-    plt.xticks(fontsize=18)
-    plt.yticks(fontsize=18)
+    plt.xticks(fontsize=25)
+    plt.yticks(fontsize=25)
 
-    plt.ylabel(y_label, fontsize=18)
+    plt.ylabel(y_label, fontsize=25)
+
+    plt.tick_params(axis='x', length=0)
+
+    if y_lim:
+        interval = 0.2
+        plt.yticks(np.arange(y_lim[0], y_lim[1], interval), fontsize=25)
+    else:
+        plt.yticks(fontsize=25)
 
     # Show the plot
     plt.savefig(f'visulization/bar_multi_sum_{name}.png', dpi=300, bbox_inches='tight')
@@ -156,10 +164,10 @@ if __name__ == '__main__':
     metrics = multi_data.columns[1:]
     # metrics = ['BACC', 'F1', 'KAPPA']
     y_lim_dict = {
-        'Goal alignment': (0, 1),
-        'Conclusion consistency': (0, 0.65)
+        'Goal alignment': (0, 1.1),
+        'Conclusion consistency': (0, 0.7)
     }
-    
+
     for data in [multi_data]:
         for metric in metrics:
             nested_data = [

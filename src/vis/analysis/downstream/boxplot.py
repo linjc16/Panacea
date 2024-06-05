@@ -84,7 +84,7 @@ if __name__ == '__main__':
         'Model': groups,
         'Score': scores
     })
-
+    
     df_study_arms = df_criteria.copy()
     df_outcome_measures = df_criteria.copy()
 
