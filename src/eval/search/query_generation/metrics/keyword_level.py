@@ -77,7 +77,7 @@ def cal_scores(preds, groundtruth):
         except json.JSONDecodeError:
             print('Error in parsing the groundtruth JSON. Skipping the current instance.')
             continue
-
+            
     # Averaging the Precision, Recall, and F-scores
     avg_precision = sum(precision_list) / len(precision_list) if precision_list else 0
     avg_recall = sum(recall_list) / len(recall_list) if recall_list else 0
