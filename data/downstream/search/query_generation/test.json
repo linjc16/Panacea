@@ -2919,11 +2919,6 @@
         "parsed_dict": "{\"diseases\": [], \"interventions\": [\"Device\"], \"sponsor\": [], \"status\": [\"TERMINATED\"], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
         "query": "Find clinical trials that involve the use of devices and have been terminated."
     },
-    "232": {
-        "search_exp": "AREA[Condition]\"epilepsy\" OR AREA[Condition]\"seizures\" OR AREA[Condition]\"Parkinson's disease\" OR AREA[Condition]\"Alzheimer's disease\" AND AREA[InterventionType]Drug AND RANGE[StartDate][01/01/2017, MAX]",
-        "parsed_dict": "{\"diseases\": [\"epilepsy\", \"seizures\", \"Parkinson\"s disease\", \"Alzheimer's disease\"], \"interventions\": [\"Drug\"], \"sponsor\": [], \"status\": [], \"phase\": [], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 2017, \"OPERATOR\": \"after\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
-        "query": "Find clinical trials that are studying epilepsy, seizures, Parkinson's disease, or Alzheimer's disease. The trials should involve drug interventions and have a start date on or after January 1, 2017."
-    },
     "1932": {
         "search_exp": "AREA[InterventionType]\"Biological\" AND AREA[Phase]\"PHASE4\"",
         "parsed_dict": "{\"diseases\": [], \"interventions\": [\"Biological\"], \"sponsor\": [], \"status\": [], \"phase\": [\"PHASE4\"], \"study_type\": [], \"person_name\": [], \"nctid\": [], \"locations\": [], \"start_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}, \"end_year\": {\"YEAR\": 0, \"OPERATOR\": \"\"}}",
