@@ -7,6 +7,11 @@ See `requirements.txt`.
 # Get Started
 Here we reproduced all eight tasks across different settings in our code base, including trial design, patient-trial matching, trial search, and trial summarization. 
 
+## Data Download
+* [TrialAlign](https://figshare.com/articles/dataset/TrialAlign/25989403)
+* [TrialInstruct](https://doi.org/10.6084/m9.figshare.25990090.v1)
+* [TrialPanorama](https://doi.org/10.6084/m9.figshare.25990075)
+
 ## Alignment Step
 We first use collected `TrialAlign` dataset to adapt Panacea to the vocabulary commonly used in clinical trials. Run the following
 ```[bash]
