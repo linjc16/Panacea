@@ -47,13 +47,10 @@ def load_dataset(file_dir, split='test'):
         data = json.load(f)
     
     output_data = {}
-    i = 0
+    
     for key, value in data.items():
-        if i >= 2500:
-            break
         query = ', '.join(value['input'])
         output_data[key] = {'query': query}
-        i += 1
     
     return output_data
 
