@@ -1,1 +1,0 @@
-python src/eval/search/query_expansion/eval_gpt.py --model_name gpt-3.5

@@ -1,1 +1,0 @@
-python src/eval/search/query_generation/eval_aws.py --model_name claude-sonnet

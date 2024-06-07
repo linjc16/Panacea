@@ -1,1 +1,0 @@
-python src/eval/summarization/single/eval_gpt.py --model_name gpt-4

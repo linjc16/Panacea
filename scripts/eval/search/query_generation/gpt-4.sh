@@ -1,1 +1,0 @@
-python src/eval/search/query_generation/eval_gpt.py --model_name gpt-4
