@@ -11,6 +11,21 @@ sys.path.append('./src/vis/src')
 import plot_settings_bar
 import plot_utils
 
+plt.rc('font', family='Helvetica')
+
+import matplotlib as mpl
+
+
+# set basic parameters
+mpl.rcParams['pdf.fonttype'] = 42
+mpl.rcParams.update({"ytick.color" : "black",
+                     "xtick.color" : "black",
+                     "axes.labelcolor" : "black",
+                     "axes.edgecolor" : "black"})
+
+mpl.rcParams.update({
+    "pdf.use14corefonts": True
+})
 
 # Define model colors
 # model_colors = {
@@ -65,7 +80,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     ax = plot_settings_bar.get_wider_axis(2.5, 4)
     
 
-    y_label = 'Jaccard Index'
+    y_label = 'Jaccard index'
     # name only extract strings between brackets   
     label = name_mapping_dict.get(name, name)
     data_labels = [label]
@@ -77,9 +92,9 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
                             min_val=0, invert_axes=False, tickloc_top=False,  rotangle=0, anchorpoint='center', y_lim=y_lim, nested_errs=nested_errs)
     plot_utils.format_ax(ax)
 
-    plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
-                            ncols=1)
-    plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
+    # plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
+    #                         ncols=1)
+    # plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
     plt.xticks(fontsize=25)
     plt.ylabel(y_label, fontsize=25)

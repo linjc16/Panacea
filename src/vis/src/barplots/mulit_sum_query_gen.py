@@ -11,6 +11,21 @@ sys.path.append('./src/vis/src')
 import plot_settings_bar
 import plot_utils
 
+plt.rc('font', family='Helvetica')
+
+import matplotlib as mpl
+
+
+# set basic parameters
+mpl.rcParams['pdf.fonttype'] = 42
+mpl.rcParams.update({"ytick.color" : "black",
+                     "xtick.color" : "black",
+                     "axes.labelcolor" : "black",
+                     "axes.edgecolor" : "black"})
+
+mpl.rcParams.update({
+    "pdf.use14corefonts": True
+})
 
 # Define model colors
 # model_colors = {
@@ -65,7 +80,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
     ax = plot_settings_bar.get_wider_axis(2.5, 4)
     
 
-    y_label = 'Jaccard Index'
+    y_label = 'Jaccard index'
     # name only extract strings between brackets   
     label = name[name.find("(")+1:name.find(")")]
     data_labels = [label]
@@ -77,9 +92,9 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
                             min_val=0, invert_axes=False, tickloc_top=False,  rotangle=0, anchorpoint='center', y_lim=y_lim, nested_errs=nested_errs)
     plot_utils.format_ax(ax)
 
-    plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
-                            ncols=1)
-    plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
+    # plot_utils.format_legend(ax, *ax.get_legend_handles_labels(), loc='upper right', 
+    #                         ncols=1)
+    # plot_utils.put_legend_outside_plot(ax, anchorage=(1.01, 1.01))
 
     plt.xticks(fontsize=25)
     
@@ -89,7 +104,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     # according to ylim, set the yticks, max num of yticks is 5
     if y_lim:
-        interval = 0.1 if name == 'Jaccard (Disease)' else 0.05
+        interval = 0.1 if name == 'Jaccard (Disease)' else 0.1
         plt.yticks(np.arange(y_lim[0], y_lim[1], interval), fontsize=25)
     else:
         plt.yticks(fontsize=25)
@@ -166,8 +181,8 @@ if __name__ == '__main__':
     # metrics = ['BACC', 'F1', 'KAPPA']
 
     y_lim_dict = {
-        'Jaccard (Disease)': (0, 0.31),
-        'Jaccard (Intervention)': (0, 0.16)
+        'Jaccard (Disease)': (0, 0.41),
+        'Jaccard (Intervention)': (0, 0.41)
     }
 
     for data in [multi_data]:

@@ -10,6 +10,21 @@ sys.path.append('./src/vis/src')
 import plot_settings_bar
 import plot_utils
 
+plt.rc('font', family='Helvetica')
+
+import matplotlib as mpl
+
+
+# set basic parameters
+mpl.rcParams['pdf.fonttype'] = 42
+mpl.rcParams.update({"ytick.color" : "black",
+                     "xtick.color" : "black",
+                     "axes.labelcolor" : "black",
+                     "axes.edgecolor" : "black"})
+
+mpl.rcParams.update({
+    "pdf.use14corefonts": True
+})
 
 # Define model colors
 # model_colors = {
@@ -67,7 +82,7 @@ def bar_plot(nested_data, data_labels, name, nested_errs, y_lim=None):
 
     # Data labels
 
-    y_label = 'Jaccard Index'
+    y_label = 'Jaccard index'
     # name only extract strings between brackets   
     label = name_mapping_dict.get(name, name)
     data_labels = [label]
@@ -172,6 +187,6 @@ if __name__ == '__main__':
                 get_nested_data_err(error_single),
             ]
 
-            y_lim = None
+            y_lim = (0, 1.01)
 
             bar_plot(nested_data, None, metric, nested_errs=error_data, y_lim=y_lim)

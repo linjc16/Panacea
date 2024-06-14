@@ -15,6 +15,23 @@ from scipy import stats
 from matplotlib import pyplot as plt
 import seaborn as sns
 
+
+plt.rc('font', family='Helvetica')
+
+import matplotlib as mpl
+
+
+# set basic parameters
+mpl.rcParams['pdf.fonttype'] = 42
+mpl.rcParams.update({"ytick.color" : "black",
+                     "xtick.color" : "black",
+                     "axes.labelcolor" : "black",
+                     "axes.edgecolor" : "black"})
+
+mpl.rcParams.update({
+    "pdf.use14corefonts": True
+})
+
 MEDIUM_SIZE = 8
 SMALLER_SIZE = 6
 BIGGER_SIZE = 25
@@ -103,10 +120,10 @@ if __name__ == '__main__':
         'precision': 'Precision',
         'recall': 'Recall',
         'F1': '$F_1$',
-        'Jaccard': 'Jaccard Index',
+        'Jaccard': 'Jaccard index',
     }
     # set y-label font size
-    plt.ylabel(metric_name_dict.get(args.metric, args.metric), fontsize=14)
+    plt.ylabel(metric_name_dict.get(args.metric, args.metric), fontsize=15)
     
     plt.tight_layout()
     plt.rcParams['savefig.dpi'] = 800

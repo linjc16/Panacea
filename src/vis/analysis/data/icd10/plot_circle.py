@@ -10,6 +10,19 @@ from collections import defaultdict
 from Bio import Phylo
 np.random.seed(0)
 
+import matplotlib as mpl
+
+
+# set basic parameters
+mpl.rcParams['pdf.fonttype'] = 42
+mpl.rcParams.update({"ytick.color" : "black",
+                     "xtick.color" : "black",
+                     "axes.labelcolor" : "black",
+                     "axes.edgecolor" : "black"})
+
+mpl.rcParams.update({
+    "pdf.use14corefonts": True
+})
 
 plt.rc('font', family='Helvetica')
 

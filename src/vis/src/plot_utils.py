@@ -13,6 +13,9 @@ from matplotlib.markers import MarkerStyle
 import matplotlib as mpl
 import pdb
 
+import sys
+sys.path.append('./src/vis/src')
+
 import plot_settings_bar
 
 
@@ -231,7 +234,7 @@ def grouped_barplot(ax, nested_data, data_labels, xlabel, ylabel, model_colors, 
     # Adding legend without duplicates
     handles, labels = ax.get_legend_handles_labels()
     unique_handles = dict(zip(labels, handles)).values()
-    ax.legend(unique_handles, labels, bbox_to_anchor=(1.05, 1), loc='upper left')
+    # ax.legend(unique_handles, labels, bbox_to_anchor=(1.05, 1), loc='upper left')
 
 
 # Define the adjusted plotting function

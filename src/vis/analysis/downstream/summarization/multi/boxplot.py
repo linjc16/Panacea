@@ -15,6 +15,19 @@ from scipy import stats
 from matplotlib import pyplot as plt
 import seaborn as sns
 
+import matplotlib as mpl
+
+# set basic parameters
+mpl.rcParams['pdf.fonttype'] = 42
+mpl.rcParams.update({"ytick.color" : "black",
+                     "xtick.color" : "black",
+                     "axes.labelcolor" : "black",
+                     "axes.edgecolor" : "black"})
+
+mpl.rcParams.update({
+    "pdf.use14corefonts": True
+})
+
 MEDIUM_SIZE = 8
 SMALLER_SIZE = 6
 BIGGER_SIZE = 25

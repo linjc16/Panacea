@@ -41,7 +41,7 @@ if __name__ == '__main__':
     parser.add_argument('--task', type=str, default='criteria')
     parser.add_argument('--split', type=str, default='test')
     args = parser.parse_args()
-
+    
     prompt = (
         'Given the information below about a clinical trial, please analyze and provide reasons '
         'for the design of each criterion listed under the "Criteria" section. '
