@@ -1,4 +1,4 @@
-# Panacea: A foundation model for clinical trial design, recruitment, search, and summarization
+# Panacea: A foundation model for clinical trial design, recruitment, search, and summarization [Click Here for Demo](https://1089e9e51e8ecf387a.gradio.live/)
 This repository is the official implementation of [Panacea: A foundation model for clinical trial design, recruitment, search, and summarization]().
 
 # Requirements and Installation
