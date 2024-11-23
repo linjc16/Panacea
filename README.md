@@ -1,6 +1,6 @@
 # [Click Here for Demo](https://03420227b3fe5e0d1c.gradio.live/)
 # Panacea: A foundation model for clinical trial design, recruitment, search, and summarization
-This repository is the official implementation of [Panacea: A foundation model for clinical trial design, recruitment, search, and summarization](). Model can be downloaded [here](https://huggingface.co/linjc16/Panacea-7B-Chat).
+This repository is the official implementation of [Panacea: A foundation model for clinical trial design, recruitment, search, and summarization](https://arxiv.org/pdf/2407.11007). Model can be downloaded [here](https://huggingface.co/linjc16/Panacea-7B-Chat).
 
 # Requirements and Installation
 See `requirements.txt`.
