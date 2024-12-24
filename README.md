@@ -9,7 +9,7 @@ See `requirements.txt`.
 Here we reproduced all eight tasks across different settings in our code base, including trial design, patient-trial matching, trial search, and trial summarization. 
 
 ## Data Download
-* [TrialAlign](https://figshare.com/articles/dataset/TrialAlign/25989403)
+* [TrialAlign](https://huggingface.co/datasets/linjc16/TrialAlign)
 * [TrialInstruct](https://doi.org/10.6084/m9.figshare.25990090.v1)
 * [TrialPanorama](https://doi.org/10.6084/m9.figshare.25990075)
 
